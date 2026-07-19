@@ -1,66 +1,122 @@
 {
   "name": "Deutsch Sprint Vocab Library",
-  "copyrightNote": "原创分组与示例数据。参考公开能力框架和课程范围，不复制考试、教材或机构词表的选择与排列。",
+  "copyrightNote": "原创分组、释义说明与例句。参考公开能力框架和大学课程范围，不复制教材、考试或机构词表的选择与排列。",
   "stages": [
     {
       "id": "foundation",
       "label": "大一大二",
-      "positioning": "先覆盖校园、生活、课堂和基础表达，强调常用动词、名词性数格、基础搭配和句子连接。",
+      "positioning": "覆盖校园、生活、课堂和基础表达，强调词性、搭配和能立即使用的句子。",
       "themes": [
         {
           "id": "campus-classroom",
           "label": "校园课堂",
-          "sampleWords": ["die Vorlesung", "das Seminar", "die Aufgabe", "erklären", "wiederholen", "abgeben"],
-          "usageFocus": "课程、作业、提问、解释和提交任务。"
+          "usageFocus": "课程、作业、提问、解释和提交任务。",
+          "entries": [
+            {"term":"die Vorlesung","pos":"名词 · 阴性","meaning":"讲座；大学课堂","collocation":"eine Vorlesung besuchen","example":"Die Vorlesung beginnt heute um neun Uhr.","translation":"今天的课九点开始。"},
+            {"term":"das Seminar","pos":"名词 · 中性","meaning":"研讨课；专题讨论课","collocation":"an einem Seminar teilnehmen","example":"Im Seminar diskutieren wir über moderne Literatur.","translation":"我们在研讨课上讨论现代文学。"},
+            {"term":"die Aufgabe","pos":"名词 · 阴性","meaning":"任务；作业；题目","collocation":"eine Aufgabe lösen","example":"Diese Aufgabe ist schwierig, aber nicht unmöglich.","translation":"这道题很难，但并非无法完成。"},
+            {"term":"erklären","pos":"动词","meaning":"解释；说明","collocation":"jemandem etwas erklären","example":"Die Dozentin erklärt uns die neue Regel.","translation":"老师向我们解释这条新规则。"},
+            {"term":"wiederholen","pos":"动词","meaning":"重复；复习","collocation":"den Wortschatz wiederholen","example":"Ich wiederhole jeden Abend zehn neue Wörter.","translation":"我每天晚上复习十个新单词。"},
+            {"term":"abgeben","pos":"可分动词","meaning":"提交；交出","collocation":"eine Hausarbeit abgeben","example":"Wir müssen die Hausarbeit am Freitag abgeben.","translation":"我们必须周五提交课程论文。"}
+          ]
         },
         {
           "id": "daily-life",
           "label": "日常生活",
-          "sampleWords": ["wohnen", "bestellen", "bezahlen", "einkaufen", "die Wohnung", "die Mensa"],
-          "usageFocus": "住宿、吃饭、购物、出行和简单社交。"
+          "usageFocus": "住宿、吃饭、购物和简单社交。",
+          "entries": [
+            {"term":"wohnen","pos":"动词","meaning":"居住","collocation":"in einer Wohnung wohnen","example":"Ich wohne seit September in einem Studentenwohnheim.","translation":"我从九月起住在学生宿舍。"},
+            {"term":"bestellen","pos":"动词","meaning":"点餐；订购","collocation":"etwas online bestellen","example":"Wir bestellen zwei Suppen und einen Salat.","translation":"我们点两份汤和一份沙拉。"},
+            {"term":"bezahlen","pos":"动词","meaning":"付款；支付","collocation":"mit Karte bezahlen","example":"Kann ich hier mit Karte bezahlen?","translation":"我可以在这里刷卡吗？"},
+            {"term":"einkaufen","pos":"可分动词","meaning":"购物；采购","collocation":"im Supermarkt einkaufen","example":"Am Samstag kaufe ich für die ganze Woche ein.","translation":"周六我采购一整周的东西。"},
+            {"term":"die Wohnung","pos":"名词 · 阴性","meaning":"住房；公寓","collocation":"eine Wohnung mieten","example":"Die Wohnung liegt nicht weit von der Universität.","translation":"这套公寓离大学不远。"},
+            {"term":"die Mensa","pos":"名词 · 阴性","meaning":"大学食堂","collocation":"in der Mensa essen","example":"Heute gibt es in der Mensa ein vegetarisches Gericht.","translation":"今天大学食堂有一道素食。"}
+          ]
         },
         {
           "id": "core-verbs",
-          "label": "基础动词",
-          "sampleWords": ["machen", "werden", "nehmen", "geben", "finden", "brauchen"],
-          "usageFocus": "高频动词变位、可分动词、完成时和常见句型。"
+          "label": "核心动词",
+          "usageFocus": "高频动词变位、句框和常见用法。",
+          "entries": [
+            {"term":"machen","pos":"动词","meaning":"做；进行；造成","collocation":"einen Fehler machen","example":"Beim Sprechen mache ich noch einige Fehler.","translation":"我说话时还会犯一些错误。"},
+            {"term":"werden","pos":"动词","meaning":"变成；成为；将要","collocation":"müde werden","example":"Nach der langen Prüfung werde ich langsam müde.","translation":"长时间考试后我渐渐累了。"},
+            {"term":"nehmen","pos":"动词","meaning":"拿；乘坐；选择","collocation":"den Bus nehmen","example":"Morgens nehme ich den Bus zur Universität.","translation":"早上我乘公交去大学。"},
+            {"term":"geben","pos":"动词","meaning":"给；存在","collocation":"jemandem einen Rat geben","example":"Kannst du mir einen Rat geben?","translation":"你能给我一个建议吗？"},
+            {"term":"finden","pos":"动词","meaning":"找到；认为","collocation":"etwas interessant finden","example":"Ich finde diesen Text sehr verständlich.","translation":"我觉得这篇文章很好懂。"},
+            {"term":"brauchen","pos":"动词","meaning":"需要；花费时间","collocation":"Zeit für etwas brauchen","example":"Für die Übersetzung brauche ich ungefähr eine Stunde.","translation":"这篇翻译我大约需要一小时。"}
+          ]
         },
         {
           "id": "sentence-tools",
           "label": "句子工具",
-          "sampleWords": ["weil", "wenn", "dass", "deshalb", "zuerst", "danach"],
-          "usageFocus": "原因、条件、顺序和基础从句。"
+          "usageFocus": "原因、条件、内容、顺序和句间衔接。",
+          "entries": [
+            {"term":"weil","pos":"从属连词","meaning":"因为","collocation":"weil + 尾语序","example":"Ich bleibe zu Hause, weil ich lernen muss.","translation":"我待在家里，因为我必须学习。"},
+            {"term":"wenn","pos":"从属连词","meaning":"如果；每当；当……时","collocation":"wenn + 条件或重复时间","example":"Wenn ich Zeit habe, lese ich deutsche Nachrichten.","translation":"如果有时间，我会读德语新闻。"},
+            {"term":"dass","pos":"从属连词","meaning":"引导内容从句：……这件事","collocation":"Ich glaube, dass ...","example":"Ich glaube, dass die Übung hilfreich ist.","translation":"我认为这项练习很有帮助。"},
+            {"term":"deshalb","pos":"连接副词","meaning":"因此；所以","collocation":"deshalb + 反语序","example":"Der Text ist wichtig, deshalb lese ich ihn zweimal.","translation":"这篇文章很重要，所以我读两遍。"},
+            {"term":"zuerst","pos":"副词","meaning":"首先；起初","collocation":"zuerst ..., dann ...","example":"Zuerst markiere ich die Verben im Satz.","translation":"我先标出句子里的动词。"},
+            {"term":"danach","pos":"副词","meaning":"之后；随后","collocation":"kurz danach","example":"Wir hören den Dialog und sprechen danach darüber.","translation":"我们听对话，随后讨论它。"}
+          ]
         }
       ]
     },
     {
       "id": "advanced",
       "label": "大三大四",
-      "positioning": "进入阅读、写作、翻译和论述表达，强调抽象名词、学术动词、连接副词和固定搭配。",
+      "positioning": "进入阅读、写作、翻译和论述表达，强调抽象概念、逻辑关系和固定搭配。",
       "themes": [
         {
           "id": "academic-expression",
           "label": "学术表达",
-          "sampleWords": ["die These", "das Argument", "der Zusammenhang", "die Entwicklung", "die Voraussetzung", "die Auswirkung"],
-          "usageFocus": "论点、结构、因果、发展和影响。"
+          "usageFocus": "论点、结构、条件、发展和影响。",
+          "entries": [
+            {"term":"die These","pos":"名词 · 阴性","meaning":"论点；命题","collocation":"eine These aufstellen","example":"Die Autorin stellt zu Beginn eine klare These auf.","translation":"作者在开头提出了一个明确论点。"},
+            {"term":"das Argument","pos":"名词 · 中性","meaning":"论据；理由","collocation":"ein Argument anführen","example":"Für diese Position führt er drei Argumente an.","translation":"他为这一立场列举了三个论据。"},
+            {"term":"der Zusammenhang","pos":"名词 · 阳性","meaning":"联系；关联；上下文","collocation":"im Zusammenhang mit","example":"Die Daten stehen im Zusammenhang mit dem Sprachgebrauch.","translation":"这些数据与语言使用相关。"},
+            {"term":"die Entwicklung","pos":"名词 · 阴性","meaning":"发展；变化过程","collocation":"eine Entwicklung beobachten","example":"Die Entwicklung lässt sich über mehrere Jahre beobachten.","translation":"这一发展可以跨越多年进行观察。"},
+            {"term":"die Voraussetzung","pos":"名词 · 阴性","meaning":"前提；先决条件","collocation":"Voraussetzung für etwas sein","example":"Regelmäßiges Lesen ist eine wichtige Voraussetzung für Fortschritt.","translation":"规律阅读是取得进步的重要前提。"},
+            {"term":"die Auswirkung","pos":"名词 · 阴性","meaning":"影响；后果","collocation":"Auswirkungen auf etwas haben","example":"Die Reform hat deutliche Auswirkungen auf den Unterricht.","translation":"这项改革对教学有明显影响。"}
+          ]
         },
         {
           "id": "abstract-verbs",
           "label": "抽象动词",
-          "sampleWords": ["begründen", "vergleichen", "darstellen", "betonen", "ermöglichen", "beeinflussen"],
-          "usageFocus": "阅读理解、摘要复述、写作和翻译。"
+          "usageFocus": "阅读理解、摘要复述、写作与翻译。",
+          "entries": [
+            {"term":"begründen","pos":"动词","meaning":"论证；说明理由","collocation":"eine Entscheidung begründen","example":"Bitte begründen Sie Ihre Meinung mit einem Beispiel.","translation":"请用一个例子说明你观点的理由。"},
+            {"term":"vergleichen","pos":"动词","meaning":"比较","collocation":"etwas mit etwas vergleichen","example":"Die Studie vergleicht zwei unterschiedliche Lernmethoden.","translation":"这项研究比较了两种不同的学习方法。"},
+            {"term":"darstellen","pos":"动词","meaning":"呈现；阐述；描绘","collocation":"ein Problem darstellen","example":"Die Grafik stellt die Ergebnisse übersichtlich dar.","translation":"图表清晰地呈现了结果。"},
+            {"term":"betonen","pos":"动词","meaning":"强调","collocation":"die Bedeutung betonen","example":"Der Verfasser betont die Bedeutung eigener Beispiele.","translation":"作者强调了原创例子的重要性。"},
+            {"term":"ermöglichen","pos":"动词","meaning":"使……成为可能","collocation":"jemandem etwas ermöglichen","example":"Digitale Wörterbücher ermöglichen einen schnellen Vergleich.","translation":"电子词典让快速比较成为可能。"},
+            {"term":"beeinflussen","pos":"动词","meaning":"影响","collocation":"eine Entscheidung beeinflussen","example":"Vorerfahrungen beeinflussen unser Textverständnis.","translation":"既有经验会影响我们的文本理解。"}
+          ]
         },
         {
           "id": "reading-connectors",
           "label": "阅读高频连接",
-          "sampleWords": ["allerdings", "dennoch", "hingegen", "außerdem", "inzwischen", "folglich"],
-          "usageFocus": "转折、递进、对比、时间推进和结论。"
+          "usageFocus": "转折、递进、对比、时间推进和结论。",
+          "entries": [
+            {"term":"allerdings","pos":"副词","meaning":"不过；诚然","collocation":"句中或句首表示限制","example":"Die Methode ist wirksam, allerdings braucht sie viel Zeit.","translation":"这个方法有效，不过很耗时间。"},
+            {"term":"dennoch","pos":"副词","meaning":"尽管如此；然而","collocation":"dennoch + 反语序","example":"Die Aufgabe war komplex. Dennoch fanden wir eine Lösung.","translation":"任务很复杂。尽管如此，我们还是找到了解决办法。"},
+            {"term":"hingegen","pos":"副词","meaning":"与之相反；而","collocation":"A ..., B hingegen ...","example":"Der erste Text ist sachlich, der zweite hingegen emotional.","translation":"第一篇文章很客观，而第二篇较为感性。"},
+            {"term":"außerdem","pos":"副词","meaning":"此外；而且","collocation":"außerdem + 反语序","example":"Das Beispiel ist verständlich; außerdem passt es zum Thema.","translation":"这个例子容易理解，而且切合主题。"},
+            {"term":"inzwischen","pos":"副词","meaning":"与此同时；如今；期间","collocation":"inzwischen + 时间变化","example":"Inzwischen nutzen viele Studierende digitale Karteikarten.","translation":"如今许多学生使用电子记忆卡。"},
+            {"term":"folglich","pos":"副词","meaning":"因此；由此可见","collocation":"folgerndes Verhältnis","example":"Die Daten sind unvollständig; folglich bleibt das Ergebnis unsicher.","translation":"数据不完整，因此结果仍不确定。"}
+          ]
         },
         {
           "id": "translation-patterns",
           "label": "翻译表达",
-          "sampleWords": ["im Hinblick auf", "zur Folge haben", "eine Rolle spielen", "in Frage kommen", "Wert legen auf", "abhängen von"],
-          "usageFocus": "中文到德语表达转换、搭配和句子重组。"
+          "usageFocus": "中文到德语的表达转换、搭配和句子重组。",
+          "entries": [
+            {"term":"im Hinblick auf","pos":"介词短语 + A","meaning":"就……而言；考虑到","collocation":"im Hinblick auf die Zukunft","example":"Im Hinblick auf die Kosten ist der Plan realistisch.","translation":"就成本而言，这个计划是现实的。"},
+            {"term":"zur Folge haben","pos":"固定表达","meaning":"导致；带来……后果","collocation":"etwas hat etwas zur Folge","example":"Die Verzögerung hat zusätzliche Kosten zur Folge.","translation":"延误导致了额外成本。"},
+            {"term":"eine Rolle spielen","pos":"固定表达","meaning":"起作用；扮演角色","collocation":"eine wichtige Rolle spielen","example":"Der Kontext spielt bei der Übersetzung eine wichtige Rolle.","translation":"语境在翻译中起着重要作用。"},
+            {"term":"in Frage kommen","pos":"固定表达","meaning":"值得考虑；可能适用","collocation":"für etwas in Frage kommen","example":"Für diesen Zweck kommen zwei Lösungen in Frage.","translation":"针对这一目的，有两种方案可以考虑。"},
+            {"term":"Wert legen auf","pos":"固定表达 + A","meaning":"重视；注重","collocation":"großen Wert auf Genauigkeit legen","example":"Beim Schreiben lege ich großen Wert auf klare Übergänge.","translation":"写作时我很重视清晰的过渡。"},
+            {"term":"abhängen von","pos":"动词搭配 + D","meaning":"取决于","collocation":"von den Bedingungen abhängen","example":"Die Wortwahl hängt von der jeweiligen Situation ab.","translation":"措辞取决于具体情境。"}
+          ]
         }
       ]
     }
