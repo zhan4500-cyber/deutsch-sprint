@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>语法库 | Deutsch Sprint</title>
+    <meta name="description" content="Deutsch Sprint 大学生德语分阶段语法库。" />
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body data-library="grammar">
+    <header class="library-nav">
+      <a class="library-brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a>
+      <nav class="library-nav-links" aria-label="资料库导航">
+        <a href="index.html">首页</a>
+        <a href="vocab.html">词库</a>
+        <a class="active" href="grammar.html">语法库</a>
+      </nav>
+    </header>
+    <main class="library-main">
+      <section class="library-hero">
+        <div>
+          <p class="eyebrow">Library 02 · Grammatik</p>
+          <h1>语法库</h1>
+          <p>每个专题都围绕“规则、例句、易错点、练习”展开。现在先给出学习地图，后续逐条加入完整讲解和可交互练习。</p>
+        </div>
+        <div class="library-count" aria-live="polite">
+          <strong id="library-count-number">0</strong>
+          <span id="library-count-label">个首批专题</span>
+        </div>
+      </section>
+      <section class="library-toolbar" aria-label="语法库筛选">
+        <div class="stage-switcher" role="tablist" aria-label="学习阶段">
+          <button class="stage-filter active" type="button" data-stage="all" aria-selected="true">全部</button>
+          <button class="stage-filter" type="button" data-stage="foundation" aria-selected="false">大一大二</button>
+          <button class="stage-filter" type="button" data-stage="advanced" aria-selected="false">大三大四</button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="library-search" type="search" placeholder="搜索语法点或易错问题" autocomplete="off" />
+        </label>
+      </section>
+      <div class="library-results" id="library-results"><div class="empty-state">正在载入语法库…</div></div>
+      <footer class="library-footer">语法索引与讲解结构均为原创整理，并将持续扩充。</footer>
+    </main>
+    <script src="library.js"></script>
+  </body>
+</html>
+
