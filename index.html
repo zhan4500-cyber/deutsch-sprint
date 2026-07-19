@@ -98,25 +98,38 @@
           </div>
         </section>
 
-        <section class="stage-showcase" aria-label="学习阶段路径">
-          <article class="stage-panel foundation">
-            <span class="stage-number">01</span>
-            <p class="section-kicker">大一大二</p>
-            <h2>基础词汇、核心语法、日常表达</h2>
-            <p>
-              先把格、冠词、动词变位、基础从句和高频词打牢。学习节奏更像每日训练，
-              帮学生知道今天该记什么、错在哪里、什么时候回来复习。
-            </p>
-          </article>
-          <article class="stage-panel advanced">
-            <span class="stage-number">02</span>
-            <p class="section-kicker">大三大四</p>
-            <h2>阅读表达、复杂句法、写作提升</h2>
-            <p>
-              进入长难句、抽象词、论述表达和翻译能力训练。模块会更强调语境、搭配、
-              改写和输出，而不是只背孤立单词。
-            </p>
-          </article>
+        <section class="stage-picker" aria-label="选择学习阶段">
+          <div class="stage-picker-copy">
+            <p class="section-kicker">学习阶段</p>
+            <h2>先选择当前阶段，再进入对应训练</h2>
+            <p>不把用户一进来就固定分类，而是让学生按自己的课程进度选择学习模式。</p>
+          </div>
+          <div class="stage-switcher" role="tablist" aria-label="学习阶段选择">
+            <button class="stage-tab active" type="button" data-stage="foundation" aria-selected="true">
+              大一大二
+            </button>
+            <button class="stage-tab" type="button" data-stage="advanced" aria-selected="false">
+              大三大四
+            </button>
+          </div>
+          <div class="stage-focus">
+            <div class="stage-detail active" data-stage-panel="foundation">
+              <span class="stage-number">01</span>
+              <h3>基础词汇、核心语法、日常表达</h3>
+              <p>
+                先把格、冠词、动词变位、基础从句和高频词打牢。学习节奏更像每日训练，
+                帮学生知道今天该记什么、错在哪里、什么时候回来复习。
+              </p>
+            </div>
+            <div class="stage-detail" data-stage-panel="advanced">
+              <span class="stage-number">02</span>
+              <h3>阅读表达、复杂句法、写作提升</h3>
+              <p>
+                进入长难句、抽象词、论述表达和翻译能力训练。模块会更强调语境、搭配、
+                改写和输出，而不是只背孤立单词。
+              </p>
+            </div>
+          </div>
         </section>
 
         <section class="dashboard-grid" aria-label="学习模块">
