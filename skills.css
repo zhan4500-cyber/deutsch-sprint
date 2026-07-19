@@ -69,6 +69,8 @@
 .cycle-grid ul { margin: 0.8rem 0 0; padding-left: 1.1rem; color: var(--muted); line-height: 1.65; }
 
 @media (max-width: 760px) {
+  .stage-switcher { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
   .skill-grid,
   .assessment-cycle,
   .cycle-grid { grid-template-columns: 1fr; }
