@@ -290,19 +290,12 @@ button {
   background: var(--success);
 }
 
-.dashboard-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
 .stage-picker {
   display: grid;
   grid-template-columns: minmax(0, 0.85fr) minmax(18rem, 0.35fr) minmax(0, 1fr);
   gap: 1rem;
   align-items: stretch;
-  margin-top: 1rem;
+  margin-top: 3.5rem;
   padding: 1.2rem;
   border: 1px solid var(--line);
   border-radius: 0.5rem;
@@ -407,6 +400,127 @@ button {
   font-weight: 900;
 }
 
+.library-block {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: stretch;
+  margin-top: 6rem;
+  padding: clamp(1.4rem, 3vw, 2.4rem);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.library-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 24rem;
+}
+
+.library-copy h2 {
+  max-width: 36rem;
+  margin: 0;
+  color: var(--red-900);
+  font-size: clamp(2.35rem, 5vw, 5.4rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.library-copy p:not(.section-kicker) {
+  max-width: 34rem;
+  margin: 1.1rem 0 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.source-note {
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.source-note span,
+.library-columns span,
+.grammar-map span {
+  color: var(--red-700);
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.source-note p {
+  margin-top: 0.4rem;
+}
+
+.source-note a {
+  display: inline-flex;
+  margin-top: 0.7rem;
+  color: var(--red-800);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.source-note a:hover {
+  text-decoration: underline;
+}
+
+.library-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.library-columns article,
+.grammar-map article {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--soft);
+}
+
+.library-columns h3,
+.grammar-map h3 {
+  margin: 0.55rem 0 0;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+  letter-spacing: 0;
+}
+
+.library-columns ul {
+  display: grid;
+  gap: 0.75rem;
+  padding-left: 1.1rem;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.grammar-map {
+  display: grid;
+  gap: 1rem;
+}
+
+.grammar-map article {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 0.45fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.grammar-map p {
+  margin: 0.52rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.daily-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+
 .word-card,
 .grammar-card,
 .review-card,
@@ -423,25 +537,12 @@ button {
 .review-card,
 .progress-card,
 .ai-card {
-  padding: 1.2rem;
-}
-
-.word-card {
-  grid-column: span 2;
-}
-
-.grammar-card {
-  grid-column: span 2;
-}
-
-.review-card,
-.progress-card {
-  grid-column: span 2;
+  min-height: 18rem;
+  padding: clamp(1.4rem, 3vw, 2.25rem);
 }
 
 .ai-card {
   display: flex;
-  grid-column: span 4;
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
@@ -475,7 +576,7 @@ button {
 
 .card-header h2 {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: clamp(1.55rem, 3vw, 2.4rem);
   letter-spacing: 0;
 }
 
@@ -624,14 +725,15 @@ progress::-moz-progress-bar {
 
 .module-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-  padding-bottom: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 6rem;
+  padding-bottom: 4rem;
 }
 
 .module-strip article {
-  padding: 1rem;
+  min-height: 12rem;
+  padding: 1.35rem;
 }
 
 .module-strip span {
@@ -727,7 +829,23 @@ progress::-moz-progress-bar {
     grid-template-columns: 1fr;
   }
 
-  .dashboard-grid,
+  .library-block,
+  .library-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .library-copy {
+    min-height: 0;
+  }
+
+  .grammar-map article {
+    grid-template-columns: 2.2rem minmax(0, 1fr);
+  }
+
+  .grammar-map p {
+    grid-column: 2;
+  }
+
   .module-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -748,17 +866,8 @@ progress::-moz-progress-bar {
     min-width: 4.5rem;
   }
 
-  .dashboard-grid,
   .module-strip {
     grid-template-columns: 1fr;
-  }
-
-  .word-card,
-  .grammar-card,
-  .review-card,
-  .progress-card,
-  .ai-card {
-    grid-column: span 1;
   }
 
   .ai-card,
