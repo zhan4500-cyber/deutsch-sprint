@@ -2,6 +2,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const sections = ["today", "vocab", "grammar", "review", "progress"].map((id) =>
   document.getElementById(id)
 );
+const revealItems = document.querySelectorAll(".reveal-section, .module-card");
 
 const setActiveLink = () => {
   let current = null;
@@ -63,3 +64,21 @@ document.querySelectorAll("button").forEach((button) => {
 
 window.addEventListener("scroll", setActiveLink, { passive: true });
 setActiveLink();
+
+if ("IntersectionObserver" in window) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.18 }
+  );
+
+  revealItems.forEach((item) => revealObserver.observe(item));
+} else {
+  revealItems.forEach((item) => item.classList.add("in-view"));
+}
