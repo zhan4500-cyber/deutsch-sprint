@@ -1,0 +1,68 @@
+{
+  "name": "Deutsch Sprint Vocab Library",
+  "copyrightNote": "原创分组与示例数据。参考公开能力框架和课程范围，不复制考试、教材或机构词表的选择与排列。",
+  "stages": [
+    {
+      "id": "foundation",
+      "label": "大一大二",
+      "positioning": "先覆盖校园、生活、课堂和基础表达，强调常用动词、名词性数格、基础搭配和句子连接。",
+      "themes": [
+        {
+          "id": "campus-classroom",
+          "label": "校园课堂",
+          "sampleWords": ["die Vorlesung", "das Seminar", "die Aufgabe", "erklären", "wiederholen", "abgeben"],
+          "usageFocus": "课程、作业、提问、解释和提交任务。"
+        },
+        {
+          "id": "daily-life",
+          "label": "日常生活",
+          "sampleWords": ["wohnen", "bestellen", "bezahlen", "einkaufen", "die Wohnung", "die Mensa"],
+          "usageFocus": "住宿、吃饭、购物、出行和简单社交。"
+        },
+        {
+          "id": "core-verbs",
+          "label": "基础动词",
+          "sampleWords": ["machen", "werden", "nehmen", "geben", "finden", "brauchen"],
+          "usageFocus": "高频动词变位、可分动词、完成时和常见句型。"
+        },
+        {
+          "id": "sentence-tools",
+          "label": "句子工具",
+          "sampleWords": ["weil", "wenn", "dass", "deshalb", "zuerst", "danach"],
+          "usageFocus": "原因、条件、顺序和基础从句。"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "大三大四",
+      "positioning": "进入阅读、写作、翻译和论述表达，强调抽象名词、学术动词、连接副词和固定搭配。",
+      "themes": [
+        {
+          "id": "academic-expression",
+          "label": "学术表达",
+          "sampleWords": ["die These", "das Argument", "der Zusammenhang", "die Entwicklung", "die Voraussetzung", "die Auswirkung"],
+          "usageFocus": "论点、结构、因果、发展和影响。"
+        },
+        {
+          "id": "abstract-verbs",
+          "label": "抽象动词",
+          "sampleWords": ["begründen", "vergleichen", "darstellen", "betonen", "ermöglichen", "beeinflussen"],
+          "usageFocus": "阅读理解、摘要复述、写作和翻译。"
+        },
+        {
+          "id": "reading-connectors",
+          "label": "阅读高频连接",
+          "sampleWords": ["allerdings", "dennoch", "hingegen", "außerdem", "inzwischen", "folglich"],
+          "usageFocus": "转折、递进、对比、时间推进和结论。"
+        },
+        {
+          "id": "translation-patterns",
+          "label": "翻译表达",
+          "sampleWords": ["im Hinblick auf", "zur Folge haben", "eine Rolle spielen", "in Frage kommen", "Wert legen auf", "abhängen von"],
+          "usageFocus": "中文到德语表达转换、搭配和句子重组。"
+        }
+      ]
+    }
+  ]
+}
