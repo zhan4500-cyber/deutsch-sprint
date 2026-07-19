@@ -1,7 +1,11 @@
 const navLinks = document.querySelectorAll(".nav-link");
-const sections = ["today", "vocab", "grammar", "review", "progress"].map((id) =>
-  document.getElementById(id)
-);
+const sections = [
+  "today",
+  "vocab-library",
+  "grammar-library",
+  "review",
+  "progress",
+].map((id) => document.getElementById(id));
 const revealItems = document.querySelectorAll(".reveal-section, .module-card");
 
 const setActiveLink = () => {

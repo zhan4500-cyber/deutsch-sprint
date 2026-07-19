@@ -1,0 +1,72 @@
+{
+  "name": "Deutsch Sprint Grammar Library",
+  "copyrightNote": "原创语法索引与讲解结构。参考高校课程大纲和公开 DaF 语法体系，不复制教材解释、题目或例句。",
+  "structure": [
+    {
+      "id": "morphology-foundation",
+      "label": "A 形态基础",
+      "stage": "大一大二",
+      "topics": [
+        {
+          "title": "冠词与名词性数格",
+          "unitShape": ["规则一句话", "原创例句", "常见错误", "格变化练习"],
+          "commonMistake": "把第三格和第四格只当成中文宾语理解，忽略动词和介词支配。"
+        },
+        {
+          "title": "动词现在时与完成时",
+          "unitShape": ["变位表", "句框位置", "时间状语", "改写练习"],
+          "commonMistake": "完成时助动词 haben/sein 选择不稳，第二分词位置错误。"
+        },
+        {
+          "title": "形容词词尾变化",
+          "unitShape": ["三套变化", "名词短语拆解", "对比例句", "填空练习"],
+          "commonMistake": "只背词尾表，不先判断冠词是否已经表达格和性。"
+        }
+      ]
+    },
+    {
+      "id": "syntax-core",
+      "label": "B 句法核心",
+      "stage": "大一大二到大三大四",
+      "topics": [
+        {
+          "title": "正语序、反语序、尾语序",
+          "unitShape": ["动词位置", "框架结构", "从句入口", "排序练习"],
+          "commonMistake": "副词或状语提前后，忘记变位动词仍然占第二位。"
+        },
+        {
+          "title": "并列连词与从属连词",
+          "unitShape": ["连词分类", "语义关系", "标点提示", "合句练习"],
+          "commonMistake": "把 denn 和 weil 的语序混用。"
+        },
+        {
+          "title": "关系从句",
+          "unitShape": ["关系代词", "先行词", "从句格判断", "长句拆解"],
+          "commonMistake": "只看先行词性数，不判断关系代词在从句里承担什么格。"
+        }
+      ]
+    },
+    {
+      "id": "expression-advanced",
+      "label": "C 表达提升",
+      "stage": "大三大四",
+      "topics": [
+        {
+          "title": "被动态",
+          "unitShape": ["过程被动", "状态被动", "施事表达", "主动被动改写"],
+          "commonMistake": "把 werden 被动态和 werden 将来/变化含义混在一起。"
+        },
+        {
+          "title": "虚拟式",
+          "unitShape": ["间接引语", "礼貌表达", "非现实条件", "语气识别"],
+          "commonMistake": "只看形式，不判断句子是在转述、假设还是委婉表达。"
+        },
+        {
+          "title": "名词化与长难句拆解",
+          "unitShape": ["核心名词", "介词链", "定语展开", "中文转写"],
+          "commonMistake": "逐词翻译长名词短语，导致句子主干丢失。"
+        }
+      ]
+    }
+  ]
+}
