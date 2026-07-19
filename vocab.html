@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>词库 | Deutsch Sprint</title>
+    <meta name="description" content="Deutsch Sprint 大学生德语分阶段词库。" />
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body data-library="vocab">
+    <header class="library-nav">
+      <a class="library-brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a>
+      <nav class="library-nav-links" aria-label="资料库导航">
+        <a href="index.html">首页</a>
+        <a class="active" href="vocab.html">词库</a>
+        <a href="grammar.html">语法库</a>
+      </nav>
+    </header>
+    <main class="library-main">
+      <section class="library-hero">
+        <div>
+          <p class="eyebrow">Library 01 · Wörter</p>
+          <h1>词库</h1>
+          <p>按大学学习阶段和真实使用场景组织。先看主题，再记单词，后续会继续加入中文释义、词性、搭配、原创例句、发音与复习记录。</p>
+        </div>
+        <div class="library-count" aria-live="polite">
+          <strong id="library-count-number">0</strong>
+          <span id="library-count-label">个首批词条</span>
+        </div>
+      </section>
+      <section class="library-toolbar" aria-label="词库筛选">
+        <div class="stage-switcher" role="tablist" aria-label="学习阶段">
+          <button class="stage-filter active" type="button" data-stage="all" aria-selected="true">全部</button>
+          <button class="stage-filter" type="button" data-stage="foundation" aria-selected="false">大一大二</button>
+          <button class="stage-filter" type="button" data-stage="advanced" aria-selected="false">大三大四</button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="library-search" type="search" placeholder="搜索主题或德语单词" autocomplete="off" />
+        </label>
+      </section>
+      <div class="library-results" id="library-results"><div class="empty-state">正在载入词库…</div></div>
+      <footer class="library-footer">词库采用原创分组与示例内容，并将持续扩充。</footer>
+    </main>
+    <script src="library.js"></script>
+  </body>
+</html>
+
