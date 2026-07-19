@@ -30,6 +30,23 @@ const showTemplateHint = (message) => {
 document.querySelectorAll("button").forEach((button) => {
   button.addEventListener("click", () => {
     const label = button.textContent.trim();
+    const selectedStage = button.dataset.stage;
+    if (selectedStage) {
+      document.querySelectorAll(".stage-tab").forEach((tab) => {
+        const isActive = tab.dataset.stage === selectedStage;
+        tab.classList.toggle("active", isActive);
+        tab.setAttribute("aria-selected", String(isActive));
+      });
+
+      document.querySelectorAll(".stage-detail").forEach((panel) => {
+        panel.classList.toggle(
+          "active",
+          panel.dataset.stagePanel === selectedStage
+        );
+      });
+      return;
+    }
+
     if (label === "开始今日任务" || label === "进入背词") {
       document.getElementById("vocab")?.scrollIntoView({ behavior: "smooth" });
       return;
