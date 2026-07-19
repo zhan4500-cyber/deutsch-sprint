@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>综合练习 | Deutsch Sprint</title>
+    <meta name="description" content="面向大学德语基础阶段的语法、词汇、填空、改写、改错与完形练习。" />
+    <link rel="stylesheet" href="learner.css" />
+    <link rel="stylesheet" href="practice.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a>
+      <nav class="topnav">
+        <a href="vocab.html">词库</a><a href="grammar.html">语法库</a><a href="skills.html">能力</a>
+        <a class="active" href="practice.html">练习</a><a href="review.html">复盘</a><a href="progress.html">进度</a>
+      </nav>
+    </header>
+
+    <main class="page practice-page">
+      <section class="practice-heading">
+        <div>
+          <p class="eyebrow">PRACTICE LIBRARY 03</p>
+          <h1>练习中心</h1>
+          <p class="lead">从题型和难度开始，组成一轮安静、清晰的针对性训练。</p>
+        </div>
+        <div class="bank-total"><strong id="bank-total">8,000</strong><span>道原创练习</span></div>
+      </section>
+
+      <section class="setup-panel" id="setup-panel">
+        <div class="setup-copy">
+          <p class="eyebrow">大一大二阶段</p>
+          <h2>选择今天要练的内容。</h2>
+          <p>题目已完成程序结构校验，目前作为日常训练内容使用。</p>
+        </div>
+
+        <div class="setup-control">
+          <span class="control-label">题型</span>
+          <div class="module-options" id="module-options" aria-label="选择题型"></div>
+        </div>
+
+        <div class="setup-row">
+          <div class="setup-control">
+            <span class="control-label">难度</span>
+            <div class="segmented" id="difficulty-options">
+              <button class="selected" type="button" data-value="all">全部</button>
+              <button type="button" data-value="1-2">1-2</button>
+              <button type="button" data-value="3">3</button>
+              <button type="button" data-value="4-5">4-5</button>
+            </div>
+          </div>
+          <div class="setup-control">
+            <span class="control-label">本轮题量</span>
+            <div class="segmented" id="count-options">
+              <button class="selected" type="button" data-value="10">10</button>
+              <button type="button" data-value="20">20</button>
+              <button type="button" data-value="30">30</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="start-row">
+          <p id="selection-summary" aria-live="polite">正在读取题库目录...</p>
+          <button class="primary start-button" id="start-practice" type="button" disabled>开始练习</button>
+        </div>
+      </section>
+
+      <section class="practice-run" id="practice-run" hidden>
+        <div class="run-status">
+          <button class="quiet-button" id="exit-practice" type="button">退出本轮</button>
+          <div class="run-progress"><span id="run-label">1 / 10</span><div class="progress-track"><span id="progress-fill"></span></div></div>
+          <strong id="run-score">0 正确</strong>
+        </div>
+        <div id="question-stage"></div>
+      </section>
+
+      <section class="quality-note">
+        <strong>内容说明</strong>
+        <p>题干、选项、语篇、答案与解析为原创模板内容，不含历年试题原文。题库已完成数量、字段、答案归属和重复项检查；尚未逐题完成德语教师审核，因此不标注为官方模拟题。</p>
+      </section>
+    </main>
+
+    <script src="learner.js"></script>
+    <script src="practice.js"></script>
+  </body>
+</html>

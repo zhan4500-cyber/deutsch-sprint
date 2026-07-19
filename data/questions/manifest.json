@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "stage": "foundation",
+  "label": "大一大二综合练习题库",
+  "total": 8000,
+  "contentStatus": "原创模板题，已完成结构校验，尚未逐题完成教师审核",
+  "modules": [
+    {
+      "id": "grammar_mcq",
+      "label": "语法选择",
+      "description": "核心语法、语序与句法辨析",
+      "count": 1600,
+      "path": "data/questions/grammar_mcq.json"
+    },
+    {
+      "id": "vocab_collocation_mcq",
+      "label": "词汇搭配",
+      "description": "词义辨析、固定搭配与介词支配",
+      "count": 1200,
+      "path": "data/questions/vocab_collocation_mcq.json"
+    },
+    {
+      "id": "single_fill",
+      "label": "单句填词",
+      "description": "根据句意补全正确形式",
+      "count": 1200,
+      "path": "data/questions/single_fill.json"
+    },
+    {
+      "id": "transformation",
+      "label": "句子改写",
+      "description": "被动、从句、名词化与同义转换",
+      "count": 1000,
+      "path": "data/questions/transformation.json"
+    },
+    {
+      "id": "error_correction",
+      "label": "语句改错",
+      "description": "定位并修正格、词尾和语序错误",
+      "count": 1000,
+      "path": "data/questions/error_correction.json"
+    },
+    {
+      "id": "cloze_mcq",
+      "label": "选择型完形",
+      "description": "在完整语篇中选择合适表达",
+      "count": 1000,
+      "path": "data/questions/cloze_mcq.json"
+    },
+    {
+      "id": "cloze_open",
+      "label": "开放型完形",
+      "description": "在完整语篇中自主补全表达",
+      "count": 1000,
+      "path": "data/questions/cloze_open.json"
+    }
+  ]
+}
