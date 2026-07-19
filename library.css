@@ -212,6 +212,26 @@ button { cursor: pointer; }
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
+.entry-list { display:grid; gap:.55rem; margin-top:1.25rem; }
+.word-entry { border:1px solid var(--line); border-radius:.4rem; background:var(--soft); }
+.word-entry summary { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.8rem; cursor:pointer; list-style:none; }
+.word-entry summary::-webkit-details-marker { display:none; }
+.word-entry summary span:first-child { display:grid; gap:.2rem; }
+.word-entry summary strong { color:var(--red-900); }
+.word-entry summary small,.example-list small,.entry-body small { display:block; color:var(--muted); line-height:1.5; }
+.entry-meaning { color:var(--muted); text-align:right; }
+.entry-body { display:grid; gap:.7rem; padding:0 .8rem .8rem; border-top:1px solid var(--line); }
+.entry-body p { margin:.7rem 0 0; }
+.entry-body strong { display:block; margin-bottom:.2rem; color:var(--red-800); font-size:.78rem; }
+.example-list { display:grid; gap:.55rem; margin-top:1rem; }
+.example-list p { margin:0; padding:.75rem; border-left:3px solid var(--red-700); background:var(--red-050); }
+.grammar-rule { color:var(--ink) !important; }
+.mini-quiz { margin-top:1rem; padding:.9rem; border:1px solid var(--line); border-radius:.4rem; background:var(--soft); }
+.mini-quiz summary { color:var(--red-800); cursor:pointer; font-weight:900; }
+.mini-quiz ol { padding-left:1.35rem; line-height:1.7; }
+.quiz-answer { padding-top:.8rem; border-top:1px solid var(--line); }
+.quiz-answer strong { display:block; color:var(--red-800); }
+
 .theme-card:hover,
 .grammar-card:hover {
   transform: translateY(-3px);
@@ -266,6 +286,8 @@ button { cursor: pointer; }
 }
 
 .mistake-note strong { color: var(--red-900); }
+.card-link { display:inline-flex; margin-top:1rem; color:var(--red-800); font-weight:900; text-decoration:none; }
+.card-link:hover { text-decoration:underline; }
 .empty-state { padding: 4rem 1rem; color: var(--muted); text-align: center; }
 .library-footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); }
 
@@ -283,4 +305,3 @@ button { cursor: pointer; }
   html { scroll-behavior: auto; }
   .theme-card, .grammar-card { transition: none; }
 }
-
