@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deutsch Sprint | 德语专四词汇助手</title>
+    <meta
+      name="description"
+      content="一个面向德语专四备考的背单词与语法复习网站模板。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="#today" aria-label="Deutsch Sprint 首页">
+          <span class="brand-mark">D</span>
+          <span>
+            <strong>Deutsch Sprint</strong>
+            <small>PGG Study Kit</small>
+          </span>
+        </a>
+
+        <nav class="nav-list">
+          <a class="nav-link active" href="#today">
+            <span aria-hidden="true">⌂</span>
+            今日
+          </a>
+          <a class="nav-link" href="#vocab">
+            <span aria-hidden="true">◎</span>
+            背词
+          </a>
+          <a class="nav-link" href="#grammar">
+            <span aria-hidden="true">§</span>
+            语法
+          </a>
+          <a class="nav-link" href="#review">
+            <span aria-hidden="true">↻</span>
+            复习
+          </a>
+          <a class="nav-link" href="#progress">
+            <span aria-hidden="true">▣</span>
+            进度
+          </a>
+        </nav>
+
+        <div class="sidebar-note">
+          <span class="note-label">模板状态</span>
+          <p>词库入口已预留，后续可接入自建词表、例句、发音和错题数据。</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">德语专四备考 · 词汇优先</p>
+            <h1>把每天的背词和语法复盘放在一个地方</h1>
+          </div>
+          <div class="top-actions" aria-label="快捷操作">
+            <button class="icon-button" type="button" aria-label="搜索">
+              ⌕
+            </button>
+            <button class="primary-button" type="button">开始今日任务</button>
+          </div>
+        </header>
+
+        <section class="hero-panel" id="today" aria-labelledby="today-title">
+          <div class="hero-copy">
+            <p class="section-kicker">今日学习</p>
+            <h2 id="today-title">20 个词，1 个语法点，15 分钟复习</h2>
+            <p>
+              先搭学习路径和产品结构。正式词库上线后，这里会自动显示今日新词、
+              待复习词、薄弱语法和连续打卡。
+            </p>
+            <div class="hero-actions">
+              <button class="primary-button" type="button">进入背词</button>
+              <button class="ghost-button" type="button">查看语法</button>
+            </div>
+          </div>
+          <div class="study-meter" aria-label="今日学习进度">
+            <div class="meter-ring">
+              <span>68%</span>
+            </div>
+            <dl>
+              <div>
+                <dt>新词</dt>
+                <dd>12 / 20</dd>
+              </div>
+              <div>
+                <dt>复习</dt>
+                <dd>18 / 26</dd>
+              </div>
+              <div>
+                <dt>语法</dt>
+                <dd>1 / 1</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section class="dashboard-grid" aria-label="学习模块">
+          <article class="word-card" id="vocab">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">单词卡片</p>
+                <h2>der Anspruch</h2>
+              </div>
+              <span class="status-pill">示例词</span>
+            </div>
+            <p class="word-meta">名词 · 阳性 · 常见搭配：Anspruch auf + A</p>
+            <p class="word-meaning">要求，权利，标准；在专四阅读和写作表达中很常见。</p>
+            <div class="example-box">
+              <span>例句</span>
+              <p>Studierende haben Anspruch auf eine klare Erklärung.</p>
+            </div>
+            <div class="card-actions">
+              <button class="danger-button" type="button">不熟</button>
+              <button class="neutral-button" type="button">一般</button>
+              <button class="success-button" type="button">掌握</button>
+            </div>
+          </article>
+
+          <article class="grammar-card" id="grammar">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">专四语法</p>
+                <h2>形容词词尾变化</h2>
+              </div>
+              <span class="status-pill muted">重点</span>
+            </div>
+            <p>
+              模板会把语法拆成“规则解释、典型例句、易错提醒、专项练习”四块。
+              后续可以按专四常考点逐步填充。
+            </p>
+            <ul class="check-list">
+              <li>定冠词后弱变化</li>
+              <li>不定冠词后混合变化</li>
+              <li>无冠词后强变化</li>
+            </ul>
+            <button class="ghost-button full-width" type="button">打开讲解</button>
+          </article>
+
+          <article class="review-card" id="review">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">错词复习</p>
+                <h2>待复盘项目</h2>
+              </div>
+              <span class="count-badge">26</span>
+            </div>
+            <div class="review-list">
+              <button type="button">
+                <span>支配第三格介词</span>
+                <strong>8 题</strong>
+              </button>
+              <button type="button">
+                <span>动词框架结构</span>
+                <strong>6 题</strong>
+              </button>
+              <button type="button">
+                <span>高频抽象名词</span>
+                <strong>12 词</strong>
+              </button>
+            </div>
+          </article>
+
+          <article class="progress-card" id="progress">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">学习进度</p>
+                <h2>本周概览</h2>
+              </div>
+            </div>
+            <div class="bar-list">
+              <label>
+                <span>词汇</span>
+                <progress value="64" max="100">64%</progress>
+              </label>
+              <label>
+                <span>语法</span>
+                <progress value="42" max="100">42%</progress>
+              </label>
+              <label>
+                <span>听写</span>
+                <progress value="28" max="100">28%</progress>
+              </label>
+            </div>
+          </article>
+        </section>
+
+        <section class="module-strip" aria-label="后续模块占位">
+          <article>
+            <span>01</span>
+            <h3>自建词库</h3>
+            <p>按词性、主题、难度、专四语法点组织，不依赖真题原文。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>原创例句</h3>
+            <p>每个词配原创德语例句、中文解释和常见搭配。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>语法专题</h3>
+            <p>冠词、格、介词、从句、被动态、虚拟式逐步上线。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>复习算法</h3>
+            <p>用熟悉度和错误记录安排每日复盘，而不是盲目刷。</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
