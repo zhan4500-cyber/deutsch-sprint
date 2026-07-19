@@ -1,0 +1,75 @@
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  min-width: 0;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--paper);
+}
+
+.skill-card h3 {
+  margin: 0.55rem 0 0;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+}
+
+.skill-unit-list {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1.2rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.skill-unit-list li::marker { color: var(--red-700); }
+
+.task-block {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.task-block strong {
+  color: var(--red-800);
+  font-size: 0.8rem;
+}
+
+.task-block span { color: var(--ink); line-height: 1.5; }
+
+.source-policy {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem;
+  border-left: 3px solid var(--red-700);
+  background: var(--red-050);
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.assessment-cycle {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.7fr) minmax(0, 2fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  margin-top: clamp(5rem, 10vw, 9rem);
+  padding: clamp(2rem, 5vw, 4rem) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.cycle-heading h2 { margin: 0; font-size: clamp(2rem, 5vw, 4rem); }
+.cycle-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.cycle-grid strong { color: var(--red-800); }
+.cycle-grid ul { margin: 0.8rem 0 0; padding-left: 1.1rem; color: var(--muted); line-height: 1.65; }
+
+@media (max-width: 760px) {
+  .skill-grid,
+  .assessment-cycle,
+  .cycle-grid { grid-template-columns: 1fr; }
+}

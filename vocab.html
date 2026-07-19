@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>词库 | Deutsch Sprint</title>
+    <meta name="description" content="Deutsch Sprint 大学生德语分阶段词库。" />
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body data-library="vocab">
+    <header class="library-nav">
+      <a class="library-brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a>
+      <nav class="library-nav-links" aria-label="资料库导航">
+        <a href="index.html">首页</a>
+        <a class="active" href="vocab.html">词库</a>
+        <a href="grammar.html">语法库</a>
+        <a href="skills.html">能力</a>
+        <a href="review.html">复盘</a>
+        <a href="progress.html">进度</a>
+      </nav>
+    </header>
+    <main class="library-main">
+      <section class="library-hero">
+        <div>
+          <p class="eyebrow">Library 01 · Wörter</p>
+          <h1>词库</h1>
+          <p>326 个学习词条按大学阶段与真实使用主题组织。基础阶段提供完整词卡，提升阶段先聚焦高价值搭配与阅读表达。</p>
+        </div>
+        <div class="library-count" aria-live="polite">
+          <strong id="library-count-number">0</strong>
+          <span id="library-count-label">个学习词条</span>
+        </div>
+      </section>
+      <section class="library-toolbar" aria-label="词库筛选">
+        <div class="stage-switcher" role="tablist" aria-label="学习阶段">
+          <button class="stage-filter active" type="button" data-stage="all" aria-selected="true">全部</button>
+          <button class="stage-filter" type="button" data-stage="foundation" aria-selected="false">大一大二</button>
+          <button class="stage-filter" type="button" data-stage="advanced" aria-selected="false">大三大四</button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="library-search" type="search" placeholder="搜索主题或德语单词" autocomplete="off" />
+        </label>
+      </section>
+      <div class="library-results" id="library-results"><div class="empty-state">正在载入词库…</div></div>
+      <footer class="library-footer">共 326 个学习词条。基础例句为原创整理；提升词条的例句将在人工复核后逐步补充。</footer>
+    </main>
+    <script src="library.js"></script>
+  </body>
+</html>

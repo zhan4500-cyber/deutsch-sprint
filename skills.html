@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>综合能力 | Deutsch Sprint</title>
+    <meta name="description" content="Deutsch Sprint 大学生德语听力、阅读、翻译、写作与德语国家知识模块。" />
+    <link rel="stylesheet" href="library.css" />
+    <link rel="stylesheet" href="skills.css" />
+  </head>
+  <body>
+    <header class="library-nav">
+      <a class="library-brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a>
+      <nav class="library-nav-links" aria-label="资料库导航">
+        <a href="index.html">首页</a>
+        <a href="vocab.html">词库</a>
+        <a href="grammar.html">语法库</a>
+        <a class="active" href="skills.html">能力</a>
+        <a href="review.html">复盘</a>
+        <a href="progress.html">进度</a>
+      </nav>
+    </header>
+    <main class="library-main">
+      <section class="library-hero">
+        <div>
+          <p class="eyebrow">Training · Fertigkeiten</p>
+          <h1>综合能力</h1>
+          <p>面向大三大四阶段，把词汇和语法放进听力、阅读、翻译、写作与德语国家知识任务中。</p>
+        </div>
+        <div class="library-count" aria-live="polite">
+          <strong id="skills-count">0</strong>
+          <span>个训练模块</span>
+        </div>
+      </section>
+      <section class="library-toolbar" aria-label="能力模块筛选">
+        <div class="stage-switcher" role="tablist" aria-label="能力类别">
+          <button class="stage-filter active" type="button" data-skill-filter="all" aria-selected="true">全部</button>
+          <button class="stage-filter" type="button" data-skill-filter="input" aria-selected="false">听读</button>
+          <button class="stage-filter" type="button" data-skill-filter="output" aria-selected="false">翻译写作</button>
+          <button class="stage-filter" type="button" data-skill-filter="knowledge" aria-selected="false">知识</button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="skills-search" type="search" placeholder="搜索能力、任务或主题" autocomplete="off" />
+        </label>
+      </section>
+      <div class="library-results" id="skills-results"><div class="empty-state">正在载入能力模块…</div></div>
+      <section class="assessment-cycle" id="assessment-cycle" aria-label="训练节奏"></section>
+      <footer class="library-footer">模块框架与任务类型为原创整理；时事、数据和现任人物信息使用前需要重新核验。</footer>
+    </main>
+    <script src="skills.js"></script>
+  </body>
+</html>

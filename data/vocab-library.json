@@ -1,66 +1,3969 @@
 {
   "name": "Deutsch Sprint Vocab Library",
-  "copyrightNote": "原创分组与示例数据。参考公开能力框架和课程范围，不复制考试、教材或机构词表的选择与排列。",
+  "copyrightNote": "基础阶段词卡含原创例句；提升阶段候选词按公开能力框架、大学课程范围和通用语料筛选方法整理，不复制教材、考试或机构词表。",
   "stages": [
     {
       "id": "foundation",
       "label": "大一大二",
-      "positioning": "先覆盖校园、生活、课堂和基础表达，强调常用动词、名词性数格、基础搭配和句子连接。",
+      "positioning": "面向大学低年级德语学习，先掌握高频动词、常用搭配、语篇连接和基础书面表达。",
       "themes": [
         {
-          "id": "campus-classroom",
-          "label": "校园课堂",
-          "sampleWords": ["die Vorlesung", "das Seminar", "die Aufgabe", "erklären", "wiederholen", "abgeben"],
-          "usageFocus": "课程、作业、提问、解释和提交任务。"
+          "id": "verb-basics",
+          "label": "基础、助动与情态动词",
+          "usageFocus": "系动、助动、情态和最常见动作表达。",
+          "entries": [
+            {
+              "term": "sein",
+              "pos": "动词",
+              "meaning": "是；处于",
+              "collocation": "支配：Nominativ / Prädikativ；搭配：bereit sein；der Meinung sein；in der Lage sein",
+              "example": "Die Studierenden sind bereit für die Prüfung.",
+              "translation": "学生们已经准备好参加考试。",
+              "forms": "ist · war · ist gewesen",
+              "usageNote": "系动词；完成时用 sein。",
+              "tags": [
+                "irregular",
+                "auxiliary"
+              ]
+            },
+            {
+              "term": "haben",
+              "pos": "动词",
+              "meaning": "有",
+              "collocation": "支配：Akkusativ；搭配：Zeit haben；Angst haben vor + D；Anspruch haben auf + A",
+              "example": "Viele Studierende haben Anspruch auf Beratung.",
+              "translation": "许多学生有权获得咨询。",
+              "forms": "hat · hatte · hat gehabt",
+              "usageNote": "常构成固定搭配。",
+              "tags": [
+                "irregular",
+                "auxiliary"
+              ]
+            },
+            {
+              "term": "werden",
+              "pos": "动词",
+              "meaning": "变成；将要；被",
+              "collocation": "支配：Prädikativ；Passiv-Hilfsverb；搭配：älter werden；bekannt werden；gemacht werden",
+              "example": "Die Aufgabe wird morgen erklärt.",
+              "translation": "这项任务明天会被解释。",
+              "forms": "wird · wurde · ist geworden",
+              "usageNote": "作实义动词完成时为 ist geworden；被动态中用 worden。",
+              "tags": [
+                "irregular",
+                "passive"
+              ]
+            },
+            {
+              "term": "können",
+              "pos": "情态动词",
+              "meaning": "能够；可能",
+              "collocation": "支配：Infinitiv ohne zu；搭配：gut Deutsch können；nicht kommen können",
+              "example": "Sie kann den langen Satz richtig analysieren.",
+              "translation": "她能够正确分析这个长句。",
+              "forms": "kann · konnte · hat gekonnt",
+              "usageNote": "双不定式结构中完成时形式特殊。",
+              "tags": [
+                "modal"
+              ]
+            },
+            {
+              "term": "müssen",
+              "pos": "情态动词",
+              "meaning": "必须",
+              "collocation": "支配：Infinitiv ohne zu；搭配：etwas tun müssen",
+              "example": "Man muss die Rektion des Verbs beachten.",
+              "translation": "必须注意动词的支配关系。",
+              "forms": "muss · musste · hat gemusst",
+              "usageNote": "否定 nicht müssen 表示“不必”。",
+              "tags": [
+                "modal"
+              ]
+            },
+            {
+              "term": "sollen",
+              "pos": "情态动词",
+              "meaning": "应该；据说",
+              "collocation": "支配：Infinitiv ohne zu；搭配：etwas tun sollen",
+              "example": "Der Text soll gekürzt werden.",
+              "translation": "这篇文章应该被缩短。",
+              "forms": "soll · sollte · hat gesollt",
+              "usageNote": "也可表示转述的信息。",
+              "tags": [
+                "modal"
+              ]
+            },
+            {
+              "term": "dürfen",
+              "pos": "情态动词",
+              "meaning": "获准；可以",
+              "collocation": "支配：Infinitiv ohne zu；搭配：etwas tun dürfen",
+              "example": "Hier darf man nicht rauchen.",
+              "translation": "这里禁止吸烟。",
+              "forms": "darf · durfte · hat gedurft",
+              "usageNote": "nicht dürfen 表示“不允许”。",
+              "tags": [
+                "modal"
+              ]
+            },
+            {
+              "term": "mögen",
+              "pos": "情态动词",
+              "meaning": "喜欢；可能",
+              "collocation": "支配：Akkusativ / Infinitiv；搭配：Kaffee mögen；es mag sein",
+              "example": "Ich mag Texte, die klar aufgebaut sind.",
+              "translation": "我喜欢结构清楚的文章。",
+              "forms": "mag · mochte · hat gemocht",
+              "usageNote": "möchte 是礼貌愿望形式。",
+              "tags": [
+                "modal",
+                "irregular"
+              ]
+            },
+            {
+              "term": "machen",
+              "pos": "动词",
+              "meaning": "做；制造",
+              "collocation": "支配：Akkusativ；搭配：einen Fehler machen；Fortschritte machen；sich Gedanken machen",
+              "example": "Beim Schreiben macht er noch einige Kasusfehler.",
+              "translation": "写作时他仍会犯一些格错误。",
+              "forms": "macht · machte · hat gemacht",
+              "usageNote": "高频轻动词，重点记搭配。",
+              "tags": [
+                "collocation"
+              ]
+            },
+            {
+              "term": "tun",
+              "pos": "动词",
+              "meaning": "做",
+              "collocation": "支配：Akkusativ；搭配：sein Bestes tun；weh tun；etwas zu tun haben",
+              "example": "Sie tut alles, um die Prüfung zu bestehen.",
+              "translation": "她尽一切努力通过考试。",
+              "forms": "tut · tat · hat getan",
+              "usageNote": "口语高频，不等同于所有 machen 用法。",
+              "tags": [
+                "irregular"
+              ]
+            }
+          ]
         },
         {
-          "id": "daily-life",
-          "label": "日常生活",
-          "sampleWords": ["wohnen", "bestellen", "bezahlen", "einkaufen", "die Wohnung", "die Mensa"],
-          "usageFocus": "住宿、吃饭、购物、出行和简单社交。"
+          "id": "verb-movement",
+          "label": "移动、位置与动作",
+          "usageFocus": "位置变化、放置动作和常见动词搭配。",
+          "entries": [
+            {
+              "term": "gehen",
+              "pos": "动词",
+              "meaning": "走；去；进行",
+              "collocation": "支配：方向补语 / um + A；搭配：zu Fuß gehen；es geht um + A；gut gehen",
+              "example": "Im Text geht es um den Klimawandel.",
+              "translation": "文章讨论的是气候变化。",
+              "forms": "geht · ging · ist gegangen",
+              "usageNote": "es geht um 是阅读题高频表达。",
+              "tags": [
+                "irregular",
+                "movement"
+              ]
+            },
+            {
+              "term": "kommen",
+              "pos": "动词",
+              "meaning": "来；到；发生",
+              "collocation": "支配：aus + D；zu + D；搭配：aus China kommen；zu einem Ergebnis kommen；in Frage kommen",
+              "example": "Die Gruppe ist zu einem anderen Ergebnis gekommen.",
+              "translation": "小组得出了另一个结论。",
+              "forms": "kommt · kam · ist gekommen",
+              "usageNote": "常与名词构成功能动词结构。",
+              "tags": [
+                "irregular",
+                "movement"
+              ]
+            },
+            {
+              "term": "fahren",
+              "pos": "动词",
+              "meaning": "行驶；乘车",
+              "collocation": "支配：mit + D；nach/in；搭配：mit dem Zug fahren；Auto fahren",
+              "example": "Wir fahren morgen mit dem Zug nach Berlin.",
+              "translation": "我们明天乘火车去柏林。",
+              "forms": "fährt · fuhr · ist/hat gefahren",
+              "usageNote": "不及物移动用 sein；驾驶某物时可用 haben。",
+              "tags": [
+                "irregular",
+                "movement"
+              ]
+            },
+            {
+              "term": "bleiben",
+              "pos": "动词",
+              "meaning": "停留；保持",
+              "collocation": "支配：Prädikativ / Ort；搭配：ruhig bleiben；zu Hause bleiben",
+              "example": "Trotz der Kritik blieb sie ruhig.",
+              "translation": "尽管受到批评，她仍保持冷静。",
+              "forms": "bleibt · blieb · ist geblieben",
+              "usageNote": "完成时用 sein。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "liegen",
+              "pos": "动词",
+              "meaning": "躺；位于；取决于",
+              "collocation": "支配：an + D；搭配：an etwas liegen；im Zentrum liegen",
+              "example": "Der Fehler liegt an der falschen Wortstellung.",
+              "translation": "错误在于错误的语序。",
+              "forms": "liegt · lag · hat gelegen",
+              "usageNote": "与 legen 区分。",
+              "tags": [
+                "irregular",
+                "rection"
+              ]
+            },
+            {
+              "term": "stehen",
+              "pos": "动词",
+              "meaning": "站；写着；处于",
+              "collocation": "支配：auf/in + D；für + A；搭配：zur Verfügung stehen；unter Druck stehen；im Text stehen",
+              "example": "Die Materialien stehen allen kostenlos zur Verfügung.",
+              "translation": "这些资料可供所有人免费使用。",
+              "forms": "steht · stand · hat gestanden",
+              "usageNote": "功能动词结构高频。",
+              "tags": [
+                "irregular",
+                "collocation"
+              ]
+            },
+            {
+              "term": "stellen",
+              "pos": "动词",
+              "meaning": "放置；提出",
+              "collocation": "支配：Akkusativ + Ort；搭配：eine Frage stellen；einen Antrag stellen；zur Verfügung stellen",
+              "example": "Die Lehrerin stellt eine schwierige Frage.",
+              "translation": "老师提出了一个难题。",
+              "forms": "stellt · stellte · hat gestellt",
+              "usageNote": "与 stehen 构成位置/方向对立。",
+              "tags": [
+                "collocation"
+              ]
+            },
+            {
+              "term": "setzen",
+              "pos": "可分动词",
+              "meaning": "使坐下；设定",
+              "collocation": "支配：Akkusativ + Ort；搭配：ein Ziel setzen；Prioritäten setzen；sich setzen",
+              "example": "Wir setzen uns für bessere Lernbedingungen ein.",
+              "translation": "我们致力于改善学习条件。",
+              "forms": "setzt · setzte · hat gesetzt",
+              "usageNote": "sich einsetzen für + A 是重要搭配。",
+              "tags": [
+                "collocation",
+                "separable"
+              ]
+            },
+            {
+              "term": "legen",
+              "pos": "动词",
+              "meaning": "平放；把重点放在",
+              "collocation": "支配：Akkusativ + Ort；搭配：Wert legen auf + A；den Schwerpunkt legen auf + A",
+              "example": "Der Kurs legt großen Wert auf praktische Übungen.",
+              "translation": "课程非常重视实践练习。",
+              "forms": "legt · legte · hat gelegt",
+              "usageNote": "与 liegen 区分。",
+              "tags": [
+                "collocation"
+              ]
+            },
+            {
+              "term": "geben",
+              "pos": "动词",
+              "meaning": "给；存在",
+              "collocation": "支配：Dativ + Akkusativ；搭配：es gibt + A；jemandem Recht geben",
+              "example": "Es gibt mehrere Möglichkeiten, den Satz umzuschreiben.",
+              "translation": "有多种方法可以改写这个句子。",
+              "forms": "gibt · gab · hat gegeben",
+              "usageNote": "es gibt 后接第四格。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            },
+            {
+              "term": "nehmen",
+              "pos": "动词",
+              "meaning": "拿；乘坐；花费",
+              "collocation": "支配：Akkusativ；搭配：teilnehmen an + D；Rücksicht nehmen auf + A；in Anspruch nehmen",
+              "example": "Viele Studierende nehmen an dem Seminar teil.",
+              "translation": "许多学生参加这门研讨课。",
+              "forms": "nimmt · nahm · hat genommen",
+              "usageNote": "可分动词及固定搭配特别重要。",
+              "tags": [
+                "irregular",
+                "collocation"
+              ]
+            },
+            {
+              "term": "bringen",
+              "pos": "动词",
+              "meaning": "带来；导致",
+              "collocation": "支配：Dativ + Akkusativ；搭配：zu Ende bringen；in Gefahr bringen；jemandem etwas bringen",
+              "example": "Die neue Methode bringt deutliche Vorteile.",
+              "translation": "新方法带来了明显优势。",
+              "forms": "bringt · brachte · hat gebracht",
+              "usageNote": "混合变化动词。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "tragen",
+              "pos": "动词",
+              "meaning": "携带；穿；承担",
+              "collocation": "支配：Akkusativ；搭配：Verantwortung tragen；Kosten tragen；Kleidung tragen",
+              "example": "Die Universität trägt die Kosten des Projekts.",
+              "translation": "大学承担该项目的费用。",
+              "forms": "trägt · trug · hat getragen",
+              "usageNote": "抽象搭配在阅读与写作中常见。",
+              "tags": [
+                "irregular",
+                "collocation"
+              ]
+            },
+            {
+              "term": "finden",
+              "pos": "可分动词",
+              "meaning": "找到；认为",
+              "collocation": "支配：Akkusativ / dass-Satz；搭配：eine Lösung finden；stattfinden；etwas gut finden",
+              "example": "Die Veranstaltung findet am Freitag statt.",
+              "translation": "活动于星期五举行。",
+              "forms": "findet · fand · hat gefunden",
+              "usageNote": "stattfinden 为可分动词。",
+              "tags": [
+                "irregular",
+                "separable"
+              ]
+            }
+          ]
         },
         {
-          "id": "core-verbs",
-          "label": "基础动词",
-          "sampleWords": ["machen", "werden", "nehmen", "geben", "finden", "brauchen"],
-          "usageFocus": "高频动词变位、可分动词、完成时和常见句型。"
+          "id": "verb-thinking",
+          "label": "思考、表达与使用",
+          "usageFocus": "理解、说明、描述、记忆和工具使用。",
+          "entries": [
+            {
+              "term": "wissen",
+              "pos": "动词",
+              "meaning": "知道",
+              "collocation": "支配：dass-/wo-/wie-Satz；搭配：Bescheid wissen über + A",
+              "example": "Niemand weiß, ob sich die Lage verbessert.",
+              "translation": "没有人知道情况是否会改善。",
+              "forms": "weiß · wusste · hat gewusst",
+              "usageNote": "与 kennen 区分：wissen 接事实。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "kennen",
+              "pos": "动词",
+              "meaning": "认识；熟悉",
+              "collocation": "支配：Akkusativ；搭配：jemanden gut kennen；sich auskennen mit/in",
+              "example": "Sie kennt die wichtigsten Regeln der Wortstellung.",
+              "translation": "她熟悉最重要的语序规则。",
+              "forms": "kennt · kannte · hat gekannt",
+              "usageNote": "kennen 接人或事物。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "denken",
+              "pos": "动词",
+              "meaning": "思考；认为",
+              "collocation": "支配：an + A；über + A；搭配：an etwas denken；über etwas nachdenken",
+              "example": "Beim Schreiben muss man an die Verbposition denken.",
+              "translation": "写作时必须想到动词位置。",
+              "forms": "denkt · dachte · hat gedacht",
+              "usageNote": "denken an 与 nachdenken über 区分。",
+              "tags": [
+                "irregular",
+                "rection"
+              ]
+            },
+            {
+              "term": "glauben",
+              "pos": "动词",
+              "meaning": "相信；认为",
+              "collocation": "支配：Dativ；an + A；dass-Satz；搭配：jemandem glauben；an etwas glauben",
+              "example": "Ich glaube, dass diese Erklärung verständlich ist.",
+              "translation": "我认为这个解释容易理解。",
+              "forms": "glaubt · glaubte · hat geglaubt",
+              "usageNote": "jemandem glauben 使用第三格。",
+              "tags": [
+                "dative",
+                "rection"
+              ]
+            },
+            {
+              "term": "meinen",
+              "pos": "动词",
+              "meaning": "认为；意指",
+              "collocation": "支配：Akkusativ / dass-Satz；搭配：damit meinen；der Meinung sein",
+              "example": "Was meinen Sie mit diesem Begriff?",
+              "translation": "您用这个概念指什么？",
+              "forms": "meint · meinte · hat gemeint",
+              "usageNote": "常用于澄清含义。",
+              "tags": [
+                "communication"
+              ]
+            },
+            {
+              "term": "verstehen",
+              "pos": "动词",
+              "meaning": "理解",
+              "collocation": "支配：Akkusativ；搭配：unter etwas verstehen；sich verstehen mit",
+              "example": "Unter Nachhaltigkeit versteht man einen verantwortlichen Umgang mit Ressourcen.",
+              "translation": "可持续性是指负责任地利用资源。",
+              "forms": "versteht · verstand · hat verstanden",
+              "usageNote": "unter X verstehen 是定义句型。",
+              "tags": [
+                "irregular",
+                "definition"
+              ]
+            },
+            {
+              "term": "erklären",
+              "pos": "动词",
+              "meaning": "解释；宣布",
+              "collocation": "支配：Dativ + Akkusativ；für + A；搭配：jemandem etwas erklären；etwas für wichtig erklären",
+              "example": "Der Dozent erklärt den Studierenden die Regel.",
+              "translation": "讲师向学生解释这条规则。",
+              "forms": "erklärt · erklärte · hat erklärt",
+              "usageNote": "双宾语结构。",
+              "tags": [
+                "dative"
+              ]
+            },
+            {
+              "term": "beschreiben",
+              "pos": "动词",
+              "meaning": "描述",
+              "collocation": "支配：Akkusativ；搭配：eine Entwicklung beschreiben；genau beschreiben",
+              "example": "Die Grafik beschreibt die Entwicklung der Preise.",
+              "translation": "图表描述了价格的发展。",
+              "forms": "beschreibt · beschrieb · hat beschrieben",
+              "usageNote": "写作与图表描述高频。",
+              "tags": [
+                "irregular",
+                "writing"
+              ]
+            },
+            {
+              "term": "nennen",
+              "pos": "动词",
+              "meaning": "称为；列举",
+              "collocation": "支配：Akkusativ + Akkusativ；搭配：Gründe nennen；jemanden einen Experten nennen",
+              "example": "Nennen Sie zwei Vorteile dieser Maßnahme.",
+              "translation": "请列举这项措施的两个优点。",
+              "forms": "nennt · nannte · hat genannt",
+              "usageNote": "可接双第四格。",
+              "tags": [
+                "irregular",
+                "exam_instruction"
+              ]
+            },
+            {
+              "term": "bedeuten",
+              "pos": "动词",
+              "meaning": "意味着",
+              "collocation": "支配：Akkusativ / dass-Satz；搭配：für jemanden viel bedeuten",
+              "example": "Ein höherer Preis bedeutet nicht automatisch bessere Qualität.",
+              "translation": "更高的价格并不自动意味着更好的质量。",
+              "forms": "bedeutet · bedeutete · hat bedeutet",
+              "usageNote": "用于解释因果或定义。",
+              "tags": [
+                "definition"
+              ]
+            },
+            {
+              "term": "erinnern",
+              "pos": "反身动词",
+              "meaning": "提醒；使想起",
+              "collocation": "支配：Akkusativ + an + A；sich an + A；搭配：sich an etwas erinnern；jemanden an etwas erinnern",
+              "example": "Ich erinnere mich noch gut an meinen ersten Deutschkurs.",
+              "translation": "我仍清楚记得第一堂德语课。",
+              "forms": "erinnert · erinnerte · hat erinnert",
+              "usageNote": "反身形式支配 an + 第四格。",
+              "tags": [
+                "reflexive",
+                "rection"
+              ]
+            },
+            {
+              "term": "vergessen",
+              "pos": "动词",
+              "meaning": "忘记",
+              "collocation": "支配：Akkusativ / zu + Infinitiv；搭配：etwas vergessen；vergessen zu tun",
+              "example": "Vergessen Sie nicht, den Artikel mitzuschreiben.",
+              "translation": "不要忘记把冠词一起写下来。",
+              "forms": "vergisst · vergaß · hat vergessen",
+              "usageNote": "可接 zu 不定式。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "brauchen",
+              "pos": "动词",
+              "meaning": "需要",
+              "collocation": "支配：Akkusativ / nicht zu + Infinitiv；搭配：Zeit brauchen；nicht zu tun brauchen",
+              "example": "Du brauchst die Aufgabe nicht noch einmal zu machen.",
+              "translation": "你不必再做一遍这道题。",
+              "forms": "braucht · brauchte · hat gebraucht",
+              "usageNote": "否定形式可接 zu 不定式，表示“不必”。",
+              "tags": [
+                "grammar"
+              ]
+            },
+            {
+              "term": "benutzen",
+              "pos": "动词",
+              "meaning": "使用",
+              "collocation": "支配：Akkusativ；搭配：ein Wörterbuch benutzen",
+              "example": "Bei der Prüfung darf man kein Wörterbuch benutzen.",
+              "translation": "考试时不允许使用词典。",
+              "forms": "benutzt · benutzte · hat benutzt",
+              "usageNote": "与 verwenden 近义。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "verwenden",
+              "pos": "动词",
+              "meaning": "使用；采用",
+              "collocation": "支配：Akkusativ；für + A；搭配：ein Wort verwenden；für etwas verwendet werden",
+              "example": "Dieses Wort wird vor allem in formellen Texten verwendet.",
+              "translation": "这个词主要用于正式文本。",
+              "forms": "verwendet · verwendete · hat verwendet",
+              "usageNote": "被动态常见。",
+              "tags": [
+                "usage"
+              ]
+            }
+          ]
         },
         {
-          "id": "sentence-tools",
-          "label": "句子工具",
-          "sampleWords": ["weil", "wenn", "dass", "deshalb", "zuerst", "danach"],
-          "usageFocus": "原因、条件、顺序和基础从句。"
+          "id": "verb-process",
+          "label": "过程、计划与学习",
+          "usageFocus": "开始结束、准备计划、完成目标和能力提升。",
+          "entries": [
+            {
+              "term": "anfangen",
+              "pos": "可分动词",
+              "meaning": "开始",
+              "collocation": "支配：mit + D；zu + Infinitiv；搭配：mit der Arbeit anfangen；anfangen zu lernen",
+              "example": "Wir fangen mit einer kurzen Wiederholung an.",
+              "translation": "我们从简短复习开始。",
+              "forms": "fängt an · fing an · hat angefangen",
+              "usageNote": "可分动词。",
+              "tags": [
+                "irregular",
+                "separable"
+              ]
+            },
+            {
+              "term": "beginnen",
+              "pos": "动词",
+              "meaning": "开始",
+              "collocation": "支配：mit + D；zu + Infinitiv；搭配：mit etwas beginnen",
+              "example": "Der Text beginnt mit einem konkreten Beispiel.",
+              "translation": "文章以一个具体例子开头。",
+              "forms": "beginnt · begann · hat begonnen",
+              "usageNote": "不可分动词。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "aufhören",
+              "pos": "可分动词",
+              "meaning": "停止",
+              "collocation": "支配：mit + D；zu + Infinitiv；搭配：mit dem Rauchen aufhören",
+              "example": "Er hat aufgehört, jeden Satz wörtlich zu übersetzen.",
+              "translation": "他不再逐字翻译每个句子。",
+              "forms": "hört auf · hörte auf · hat aufgehört",
+              "usageNote": "可分动词。",
+              "tags": [
+                "separable"
+              ]
+            },
+            {
+              "term": "dauern",
+              "pos": "动词",
+              "meaning": "持续",
+              "collocation": "支配：Zeitangabe；搭配：eine Stunde dauern",
+              "example": "Die schriftliche Prüfung dauert mehrere Stunden.",
+              "translation": "笔试持续数小时。",
+              "forms": "dauert · dauerte · hat gedauert",
+              "usageNote": "主语通常为事件。",
+              "tags": [
+                "time"
+              ]
+            },
+            {
+              "term": "stattfinden",
+              "pos": "可分动词",
+              "meaning": "举行；发生",
+              "collocation": "支配：Zeit/Ort；搭配：am Montag stattfinden",
+              "example": "Die Prüfung findet jedes Jahr im Juni statt.",
+              "translation": "考试每年六月举行。",
+              "forms": "findet statt · fand statt · hat stattgefunden",
+              "usageNote": "不可与 werden 搭配成“举行”。",
+              "tags": [
+                "separable"
+              ]
+            },
+            {
+              "term": "planen",
+              "pos": "动词",
+              "meaning": "计划",
+              "collocation": "支配：Akkusativ / zu + Infinitiv；搭配：eine Reise planen；planen zu tun",
+              "example": "Die Gruppe plant, das Projekt im Herbst abzuschließen.",
+              "translation": "小组计划在秋季完成项目。",
+              "forms": "plant · plante · hat geplant",
+              "usageNote": "可接 zu 不定式。",
+              "tags": [
+                "planning"
+              ]
+            },
+            {
+              "term": "vorbereiten",
+              "pos": "反身动词",
+              "meaning": "准备",
+              "collocation": "支配：Akkusativ；sich auf + A；搭配：sich auf die Prüfung vorbereiten",
+              "example": "Sie bereitet sich gründlich auf die Prüfung vor.",
+              "translation": "她认真准备考试。",
+              "forms": "bereitet vor · bereitete vor · hat vorbereitet",
+              "usageNote": "反身形式支配 auf + 第四格。",
+              "tags": [
+                "reflexive",
+                "separable"
+              ]
+            },
+            {
+              "term": "entscheiden",
+              "pos": "反身动词",
+              "meaning": "决定",
+              "collocation": "支配：sich für/gegen + A；über + A；搭配：eine Entscheidung treffen；sich dafür entscheiden",
+              "example": "Er hat sich für ein Auslandssemester entschieden.",
+              "translation": "他决定去国外学习一个学期。",
+              "forms": "entscheidet · entschied · hat entschieden",
+              "usageNote": "反身结构高频。",
+              "tags": [
+                "irregular",
+                "reflexive"
+              ]
+            },
+            {
+              "term": "versuchen",
+              "pos": "动词",
+              "meaning": "尝试",
+              "collocation": "支配：zu + Infinitiv；搭配：etwas versuchen；versuchen zu tun",
+              "example": "Versuchen Sie, den Satz ohne Wörterbuch zu verstehen.",
+              "translation": "请尝试不用词典理解这个句子。",
+              "forms": "versucht · versuchte · hat versucht",
+              "usageNote": "zu 不定式常用。",
+              "tags": [
+                "infinitive"
+              ]
+            },
+            {
+              "term": "schaffen",
+              "pos": "动词",
+              "meaning": "做到；创造",
+              "collocation": "支配：Akkusativ / zu + Infinitiv；搭配：eine Aufgabe schaffen；es schaffen zu tun",
+              "example": "Sie hat es geschafft, alle Aufgaben rechtzeitig zu lösen.",
+              "translation": "她成功按时完成了所有题目。",
+              "forms": "schafft · schaffte · hat geschafft",
+              "usageNote": "注意与 schaffen = 创造的发音差异不明显但语义不同。",
+              "tags": [
+                "infinitive"
+              ]
+            },
+            {
+              "term": "erreichen",
+              "pos": "动词",
+              "meaning": "达到；联系到",
+              "collocation": "支配：Akkusativ；搭配：ein Ziel erreichen；jemanden erreichen",
+              "example": "Mit regelmäßigem Training kann man deutliche Fortschritte erreichen.",
+              "translation": "通过规律训练可以取得明显进步。",
+              "forms": "erreicht · erreichte · hat erreicht",
+              "usageNote": "不用 zu 介词。",
+              "tags": [
+                "goal"
+              ]
+            },
+            {
+              "term": "gelingen",
+              "pos": "动词",
+              "meaning": "成功",
+              "collocation": "支配：Dativ；zu + Infinitiv；搭配：jemandem gelingt etwas",
+              "example": "Es ist ihr gelungen, den Fehler zu finden.",
+              "translation": "她成功找到了错误。",
+              "forms": "gelingt · gelang · ist gelungen",
+              "usageNote": "人用第三格；完成时用 sein。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            },
+            {
+              "term": "scheitern",
+              "pos": "动词",
+              "meaning": "失败",
+              "collocation": "支配：an + D；搭配：an einem Problem scheitern",
+              "example": "Der Plan ist an den hohen Kosten gescheitert.",
+              "translation": "计划因高昂成本而失败。",
+              "forms": "scheitert · scheiterte · ist gescheitert",
+              "usageNote": "支配 an + 第三格。",
+              "tags": [
+                "rection"
+              ]
+            },
+            {
+              "term": "lösen",
+              "pos": "动词",
+              "meaning": "解决；解开",
+              "collocation": "支配：Akkusativ；搭配：ein Problem lösen；eine Aufgabe lösen",
+              "example": "Diese Strategie hilft, komplexe Aufgaben schneller zu lösen.",
+              "translation": "这一策略有助于更快解决复杂任务。",
+              "forms": "löst · löste · hat gelöst",
+              "usageNote": "与 Lösung 同族。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "verbessern",
+              "pos": "反身动词",
+              "meaning": "改善",
+              "collocation": "支配：Akkusativ；sich；搭配：die Aussprache verbessern；sich deutlich verbessern",
+              "example": "Seine Aussprache hat sich deutlich verbessert.",
+              "translation": "他的发音明显改善了。",
+              "forms": "verbessert · verbesserte · hat verbessert",
+              "usageNote": "可作反身不及物。",
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "term": "entwickeln",
+              "pos": "动词",
+              "meaning": "发展；开发",
+              "collocation": "支配：Akkusativ；sich；搭配：eine Fähigkeit entwickeln；sich schnell entwickeln",
+              "example": "Die Studierenden entwickeln ihre Schreibfähigkeit durch regelmäßige Übungen.",
+              "translation": "学生通过规律练习培养写作能力。",
+              "forms": "entwickelt · entwickelte · hat entwickelt",
+              "usageNote": "可作反身动词。",
+              "tags": [
+                "academic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "verb-change-interaction",
+          "label": "变化、数据与互动",
+          "usageFocus": "趋势变化、参与协作、请求建议和规则表达。",
+          "entries": [
+            {
+              "term": "steigen",
+              "pos": "动词",
+              "meaning": "上升；登上",
+              "collocation": "支配：auf/um + A；von…auf；搭配：um zehn Prozent steigen",
+              "example": "Die Preise sind im vergangenen Jahr deutlich gestiegen.",
+              "translation": "价格去年明显上涨。",
+              "forms": "steigt · stieg · ist gestiegen",
+              "usageNote": "不及物；完成时用 sein。",
+              "tags": [
+                "irregular",
+                "data"
+              ]
+            },
+            {
+              "term": "erhöhen",
+              "pos": "动词",
+              "meaning": "提高",
+              "collocation": "支配：Akkusativ；um/auf；搭配：den Preis erhöhen；die Zahl erhöhen",
+              "example": "Das Unternehmen hat die Preise um fünf Prozent erhöht.",
+              "translation": "企业将价格提高了5%。",
+              "forms": "erhöht · erhöhte · hat erhöht",
+              "usageNote": "及物，对应 steigen。",
+              "tags": [
+                "data"
+              ]
+            },
+            {
+              "term": "sinken",
+              "pos": "动词",
+              "meaning": "下降",
+              "collocation": "支配：um/auf；搭配：um zehn Prozent sinken",
+              "example": "Die Arbeitslosigkeit ist leicht gesunken.",
+              "translation": "失业率略有下降。",
+              "forms": "sinkt · sank · ist gesunken",
+              "usageNote": "不及物；完成时用 sein。",
+              "tags": [
+                "irregular",
+                "data"
+              ]
+            },
+            {
+              "term": "verringern",
+              "pos": "动词",
+              "meaning": "减少；降低",
+              "collocation": "支配：Akkusativ；sich；搭配：Kosten verringern；das Risiko verringern",
+              "example": "Die Maßnahme soll den Energieverbrauch verringern.",
+              "translation": "这项措施旨在降低能源消耗。",
+              "forms": "verringert · verringerte · hat verringert",
+              "usageNote": "及物，对应 sinken/abnehmen。",
+              "tags": [
+                "data"
+              ]
+            },
+            {
+              "term": "entstehen",
+              "pos": "动词",
+              "meaning": "产生；形成",
+              "collocation": "支配：aus + D；durch + A；搭配：ein Problem entsteht；aus etwas entstehen",
+              "example": "Viele Missverständnisse entstehen durch unklare Formulierungen.",
+              "translation": "许多误解源于表述不清。",
+              "forms": "entsteht · entstand · ist entstanden",
+              "usageNote": "完成时用 sein。",
+              "tags": [
+                "irregular",
+                "cause"
+              ]
+            },
+            {
+              "term": "verlieren",
+              "pos": "动词",
+              "meaning": "失去；输",
+              "collocation": "支配：Akkusativ；搭配：Zeit verlieren；die Kontrolle verlieren",
+              "example": "Beim wörtlichen Übersetzen verliert der Satz oft seinen Sinn.",
+              "translation": "逐字翻译时句子常会失去意义。",
+              "forms": "verliert · verlor · hat verloren",
+              "usageNote": "强变化动词。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "gewinnen",
+              "pos": "动词",
+              "meaning": "赢得；获得",
+              "collocation": "支配：Akkusativ；an + D；搭配：Erfahrung gewinnen；an Bedeutung gewinnen",
+              "example": "Digitale Lernangebote gewinnen zunehmend an Bedeutung.",
+              "translation": "数字学习资源日益重要。",
+              "forms": "gewinnt · gewann · hat gewonnen",
+              "usageNote": "an Bedeutung gewinnen 是写作高频。",
+              "tags": [
+                "irregular",
+                "academic"
+              ]
+            },
+            {
+              "term": "teilnehmen",
+              "pos": "可分动词",
+              "meaning": "参加",
+              "collocation": "支配：an + D；搭配：an einem Kurs teilnehmen",
+              "example": "Mehr als hundert Studierende nahmen an der Umfrage teil.",
+              "translation": "一百多名学生参加了调查。",
+              "forms": "nimmt teil · nahm teil · hat teilgenommen",
+              "usageNote": "可分动词，支配第三格。",
+              "tags": [
+                "irregular",
+                "separable",
+                "rection"
+              ]
+            },
+            {
+              "term": "helfen",
+              "pos": "动词",
+              "meaning": "帮助",
+              "collocation": "支配：Dativ；bei + D；搭配：jemandem helfen；bei etwas helfen",
+              "example": "Die Tabelle hilft den Lernenden bei der Wiederholung.",
+              "translation": "表格帮助学习者复习。",
+              "forms": "hilft · half · hat geholfen",
+              "usageNote": "人用第三格。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            },
+            {
+              "term": "bitten",
+              "pos": "动词",
+              "meaning": "请求",
+              "collocation": "支配：Akkusativ + um + A；zu + Infinitiv；搭配：jemanden um Hilfe bitten",
+              "example": "Sie bat den Lehrer um eine genauere Erklärung.",
+              "translation": "她请求老师作更详细的解释。",
+              "forms": "bittet · bat · hat gebeten",
+              "usageNote": "双结构：人第四格，事物 um + 第四格。",
+              "tags": [
+                "irregular",
+                "rection"
+              ]
+            },
+            {
+              "term": "danken",
+              "pos": "动词",
+              "meaning": "感谢",
+              "collocation": "支配：Dativ；für + A；搭配：jemandem für etwas danken",
+              "example": "Ich danke Ihnen für Ihre Unterstützung.",
+              "translation": "感谢您的支持。",
+              "forms": "dankt · dankte · hat gedankt",
+              "usageNote": "人用第三格。",
+              "tags": [
+                "dative"
+              ]
+            },
+            {
+              "term": "zustimmen",
+              "pos": "可分动词",
+              "meaning": "同意",
+              "collocation": "支配：Dativ；搭配：einem Vorschlag zustimmen",
+              "example": "Die Mehrheit stimmte dem Vorschlag zu.",
+              "translation": "多数人同意该提议。",
+              "forms": "stimmt zu · stimmte zu · hat zugestimmt",
+              "usageNote": "可分动词，支配第三格。",
+              "tags": [
+                "separable",
+                "dative"
+              ]
+            },
+            {
+              "term": "ablehnen",
+              "pos": "可分动词",
+              "meaning": "拒绝",
+              "collocation": "支配：Akkusativ；搭配：einen Antrag ablehnen",
+              "example": "Die Behörde hat den Antrag abgelehnt.",
+              "translation": "主管机关拒绝了申请。",
+              "forms": "lehnt ab · lehnte ab · hat abgelehnt",
+              "usageNote": "可分动词。",
+              "tags": [
+                "separable"
+              ]
+            },
+            {
+              "term": "empfehlen",
+              "pos": "动词",
+              "meaning": "推荐；建议",
+              "collocation": "支配：Dativ + Akkusativ；zu + Infinitiv；搭配：jemandem etwas empfehlen",
+              "example": "Die Lehrerin empfiehlt den Studierenden, täglich zu lesen.",
+              "translation": "老师建议学生每天阅读。",
+              "forms": "empfiehlt · empfahl · hat empfohlen",
+              "usageNote": "人用第三格。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            },
+            {
+              "term": "erlauben",
+              "pos": "动词",
+              "meaning": "允许",
+              "collocation": "支配：Dativ + Akkusativ；zu + Infinitiv；搭配：jemandem etwas erlauben",
+              "example": "Die Regeln erlauben den Teilnehmenden keine Hilfsmittel.",
+              "translation": "规则不允许参加者使用辅助工具。",
+              "forms": "erlaubt · erlaubte · hat erlaubt",
+              "usageNote": "人用第三格。",
+              "tags": [
+                "dative"
+              ]
+            },
+            {
+              "term": "verbieten",
+              "pos": "动词",
+              "meaning": "禁止",
+              "collocation": "支配：Dativ + Akkusativ；zu + Infinitiv；搭配：jemandem etwas verbieten",
+              "example": "Der Arzt hat ihm das Rauchen verboten.",
+              "translation": "医生禁止他吸烟。",
+              "forms": "verbietet · verbot · hat verboten",
+              "usageNote": "人用第三格。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "verb-academic",
+          "label": "反应与学术表达",
+          "usageFocus": "态度反应、论证、比较、归纳和正式表达。",
+          "entries": [
+            {
+              "term": "sich freuen",
+              "pos": "反身动词",
+              "meaning": "高兴；期待",
+              "collocation": "支配：über + A（已发生）/ auf + A（将来）；搭配：sich über etwas freuen；sich auf etwas freuen",
+              "example": "Ich freue mich auf die Reise und über deine Nachricht.",
+              "translation": "我期待旅行，也为你的消息感到高兴。",
+              "forms": "freut sich · freute sich · hat sich gefreut",
+              "usageNote": "区分 auf 与 über。",
+              "tags": [
+                "reflexive",
+                "rection"
+              ]
+            },
+            {
+              "term": "sich interessieren",
+              "pos": "反身动词",
+              "meaning": "对……感兴趣",
+              "collocation": "支配：für + A；搭配：sich für Politik interessieren",
+              "example": "Viele junge Leute interessieren sich für Umweltschutz.",
+              "translation": "许多年轻人关心环境保护。",
+              "forms": "interessiert sich · interessierte sich · hat sich interessiert",
+              "usageNote": "反身动词，für + 第四格。",
+              "tags": [
+                "reflexive",
+                "rection"
+              ]
+            },
+            {
+              "term": "gefallen",
+              "pos": "动词",
+              "meaning": "使……喜欢",
+              "collocation": "支配：Dativ；搭配：jemandem gefallen",
+              "example": "Mir gefällt die klare Struktur der Webseite.",
+              "translation": "我喜欢这个网站清楚的结构。",
+              "forms": "gefällt · gefiel · hat gefallen",
+              "usageNote": "喜欢者用第三格，事物作主语。",
+              "tags": [
+                "irregular",
+                "dative"
+              ]
+            },
+            {
+              "term": "fehlen",
+              "pos": "动词",
+              "meaning": "缺少；缺席",
+              "collocation": "支配：Dativ；搭配：jemandem fehlt etwas",
+              "example": "Dem Text fehlt ein klarer Schluss.",
+              "translation": "这篇文章缺少一个明确的结尾。",
+              "forms": "fehlt · fehlte · hat gefehlt",
+              "usageNote": "体验者用第三格。",
+              "tags": [
+                "dative"
+              ]
+            },
+            {
+              "term": "gehören",
+              "pos": "动词",
+              "meaning": "属于",
+              "collocation": "支配：Dativ；zu + D；搭配：jemandem gehören；zu etwas gehören",
+              "example": "Dieses Wörterbuch gehört meiner Mitbewohnerin.",
+              "translation": "这本词典属于我的室友。",
+              "forms": "gehört · gehörte · hat gehört",
+              "usageNote": "所属人用第三格。",
+              "tags": [
+                "dative"
+              ]
+            },
+            {
+              "term": "abhängen",
+              "pos": "可分动词",
+              "meaning": "取决于",
+              "collocation": "支配：von + D；搭配：von etwas abhängen",
+              "example": "Der Lernerfolg hängt von regelmäßiger Wiederholung ab.",
+              "translation": "学习成效取决于规律复习。",
+              "forms": "hängt ab · hing ab · hat abgehangen",
+              "usageNote": "可分动词，von + 第三格。",
+              "tags": [
+                "irregular",
+                "separable",
+                "rection"
+              ]
+            },
+            {
+              "term": "bestehen",
+              "pos": "动词",
+              "meaning": "通过；存在；由……组成",
+              "collocation": "支配：aus + D；auf + D；in + D；搭配：eine Prüfung bestehen；aus Teilen bestehen；auf etwas bestehen",
+              "example": "Die Prüfung besteht aus fünf Teilen.",
+              "translation": "考试由五部分组成。",
+              "forms": "besteht · bestand · hat bestanden",
+              "usageNote": "不同介词意义不同。",
+              "tags": [
+                "irregular",
+                "rection"
+              ]
+            },
+            {
+              "term": "führen",
+              "pos": "动词",
+              "meaning": "带领；导致",
+              "collocation": "支配：Akkusativ；zu + D；搭配：zu einem Ergebnis führen；ein Gespräch führen",
+              "example": "Unklare Regeln führen häufig zu Fehlern.",
+              "translation": "不清楚的规则经常导致错误。",
+              "forms": "führt · führte · hat geführt",
+              "usageNote": "führen zu + 第三格。",
+              "tags": [
+                "rection",
+                "academic"
+              ]
+            },
+            {
+              "term": "verursachen",
+              "pos": "动词",
+              "meaning": "造成",
+              "collocation": "支配：Akkusativ；搭配：Kosten verursachen；Probleme verursachen",
+              "example": "Der technische Fehler verursachte eine lange Verzögerung.",
+              "translation": "技术故障造成了长时间延误。",
+              "forms": "verursacht · verursachte · hat verursacht",
+              "usageNote": "及物因果动词。",
+              "tags": [
+                "cause"
+              ]
+            },
+            {
+              "term": "beeinflussen",
+              "pos": "动词",
+              "meaning": "影响",
+              "collocation": "支配：Akkusativ；搭配：eine Entwicklung beeinflussen",
+              "example": "Soziale Medien beeinflussen unser Verhalten.",
+              "translation": "社交媒体影响我们的行为。",
+              "forms": "beeinflusst · beeinflusste · hat beeinflusst",
+              "usageNote": "不用 auf 介词。",
+              "tags": [
+                "academic"
+              ]
+            },
+            {
+              "term": "betreffen",
+              "pos": "动词",
+              "meaning": "涉及",
+              "collocation": "支配：Akkusativ；搭配：jemanden direkt betreffen",
+              "example": "Die neue Regel betrifft alle Studierenden.",
+              "translation": "新规定涉及所有学生。",
+              "forms": "betrifft · betraf · hat betroffen",
+              "usageNote": "强变化动词。",
+              "tags": [
+                "irregular"
+              ]
+            },
+            {
+              "term": "handeln",
+              "pos": "动词",
+              "meaning": "行动；涉及",
+              "collocation": "支配：von + D；um + A；搭配：von etwas handeln；es handelt sich um + A",
+              "example": "Bei dem Text handelt es sich um einen Kommentar.",
+              "translation": "这篇文本是一篇评论。",
+              "forms": "handelt · handelte · hat gehandelt",
+              "usageNote": "es handelt sich um 是体裁判断高频。",
+              "tags": [
+                "rection",
+                "reading"
+              ]
+            },
+            {
+              "term": "vergleichen",
+              "pos": "动词",
+              "meaning": "比较",
+              "collocation": "支配：Akkusativ + mit + D；搭配：etwas mit etwas vergleichen",
+              "example": "Die Studie vergleicht das Lernen mit Buch und App.",
+              "translation": "研究比较了用书本和应用学习的方式。",
+              "forms": "vergleicht · verglich · hat verglichen",
+              "usageNote": "比较对象常用 mit + 第三格。",
+              "tags": [
+                "irregular",
+                "academic"
+              ]
+            },
+            {
+              "term": "unterscheiden",
+              "pos": "动词",
+              "meaning": "区分；不同",
+              "collocation": "支配：Akkusativ；zwischen + D；sich von + D；搭配：A von B unterscheiden；sich von etwas unterscheiden",
+              "example": "Man muss zwischen Ursache und Folge unterscheiden.",
+              "translation": "必须区分原因和结果。",
+              "forms": "unterscheidet · unterschied · hat unterschieden",
+              "usageNote": "主动与反身支配不同。",
+              "tags": [
+                "irregular",
+                "rection"
+              ]
+            },
+            {
+              "term": "begründen",
+              "pos": "动词",
+              "meaning": "说明理由；论证",
+              "collocation": "支配：Akkusativ；mit + D；搭配：eine Meinung begründen",
+              "example": "Begründen Sie Ihre Meinung mit zwei Argumenten.",
+              "translation": "请用两个论据说明您的观点。",
+              "forms": "begründet · begründete · hat begründet",
+              "usageNote": "写作指令词。",
+              "tags": [
+                "exam_instruction",
+                "writing"
+              ]
+            },
+            {
+              "term": "behaupten",
+              "pos": "动词",
+              "meaning": "声称",
+              "collocation": "支配：dass-Satz / Akkusativ；搭配：etwas behaupten",
+              "example": "Der Autor behauptet, dass digitale Medien das Lernen erleichtern.",
+              "translation": "作者声称数字媒体使学习更容易。",
+              "forms": "behauptet · behauptete · hat behauptet",
+              "usageNote": "转述观点常用。",
+              "tags": [
+                "reading",
+                "reporting"
+              ]
+            },
+            {
+              "term": "betonen",
+              "pos": "动词",
+              "meaning": "强调",
+              "collocation": "支配：Akkusativ / dass-Satz；搭配：die Bedeutung betonen",
+              "example": "Die Autorin betont die Bedeutung regelmäßiger Pausen.",
+              "translation": "作者强调规律休息的重要性。",
+              "forms": "betont · betonte · hat betont",
+              "usageNote": "摘要与转述高频。",
+              "tags": [
+                "reading",
+                "reporting"
+              ]
+            },
+            {
+              "term": "darstellen",
+              "pos": "可分动词",
+              "meaning": "呈现；阐述",
+              "collocation": "支配：Akkusativ；als + A；搭配：ein Problem darstellen；als Gefahr darstellen",
+              "example": "Die Grafik stellt die Ergebnisse der Umfrage dar.",
+              "translation": "图表呈现了调查结果。",
+              "forms": "stellt dar · stellte dar · hat dargestellt",
+              "usageNote": "可分动词。",
+              "tags": [
+                "separable",
+                "writing"
+              ]
+            },
+            {
+              "term": "zusammenfassen",
+              "pos": "可分动词",
+              "meaning": "总结",
+              "collocation": "支配：Akkusativ；搭配：einen Text zusammenfassen",
+              "example": "Fassen Sie die wichtigsten Aussagen kurz zusammen.",
+              "translation": "请简要总结最重要的观点。",
+              "forms": "fasst zusammen · fasste zusammen · hat zusammengefasst",
+              "usageNote": "考试指令高频。",
+              "tags": [
+                "separable",
+                "exam_instruction"
+              ]
+            },
+            {
+              "term": "berücksichtigen",
+              "pos": "动词",
+              "meaning": "考虑到",
+              "collocation": "支配：Akkusativ；搭配：einen Aspekt berücksichtigen",
+              "example": "Bei der Planung müssen wir die Kosten berücksichtigen.",
+              "translation": "规划时必须考虑成本。",
+              "forms": "berücksichtigt · berücksichtigte · hat berücksichtigt",
+              "usageNote": "不用介词。",
+              "tags": [
+                "academic"
+              ]
+            },
+            {
+              "term": "beachten",
+              "pos": "动词",
+              "meaning": "注意；遵守",
+              "collocation": "支配：Akkusativ；搭配：eine Regel beachten",
+              "example": "Beachten Sie die Wortstellung im Nebensatz.",
+              "translation": "请注意从句中的语序。",
+              "forms": "beachtet · beachtete · hat beachtet",
+              "usageNote": "考试指令高频。",
+              "tags": [
+                "exam_instruction"
+              ]
+            },
+            {
+              "term": "vermeiden",
+              "pos": "动词",
+              "meaning": "避免",
+              "collocation": "支配：Akkusativ / zu + Infinitiv；搭配：Fehler vermeiden",
+              "example": "Kurze Kontrollphasen helfen, Flüchtigkeitsfehler zu vermeiden.",
+              "translation": "短暂检查有助于避免粗心错误。",
+              "forms": "vermeidet · vermied · hat vermieden",
+              "usageNote": "强变化动词。",
+              "tags": [
+                "irregular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abstract-core",
+          "label": "核心抽象概念",
+          "usageFocus": "要求、条件、影响、措施和决定。",
+          "entries": [
+            {
+              "term": "der Anspruch",
+              "pos": "名词 · 阳性",
+              "meaning": "要求；权利；水准",
+              "collocation": "支配：auf + A；搭配：Anspruch auf etwas haben；hohe Ansprüche stellen",
+              "example": "Studierende haben Anspruch auf eine faire Bewertung.",
+              "translation": "学生有权获得公平评价。",
+              "forms": "Plural: die Ansprüche",
+              "usageNote": "不同语境可指权利或要求。",
+              "tags": [
+                "abstract",
+                "rection"
+              ]
+            },
+            {
+              "term": "die Voraussetzung",
+              "pos": "名词 · 阴性",
+              "meaning": "前提；条件",
+              "collocation": "支配：für + A；搭配：eine Voraussetzung erfüllen；unter der Voraussetzung, dass",
+              "example": "Regelmäßige Übung ist eine wichtige Voraussetzung für den Erfolg.",
+              "translation": "规律练习是成功的重要前提。",
+              "forms": "Plural: die Voraussetzungen",
+              "usageNote": "写作论证高频。",
+              "tags": [
+                "abstract",
+                "writing"
+              ]
+            },
+            {
+              "term": "der Zusammenhang",
+              "pos": "名词 · 阳性",
+              "meaning": "联系；上下文",
+              "collocation": "支配：mit + D；zwischen + D；搭配：im Zusammenhang mit；einen Zusammenhang herstellen",
+              "example": "Zwischen Schlaf und Lernleistung besteht ein enger Zusammenhang.",
+              "translation": "睡眠与学习表现之间存在密切联系。",
+              "forms": "Plural: die Zusammenhänge",
+              "usageNote": "bestehen zwischen / Zusammenhang mit。",
+              "tags": [
+                "abstract",
+                "academic"
+              ]
+            },
+            {
+              "term": "die Auswirkung",
+              "pos": "名词 · 阴性",
+              "meaning": "影响；后果",
+              "collocation": "支配：auf + A；搭配：Auswirkungen auf etwas haben",
+              "example": "Der Klimawandel hat direkte Auswirkungen auf die Landwirtschaft.",
+              "translation": "气候变化对农业有直接影响。",
+              "forms": "Plural: die Auswirkungen",
+              "usageNote": "通常用复数。",
+              "tags": [
+                "abstract",
+                "rection"
+              ]
+            },
+            {
+              "term": "der Einfluss",
+              "pos": "名词 · 阳性",
+              "meaning": "影响",
+              "collocation": "支配：auf + A；搭配：Einfluss auf etwas haben；unter dem Einfluss von",
+              "example": "Soziale Faktoren haben großen Einfluss auf das Verhalten.",
+              "translation": "社会因素对行为有很大影响。",
+              "forms": "Plural: die Einflüsse",
+              "usageNote": "与 beeinflussen 对应。",
+              "tags": [
+                "abstract",
+                "rection"
+              ]
+            },
+            {
+              "term": "die Maßnahme",
+              "pos": "名词 · 阴性",
+              "meaning": "措施",
+              "collocation": "支配：gegen/für + A；搭配：Maßnahmen ergreifen；eine Maßnahme durchführen",
+              "example": "Die Stadt ergreift Maßnahmen gegen die Luftverschmutzung.",
+              "translation": "城市采取措施治理空气污染。",
+              "forms": "Plural: die Maßnahmen",
+              "usageNote": "政策类文本高频。",
+              "tags": [
+                "politics",
+                "collocation"
+              ]
+            },
+            {
+              "term": "die Entscheidung",
+              "pos": "名词 · 阴性",
+              "meaning": "决定",
+              "collocation": "支配：über + A；für/gegen + A；搭配：eine Entscheidung treffen",
+              "example": "Die endgültige Entscheidung hängt von den Kosten ab.",
+              "translation": "最终决定取决于成本。",
+              "forms": "Plural: die Entscheidungen",
+              "usageNote": "与 entscheiden 对应。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "die Möglichkeit",
+              "pos": "名词 · 阴性",
+              "meaning": "可能性；机会",
+              "collocation": "支配：zu + D / zu + Infinitiv；搭配：die Möglichkeit haben, zu；in Betracht ziehen",
+              "example": "Die Webseite bietet die Möglichkeit, Wörter nach Themen zu filtern.",
+              "translation": "网站提供按主题筛选词汇的功能。",
+              "forms": "Plural: die Möglichkeiten",
+              "usageNote": "可接 zu 不定式。",
+              "tags": [
+                "abstract"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "study-language",
+          "label": "学习与语言",
+          "usageFocus": "能力、知识、任务、错误、结果和概念。",
+          "entries": [
+            {
+              "term": "die Fähigkeit",
+              "pos": "名词 · 阴性",
+              "meaning": "能力",
+              "collocation": "支配：zu + D / zu + Infinitiv；搭配：die Fähigkeit entwickeln；fähig sein zu",
+              "example": "Lesen verbessert die Fähigkeit, komplexe Sätze zu verstehen.",
+              "translation": "阅读提高理解复杂句子的能力。",
+              "forms": "Plural: die Fähigkeiten",
+              "usageNote": "与 fähig 对应。",
+              "tags": [
+                "education"
+              ]
+            },
+            {
+              "term": "die Erfahrung",
+              "pos": "名词 · 阴性",
+              "meaning": "经验；经历",
+              "collocation": "支配：mit + D；搭配：Erfahrung mit etwas haben；Erfahrungen sammeln",
+              "example": "Sie hat viel Erfahrung mit digitalen Lernplattformen.",
+              "translation": "她在数字学习平台方面经验丰富。",
+              "forms": "Plural: die Erfahrungen",
+              "usageNote": "可数经历与不可数经验需结合语境。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "die Kenntnis",
+              "pos": "名词 · 阴性",
+              "meaning": "知识；掌握",
+              "collocation": "支配：in + D / von + D；搭配：gute Deutschkenntnisse；Kenntnisse erwerben",
+              "example": "Für den Kurs sind grundlegende Grammatikkenntnisse erforderlich.",
+              "translation": "这门课要求具备基础语法知识。",
+              "forms": "Plural: die Kenntnisse",
+              "usageNote": "常用复数 Kenntnisse。",
+              "tags": [
+                "education"
+              ]
+            },
+            {
+              "term": "die Leistung",
+              "pos": "名词 · 阴性",
+              "meaning": "成绩；表现；功率",
+              "collocation": "支配：in + D；搭配：gute Leistungen erzielen；eine Leistung erbringen",
+              "example": "Regelmäßiger Schlaf kann die geistige Leistung verbessern.",
+              "translation": "规律睡眠可以提高认知表现。",
+              "forms": "Plural: die Leistungen",
+              "usageNote": "语境决定是成绩、贡献还是技术功率。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "der Fortschritt",
+              "pos": "名词 · 阳性",
+              "meaning": "进步",
+              "collocation": "支配：bei/in + D；搭配：Fortschritte machen",
+              "example": "Nach einigen Wochen machte sie deutliche Fortschritte beim Schreiben.",
+              "translation": "几周后她的写作取得明显进步。",
+              "forms": "Plural: die Fortschritte",
+              "usageNote": "常用复数。",
+              "tags": [
+                "education",
+                "collocation"
+              ]
+            },
+            {
+              "term": "der Fehler",
+              "pos": "名词 · 阳性",
+              "meaning": "错误",
+              "collocation": "支配：bei/in + D；搭配：einen Fehler machen；einen Fehler korrigieren",
+              "example": "Der häufigste Fehler liegt in der falschen Kasuswahl.",
+              "translation": "最常见的错误是格选择错误。",
+              "forms": "Plural: die Fehler",
+              "usageNote": "与 falsch、fehlen 区分。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "die Aufgabe",
+              "pos": "名词 · 阴性",
+              "meaning": "任务；题目",
+              "collocation": "支配：zu + D；搭配：eine Aufgabe lösen；die Aufgabe haben, zu",
+              "example": "Die letzte Aufgabe verlangt eine Satzumformung.",
+              "translation": "最后一道题要求进行句子转换。",
+              "forms": "Plural: die Aufgaben",
+              "usageNote": "既可指职责也可指试题。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "die Lösung",
+              "pos": "名词 · 阴性",
+              "meaning": "解决办法；答案；溶液",
+              "collocation": "支配：für + A；搭配：eine Lösung finden；eine Aufgabe lösen",
+              "example": "Für dieses Problem gibt es mehrere mögliche Lösungen.",
+              "translation": "这个问题有多种可能的解决方案。",
+              "forms": "Plural: die Lösungen",
+              "usageNote": "多义词。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "die Bedeutung",
+              "pos": "名词 · 阴性",
+              "meaning": "意义；重要性；词义",
+              "collocation": "支配：für + A；搭配：von großer Bedeutung sein；an Bedeutung gewinnen",
+              "example": "Digitale Medien gewinnen im Unterricht an Bedeutung.",
+              "translation": "数字媒体在教学中越来越重要。",
+              "forms": "Plural: die Bedeutungen",
+              "usageNote": "词汇题与论述写作都高频。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "der Begriff",
+              "pos": "名词 · 阳性",
+              "meaning": "概念；术语",
+              "collocation": "支配：für + A；搭配：einen Begriff definieren；unter einem Begriff verstehen",
+              "example": "Der Begriff bezeichnet eine bestimmte grammatische Kategorie.",
+              "translation": "该术语指某一特定语法范畴。",
+              "forms": "Plural: die Begriffe",
+              "usageNote": "定义类文本高频。",
+              "tags": [
+                "academic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "argument-writing",
+          "label": "论证与写作",
+          "usageFocus": "观点、论据、因果、比较和正式事务表达。",
+          "entries": [
+            {
+              "term": "die Meinung",
+              "pos": "名词 · 阴性",
+              "meaning": "观点",
+              "collocation": "支配：zu + D / über + A；搭配：meiner Meinung nach；eine Meinung vertreten",
+              "example": "Meiner Meinung nach sollte der Kurs mehr Übungen enthalten.",
+              "translation": "我认为课程应包含更多练习。",
+              "forms": "Plural: die Meinungen",
+              "usageNote": "meiner Meinung nach 不加冠词。",
+              "tags": [
+                "writing"
+              ]
+            },
+            {
+              "term": "die Ansicht",
+              "pos": "名词 · 阴性",
+              "meaning": "观点；看法",
+              "collocation": "支配：über + A；搭配：der Ansicht sein, dass；meines Erachtens",
+              "example": "Viele Experten sind der Ansicht, dass frühes Feedback hilfreich ist.",
+              "translation": "许多专家认为早期反馈有帮助。",
+              "forms": "Plural: die Ansichten",
+              "usageNote": "der Ansicht sein 后接第二格形式。",
+              "tags": [
+                "writing"
+              ]
+            },
+            {
+              "term": "das Argument",
+              "pos": "名词 · 中性",
+              "meaning": "论据",
+              "collocation": "支配：für/gegen + A；搭配：ein Argument nennen；mit einem Argument begründen",
+              "example": "Ein wichtiges Argument für digitale Übungen ist ihre Flexibilität.",
+              "translation": "支持数字练习的重要论据之一是其灵活性。",
+              "forms": "Plural: die Argumente",
+              "usageNote": "写作主体段核心词。",
+              "tags": [
+                "writing"
+              ]
+            },
+            {
+              "term": "der Vorteil",
+              "pos": "名词 · 阳性",
+              "meaning": "优点",
+              "collocation": "支配：von + D / für + A；搭配：den Vorteil haben, dass；Vor- und Nachteile",
+              "example": "Ein Vorteil der App besteht darin, dass sie jederzeit verfügbar ist.",
+              "translation": "这款应用的优点是随时可用。",
+              "forms": "Plural: die Vorteile",
+              "usageNote": "bestehen darin, dass 是高频句型。",
+              "tags": [
+                "writing"
+              ]
+            },
+            {
+              "term": "der Nachteil",
+              "pos": "名词 · 阳性",
+              "meaning": "缺点",
+              "collocation": "支配：von + D / für + A；搭配：den Nachteil haben, dass",
+              "example": "Ein möglicher Nachteil ist die Ablenkung durch das Smartphone.",
+              "translation": "一个可能的缺点是手机造成的分心。",
+              "forms": "Plural: die Nachteile",
+              "usageNote": "与 Vorteil 成对。",
+              "tags": [
+                "writing"
+              ]
+            },
+            {
+              "term": "die Ursache",
+              "pos": "名词 · 阴性",
+              "meaning": "原因",
+              "collocation": "支配：für + A；搭配：die Ursache für etwas；eine Ursache feststellen",
+              "example": "Zeitdruck ist eine häufige Ursache für Flüchtigkeitsfehler.",
+              "translation": "时间压力是粗心错误的常见原因。",
+              "forms": "Plural: die Ursachen",
+              "usageNote": "与 Grund、Anlass 区分。",
+              "tags": [
+                "cause"
+              ]
+            },
+            {
+              "term": "die Folge",
+              "pos": "名词 · 阴性",
+              "meaning": "后果；一集；顺序",
+              "collocation": "支配：von + D / für + A；搭配：zur Folge haben；in der Folge",
+              "example": "Schlafmangel kann Konzentrationsprobleme zur Folge haben.",
+              "translation": "睡眠不足可能导致注意力问题。",
+              "forms": "Plural: die Folgen",
+              "usageNote": "zur Folge haben 是基础阶段高频搭配。",
+              "tags": [
+                "cause",
+                "collocation"
+              ]
+            },
+            {
+              "term": "die Bedingung",
+              "pos": "名词 · 阴性",
+              "meaning": "条件",
+              "collocation": "支配：für + A；搭配：unter der Bedingung, dass；Bedingungen erfüllen",
+              "example": "Die Förderung wird nur unter bestimmten Bedingungen gewährt.",
+              "translation": "资助只在特定条件下提供。",
+              "forms": "Plural: die Bedingungen",
+              "usageNote": "与 Voraussetzung 部分重合。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "die Verantwortung",
+              "pos": "名词 · 阴性",
+              "meaning": "责任",
+              "collocation": "支配：für + A；搭配：Verantwortung übernehmen；Verantwortung tragen",
+              "example": "Jeder trägt Verantwortung für den eigenen Lernprozess.",
+              "translation": "每个人都对自己的学习过程负责。",
+              "forms": "Plural: die Verantwortungen（少用）",
+              "usageNote": "通常作不可数名词。",
+              "tags": [
+                "society",
+                "collocation"
+              ]
+            },
+            {
+              "term": "die Unterstützung",
+              "pos": "名词 · 阴性",
+              "meaning": "支持；帮助",
+              "collocation": "支配：bei + D / durch + A；搭配：Unterstützung erhalten；jemanden unterstützen",
+              "example": "Ohne technische Unterstützung konnte das Problem nicht gelöst werden.",
+              "translation": "没有技术支持，问题无法解决。",
+              "forms": "Plural: die Unterstützungen（少用）",
+              "usageNote": "通常不可数。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "die Teilnahme",
+              "pos": "名词 · 阴性",
+              "meaning": "参加",
+              "collocation": "支配：an + D；搭配：Teilnahme an einem Kurs",
+              "example": "Die Teilnahme an der Übung ist freiwillig.",
+              "translation": "参加练习是自愿的。",
+              "forms": "Plural: die Teilnahmen（少用）",
+              "usageNote": "与 teilnehmen an + D 对应。",
+              "tags": [
+                "rection"
+              ]
+            },
+            {
+              "term": "die Bewerbung",
+              "pos": "名词 · 阴性",
+              "meaning": "申请；求职材料",
+              "collocation": "支配：um + A / bei + D；搭配：eine Bewerbung schreiben；sich um eine Stelle bewerben",
+              "example": "Die Bewerbung muss bis Ende Mai eingereicht werden.",
+              "translation": "申请材料必须在五月底前提交。",
+              "forms": "Plural: die Bewerbungen",
+              "usageNote": "工作与学习申请高频。",
+              "tags": [
+                "work"
+              ]
+            },
+            {
+              "term": "der Antrag",
+              "pos": "名词 · 阳性",
+              "meaning": "申请；提案",
+              "collocation": "支配：auf + A；搭配：einen Antrag stellen；einen Antrag genehmigen",
+              "example": "Der Student hat einen Antrag auf Verlängerung gestellt.",
+              "translation": "学生提交了延期申请。",
+              "forms": "Plural: die Anträge",
+              "usageNote": "stellen 搭配。",
+              "tags": [
+                "administration"
+              ]
+            },
+            {
+              "term": "die Prüfung",
+              "pos": "名词 · 阴性",
+              "meaning": "考试；检查",
+              "collocation": "支配：in + D；搭配：eine Prüfung ablegen；eine Prüfung bestehen",
+              "example": "Die Studierenden legen am Ende des Semesters eine Prüfung ab.",
+              "translation": "学生在学期末参加考试。",
+              "forms": "Plural: die Prüfungen",
+              "usageNote": "ablegen/bestehen/durchfallen 搭配。",
+              "tags": [
+                "exam"
+              ]
+            },
+            {
+              "term": "das Ergebnis",
+              "pos": "名词 · 中性",
+              "meaning": "结果",
+              "collocation": "支配：von + D；搭配：zu einem Ergebnis kommen；ein Ergebnis erzielen",
+              "example": "Die Ergebnisse der Umfrage werden in einer Grafik dargestellt.",
+              "translation": "调查结果以图表形式呈现。",
+              "forms": "Plural: die Ergebnisse",
+              "usageNote": "数据描述高频。",
+              "tags": [
+                "academic"
+              ]
+            },
+            {
+              "term": "die Entwicklung",
+              "pos": "名词 · 阴性",
+              "meaning": "发展；变化趋势",
+              "collocation": "支配：von + D；搭配：eine Entwicklung zeigen；sich entwickeln",
+              "example": "Die Grafik zeigt die Entwicklung der Studierendenzahlen.",
+              "translation": "图表显示学生人数的变化趋势。",
+              "forms": "Plural: die Entwicklungen",
+              "usageNote": "图表作文高频。",
+              "tags": [
+                "data"
+              ]
+            },
+            {
+              "term": "der Unterschied",
+              "pos": "名词 · 阳性",
+              "meaning": "区别",
+              "collocation": "支配：zwischen + D；zu + D；搭配：einen Unterschied machen；sich unterscheiden von",
+              "example": "Zwischen den beiden Textsorten gibt es deutliche Unterschiede.",
+              "translation": "两种文本类型之间存在明显差异。",
+              "forms": "Plural: die Unterschiede",
+              "usageNote": "zwischen 后通常复数第三格。",
+              "tags": [
+                "comparison"
+              ]
+            },
+            {
+              "term": "der Vergleich",
+              "pos": "名词 · 阳性",
+              "meaning": "比较",
+              "collocation": "支配：mit + D；搭配：im Vergleich zu + D；einen Vergleich ziehen",
+              "example": "Im Vergleich zum Vorjahr sind die Kosten gesunken.",
+              "translation": "与上一年相比，成本下降了。",
+              "forms": "Plural: die Vergleiche",
+              "usageNote": "数据描述高频。",
+              "tags": [
+                "comparison"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "society-life",
+          "label": "社会、环境与健康",
+          "usageFocus": "社会关系、公共生活、环境与健康话题。",
+          "entries": [
+            {
+              "term": "die Beziehung",
+              "pos": "名词 · 阴性",
+              "meaning": "关系",
+              "collocation": "支配：zu + D；zwischen + D；搭配：eine Beziehung zu；in Beziehung stehen zu",
+              "example": "Der Text untersucht die Beziehung zwischen Sprache und Denken.",
+              "translation": "文章研究语言与思维的关系。",
+              "forms": "Plural: die Beziehungen",
+              "usageNote": "可指人际关系或抽象联系。",
+              "tags": [
+                "abstract"
+              ]
+            },
+            {
+              "term": "die Öffentlichkeit",
+              "pos": "名词 · 阴性",
+              "meaning": "公众；公共领域",
+              "collocation": "支配：in + D；搭配：in der Öffentlichkeit；die Öffentlichkeit informieren",
+              "example": "Das Thema wird in der Öffentlichkeit kontrovers diskutiert.",
+              "translation": "该话题在公众中引发争议。",
+              "forms": "Plural: —",
+              "usageNote": "不可数集合名词。",
+              "tags": [
+                "society"
+              ]
+            },
+            {
+              "term": "die Gesellschaft",
+              "pos": "名词 · 阴性",
+              "meaning": "社会；公司",
+              "collocation": "支配：in + D；搭配：in der Gesellschaft；eine Gesellschaft gründen",
+              "example": "Digitale Medien verändern die Kommunikation in der Gesellschaft.",
+              "translation": "数字媒体改变社会中的交流。",
+              "forms": "Plural: die Gesellschaften",
+              "usageNote": "语境决定“社会”或“公司”。",
+              "tags": [
+                "society"
+              ]
+            },
+            {
+              "term": "die Umwelt",
+              "pos": "名词 · 阴性",
+              "meaning": "环境",
+              "collocation": "支配：für + A；搭配：die Umwelt schützen；umweltfreundlich",
+              "example": "Öffentliche Verkehrsmittel können die Umwelt entlasten.",
+              "translation": "公共交通可以减轻环境负担。",
+              "forms": "Plural: —",
+              "usageNote": "环境主题高频。",
+              "tags": [
+                "environment"
+              ]
+            },
+            {
+              "term": "die Gesundheit",
+              "pos": "名词 · 阴性",
+              "meaning": "健康",
+              "collocation": "支配：für + A；搭配：gesundheitliche Folgen；der Gesundheit schaden",
+              "example": "Regelmäßige Bewegung ist gut für die Gesundheit.",
+              "translation": "规律运动有益健康。",
+              "forms": "Plural: —",
+              "usageNote": "通常不可数。",
+              "tags": [
+                "health"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text-connectors",
+          "label": "语篇连接",
+          "usageFocus": "因果、让步、目的、并列和对照关系。",
+          "entries": [
+            {
+              "term": "obwohl",
+              "pos": "连词",
+              "meaning": "尽管",
+              "collocation": "支配：Nebensatz: Verb am Ende；搭配：obwohl + Nebensatz",
+              "example": "Obwohl die Aufgabe schwierig war, löste sie sie richtig.",
+              "translation": "尽管题目很难，她还是答对了。",
+              "forms": "",
+              "usageNote": "从属连词，不能与 aber 在同一主从结构中机械重复。",
+              "tags": [
+                "connector",
+                "word_order"
+              ]
+            },
+            {
+              "term": "während",
+              "pos": "连词",
+              "meaning": "当……期间；而",
+              "collocation": "支配：Nebensatz: Verb am Ende；搭配：während + Nebensatz",
+              "example": "Während die Zahl der Autos steigt, nimmt die Nutzung des Fahrrads ab.",
+              "translation": "汽车数量上升，而自行车使用率下降。",
+              "forms": "",
+              "usageNote": "既可表示时间，也可表示对比。",
+              "tags": [
+                "connector",
+                "comparison"
+              ]
+            },
+            {
+              "term": "indem",
+              "pos": "连词",
+              "meaning": "通过……方式",
+              "collocation": "支配：Nebensatz: Verb am Ende；搭配：indem + Nebensatz",
+              "example": "Man verbessert den Wortschatz, indem man regelmäßig liest.",
+              "translation": "通过规律阅读可以提高词汇量。",
+              "forms": "",
+              "usageNote": "回答“通过什么方式”。",
+              "tags": [
+                "connector",
+                "method"
+              ]
+            },
+            {
+              "term": "sodass",
+              "pos": "连词",
+              "meaning": "以至于；因此",
+              "collocation": "支配：Nebensatz: Verb am Ende；搭配：so …, dass；sodass",
+              "example": "Der Zug hatte Verspätung, sodass wir den Anschluss verpassten.",
+              "translation": "火车晚点，因此我们错过了换乘。",
+              "forms": "",
+              "usageNote": "表示结果。",
+              "tags": [
+                "connector",
+                "result"
+              ]
+            },
+            {
+              "term": "damit",
+              "pos": "连词",
+              "meaning": "为了；以便",
+              "collocation": "支配：Nebensatz: Verb am Ende；搭配：damit + Nebensatz",
+              "example": "Ich schreibe die Artikel mit, damit ich das Genus besser lerne.",
+              "translation": "我把冠词一起记下，以便更好掌握词性。",
+              "forms": "",
+              "usageNote": "主从句主语不同时优先用 damit。",
+              "tags": [
+                "connector",
+                "purpose"
+              ]
+            },
+            {
+              "term": "denn",
+              "pos": "连词",
+              "meaning": "因为",
+              "collocation": "支配：Hauptsatz: Verb an Position 2；搭配：Hauptsatz, denn Hauptsatz",
+              "example": "Ich bleibe zu Hause, denn ich bin krank.",
+              "translation": "我待在家，因为我生病了。",
+              "forms": "",
+              "usageNote": "与 weil 的语序不同。",
+              "tags": [
+                "connector",
+                "word_order"
+              ]
+            },
+            {
+              "term": "deshalb",
+              "pos": "副词",
+              "meaning": "因此",
+              "collocation": "支配：Position 1 möglich; Verb Position 2；搭配：deshalb + Inversion",
+              "example": "Ich bin krank; deshalb bleibe ich zu Hause.",
+              "translation": "我生病了，因此待在家。",
+              "forms": "",
+              "usageNote": "连接副词，占据句首位置时主谓倒装。",
+              "tags": [
+                "connector",
+                "word_order"
+              ]
+            },
+            {
+              "term": "dennoch",
+              "pos": "副词",
+              "meaning": "尽管如此",
+              "collocation": "支配：Position 1 möglich; Verb Position 2；搭配：dennoch + Inversion",
+              "example": "Die Aufgabe war schwierig; dennoch löste sie sie richtig.",
+              "translation": "题目很难，但她仍答对了。",
+              "forms": "",
+              "usageNote": "书面语常用。",
+              "tags": [
+                "connector",
+                "contrast"
+              ]
+            },
+            {
+              "term": "einerseits … andererseits",
+              "pos": "关联连接词",
+              "meaning": "一方面……另一方面",
+              "collocation": "支配：zwei parallele Aussagen；搭配：einerseits … andererseits",
+              "example": "Einerseits spart die App Zeit, andererseits kann sie ablenken.",
+              "translation": "一方面应用节省时间，另一方面也可能让人分心。",
+              "forms": "",
+              "usageNote": "适合议论文平衡论证。",
+              "tags": [
+                "connector",
+                "writing"
+              ]
+            },
+            {
+              "term": "sowohl … als auch",
+              "pos": "关联连接词",
+              "meaning": "既……又……",
+              "collocation": "支配：parallele Satzglieder；搭配：sowohl A als auch B",
+              "example": "Die Prüfung testet sowohl Grammatik als auch Wortschatz.",
+              "translation": "考试既测试语法也测试词汇。",
+              "forms": "",
+              "usageNote": "连接同类成分。",
+              "tags": [
+                "connector",
+                "coordination"
+              ]
+            },
+            {
+              "term": "weder … noch",
+              "pos": "关联连接词",
+              "meaning": "既不……也不……",
+              "collocation": "支配：parallele Satzglieder；搭配：weder A noch B",
+              "example": "Der Text ist weder klar gegliedert noch sprachlich korrekt.",
+              "translation": "文章既结构不清，语言也不正确。",
+              "forms": "",
+              "usageNote": "整体否定，不再额外加 nicht。",
+              "tags": [
+                "connector",
+                "negation"
+              ]
+            },
+            {
+              "term": "nicht nur … sondern auch",
+              "pos": "关联连接词",
+              "meaning": "不仅……而且……",
+              "collocation": "支配：parallele Satzglieder；搭配：nicht nur A, sondern auch B",
+              "example": "Regelmäßiges Lesen verbessert nicht nur den Wortschatz, sondern auch das Sprachgefühl.",
+              "translation": "规律阅读不仅提高词汇量，也增强语感。",
+              "forms": "",
+              "usageNote": "注意平行结构。",
+              "tags": [
+                "connector",
+                "coordination"
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "advanced",
       "label": "大三大四",
-      "positioning": "进入阅读、写作、翻译和论述表达，强调抽象名词、学术动词、连接副词和固定搭配。",
+      "positioning": "面向大学高年级德语学习，围绕论证、学术阅读、翻译表达、社会议题和正式语体建立高阶词汇网络。",
       "themes": [
         {
-          "id": "academic-expression",
-          "label": "学术表达",
-          "sampleWords": ["die These", "das Argument", "der Zusammenhang", "die Entwicklung", "die Voraussetzung", "die Auswirkung"],
-          "usageFocus": "论点、结构、因果、发展和影响。"
+          "id": "argumentation",
+          "label": "论证与观点",
+          "usageFocus": "提出观点、回应异议并完成有依据的论证。",
+          "entries": [
+            {
+              "term": "die Auffassung",
+              "pos": "名词",
+              "meaning": "观点；见解",
+              "collocation": "eine Auffassung vertreten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Behauptung",
+              "pos": "名词",
+              "meaning": "断言；主张",
+              "collocation": "eine Behauptung aufstellen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Begründung",
+              "pos": "名词",
+              "meaning": "理由；论证",
+              "collocation": "eine überzeugende Begründung liefern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Einwand",
+              "pos": "名词",
+              "meaning": "异议；反对理由",
+              "collocation": "einen Einwand erheben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Schlussfolgerung",
+              "pos": "名词",
+              "meaning": "结论；推论",
+              "collocation": "eine Schlussfolgerung ziehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "nachvollziehbar",
+              "pos": "形容词",
+              "meaning": "可理解的；合乎逻辑的",
+              "collocation": "eine nachvollziehbare Erklärung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "stichhaltig",
+              "pos": "形容词",
+              "meaning": "有说服力的；站得住脚的",
+              "collocation": "ein stichhaltiges Argument",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "widerlegen",
+              "pos": "动词",
+              "meaning": "驳斥；证明为错",
+              "collocation": "eine These widerlegen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "einräumen",
+              "pos": "动词",
+              "meaning": "承认；让步",
+              "collocation": "Fehler einräumen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "hervorheben",
+              "pos": "动词",
+              "meaning": "突出；强调",
+              "collocation": "die Bedeutung hervorheben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "inwiefern",
+              "pos": "副词",
+              "meaning": "在何种程度上",
+              "collocation": "prüfen inwiefern etwas gilt",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "unter der Voraussetzung",
+              "pos": "固定表达",
+              "meaning": "在……前提下",
+              "collocation": "unter der Voraussetzung dass",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
         },
         {
-          "id": "abstract-verbs",
-          "label": "抽象动词",
-          "sampleWords": ["begründen", "vergleichen", "darstellen", "betonen", "ermöglichen", "beeinflussen"],
-          "usageFocus": "阅读理解、摘要复述、写作和翻译。"
+          "id": "logical-connectors",
+          "label": "逻辑连接",
+          "usageFocus": "组织因果、对照、让步、递进和结论关系。",
+          "entries": [
+            {
+              "term": "infolgedessen",
+              "pos": "副词",
+              "meaning": "因此；结果是",
+              "collocation": "infolgedessen stieg die Zahl",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "demgegenüber",
+              "pos": "副词",
+              "meaning": "与此相对",
+              "collocation": "demgegenüber steht",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "gleichwohl",
+              "pos": "副词",
+              "meaning": "尽管如此",
+              "collocation": "gleichwohl bleibt die Frage offen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "demnach",
+              "pos": "副词",
+              "meaning": "据此；因此",
+              "collocation": "demnach ist davon auszugehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "zumal",
+              "pos": "连词",
+              "meaning": "尤其因为",
+              "collocation": "zumal die Kosten steigen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "sofern",
+              "pos": "连词",
+              "meaning": "只要；如果",
+              "collocation": "sofern keine Einwände bestehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "wohingegen",
+              "pos": "连词",
+              "meaning": "而；相反",
+              "collocation": "wohingegen andere ablehnen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "wenngleich",
+              "pos": "连词",
+              "meaning": "虽然；尽管",
+              "collocation": "wenngleich nur teilweise",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "geschweige denn",
+              "pos": "固定表达",
+              "meaning": "更不用说",
+              "collocation": "kaum lesen geschweige denn schreiben",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "nicht zuletzt",
+              "pos": "固定表达",
+              "meaning": "尤其；也很重要的是",
+              "collocation": "nicht zuletzt wegen der Kosten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "im Gegensatz dazu",
+              "pos": "固定表达",
+              "meaning": "与此相反",
+              "collocation": "im Gegensatz dazu zeigt sich",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "unterdessen",
+              "pos": "副词",
+              "meaning": "与此同时",
+              "collocation": "unterdessen hat sich die Lage verändert",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
         },
         {
-          "id": "reading-connectors",
-          "label": "阅读高频连接",
-          "sampleWords": ["allerdings", "dennoch", "hingegen", "außerdem", "inzwischen", "folglich"],
-          "usageFocus": "转折、递进、对比、时间推进和结论。"
+          "id": "society-demography",
+          "label": "社会与人口",
+          "usageFocus": "讨论人口结构、公共生活和社会变化。",
+          "entries": [
+            {
+              "term": "der demografische Wandel",
+              "pos": "名词",
+              "meaning": "人口结构变化",
+              "collocation": "Folgen des demografischen Wandels",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Alterung",
+              "pos": "名词",
+              "meaning": "老龄化",
+              "collocation": "die Alterung der Gesellschaft",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Geburtenrate",
+              "pos": "名词",
+              "meaning": "出生率",
+              "collocation": "eine sinkende Geburtenrate",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Fachkräftemangel",
+              "pos": "名词",
+              "meaning": "专业人才短缺",
+              "collocation": "dem Fachkräftemangel entgegenwirken",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Chancengleichheit",
+              "pos": "名词",
+              "meaning": "机会平等",
+              "collocation": "Chancengleichheit fördern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die soziale Ungleichheit",
+              "pos": "名词",
+              "meaning": "社会不平等",
+              "collocation": "soziale Ungleichheit verringern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Teilhabe",
+              "pos": "名词",
+              "meaning": "参与；共享",
+              "collocation": "gesellschaftliche Teilhabe ermöglichen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Vereinbarkeit",
+              "pos": "名词",
+              "meaning": "兼顾；相容",
+              "collocation": "Vereinbarkeit von Familie und Beruf",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Lebensunterhalt",
+              "pos": "名词",
+              "meaning": "生活费用；生计",
+              "collocation": "den Lebensunterhalt bestreiten",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "bedürftig",
+              "pos": "形容词",
+              "meaning": "需要救助的",
+              "collocation": "bedürftige Haushalte unterstützen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "benachteiligen",
+              "pos": "动词",
+              "meaning": "使处于不利地位",
+              "collocation": "niemanden benachteiligen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "auf etwas angewiesen sein",
+              "pos": "固定表达",
+              "meaning": "依赖；需要",
+              "collocation": "auf Unterstützung angewiesen sein",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
         },
         {
-          "id": "translation-patterns",
-          "label": "翻译表达",
-          "sampleWords": ["im Hinblick auf", "zur Folge haben", "eine Rolle spielen", "in Frage kommen", "Wert legen auf", "abhängen von"],
-          "usageFocus": "中文到德语表达转换、搭配和句子重组。"
+          "id": "migration-integration",
+          "label": "移民与融合",
+          "usageFocus": "阅读并表达迁移、融入和多元社会议题。",
+          "entries": [
+            {
+              "term": "die Zuwanderung",
+              "pos": "名词",
+              "meaning": "移民流入",
+              "collocation": "Zuwanderung steuern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Integration",
+              "pos": "名词",
+              "meaning": "融入；整合",
+              "collocation": "Integration erleichtern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Herkunft",
+              "pos": "名词",
+              "meaning": "来源；出身",
+              "collocation": "unabhängig von der Herkunft",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Aufenthaltserlaubnis",
+              "pos": "名词",
+              "meaning": "居留许可",
+              "collocation": "eine Aufenthaltserlaubnis beantragen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Einbürgerung",
+              "pos": "名词",
+              "meaning": "入籍",
+              "collocation": "Voraussetzungen für die Einbürgerung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Mehrsprachigkeit",
+              "pos": "名词",
+              "meaning": "多语能力",
+              "collocation": "Mehrsprachigkeit als Ressource",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Zugehörigkeit",
+              "pos": "名词",
+              "meaning": "归属感；隶属",
+              "collocation": "ein Gefühl der Zugehörigkeit",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Ausgrenzung",
+              "pos": "名词",
+              "meaning": "排斥；边缘化",
+              "collocation": "soziale Ausgrenzung verhindern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "sich einleben",
+              "pos": "动词",
+              "meaning": "适应新环境",
+              "collocation": "sich in einer neuen Umgebung einleben",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "vermitteln",
+              "pos": "动词",
+              "meaning": "调解；传递",
+              "collocation": "zwischen Kulturen vermitteln",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "vielfältig",
+              "pos": "形容词",
+              "meaning": "多样的",
+              "collocation": "eine vielfältige Gesellschaft",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "vorurteilsfrei",
+              "pos": "形容词",
+              "meaning": "无偏见的",
+              "collocation": "vorurteilsfrei miteinander umgehen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "education-research",
+          "label": "教育与科研",
+          "usageFocus": "用于高校学习、研究方法和学术评价。",
+          "entries": [
+            {
+              "term": "die Bildungsgerechtigkeit",
+              "pos": "名词",
+              "meaning": "教育公平",
+              "collocation": "mehr Bildungsgerechtigkeit schaffen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Hochschulzulassung",
+              "pos": "名词",
+              "meaning": "大学入学资格",
+              "collocation": "Voraussetzungen der Hochschulzulassung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Studiengang",
+              "pos": "名词",
+              "meaning": "专业；学位项目",
+              "collocation": "einen Studiengang wählen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Studienleistung",
+              "pos": "名词",
+              "meaning": "学业成果",
+              "collocation": "Studienleistungen anerkennen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Erkenntnis",
+              "pos": "名词",
+              "meaning": "认识；研究发现",
+              "collocation": "zu neuen Erkenntnissen gelangen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Untersuchung",
+              "pos": "名词",
+              "meaning": "研究；调查",
+              "collocation": "eine Untersuchung durchführen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Stichprobe",
+              "pos": "名词",
+              "meaning": "样本",
+              "collocation": "eine repräsentative Stichprobe",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Auswertung",
+              "pos": "名词",
+              "meaning": "分析；评估",
+              "collocation": "Daten auswerten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "belegen",
+              "pos": "动词",
+              "meaning": "证明；提供证据",
+              "collocation": "eine These empirisch belegen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "erheben",
+              "pos": "动词",
+              "meaning": "收集；调查",
+              "collocation": "Daten erheben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "aussagekräftig",
+              "pos": "形容词",
+              "meaning": "有说明力的",
+              "collocation": "aussagekräftige Ergebnisse",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "wissenschaftlich fundiert",
+              "pos": "固定表达",
+              "meaning": "有科学依据的",
+              "collocation": "wissenschaftlich fundierte Aussagen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "economy-work",
+          "label": "经济与就业",
+          "usageFocus": "理解就业市场、企业活动和经济变化。",
+          "entries": [
+            {
+              "term": "die Konjunktur",
+              "pos": "名词",
+              "meaning": "经济景气",
+              "collocation": "die Konjunktur beleben",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Wettbewerb",
+              "pos": "名词",
+              "meaning": "竞争",
+              "collocation": "im Wettbewerb stehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Wertschöpfung",
+              "pos": "名词",
+              "meaning": "价值创造",
+              "collocation": "regionale Wertschöpfung erhöhen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Beschäftigung",
+              "pos": "名词",
+              "meaning": "就业；雇佣",
+              "collocation": "Beschäftigung sichern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Arbeitsbedingungen",
+              "pos": "名词",
+              "meaning": "工作条件",
+              "collocation": "Arbeitsbedingungen verbessern",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Vergütung",
+              "pos": "名词",
+              "meaning": "报酬",
+              "collocation": "eine angemessene Vergütung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Qualifikation",
+              "pos": "名词",
+              "meaning": "资格；能力",
+              "collocation": "berufliche Qualifikationen erwerben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Umsatz",
+              "pos": "名词",
+              "meaning": "营业额",
+              "collocation": "den Umsatz steigern",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "investieren",
+              "pos": "动词",
+              "meaning": "投资",
+              "collocation": "in neue Technologien investieren",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "erwirtschaften",
+              "pos": "动词",
+              "meaning": "创造收益",
+              "collocation": "Gewinne erwirtschaften",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "rentabel",
+              "pos": "形容词",
+              "meaning": "有盈利能力的",
+              "collocation": "wirtschaftlich rentabel sein",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "in Kraft treten",
+              "pos": "固定表达",
+              "meaning": "生效",
+              "collocation": "eine Regelung tritt in Kraft",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "politics-institutions",
+          "label": "政治与制度",
+          "usageFocus": "识别制度、选举、治理和公共决策表达。",
+          "entries": [
+            {
+              "term": "die Gesetzgebung",
+              "pos": "名词",
+              "meaning": "立法",
+              "collocation": "an der Gesetzgebung mitwirken",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Zuständigkeit",
+              "pos": "名词",
+              "meaning": "职权；管辖",
+              "collocation": "in die Zuständigkeit fallen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Verfassung",
+              "pos": "名词",
+              "meaning": "宪法",
+              "collocation": "in der Verfassung verankert sein",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Mehrheit",
+              "pos": "名词",
+              "meaning": "多数",
+              "collocation": "eine Mehrheit erzielen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Opposition",
+              "pos": "名词",
+              "meaning": "反对党",
+              "collocation": "der Opposition angehören",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Entwurf",
+              "pos": "名词",
+              "meaning": "草案；设计",
+              "collocation": "ein Gesetzesentwurf",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Abstimmung",
+              "pos": "名词",
+              "meaning": "表决；投票",
+              "collocation": "zur Abstimmung stellen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verabschieden",
+              "pos": "动词",
+              "meaning": "通过；决议",
+              "collocation": "ein Gesetz verabschieden",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "umsetzen",
+              "pos": "动词",
+              "meaning": "落实；实施",
+              "collocation": "politische Maßnahmen umsetzen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "befürworten",
+              "pos": "动词",
+              "meaning": "支持；赞成",
+              "collocation": "einen Vorschlag befürworten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "ablehnen",
+              "pos": "动词",
+              "meaning": "拒绝；反对",
+              "collocation": "einen Antrag ablehnen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "Rechenschaft ablegen",
+              "pos": "固定表达",
+              "meaning": "作出说明；承担问责",
+              "collocation": "öffentlich Rechenschaft ablegen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "law-rights",
+          "label": "法律与权利",
+          "usageFocus": "处理权利、义务、规定和法律论述。",
+          "entries": [
+            {
+              "term": "der Anspruch",
+              "pos": "名词",
+              "meaning": "权利；请求权",
+              "collocation": "Anspruch auf Unterstützung haben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Verpflichtung",
+              "pos": "名词",
+              "meaning": "义务",
+              "collocation": "eine Verpflichtung eingehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Verstoß",
+              "pos": "名词",
+              "meaning": "违反",
+              "collocation": "ein Verstoß gegen das Gesetz",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Vorschrift",
+              "pos": "名词",
+              "meaning": "规定；法规",
+              "collocation": "geltende Vorschriften beachten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Haftung",
+              "pos": "名词",
+              "meaning": "责任；赔偿责任",
+              "collocation": "für Schäden haften",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Genehmigung",
+              "pos": "名词",
+              "meaning": "批准；许可",
+              "collocation": "eine Genehmigung erteilen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "rechtmäßig",
+              "pos": "形容词",
+              "meaning": "合法的",
+              "collocation": "rechtmäßig handeln",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verbindlich",
+              "pos": "形容词",
+              "meaning": "有约束力的",
+              "collocation": "eine verbindliche Regelung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "gewährleisten",
+              "pos": "动词",
+              "meaning": "保障；确保",
+              "collocation": "Sicherheit gewährleisten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "widerrufen",
+              "pos": "动词",
+              "meaning": "撤销",
+              "collocation": "eine Einwilligung widerrufen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "in Anspruch nehmen",
+              "pos": "固定表达",
+              "meaning": "使用；请求",
+              "collocation": "eine Leistung in Anspruch nehmen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "zur Verantwortung ziehen",
+              "pos": "固定表达",
+              "meaning": "追究责任",
+              "collocation": "jemanden zur Verantwortung ziehen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "environment-climate",
+          "label": "环境与气候",
+          "usageFocus": "讨论资源、气候政策和可持续发展。",
+          "entries": [
+            {
+              "term": "der Klimawandel",
+              "pos": "名词",
+              "meaning": "气候变化",
+              "collocation": "Folgen des Klimawandels",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Erderwärmung",
+              "pos": "名词",
+              "meaning": "全球变暖",
+              "collocation": "die Erderwärmung begrenzen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Emission",
+              "pos": "名词",
+              "meaning": "排放",
+              "collocation": "Emissionen senken",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Ressource",
+              "pos": "名词",
+              "meaning": "资源",
+              "collocation": "Ressourcen schonen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Artenvielfalt",
+              "pos": "名词",
+              "meaning": "生物多样性",
+              "collocation": "Artenvielfalt erhalten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Energiewende",
+              "pos": "名词",
+              "meaning": "能源转型",
+              "collocation": "die Energiewende beschleunigen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Nachhaltigkeit",
+              "pos": "名词",
+              "meaning": "可持续性",
+              "collocation": "ökologische Nachhaltigkeit",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "erneuerbar",
+              "pos": "形容词",
+              "meaning": "可再生的",
+              "collocation": "erneuerbare Energien",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "umweltverträglich",
+              "pos": "形容词",
+              "meaning": "环境友好的",
+              "collocation": "umweltverträgliche Produktion",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verbrauchen",
+              "pos": "动词",
+              "meaning": "消耗",
+              "collocation": "weniger Energie verbrauchen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "vermeiden",
+              "pos": "动词",
+              "meaning": "避免",
+              "collocation": "Abfälle vermeiden",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "Maßnahmen ergreifen",
+              "pos": "固定表达",
+              "meaning": "采取措施",
+              "collocation": "wirksame Maßnahmen ergreifen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "technology-innovation",
+          "label": "科技与创新",
+          "usageFocus": "表达数字化、研发和技术影响。",
+          "entries": [
+            {
+              "term": "die Digitalisierung",
+              "pos": "名词",
+              "meaning": "数字化",
+              "collocation": "die Digitalisierung vorantreiben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die künstliche Intelligenz",
+              "pos": "名词",
+              "meaning": "人工智能",
+              "collocation": "Einsatz künstlicher Intelligenz",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Datenschutz",
+              "pos": "名词",
+              "meaning": "数据保护",
+              "collocation": "Datenschutz gewährleisten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Datensicherheit",
+              "pos": "名词",
+              "meaning": "数据安全",
+              "collocation": "Datensicherheit erhöhen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Fortschritt",
+              "pos": "名词",
+              "meaning": "进步；进展",
+              "collocation": "technischer Fortschritt",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Anwendung",
+              "pos": "名词",
+              "meaning": "应用",
+              "collocation": "praktische Anwendung finden",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Zugang",
+              "pos": "名词",
+              "meaning": "获取渠道；使用权",
+              "collocation": "Zugang zu Informationen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "automatisieren",
+              "pos": "动词",
+              "meaning": "自动化",
+              "collocation": "Arbeitsabläufe automatisieren",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "entwickeln",
+              "pos": "动词",
+              "meaning": "开发；发展",
+              "collocation": "eine neue Methode entwickeln",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "einsetzen",
+              "pos": "动词",
+              "meaning": "投入使用；运用",
+              "collocation": "Technik gezielt einsetzen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "bahnbrechend",
+              "pos": "形容词",
+              "meaning": "突破性的",
+              "collocation": "eine bahnbrechende Entdeckung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "mit etwas einhergehen",
+              "pos": "固定表达",
+              "meaning": "伴随……发生",
+              "collocation": "mit Risiken einhergehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "media-information",
+          "label": "媒体与信息",
+          "usageFocus": "判断消息来源、报道方式和信息可信度。",
+          "entries": [
+            {
+              "term": "die Berichterstattung",
+              "pos": "名词",
+              "meaning": "新闻报道",
+              "collocation": "eine ausgewogene Berichterstattung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Öffentlichkeit",
+              "pos": "名词",
+              "meaning": "公众；公共领域",
+              "collocation": "die Öffentlichkeit informieren",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Glaubwürdigkeit",
+              "pos": "名词",
+              "meaning": "可信度",
+              "collocation": "an Glaubwürdigkeit verlieren",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Reichweite",
+              "pos": "名词",
+              "meaning": "覆盖范围；传播量",
+              "collocation": "eine hohe Reichweite erzielen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Quelle",
+              "pos": "名词",
+              "meaning": "来源；资料",
+              "collocation": "eine Quelle überprüfen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Desinformation",
+              "pos": "名词",
+              "meaning": "虚假信息",
+              "collocation": "Desinformation erkennen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "veröffentlichen",
+              "pos": "动词",
+              "meaning": "发布；出版",
+              "collocation": "einen Bericht veröffentlichen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verbreiten",
+              "pos": "动词",
+              "meaning": "传播；散布",
+              "collocation": "Informationen verbreiten",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "darstellen",
+              "pos": "动词",
+              "meaning": "呈现；描述",
+              "collocation": "einen Sachverhalt darstellen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verzerren",
+              "pos": "动词",
+              "meaning": "歪曲",
+              "collocation": "die Wahrnehmung verzerren",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "umstritten",
+              "pos": "形容词",
+              "meaning": "有争议的",
+              "collocation": "eine umstrittene Aussage",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "Stellung nehmen",
+              "pos": "固定表达",
+              "meaning": "表态",
+              "collocation": "zu einem Vorwurf Stellung nehmen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "health-life",
+          "label": "健康与生活",
+          "usageFocus": "理解健康、生活方式和公共卫生主题。",
+          "entries": [
+            {
+              "term": "die Versorgung",
+              "pos": "名词",
+              "meaning": "供给；医疗保障",
+              "collocation": "medizinische Versorgung sicherstellen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Prävention",
+              "pos": "名词",
+              "meaning": "预防",
+              "collocation": "Prävention stärken",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Belastung",
+              "pos": "名词",
+              "meaning": "负担；压力",
+              "collocation": "psychische Belastungen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "das Wohlbefinden",
+              "pos": "名词",
+              "meaning": "健康感；幸福感",
+              "collocation": "das Wohlbefinden steigern",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Erkrankung",
+              "pos": "名词",
+              "meaning": "疾病",
+              "collocation": "chronische Erkrankungen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Lebenserwartung",
+              "pos": "名词",
+              "meaning": "预期寿命",
+              "collocation": "eine steigende Lebenserwartung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "behandeln",
+              "pos": "动词",
+              "meaning": "治疗；处理",
+              "collocation": "eine Krankheit behandeln",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "vorbeugen",
+              "pos": "动词",
+              "meaning": "预防",
+              "collocation": "einer Erkrankung vorbeugen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "bewältigen",
+              "pos": "动词",
+              "meaning": "应对；克服",
+              "collocation": "Stress bewältigen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "beeinträchtigen",
+              "pos": "动词",
+              "meaning": "损害；妨碍",
+              "collocation": "die Gesundheit beeinträchtigen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "flächendeckend",
+              "pos": "形容词",
+              "meaning": "全面覆盖的",
+              "collocation": "flächendeckende Versorgung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "zur Verfügung stehen",
+              "pos": "固定表达",
+              "meaning": "可供使用",
+              "collocation": "ausreichend Personal steht zur Verfügung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "culture-literature",
+          "label": "文化与文学",
+          "usageFocus": "描述作品、文化现象和文本分析。",
+          "entries": [
+            {
+              "term": "das Kulturerbe",
+              "pos": "名词",
+              "meaning": "文化遗产",
+              "collocation": "kulturelles Erbe bewahren",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Erinnerungskultur",
+              "pos": "名词",
+              "meaning": "纪念文化；历史记忆文化",
+              "collocation": "deutsche Erinnerungskultur",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Aufklärung",
+              "pos": "名词",
+              "meaning": "启蒙运动",
+              "collocation": "Ideen der Aufklärung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Epoche",
+              "pos": "名词",
+              "meaning": "时代；文学时期",
+              "collocation": "einer Epoche zuordnen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Erzählperspektive",
+              "pos": "名词",
+              "meaning": "叙述视角",
+              "collocation": "die Erzählperspektive wechseln",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "das Motiv",
+              "pos": "名词",
+              "meaning": "主题动机；意象",
+              "collocation": "ein wiederkehrendes Motiv",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Darstellung",
+              "pos": "名词",
+              "meaning": "描写；呈现",
+              "collocation": "die Darstellung einer Figur",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "interpretieren",
+              "pos": "动词",
+              "meaning": "解释；阐释",
+              "collocation": "einen Text interpretieren",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "verkörpern",
+              "pos": "动词",
+              "meaning": "体现；象征",
+              "collocation": "bestimmte Werte verkörpern",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "sich auseinandersetzen mit",
+              "pos": "固定表达",
+              "meaning": "深入探讨",
+              "collocation": "mit einem Thema auseinandersetzen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "zeitgenössisch",
+              "pos": "形容词",
+              "meaning": "当代的",
+              "collocation": "zeitgenössische Literatur",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "prägend",
+              "pos": "形容词",
+              "meaning": "有深远影响的",
+              "collocation": "eine prägende Erfahrung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "intercultural",
+          "label": "跨文化交际",
+          "usageFocus": "处理文化差异、误解和沟通策略。",
+          "entries": [
+            {
+              "term": "das Missverständnis",
+              "pos": "名词",
+              "meaning": "误解",
+              "collocation": "Missverständnisse vermeiden",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Wahrnehmung",
+              "pos": "名词",
+              "meaning": "感知；认知",
+              "collocation": "unterschiedliche Wahrnehmungen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Wertvorstellung",
+              "pos": "名词",
+              "meaning": "价值观",
+              "collocation": "gesellschaftliche Wertvorstellungen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Umgangsform",
+              "pos": "名词",
+              "meaning": "交往方式；礼仪",
+              "collocation": "übliche Umgangsformen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Fremdwahrnehmung",
+              "pos": "名词",
+              "meaning": "他者认知",
+              "collocation": "Selbst- und Fremdwahrnehmung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Anpassung",
+              "pos": "名词",
+              "meaning": "适应；调整",
+              "collocation": "kulturelle Anpassung",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "berücksichtigen",
+              "pos": "动词",
+              "meaning": "考虑；顾及",
+              "collocation": "kulturelle Unterschiede berücksichtigen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "missverstehen",
+              "pos": "动词",
+              "meaning": "误解",
+              "collocation": "eine Äußerung missverstehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "sensibilisieren",
+              "pos": "动词",
+              "meaning": "提高意识；使敏感",
+              "collocation": "für Unterschiede sensibilisieren",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "angemessen",
+              "pos": "形容词",
+              "meaning": "恰当的",
+              "collocation": "der Situation angemessen reagieren",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "mehrdeutig",
+              "pos": "形容词",
+              "meaning": "多义的；含糊的",
+              "collocation": "eine mehrdeutige Formulierung",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "Rücksicht nehmen auf",
+              "pos": "固定表达",
+              "meaning": "顾及；体谅",
+              "collocation": "auf andere Rücksicht nehmen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
+        },
+        {
+          "id": "translation-language",
+          "label": "翻译与语言",
+          "usageFocus": "用于翻译分析、语体判断和语言比较。",
+          "entries": [
+            {
+              "term": "die Entsprechung",
+              "pos": "名词",
+              "meaning": "对应表达",
+              "collocation": "eine passende Entsprechung finden",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Mehrdeutigkeit",
+              "pos": "名词",
+              "meaning": "歧义；多义性",
+              "collocation": "lexikalische Mehrdeutigkeit",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "der Bedeutungsumfang",
+              "pos": "名词",
+              "meaning": "词义范围",
+              "collocation": "unterschiedlicher Bedeutungsumfang",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Wortwahl",
+              "pos": "名词",
+              "meaning": "选词",
+              "collocation": "eine präzise Wortwahl",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Satzstruktur",
+              "pos": "名词",
+              "meaning": "句子结构",
+              "collocation": "eine komplexe Satzstruktur",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "die Textsorte",
+              "pos": "名词",
+              "meaning": "文本类型",
+              "collocation": "Merkmale einer Textsorte",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "sinngemäß",
+              "pos": "Adjektiv/Adverb",
+              "meaning": "按意义的；意译地",
+              "collocation": "sinngemäß übersetzen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "wortwörtlich",
+              "pos": "Adjektiv/Adverb",
+              "meaning": "逐字的；直译地",
+              "collocation": "etwas wortwörtlich verstehen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "wiedergeben",
+              "pos": "动词",
+              "meaning": "转述；表达",
+              "collocation": "einen Inhalt präzise wiedergeben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "umschreiben",
+              "pos": "动词",
+              "meaning": "换一种说法；改写",
+              "collocation": "einen Begriff umschreiben",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "zusammenfassen",
+              "pos": "动词",
+              "meaning": "概括；总结",
+              "collocation": "einen Text zusammenfassen",
+              "example": "",
+              "translation": "",
+              "priority": "P0",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            },
+            {
+              "term": "auf den Punkt bringen",
+              "pos": "固定表达",
+              "meaning": "简明扼要表达",
+              "collocation": "eine Aussage auf den Punkt bringen",
+              "example": "",
+              "translation": "",
+              "priority": "P1",
+              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+            }
+          ]
         }
       ]
     }
