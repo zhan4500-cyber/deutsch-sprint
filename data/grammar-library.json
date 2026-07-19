@@ -1,71 +1,29 @@
 {
-  "name": "Deutsch Sprint Grammar Library",
-  "copyrightNote": "原创语法索引与讲解结构。参考高校课程大纲和公开 DaF 语法体系，不复制教材解释、题目或例句。",
-  "structure": [
+  "name":"Deutsch Sprint Grammar Library",
+  "copyrightNote":"原创语法索引、讲解、例句与练习。参考高校课程范围和公开 DaF 语法体系，不复制教材解释或题目。",
+  "structure":[
     {
-      "id": "morphology-foundation",
-      "label": "A 形态基础",
-      "stage": "大一大二",
-      "topics": [
-        {
-          "title": "冠词与名词性数格",
-          "unitShape": ["规则一句话", "原创例句", "常见错误", "格变化练习"],
-          "commonMistake": "把第三格和第四格只当成中文宾语理解，忽略动词和介词支配。"
-        },
-        {
-          "title": "动词现在时与完成时",
-          "unitShape": ["变位表", "句框位置", "时间状语", "改写练习"],
-          "commonMistake": "完成时助动词 haben/sein 选择不稳，第二分词位置错误。"
-        },
-        {
-          "title": "形容词词尾变化",
-          "unitShape": ["三套变化", "名词短语拆解", "对比例句", "填空练习"],
-          "commonMistake": "只背词尾表，不先判断冠词是否已经表达格和性。"
-        }
+      "id":"morphology-foundation","label":"A 形态基础","stage":"大一大二",
+      "topics":[
+        {"id":"articles-cases","title":"冠词与名词性数格","rule":"先确认名词的性和数，再根据它在句中的作用选择格；动词和介词常常直接决定格。","examples":["Der Student hilft dem Freund.｜helfen 支配第三格","Wir besuchen den neuen Kurs.｜besuchen 后接第四格"],"unitShape":["冠词信号","格的作用","动词支配","介词支配"],"commonMistake":"只按中文的“给谁、看谁”猜格，忽略 helfen、danken、besuchen 等动词自身的支配。","exercise":{"question":"选择正确形式：Ich helfe ___ Studentin.","options":["der","die","den"],"answer":0,"explanation":"helfen 支配第三格；die Studentin 的第三格是 der Studentin。"}},
+        {"id":"present-perfect","title":"动词现在时与完成时","rule":"口语叙述过去事件时常用 haben/sein + 第二分词；表示位置变化或状态改变的不及物动词常与 sein 搭配。","examples":["Ich habe den Text gelesen.｜lesen 与 haben","Sie ist nach Berlin gefahren.｜fahren 表示位置变化时与 sein"],"unitShape":["现在时变位","助动词选择","第二分词","句框位置"],"commonMistake":"选错 haben/sein，或把第二分词放在句中而不是句末。","exercise":{"question":"选择正确句子：","options":["Er ist nach Hause gegangen.","Er hat nach Hause gegangen.","Er ist gegangen nach Hause."],"answer":0,"explanation":"gehen 表示位置变化，完成时用 sein；第二分词 gegangen 位于句末。"}},
+        {"id":"adjective-endings","title":"形容词词尾变化","rule":"冠词提供的性、数、格信息越完整，形容词承担的信息越少。先看冠词，再看格，最后决定词尾。","examples":["der gute Film｜定冠词已给出完整信息","ein guter Film｜不定冠词缺少阳性主格标记，由形容词补出"],"unitShape":["弱变化","混合变化","强变化","名词短语拆解"],"commonMistake":"直接背词尾表，却不先判断冠词是否已经表达性和格。","exercise":{"question":"选择正确形式：Ich sehe einen ___ Film.","options":["guten","gute","guter"],"answer":0,"explanation":"阳性第四格、不定冠词 einen 后，形容词使用 -en。"}}
       ]
     },
     {
-      "id": "syntax-core",
-      "label": "B 句法核心",
-      "stage": "大一大二到大三大四",
-      "topics": [
-        {
-          "title": "正语序、反语序、尾语序",
-          "unitShape": ["动词位置", "框架结构", "从句入口", "排序练习"],
-          "commonMistake": "副词或状语提前后，忘记变位动词仍然占第二位。"
-        },
-        {
-          "title": "并列连词与从属连词",
-          "unitShape": ["连词分类", "语义关系", "标点提示", "合句练习"],
-          "commonMistake": "把 denn 和 weil 的语序混用。"
-        },
-        {
-          "title": "关系从句",
-          "unitShape": ["关系代词", "先行词", "从句格判断", "长句拆解"],
-          "commonMistake": "只看先行词性数，不判断关系代词在从句里承担什么格。"
-        }
+      "id":"syntax-core","label":"B 句法核心","stage":"大一大二到大三大四",
+      "topics":[
+        {"id":"word-order","title":"正语序、反语序与尾语序","rule":"陈述主句的变位动词占第二位；其他成分放在第一位时，主语移到动词后；从属连词引导的从句把变位动词放到句末。","examples":["Heute lerne ich Deutsch.｜时间状语第一位，动词仍在第二位","..., weil ich morgen eine Prüfung habe.｜weil 从句尾语序"],"unitShape":["动词第二位","反语序","从句尾语序","句框"],"commonMistake":"把“第二位”误解为第二个单词，或状语提前后仍写成 Heute ich lerne。","exercise":{"question":"选择正确句子：","options":["Morgen fahre ich nach Köln.","Morgen ich fahre nach Köln.","Morgen ich nach Köln fahre."],"answer":0,"explanation":"Morgen 占第一位，变位动词 fahre 占第二位，主语 ich 随后。"}},
+        {"id":"conjunctions","title":"并列连词与从属连词","rule":"und、aber、denn 不改变主句语序；weil、dass、obwohl 等引导从句并把变位动词送到句末。","examples":["Ich bleibe hier, denn ich habe Zeit.｜denn 后仍是主句语序","Ich bleibe hier, weil ich Zeit habe.｜weil 后是尾语序"],"unitShape":["连词分类","逻辑关系","语序影响","标点"],"commonMistake":"把 denn 和 weil 当作完全可互换的词，忽略二者引导的语序不同。","exercise":{"question":"选择正确句子：","options":["Ich lerne, weil ich morgen eine Prüfung habe.","Ich lerne, weil habe ich morgen eine Prüfung.","Ich lerne, denn morgen eine Prüfung ich habe."],"answer":0,"explanation":"weil 引导从句，变位动词 habe 位于从句末。"}},
+        {"id":"relative-clauses","title":"关系从句","rule":"关系代词的性和数来自先行词，它的格由其在关系从句中的句法作用决定。","examples":["Das ist der Student, der hier arbeitet.｜der 在从句中作主语","Das ist der Student, dem ich helfe.｜dem 是 helfen 的第三格宾语"],"unitShape":["先行词","关系代词","从句中的格","尾语序"],"commonMistake":"只看先行词的性数，不判断关系代词在从句里承担主语、宾语还是介词宾语。","exercise":{"question":"选择正确形式：Das ist die Frau, ___ ich danke.","options":["der","die","deren"],"answer":0,"explanation":"danken 支配第三格；阴性第三格关系代词为 der。"}}
       ]
     },
     {
-      "id": "expression-advanced",
-      "label": "C 表达提升",
-      "stage": "大三大四",
-      "topics": [
-        {
-          "title": "被动态",
-          "unitShape": ["过程被动", "状态被动", "施事表达", "主动被动改写"],
-          "commonMistake": "把 werden 被动态和 werden 将来/变化含义混在一起。"
-        },
-        {
-          "title": "虚拟式",
-          "unitShape": ["间接引语", "礼貌表达", "非现实条件", "语气识别"],
-          "commonMistake": "只看形式，不判断句子是在转述、假设还是委婉表达。"
-        },
-        {
-          "title": "名词化与长难句拆解",
-          "unitShape": ["核心名词", "介词链", "定语展开", "中文转写"],
-          "commonMistake": "逐词翻译长名词短语，导致句子主干丢失。"
-        }
+      "id":"expression-advanced","label":"C 表达提升","stage":"大三大四",
+      "topics":[
+        {"id":"passive","title":"被动态","rule":"过程被动态用 werden + 第二分词，强调动作过程；状态被动态用 sein + 第二分词，强调动作完成后的状态。","examples":["Der Bericht wird geschrieben.｜报告正在被写","Der Bericht ist geschrieben.｜报告已经写好"],"unitShape":["过程被动","状态被动","施事表达","主动被动改写"],"commonMistake":"看到 werden 就判断为将来时，或混淆 wird geöffnet 与 ist geöffnet 的过程和状态。","exercise":{"question":"“门现在处于打开状态”应选：","options":["Die Tür ist geöffnet.","Die Tür wird geöffnet.","Die Tür hat geöffnet."],"answer":0,"explanation":"强调门已经打开后的状态，使用 sein + 第二分词。"}},
+        {"id":"subjunctive","title":"虚拟式","rule":"第二虚拟式常表达非现实条件、愿望和礼貌请求；许多动词在口语中用 würde + 不定式替代单一变位形式。","examples":["Wenn ich mehr Zeit hätte, würde ich öfter lesen.｜非现实条件","Könnten Sie das bitte wiederholen?｜礼貌请求"],"unitShape":["非现实条件","愿望","礼貌表达","würde 结构"],"commonMistake":"只记 würde，却忽略 hätte、wäre、könnte 等常用形式；或把假设条件当成真实条件。","exercise":{"question":"选择更礼貌的表达：","options":["Könnten Sie mir helfen?","Sie helfen mir jetzt.","Helfen Sie mich?"],"answer":0,"explanation":"Könnten Sie ...? 是常见礼貌请求；helfen 还应支配第三格 mir。"}},
+        {"id":"nominalization","title":"名词化与长难句拆解","rule":"先找变位动词和句子主干，再把长名词短语拆成核心名词、介词补足语和定语；翻译时可将名词化结构还原为动词表达。","examples":["die Verbesserung der Lernbedingungen｜核心名词 Verbesserung + 第二格补足语","Die Bedingungen werden verbessert.｜将名词化还原为动词"],"unitShape":["寻找主干","核心名词","定语层级","动词化改写"],"commonMistake":"从左到右逐词翻译长名词短语，导致核心关系丢失，中文表达也变得僵硬。","exercise":{"question":"短语 die Einführung eines neuen Systems 的核心名词是：","options":["Einführung","Systems","neuen"],"answer":0,"explanation":"核心名词是 Einführung；eines neuen Systems 是说明“引入什么”的第二格成分。"}}
       ]
     }
   ]
