@@ -26,11 +26,11 @@
             <span aria-hidden="true">⌂</span>
             今日
           </a>
-          <a class="nav-link" href="#vocab">
+          <a class="nav-link" href="#vocab-library">
             <span aria-hidden="true">◎</span>
             背词
           </a>
-          <a class="nav-link" href="#grammar">
+          <a class="nav-link" href="#grammar-library">
             <span aria-hidden="true">§</span>
             语法
           </a>
@@ -102,11 +102,84 @@
           </div>
         </section>
 
-        <section class="dashboard-grid reveal-section" aria-label="学习模块">
+        <section class="library-block reveal-section" id="vocab-library" aria-labelledby="vocab-library-title">
+          <div class="library-copy">
+            <p class="section-kicker">词库 Library 01</p>
+            <h2 id="vocab-library-title">两段式词库骨架，先做顺手，再慢慢变厚</h2>
+            <p>
+              参考 CEFR、国内大学德语课程和公开学习平台的范围，只取能力框架，不搬词表顺序、
+              教材例句和练习题。初版先分主题、词性、搭配和使用场景。
+            </p>
+            <div class="source-note">
+              <span>参考方向</span>
+              <p>日常沟通、校园课堂、学术阅读、写作连接、翻译表达。</p>
+              <a href="data/vocab-library.json">查看词库结构</a>
+            </div>
+          </div>
+          <div class="library-columns">
+            <article>
+              <span>大一大二</span>
+              <h3>基础词汇池</h3>
+              <ul>
+                <li>校园课堂：Vorlesung, Seminar, Aufgabe</li>
+                <li>日常生活：wohnen, bestellen, bezahlen</li>
+                <li>基础动词：machen, werden, nehmen, erklären</li>
+                <li>常用搭配：Interesse an, teilnehmen an</li>
+                <li>句子工具：weil, wenn, deshalb, zuerst</li>
+              </ul>
+            </article>
+            <article>
+              <span>大三大四</span>
+              <h3>提升词汇池</h3>
+              <ul>
+                <li>学术表达：These, Argument, Zusammenhang</li>
+                <li>抽象动词：begründen, vergleichen, darstellen</li>
+                <li>阅读高频：allerdings, dennoch, hingegen</li>
+                <li>写作连接：einerseits, andererseits, folglich</li>
+                <li>翻译表达：im Hinblick auf, zur Folge haben</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="library-block reveal-section" id="grammar-library" aria-labelledby="grammar-library-title">
+          <div class="library-copy">
+            <p class="section-kicker">语法库 Library 02</p>
+            <h2 id="grammar-library-title">语法库只讲清楚一件事：怎么用对</h2>
+            <p>
+              每个语法点后面都会拆成“规则一句话、原创例句、常见错误、练习入口”。
+              这样后续接 AI 讲解时，能围绕学生具体错因讲，而不是丢一整段教材解释。
+            </p>
+            <div class="source-note">
+              <span>参考方向</span>
+              <p>高校课程大纲、公开语法课、DaF 语法练习体系。</p>
+              <a href="data/grammar-library.json">查看语法库结构</a>
+            </div>
+          </div>
+          <div class="grammar-map">
+            <article>
+              <span>A</span>
+              <h3>形态基础</h3>
+              <p>冠词、名词性数格、代词、形容词词尾、动词现在时和完成时。</p>
+            </article>
+            <article>
+              <span>B</span>
+              <h3>句法核心</h3>
+              <p>正语序、反语序、尾语序、并列连词、从属连词、关系从句。</p>
+            </article>
+            <article>
+              <span>C</span>
+              <h3>表达提升</h3>
+              <p>被动态、虚拟式、分词结构、名词化、长难句拆解和改写。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="daily-stack reveal-section" aria-label="学习模块">
           <article class="word-card module-card" id="vocab">
             <div class="card-header">
               <div>
-                <p class="section-kicker">单词卡片</p>
+                <p class="section-kicker">今日单词</p>
                 <h2>der Anspruch</h2>
               </div>
               <span class="status-pill">示例词</span>
@@ -127,7 +200,7 @@
           <article class="grammar-card module-card" id="grammar">
             <div class="card-header">
               <div>
-                <p class="section-kicker">阶段语法</p>
+                <p class="section-kicker">今日语法</p>
                 <h2>形容词词尾变化</h2>
               </div>
               <span class="status-pill muted">重点</span>
