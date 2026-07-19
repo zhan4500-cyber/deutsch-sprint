@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 德语助教 | Deutsch Sprint</title>
+    <meta name="description" content="Deutsch Sprint 的个性化德语 AI 助教。" />
+    <link rel="stylesheet" href="ai.css" />
+  </head>
+  <body>
+    <header class="ai-nav">
+      <a class="ai-brand" href="index.html"><span>D</span>Deutsch Sprint</a>
+      <nav aria-label="资料库导航">
+        <a href="index.html">首页</a>
+        <a href="vocab.html">词库</a>
+        <a href="grammar.html">语法库</a>
+        <a class="active" href="ai.html">AI 助教</a>
+      </nav>
+    </header>
+
+    <main class="ai-main">
+      <section class="ai-hero">
+        <div>
+          <p class="eyebrow">Deutsch Sprint · AI Tutor</p>
+          <h1>让讲解跟着你<br />的错误走。</h1>
+          <p>从每次纠错里识别薄弱点，再用对应难度的解释、例句和下一题带你往前走。</p>
+        </div>
+        <aside class="profile-summary" aria-live="polite">
+          <span>本机学习画像</span>
+          <strong id="profile-stage">大一大二</strong>
+          <p id="profile-summary-text">先完成一次练习，系统会开始记录你的薄弱点。</p>
+          <button class="text-button" id="reset-profile" type="button">清空本机记录</button>
+        </aside>
+      </section>
+
+      <section class="tutor-shell" aria-label="AI 德语助教">
+        <div class="tutor-controls">
+          <div class="control-group">
+            <span class="control-label">当前阶段</span>
+            <div class="segmented" role="tablist" aria-label="学习阶段">
+              <button class="stage-button active" type="button" data-stage="foundation" aria-selected="true">大一大二</button>
+              <button class="stage-button" type="button" data-stage="advanced" aria-selected="false">大三大四</button>
+            </div>
+          </div>
+          <div class="control-group">
+            <span class="control-label">讲解方式</span>
+            <select id="explanation-style">
+              <option value="concise">中文简洁解释</option>
+              <option value="contrast">中德对比例句</option>
+              <option value="german">以德语讲解为主</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mode-tabs" role="tablist" aria-label="AI 模式">
+          <button class="mode-tab active" type="button" data-mode="correction" aria-selected="true">句子纠错</button>
+          <button class="mode-tab" type="button" data-mode="grammar" aria-selected="false">语法问答</button>
+          <button class="mode-tab" type="button" data-mode="translation" aria-selected="false">翻译推敲</button>
+          <button class="mode-tab" type="button" data-mode="business" aria-selected="false">商务德语</button>
+        </div>
+
+        <form id="tutor-form" class="tutor-form">
+          <label class="input-label" for="tutor-input" id="input-label">输入你想纠正的德语句子</label>
+          <textarea id="tutor-input" rows="7" maxlength="1600" placeholder="例如：Ich helfe meinen Freund."></textarea>
+          <div class="form-footer">
+            <span id="input-hint">AI 会优先判断错误类型，再给出修改和下一题。</span>
+            <button class="submit-button" type="submit">开始分析</button>
+          </div>
+        </form>
+
+        <section id="answer-panel" class="answer-panel" aria-live="polite">
+          <div class="answer-placeholder">
+            <span>AI Tutor</span>
+            <h2>把一个真实句子交给我。</h2>
+            <p>接入千问前会显示本地演示逻辑；接入后将根据你的画像调用真实 AI 分析。</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="signal-grid" aria-label="个性化学习逻辑">
+        <article><span>01</span><h2>错误归类</h2><p>把“错了”变成格、词尾、语序、搭配、语域等可追踪标签。</p></article>
+        <article><span>02</span><h2>学习画像</h2><p>记录近期错误、掌握度与偏好，让下一次解释更贴近学生。</p></article>
+        <article><span>03</span><h2>下一步训练</h2><p>每次回复都给一个小练习，并把需要复盘的知识点留下来。</p></article>
+      </section>
+    </main>
+
+    <script src="ai-config.js"></script>
+    <script src="ai.js"></script>
+  </body>
+</html>
+
