@@ -25,6 +25,9 @@ assert(vocabIndex.items.every((entry) => entry.richCard), "Every indexed vocabul
 assert(vocabIndex.items.filter((entry) => entry.curated).length === 326, "Every curated vocabulary card must appear in the index");
 assert(new Set(vocabIndex.items.map((entry) => entry.id)).size === vocabIndex.items.length, "Vocabulary index has duplicate IDs");
 assert(!vocabIndex.items.some((entry) => entry.meaning.startsWith("英文释义：")), "Vocabulary index still contains English-only fallback meanings");
+assert(!vocabIndex.items.some((entry) => entry.translationStatus === "open_dictionary"), "Vocabulary index still contains unsanitized English-pivot meanings");
+assert(!vocabIndex.items.some((entry) => /(^|；)\s*(?:vt|vi|n|a|adv|adj)\./i.test(entry.meaning)), "Vocabulary index still contains dictionary part-of-speech noise");
+assert(vocabIndex.formCoverage?.pluralForms >= 2500, "Vocabulary index does not contain enough verified noun plural forms");
 for (const entry of vocabIndex.items) {
   for (const field of ["term", "stage", "cefr", "pos", "meaning", "usagePattern", "example", "exampleTranslation", "reviewStatus"]) assert(entry[field], `Indexed vocabulary ${entry.id} is missing ${field}`);
   assert(entry.exampleTranslationLanguage === "zh", `Indexed vocabulary ${entry.id} does not have a Chinese example translation`);
@@ -39,6 +42,11 @@ for (const topic of grammarTopics) {
   assert(Number.isInteger(topic.exercise?.answer) && topic.exercise.answer >= 0 && topic.exercise.answer < topic.exercise.options.length, `Grammar ${topic.id} has an invalid answer`);
 }
 assert(!grammarTopics.some((topic) => topic.exercise.question.startsWith("下面哪组内容属于")), "Grammar library still contains placeholder recognition questions");
+const foundationGrammar = grammarTopics.filter((topic) => topic.id.startsWith("grammar-"));
+assert(!foundationGrammar.some((topic) => topic.exercise.question.includes("是否符合")), "Foundation grammar still contains yes/no recognition exercises");
+assert(foundationGrammar.every((topic) => topic.application?.prompt && topic.application?.modelAnswer), "Foundation grammar is missing transfer exercises");
+const answerPositions = foundationGrammar.reduce((counts, topic) => { counts[topic.exercise.answer] = (counts[topic.exercise.answer] || 0) + 1; return counts; }, {});
+assert(Object.keys(answerPositions).length >= 3 && Object.values(answerPositions).every((count) => count >= 9), "Foundation grammar answer positions are not distributed");
 
 const quotes = readJson("data/classic-quotes.json");
 assert(quotes.items.length >= 8, "Classic quote collection is too small");
@@ -48,15 +56,15 @@ for (const quote of quotes.items) {
 
 const skills = readJson("data/skills-library.json");
 const lessons = readJson("data/skill-lessons.json");
-assert(skills.modules.length === 14, `Expected 14 skill modules, got ${skills.modules.length}`);
+assert(skills.modules.length >= 16, `Expected at least 16 skill modules, got ${skills.modules.length}`);
 assert(lessons.modules.length === skills.modules.length, "Skill outlines and lessons have different module counts");
 for (const module of skills.modules) {
   const lessonModule = lessons.modules.find((item) => item.id === module.id);
   assert(lessonModule?.lessons?.length, `Skill ${module.id} has no lesson`);
   for (const item of lessonModule?.lessons || []) {
     assert(item.content?.length, `Lesson ${item.id} has no content`);
-    assert(item.glossary?.length >= 4, `Lesson ${item.id} needs at least four glossary items`);
-    assert(item.questions?.length >= 4, `Lesson ${item.id} needs at least four questions`);
+    if (!module.id.startsWith("foundation-")) assert(item.glossary?.length >= 4, `Lesson ${item.id} needs at least four glossary items`);
+    assert(item.questions?.length >= (module.id.startsWith("foundation-") ? 1 : 4), `Lesson ${item.id} does not have enough questions`);
     for (const question of item.questions || []) {
       assert(question.prompt, `Lesson ${item.id} has an empty question`);
       if (question.type === "mcq") assert(question.options?.[question.answer], `Lesson ${item.id}/${question.id} has an invalid answer`);
@@ -64,6 +72,8 @@ for (const module of skills.modules) {
     }
   }
 }
+assert(lessons.modules.find((module) => module.id === "foundation-dictation")?.lessons.length >= 12, "Foundation dictation course is incomplete");
+assert(lessons.modules.find((module) => module.id === "foundation-writing")?.lessons.length >= 8, "Foundation writing course is incomplete");
 
 const bankDirectories = ["data/questions", "data/questions-advanced"];
 let questionTotal = 0;

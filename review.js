@@ -3,14 +3,17 @@ const escapeReview = (value = "") => String(value).replace(/[&<>"']/g, (characte
 
 const renderReview = () => {
   const state = getState();
-  if (!state.review.length) {
-    reviewList.innerHTML = '<div class="empty">复盘队列是空的。答错或标记为模糊的内容会自动出现在这里。</div>';
+  const dueItems = getDueReview(state);
+  if (!dueItems.length) {
+    const next = [...state.review].sort((a, b) => (a.dueAt || 0) - (b.dueAt || 0))[0];
+    const nextCopy = next?.dueAt ? `下一次复习安排在 ${new Intl.DateTimeFormat("zh-CN", { month: "long", day: "numeric" }).format(new Date(next.dueAt))}。` : "完成学习后，系统会自动安排下一次复习。";
+    reviewList.innerHTML = `<div class="empty">今天的到期复习已经清空。<br><small>${escapeReview(nextCopy)}</small></div>`;
     return;
   }
-  const sorted = [...state.review].sort((a, b) => (a.dueAt || 0) - (b.dueAt || 0));
+  const sorted = [...dueItems].sort((a, b) => (a.dueAt || 0) - (b.dueAt || 0));
   reviewList.innerHTML = sorted.map((item) => {
     const due = !item.dueAt || item.dueAt <= Date.now() ? "现在复习" : new Intl.DateTimeFormat("zh-CN", { month: "short", day: "numeric" }).format(new Date(item.dueAt));
-    return `<article class="review-item"><div><p class="eyebrow">${escapeReview(item.detail)} · ${due}</p><h2>${escapeReview(item.title)}</h2><p>重新完成一次练习，答对后会自动移出队列。</p></div><div class="actions"><a class="primary" href="${escapeReview(item.href || `study.html?kind=daily&stage=${getPreferredStage()}`)}">再练一次</a><button class="secondary" data-id="${escapeReview(item.id)}" type="button">暂时移除</button></div></article>`;
+    return `<article class="review-item"><div><p class="eyebrow">${escapeReview(item.detail)} · ${due}</p><h2>${escapeReview(item.title)}</h2><p>重新完成一次练习；答对后按 1、3、7、14、30 天继续安排。</p></div><div class="actions"><a class="primary" href="${escapeReview(item.href || `study.html?kind=daily&stage=${getPreferredStage()}`)}">开始复习</a><button class="secondary" data-id="${escapeReview(item.id)}" type="button">暂时移除</button></div></article>`;
   }).join("");
   reviewList.querySelectorAll("button[data-id]").forEach((button) => button.addEventListener("click", () => {
     removeReview(button.dataset.id);

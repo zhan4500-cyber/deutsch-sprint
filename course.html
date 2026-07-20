@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>学习路线 | Deutsch Sprint</title>
+  <link rel="stylesheet" href="learner.css" />
+  <link rel="stylesheet" href="course.css" />
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a><nav class="topnav"><a class="active" href="course.html">路线</a><a href="vocab.html">词库</a><a href="grammar.html">语法库</a><a href="skills.html">能力</a><a href="practice.html">练习</a><a href="mock.html">模拟</a><a href="review.html">复盘</a><a href="progress.html">进度</a></nav></header>
+  <main class="page">
+    <p class="eyebrow">FOUR-SEMESTER ROUTE</p><h1>从大一走到基础阶段完成。</h1><p class="lead">先诊断，再按四个学期推进词汇、语法、听写、阅读和写作。路线根据本机学习记录给出当前建议。</p>
+    <section class="route-status panel"><div><p class="eyebrow">当前位置</p><h2 id="route-title">正在读取学习记录</h2><p id="route-copy" class="muted"></p></div><div class="route-meter"><strong id="route-percent">0%</strong><div class="bar"><span id="route-bar"></span></div><small id="route-detail"></small></div></section>
+    <section class="weekly-plan"><div><p class="eyebrow">THIS WEEK</p><h2>本周训练闭环</h2></div><div class="weekly-grid" id="weekly-grid"></div></section>
+    <section class="semester-grid" id="semester-grid"></section>
+    <section class="panel diagnostic" id="diagnostic"><div class="diagnostic-intro"><p class="eyebrow">12-QUESTION CHECK</p><h2>用十分钟确定起点。</h2><p>诊断只用于推荐学习阶段，不代替正式成绩。</p><button class="primary" id="start-diagnostic" type="button">开始诊断</button></div><div id="diagnostic-body" hidden></div></section>
+  </main>
+  <script src="learner.js"></script><script src="course.js"></script>
+</body>
+</html>

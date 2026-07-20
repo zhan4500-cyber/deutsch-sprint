@@ -318,6 +318,10 @@ button { cursor: pointer; }
 .lexicon-example p { margin:.65rem 0 0;line-height:1.55; }
 .lexicon-example small { display:block;margin-top:.35rem;color:var(--muted);line-height:1.5; }
 .lexicon-example small b { margin-right:.45rem;color:var(--red-800); }
+.word-forms { display:flex;gap:.45rem;flex-wrap:wrap; }
+.word-forms span { padding:.3rem .45rem;border:1px solid var(--line);border-radius:.3rem;background:#fff;font-size:.82rem; }
+.word-forms b { color:var(--red-800); }
+.lexicon-study-link { display:inline-block;margin-top:.8rem;color:var(--red-800);font-weight:900;text-decoration:none; }
 .pagination { display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:2.5rem; }
 .pagination button { min-width:6rem;padding:.7rem 1rem;border:1px solid var(--line);border-radius:.35rem;color:var(--red-900);background:#fff;font-weight:900; }
 .pagination button:disabled { cursor:not-allowed;opacity:.4; }

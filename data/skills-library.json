@@ -250,6 +250,42 @@
       ],
       "update_policy": "先做概念卡和公开领域作者；作品节选需版权核验。",
       "title": "文学与语言学基础"
+    },
+    {
+      "id": "foundation-dictation",
+      "skill": "听写",
+      "priority": "P0",
+      "title": "基础阶段系统听写",
+      "units": [
+        "完整听写",
+        "词序相似度",
+        "名词大写",
+        "词尾与标点",
+        "听后概括"
+      ],
+      "original_task_types": [
+        "逐段听写",
+        "机器初检",
+        "对照原文纠错"
+      ]
+    },
+    {
+      "id": "foundation-writing",
+      "skill": "写作",
+      "priority": "P0",
+      "title": "基础阶段写作工坊",
+      "units": [
+        "正式邮件",
+        "叙事描述",
+        "议论表达",
+        "图表描述",
+        "摘要写作"
+      ],
+      "original_task_types": [
+        "限时写作",
+        "结构初检",
+        "量表自评"
+      ]
     }
   ],
   "assessmentCycle": {

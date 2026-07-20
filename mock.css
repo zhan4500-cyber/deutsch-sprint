@@ -1,0 +1,29 @@
+.mock-heading { display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2rem;align-items:end;padding-bottom:2rem;border-bottom:1px solid var(--line); }
+.timer { min-width:10rem;text-align:right; }
+.timer span,.timer strong { display:block; }
+.timer span { color:var(--muted);font-size:.8rem;font-weight:800; }
+.timer strong { margin:.3rem 0 .7rem;color:var(--red-900);font-size:2.4rem;font-variant-numeric:tabular-nums; }
+.section-tabs { display:flex;gap:.5rem;overflow:auto;margin:2rem 0 1rem;padding-bottom:.4rem; }
+.section-tabs button { flex:0 0 auto;padding:.65rem .85rem;border:1px solid var(--line);border-radius:.4rem;background:#fff;color:var(--ink);font-weight:800; }
+.section-tabs button.active { border-color:var(--red-700);background:var(--red-700);color:#fff; }
+.mock-work { min-height:28rem; }
+.mock-section-head { display:flex;justify-content:space-between;gap:1rem;align-items:start;padding-bottom:1rem;border-bottom:1px solid var(--line); }
+.mock-section-head h2 { color:var(--red-900); }
+.mock-question { padding:1.2rem 0;border-bottom:1px solid var(--line); }
+.mock-question h3 { font-size:1rem;line-height:1.6; }
+.mock-question .answers { display:grid;grid-template-columns:repeat(2,minmax(0,1fr)); }
+.mock-question .answer { text-align:left; }
+.mock-question .answer.selected { border-color:var(--red-700);background:var(--red-050);color:var(--red-900); }
+.reading-passage { margin:40px 0 18px;padding:28px 0 12px;border-top:1px solid var(--line); }
+.reading-passage h3 { font-size:clamp(1.45rem,2vw,2rem);margin:8px 0 20px; }
+.reading-passage p[lang="de"] { max-width:78ch;font-size:1.05rem;line-height:1.85; }
+.mock-audio { margin:1.2rem 0;padding:1rem;border-left:4px solid var(--red-700);background:var(--red-050); }
+.mock-audio p { color:var(--muted); }
+.mock-textarea { width:100%;box-sizing:border-box;padding:1rem;border:1px solid var(--line);border-radius:.4rem;font:inherit;line-height:1.8;resize:vertical; }
+.rubric { display:grid;gap:.7rem;margin:1rem 0; }
+.rubric label { display:flex;gap:.7rem;align-items:flex-start;padding:.8rem;border:1px solid var(--line);border-radius:.4rem; }
+.mock-submit { margin:1.2rem 0 4rem; }
+.score-grid { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.75rem;margin:1.5rem 0; }
+.score-grid article { padding:1rem;background:var(--soft);border-top:3px solid var(--red-700); }
+.score-grid strong { display:block;color:var(--red-900);font-size:1.8rem; }
+@media(max-width:760px){.mock-heading{grid-template-columns:1fr}.timer{text-align:left}.mock-question .answers,.score-grid{grid-template-columns:1fr}}

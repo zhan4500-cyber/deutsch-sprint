@@ -21,20 +21,30 @@
           ],
           "commonMistake": "把名词化动词 lesen 继续小写。",
           "exercise": {
-            "question": "例句“Beim Lesen markiert sie alle unbekannten Wörter.”是否符合“名词大写”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Beim Lesen markiert sie alle unbekannten Wörter.”。哪一项对“名词大写”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "德语所有名词和名词化成分首字母大写；例句中的相关形式使用正确。",
+              "例句应按“把名词化动词 lesen 继续小写”处理，当前写法不成立。",
+              "该例句只涉及词义，与“名词大写”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "德语所有名词和名词化成分首字母大写。 易错点：把名词化动词 lesen 继续小写。"
+            "explanation": "德语所有名词和名词化成分首字母大写。 识别名词化形容词、动词和代词：beim Lesen, etwas Neues, das Wichtigste。 易错点：把名词化动词 lesen 继续小写。"
           },
           "tags": [
             "orthography"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“名词大写”规则另写一个完整德语句子。",
+            "modelAnswer": "Beim Lesen markiert sie alle unbekannten Wörter.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-002",
@@ -50,20 +60,30 @@
           ],
           "commonMistake": "把 dass 写成 daß，或混淆 wissen 的 weiß。",
           "exercise": {
-            "question": "例句“Er weiß, dass der Fluss sehr breit ist.”是否符合“ß 与 ss”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Er weiß, dass der Fluss sehr breit ist.”。哪一项对“ß 与 ss”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把 dass 写成 daß，或混淆 wissen 的 weiß”处理，当前写法不成立。",
+              "该例句只涉及词义，与“ß 与 ss”没有语法关系。",
+              "长元音或双元音后通常写 ß，短元音后写 ss；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "长元音或双元音后通常写 ß，短元音后写 ss。 易错点：把 dass 写成 daß，或混淆 wissen 的 weiß。"
+            "answer": 2,
+            "explanation": "长元音或双元音后通常写 ß，短元音后写 ss。 maß, heißen；messen, müssen。 易错点：把 dass 写成 daß，或混淆 wissen 的 weiß。"
           },
           "tags": [
             "orthography"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“ß 与 ss”规则另写一个完整德语句子。",
+            "modelAnswer": "Er weiß, dass der Fluss sehr breit ist.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-003",
@@ -79,20 +99,30 @@
           ],
           "commonMistake": "按中文词组习惯拆开书写。",
           "exercise": {
-            "question": "例句“Der Deutschkurs findet im Hauptgebäude statt.”是否符合“复合词连写”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Der Deutschkurs findet im Hauptgebäude statt.”。哪一项对“复合词连写”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“复合词连写”没有语法关系。",
+              "德语复合名词通常连写，中心词决定词性；例句中的相关形式使用正确。",
+              "例句应按“按中文词组习惯拆开书写”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "德语复合名词通常连写，中心词决定词性。 易错点：按中文词组习惯拆开书写。"
+            "answer": 1,
+            "explanation": "德语复合名词通常连写，中心词决定词性。 die Sprache + der Kurs = der Sprachkurs。 易错点：按中文词组习惯拆开书写。"
           },
           "tags": [
             "word_formation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“复合词连写”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Deutschkurs findet im Hauptgebäude statt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-004",
@@ -108,20 +138,30 @@
           ],
           "commonMistake": "机械地认为连接成分有固定统一规则。",
           "exercise": {
-            "question": "例句“Die Arbeitszeit beträgt acht Stunden.”是否符合“连接成分”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Arbeitszeit beträgt acht Stunden.”。哪一项对“连接成分”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "复合词中可能出现 -s-, -n-, -en-, -er- 等连接成分；例句中的相关形式使用正确。",
+              "例句应按“机械地认为连接成分有固定统一规则”处理，当前写法不成立。",
+              "该例句只涉及词义，与“连接成分”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "复合词中可能出现 -s-, -n-, -en-, -er- 等连接成分。 易错点：机械地认为连接成分有固定统一规则。"
+            "explanation": "复合词中可能出现 -s-, -n-, -en-, -er- 等连接成分。 die Arbeit + s + Zeit = die Arbeitszeit。 易错点：机械地认为连接成分有固定统一规则。"
           },
           "tags": [
             "word_formation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“连接成分”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Arbeitszeit beträgt acht Stunden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-005",
@@ -137,21 +177,31 @@
           ],
           "commonMistake": "把 verstehen 错拆成 steht ... ver，或在从句中继续拆分可分前缀。",
           "exercise": {
-            "question": "例句“Er steht um sieben Uhr auf. / Er versteht die Frage.”是否符合“前缀与可分性”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Er steht um sieben Uhr auf. / Er versteht die Frage.”。哪一项对“前缀与可分性”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把 verstehen 错拆成 steht ... ver，或在从句中继续拆分可分前缀”处理，当前写法不成立。",
+              "该例句只涉及词义，与“前缀与可分性”没有语法关系。",
+              "可分前缀通常重读；不可分前缀 be-, emp-, ent-, er-, ge-, miss-, ver-, zer- 不分离；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "可分前缀通常重读；不可分前缀 be-, emp-, ent-, er-, ge-, miss-, ver-, zer- 不分离。 易错点：把 verstehen 错拆成 steht ... ver，或在从句中继续拆分可分前缀。"
+            "answer": 2,
+            "explanation": "可分前缀通常重读；不可分前缀 be-, emp-, ent-, er-, ge-, miss-, ver-, zer- 不分离。 可分动词在主句中形成句框，在从句和带 zu 不定式中按相应规则重新组合；不可分动词始终不拆分。 易错点：把 verstehen 错拆成 steht ... ver，或在从句中继续拆分可分前缀。"
           },
           "tags": [
             "verb",
             "separable"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“前缀与可分性”规则另写一个完整德语句子。",
+            "modelAnswer": "Er steht um sieben Uhr auf. / Er versteht die Frage.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-006",
@@ -167,20 +217,30 @@
           ],
           "commonMistake": "忽略派生词词性和拼写变化。",
           "exercise": {
-            "question": "例句“Die Entscheidung hat große Bedeutung.”是否符合“后缀识别词性”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Entscheidung hat große Bedeutung.”。哪一项对“后缀识别词性”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“后缀识别词性”没有语法关系。",
+              "-ung, -heit, -keit, -schaft, -ion 常构成阴性名词；-chen/-lein 常为中性；例句中的相关形式使用正确。",
+              "例句应按“忽略派生词词性和拼写变化”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "-ung, -heit, -keit, -schaft, -ion 常构成阴性名词；-chen/-lein 常为中性。 易错点：忽略派生词词性和拼写变化。"
+            "answer": 1,
+            "explanation": "-ung, -heit, -keit, -schaft, -ion 常构成阴性名词；-chen/-lein 常为中性。 entwickeln → die Entwicklung；möglich → die Möglichkeit。 易错点：忽略派生词词性和拼写变化。"
           },
           "tags": [
             "word_formation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“后缀识别词性”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Entscheidung hat große Bedeutung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-007",
@@ -196,20 +256,30 @@
           ],
           "commonMistake": "把派生词按中文直译而误用后缀。",
           "exercise": {
-            "question": "例句“Die Datei ist kostenlos verfügbar.”是否符合“形容词派生”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Datei ist kostenlos verfügbar.”。哪一项对“形容词派生”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "-lich, -ig, -isch, -bar, -los, -voll 常构成形容词；例句中的相关形式使用正确。",
+              "例句应按“把派生词按中文直译而误用后缀”处理，当前写法不成立。",
+              "该例句只涉及词义，与“形容词派生”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "-lich, -ig, -isch, -bar, -los, -voll 常构成形容词。 易错点：把派生词按中文直译而误用后缀。"
+            "explanation": "-lich, -ig, -isch, -bar, -los, -voll 常构成形容词。 möglich, abhängig, politisch, verfügbar, kostenlos。 易错点：把派生词按中文直译而误用后缀。"
           },
           "tags": [
             "word_formation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“形容词派生”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Datei ist kostenlos verfügbar.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-008",
@@ -225,20 +295,30 @@
           ],
           "commonMistake": "把所有反义词都机械加 un-。",
           "exercise": {
-            "question": "例句“Die Erklärung war unklar und wurde missverstanden.”是否符合“反义前缀”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Erklärung war unklar und wurde missverstanden.”。哪一项对“反义前缀”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把所有反义词都机械加 un-”处理，当前写法不成立。",
+              "该例句只涉及词义，与“反义前缀”没有语法关系。",
+              "un- 常表示否定；miss- 表示错误或失败；ent- 可表示去除、开始或离开；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "un- 常表示否定；miss- 表示错误或失败；ent- 可表示去除、开始或离开。 易错点：把所有反义词都机械加 un-。"
+            "answer": 2,
+            "explanation": "un- 常表示否定；miss- 表示错误或失败；ent- 可表示去除、开始或离开。 möglich → unmöglich；verstehen → missverstehen。 易错点：把所有反义词都机械加 un-。"
           },
           "tags": [
             "word_formation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“反义前缀”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Erklärung war unklar und wurde missverstanden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },
@@ -261,20 +341,31 @@
           ],
           "commonMistake": "只按中文语序判断格，不看支配。",
           "exercise": {
-            "question": "例句“Der Lehrer erklärt den Studenten die Regel.”是否符合“四格功能”所述规则？",
+            "type": "application_mcq",
+            "question": "Im ersten Semester: Viele Erstsemester leiden anfangs ___ Zeitdruck.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "an",
+              "auf",
+              "unter",
+              "mit"
             ],
-            "answer": 0,
-            "explanation": "第一格常作主语，第四格常作直接宾语，第三格常作间接宾语，第二格表示所属等关系。 易错点：只按中文语序判断格，不看支配。"
+            "answer": 2,
+            "explanation": "leiden unter + Dativ 表示承受不利状况。"
           },
           "tags": [
             "case"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“四格功能”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Lehrer erklärt den Studenten die Regel.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-010",
@@ -290,21 +381,32 @@
           ],
           "commonMistake": "复数第三格漏写 den 或名词 -n。",
           "exercise": {
-            "question": "例句“Die Lehrerin spricht mit den Studierenden.”是否符合“定冠词变化”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Seit zehn Minuten warten wir ___ den Bus.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "über",
+              "mit",
+              "auf",
+              "an"
             ],
-            "answer": 0,
-            "explanation": "der/die/das 按性数格变化；复数第三格为 den，名词通常加 -n。 易错点：复数第三格漏写 den 或名词 -n。"
+            "answer": 2,
+            "explanation": "warten auf + Akkusativ。"
           },
           "tags": [
             "article",
             "case"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“定冠词变化”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Lehrerin spricht mit den Studierenden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-011",
@@ -320,21 +422,31 @@
           ],
           "commonMistake": "物主冠词后形容词按强变化处理。",
           "exercise": {
-            "question": "例句“Ich helfe meinem neuen Kollegen.”是否符合“不定冠词与物主冠词”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Ich helfe meinem neuen Kollegen.”。哪一项对“不定冠词与物主冠词”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“物主冠词后形容词按强变化处理”处理，当前写法不成立。",
+              "该例句只涉及词义，与“不定冠词与物主冠词”没有语法关系。",
+              "ein 和 mein/dein/sein 等采用同一套词尾框架；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "ein 和 mein/dein/sein 等采用同一套词尾框架。 易错点：物主冠词后形容词按强变化处理。"
+            "answer": 2,
+            "explanation": "ein 和 mein/dein/sein 等采用同一套词尾框架。 einem guten Freund, meine neue Wohnung。 易错点：物主冠词后形容词按强变化处理。"
           },
           "tags": [
             "article",
             "adjective_ending"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“不定冠词与物主冠词”规则另写一个完整德语句子。",
+            "modelAnswer": "Ich helfe meinem neuen Kollegen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-012",
@@ -350,21 +462,32 @@
           ],
           "commonMistake": "把 nicht 直接放在名词前代替 kein。",
           "exercise": {
-            "question": "例句“Bei der Prüfung darf man keine Hilfsmittel benutzen.”是否符合“否定冠词 kein”所述规则？",
+            "type": "application_mcq",
+            "question": "Im ersten Semester: Er kommt morgen ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "keine",
+              "kein",
+              "nicht",
+              "nichts"
             ],
-            "answer": 0,
-            "explanation": "kein 的变化同 ein；用于否定无定冠词名词。 易错点：把 nicht 直接放在名词前代替 kein。"
+            "answer": 2,
+            "explanation": "否定整个谓语或时间陈述用 nicht。"
           },
           "tags": [
             "negation",
             "article"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“否定冠词 kein”规则另写一个完整德语句子。",
+            "modelAnswer": "Bei der Prüfung darf man keine Hilfsmittel benutzen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-013",
@@ -380,20 +503,31 @@
           ],
           "commonMistake": "只根据词尾猜复数。",
           "exercise": {
-            "question": "例句“Die Städte investieren in den Nahverkehr.”是否符合“复数构成”所述规则？",
+            "type": "application_mcq",
+            "question": "Im ersten Semester: Wir besuchten mehrere ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "Museen",
+              "Museums",
+              "Museume",
+              "Museum"
             ],
             "answer": 0,
-            "explanation": "德语名词复数形式多样，必须与单词一起记忆。 易错点：只根据词尾猜复数。"
+            "explanation": "Museum 的复数为 Museen。"
           },
           "tags": [
             "plural"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“复数构成”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Städte investieren in den Nahverkehr.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-014",
@@ -409,20 +543,30 @@
           ],
           "commonMistake": "写成 mit einem Student。",
           "exercise": {
-            "question": "例句“Der Professor spricht mit einem Studenten.”是否符合“弱变化阳性名词”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Der Professor spricht mit einem Studenten.”。哪一项对“弱变化阳性名词”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“写成 mit einem Student”处理，当前写法不成立。",
+              "该例句只涉及词义，与“弱变化阳性名词”没有语法关系。",
+              "部分阳性名词除单数第一格外均加 -(e)n；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "部分阳性名词除单数第一格外均加 -(e)n。 易错点：写成 mit einem Student。"
+            "answer": 2,
+            "explanation": "部分阳性名词除单数第一格外均加 -(e)n。 der Student, des Studenten, dem Studenten, den Studenten。 易错点：写成 mit einem Student。"
           },
           "tags": [
             "n_deklination"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“弱变化阳性名词”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Professor spricht mit einem Studenten.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-015",
@@ -438,20 +582,30 @@
           ],
           "commonMistake": "在要求第二格的介词后误用第四格。",
           "exercise": {
-            "question": "例句“Die Ergebnisse der Umfrage sind eindeutig.”是否符合“第二格替代与使用”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Ergebnisse der Umfrage sind eindeutig.”。哪一项对“第二格替代与使用”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“第二格替代与使用”没有语法关系。",
+              "正式书面语常用第二格；口语中常见 von + D，但不能在固定结构中任意替换；例句中的相关形式使用正确。",
+              "例句应按“在要求第二格的介词后误用第四格”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "正式书面语常用第二格；口语中常见 von + D，但不能在固定结构中任意替换。 易错点：在要求第二格的介词后误用第四格。"
+            "answer": 1,
+            "explanation": "正式书面语常用第二格；口语中常见 von + D，但不能在固定结构中任意替换。 die Ergebnisse der Studie；während des Semesters。 易错点：在要求第二格的介词后误用第四格。"
           },
           "tags": [
             "genitive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第二格替代与使用”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Ergebnisse der Umfrage sind eindeutig.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-016",
@@ -467,21 +621,32 @@
           ],
           "commonMistake": "seit 后误用第四格或完成时。",
           "exercise": {
-            "question": "例句“Seit einem Jahr lernt er Deutsch.”是否符合“第三格介词”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Die Ärztin warnt die Patientin ___ zu wenig Schlaf.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "vor",
+              "für",
+              "über",
+              "gegen"
             ],
             "answer": 0,
-            "explanation": "aus, außer, bei, mit, nach, seit, von, zu 固定支配第三格。 易错点：seit 后误用第四格或完成时。"
+            "explanation": "warnen vor + Dativ。"
           },
           "tags": [
             "preposition",
             "dative"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第三格介词”规则另写一个完整德语句子。",
+            "modelAnswer": "Seit einem Jahr lernt er Deutsch.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-017",
@@ -497,21 +662,32 @@
           ],
           "commonMistake": "把 für 后写成第三格。",
           "exercise": {
-            "question": "例句“Sie bereitet sich auf die Prüfung vor.”是否符合“第四格介词”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Kannst du dich noch ___ unseren ersten Deutschkurs erinnern?",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "an",
+              "über",
+              "auf",
+              "von"
             ],
             "answer": 0,
-            "explanation": "durch, für, gegen, ohne, um 固定支配第四格。 易错点：把 für 后写成第三格。"
+            "explanation": "sich erinnern an + Akkusativ。"
           },
           "tags": [
             "preposition",
             "accusative"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第四格介词”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie bereitet sich auf die Prüfung vor.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-018",
@@ -527,20 +703,31 @@
           ],
           "commonMistake": "机械地按动词判断，而不判断位置/方向。",
           "exercise": {
-            "question": "例句“Sie hängt das Bild an die Wand.”是否符合“双向介词”所述规则？",
+            "type": "application_mcq",
+            "question": "Sie setzen sich nach dem Kurs ___ Wiese. Bitte wählen Sie die korrekte Form.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "in der",
+              "auf die",
+              "auf der",
+              "unter der"
             ],
-            "answer": 0,
-            "explanation": "an, auf, hinter, in, neben, über, unter, vor, zwischen：位置用第三格，方向目标用第四格。 易错点：机械地按动词判断，而不判断位置/方向。"
+            "answer": 1,
+            "explanation": "方向变化用 Akkusativ。"
           },
           "tags": [
             "wechselpreposition"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“双向介词”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie hängt das Bild an die Wand.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-019",
@@ -556,20 +743,30 @@
           ],
           "commonMistake": "把定冠词后的形容词写成强变化。",
           "exercise": {
-            "question": "例句“Die neue Regel gilt ab sofort.”是否符合“形容词弱变化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die neue Regel gilt ab sofort.”。哪一项对“形容词弱变化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "定冠词已明确性数格时，形容词多数用 -e/-en；例句中的相关形式使用正确。",
+              "例句应按“把定冠词后的形容词写成强变化”处理，当前写法不成立。",
+              "该例句只涉及词义，与“形容词弱变化”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "定冠词已明确性数格时，形容词多数用 -e/-en。 易错点：把定冠词后的形容词写成强变化。"
+            "explanation": "定冠词已明确性数格时，形容词多数用 -e/-en。 der neue Kurs, mit dem neuen Kurs。 易错点：把定冠词后的形容词写成强变化。"
           },
           "tags": [
             "adjective_ending"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“形容词弱变化”规则另写一个完整德语句子。",
+            "modelAnswer": "Die neue Regel gilt ab sofort.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-020",
@@ -585,20 +782,30 @@
           ],
           "commonMistake": "只背词尾表，不先判断冠词信息。",
           "exercise": {
-            "question": "例句“Sie sucht eine günstige Wohnung.”是否符合“形容词混合变化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Sie sucht eine günstige Wohnung.”。哪一项对“形容词混合变化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“只背词尾表，不先判断冠词信息”处理，当前写法不成立。",
+              "该例句只涉及词义，与“形容词混合变化”没有语法关系。",
+              "ein 类冠词未显示的信息由形容词词尾补出；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "ein 类冠词未显示的信息由形容词词尾补出。 易错点：只背词尾表，不先判断冠词信息。"
+            "answer": 2,
+            "explanation": "ein 类冠词未显示的信息由形容词词尾补出。 ein neuer Kurs, eine neue Regel, ein neues Buch。 易错点：只背词尾表，不先判断冠词信息。"
           },
           "tags": [
             "adjective_ending"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“形容词混合变化”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie sucht eine günstige Wohnung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-021",
@@ -614,20 +821,30 @@
           ],
           "commonMistake": "无冠词结构仍使用统一 -en。",
           "exercise": {
-            "question": "例句“Frisches Gemüse ist gesund.”是否符合“形容词强变化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Frisches Gemüse ist gesund.”。哪一项对“形容词强变化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“形容词强变化”没有语法关系。",
+              "无冠词时，形容词承担主要格标记；例句中的相关形式使用正确。",
+              "例句应按“无冠词结构仍使用统一 -en”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "无冠词时，形容词承担主要格标记。 易错点：无冠词结构仍使用统一 -en。"
+            "answer": 1,
+            "explanation": "无冠词时，形容词承担主要格标记。 mit kaltem Wasser, frische Milch, gutes Wetter。 易错点：无冠词结构仍使用统一 -en。"
           },
           "tags": [
             "adjective_ending"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“形容词强变化”规则另写一个完整德语句子。",
+            "modelAnswer": "Frisches Gemüse ist gesund.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-022",
@@ -643,20 +860,30 @@
           ],
           "commonMistake": "名词化后不大写或丢失词尾。",
           "exercise": {
-            "question": "例句“Viele Jugendliche interessieren sich für Politik.”是否符合“形容词名词化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Viele Jugendliche interessieren sich für Politik.”。哪一项对“形容词名词化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "形容词名词化后大写，仍按形容词变化；例句中的相关形式使用正确。",
+              "例句应按“名词化后不大写或丢失词尾”处理，当前写法不成立。",
+              "该例句只涉及词义，与“形容词名词化”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "形容词名词化后大写，仍按形容词变化。 易错点：名词化后不大写或丢失词尾。"
+            "explanation": "形容词名词化后大写，仍按形容词变化。 der Deutsche, etwas Neues, die Studierenden。 易错点：名词化后不大写或丢失词尾。"
           },
           "tags": [
             "nominalized_adjective"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“形容词名词化”规则另写一个完整德语句子。",
+            "modelAnswer": "Viele Jugendliche interessieren sich für Politik.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-023",
@@ -672,20 +899,31 @@
           ],
           "commonMistake": "比较级用 wie，原级比较用 als。",
           "exercise": {
-            "question": "例句“Der zweite Text ist deutlich kürzer als der erste.”是否符合“比较级和最高级”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Der neue Seminarraum ist genauso groß ___ der alte.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "denn",
+              "wie",
+              "ob",
+              "als"
             ],
-            "answer": 0,
-            "explanation": "比较级通常 -er，最高级 am -sten 或 der/die/das -ste；部分词不规则。 易错点：比较级用 wie，原级比较用 als。"
+            "answer": 1,
+            "explanation": "同级比较用 so/genauso ... wie。"
           },
           "tags": [
             "comparison"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“比较级和最高级”规则另写一个完整德语句子。",
+            "modelAnswer": "Der zweite Text ist deutlich kürzer als der erste.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-024",
@@ -701,20 +939,31 @@
           ],
           "commonMistake": "把 größer wie 当作标准书面语。",
           "exercise": {
-            "question": "例句“Die Grammatik ist ebenso wichtig wie der Wortschatz.”是否符合“als 与 wie”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Heute fährt der Zug ___ als gestern.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "pünktlich",
+              "pünktlicher",
+              "mehr pünktlich",
+              "am pünktlichsten"
             ],
-            "answer": 0,
-            "explanation": "不等比较用 als，相等比较用 so/genauso … wie。 易错点：把 größer wie 当作标准书面语。"
+            "answer": 1,
+            "explanation": "与 als 搭配用比较级。"
           },
           "tags": [
             "comparison"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“als 与 wie”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Grammatik ist ebenso wichtig wie der Wortschatz.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },
@@ -737,20 +986,30 @@
           ],
           "commonMistake": "第二人称或第三人称词尾遗漏。",
           "exercise": {
-            "question": "例句“Du arbeitest heute zu Hause.”是否符合“现在时变位”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Du arbeitest heute zu Hause.”。哪一项对“现在时变位”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "变位动词与主语在人称和数上保持一致；例句中的相关形式使用正确。",
+              "例句应按“第二人称或第三人称词尾遗漏”处理，当前写法不成立。",
+              "该例句只涉及词义，与“现在时变位”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "变位动词与主语在人称和数上保持一致。 易错点：第二人称或第三人称词尾遗漏。"
+            "explanation": "变位动词与主语在人称和数上保持一致。 词干以 -t/-d 等结尾时常插入 -e-。 易错点：第二人称或第三人称词尾遗漏。"
           },
           "tags": [
             "conjugation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“现在时变位”规则另写一个完整德语句子。",
+            "modelAnswer": "Du arbeitest heute zu Hause.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-026",
@@ -766,20 +1025,30 @@
           ],
           "commonMistake": "把复数形式也错误变音。",
           "exercise": {
-            "question": "例句“Er liest jeden Tag deutsche Nachrichten.”是否符合“强变化动词现在时”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Er liest jeden Tag deutsche Nachrichten.”。哪一项对“强变化动词现在时”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把复数形式也错误变音”处理，当前写法不成立。",
+              "该例句只涉及词义，与“强变化动词现在时”没有语法关系。",
+              "部分强变化动词在 du/er/sie/es 中发生元音变化；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "部分强变化动词在 du/er/sie/es 中发生元音变化。 易错点：把复数形式也错误变音。"
+            "answer": 2,
+            "explanation": "部分强变化动词在 du/er/sie/es 中发生元音变化。 fahren–du fährst；lesen–er liest；nehmen–sie nimmt。 易错点：把复数形式也错误变音。"
           },
           "tags": [
             "irregular"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“强变化动词现在时”规则另写一个完整德语句子。",
+            "modelAnswer": "Er liest jeden Tag deutsche Nachrichten.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-027",
@@ -795,20 +1064,30 @@
           ],
           "commonMistake": "弱变化动词误加 ge- 或强变化形式混乱。",
           "exercise": {
-            "question": "例句“Früher wohnte sie in Köln.”是否符合“过去时”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Früher wohnte sie in Köln.”。哪一项对“过去时”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“过去时”没有语法关系。",
+              "叙述书面语中常用过去时；sein, haben, 情态动词在口语也常用过去时；例句中的相关形式使用正确。",
+              "例句应按“弱变化动词误加 ge- 或强变化形式混乱”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "叙述书面语中常用过去时；sein, haben, 情态动词在口语也常用过去时。 易错点：弱变化动词误加 ge- 或强变化形式混乱。"
+            "answer": 1,
+            "explanation": "叙述书面语中常用过去时；sein, haben, 情态动词在口语也常用过去时。 war, hatte, konnte；starke Verben: ging, kam。 易错点：弱变化动词误加 ge- 或强变化形式混乱。"
           },
           "tags": [
             "preterite"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“过去时”规则另写一个完整德语句子。",
+            "modelAnswer": "Früher wohnte sie in Köln.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-028",
@@ -824,20 +1103,31 @@
           ],
           "commonMistake": "所有动词一律用 haben。",
           "exercise": {
-            "question": "例句“Wir sind gestern spät angekommen.”是否符合“完成时”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Er hat sich nicht entscheiden ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "gekonnt",
+              "zu können",
+              "können",
+              "könnte"
             ],
-            "answer": 0,
-            "explanation": "haben/sein + 第二分词；移动、状态变化和 sein/bleiben/werden 等常用 sein。 易错点：所有动词一律用 haben。"
+            "answer": 2,
+            "explanation": "实义不定式 + 情态不定式。"
           },
           "tags": [
             "perfect"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“完成时”规则另写一个完整德语句子。",
+            "modelAnswer": "Wir sind gestern spät angekommen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-029",
@@ -853,20 +1143,31 @@
           ],
           "commonMistake": "写成 gestudiert 或 geverstanden。",
           "exercise": {
-            "question": "例句“Er hat den Text sorgfältig korrigiert.”是否符合“第二分词构成”所述规则？",
+            "type": "application_mcq",
+            "question": "Während der Projektwoche: Die Preise sind im letzten Jahr stark ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "gestiegen",
+              "gesteigt",
+              "steigen",
+              "angestiegen sind"
             ],
             "answer": 0,
-            "explanation": "弱变化 ge-…-t，强变化 ge-…-en；不可分前缀和 -ieren 动词不加 ge-。 易错点：写成 gestudiert 或 geverstanden。"
+            "explanation": "steigen 的第二分词为 gestiegen。"
           },
           "tags": [
             "participle"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第二分词构成”规则另写一个完整德语句子。",
+            "modelAnswer": "Er hat den Text sorgfältig korrigiert.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-030",
@@ -882,20 +1183,30 @@
           ],
           "commonMistake": "从句中仍把前缀拆开。",
           "exercise": {
-            "question": "例句“Weil sie am Kurs teilnimmt, erhält sie Zugang zu den Materialien.”是否符合“可分动词”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Weil sie am Kurs teilnimmt, erhält sie Zugang zu den Materialien.”。哪一项对“可分动词”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“可分动词”没有语法关系。",
+              "主句中前缀置于句末；从句和不定式中保持结合；例句中的相关形式使用正确。",
+              "例句应按“从句中仍把前缀拆开”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "主句中前缀置于句末；从句和不定式中保持结合。 易错点：从句中仍把前缀拆开。"
+            "answer": 1,
+            "explanation": "主句中前缀置于句末；从句和不定式中保持结合。 Er nimmt teil. / weil er teilnimmt / teilzunehmen。 易错点：从句中仍把前缀拆开。"
           },
           "tags": [
             "separable"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“可分动词”规则另写一个完整德语句子。",
+            "modelAnswer": "Weil sie am Kurs teilnimmt, erhält sie Zugang zu den Materialien.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-031",
@@ -911,20 +1222,31 @@
           ],
           "commonMistake": "两个动词都变位。",
           "exercise": {
-            "question": "例句“Die Aufgabe kann auf zwei Arten gelöst werden.”是否符合“情态动词”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Wir haben den Termin leider absagen ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "müssen gehabt",
+              "müssen",
+              "zu müssen",
+              "gemusst"
             ],
-            "answer": 0,
-            "explanation": "情态动词变位占第二位，实义动词原形置句末。 易错点：两个动词都变位。"
+            "answer": 1,
+            "explanation": "情态动词完成时使用双不定式。"
           },
           "tags": [
             "modal"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“情态动词”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Aufgabe kann auf zwei Arten gelöst werden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-032",
@@ -940,21 +1262,32 @@
           ],
           "commonMistake": "写成 gemusst 或把助动词位置弄错。",
           "exercise": {
-            "question": "例句“Sie hat die Prüfung nicht wiederholen müssen.”是否符合“情态动词完成时双不定式”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Die Studierenden haben das Gebäude nicht betreten ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "zu dürfen",
+              "gedurft",
+              "durften",
+              "dürfen"
             ],
-            "answer": 0,
-            "explanation": "情态动词和另一个不定式共同出现时常用双不定式。 易错点：写成 gemusst 或把助动词位置弄错。"
+            "answer": 3,
+            "explanation": "完成时双不定式：betreten dürfen。"
           },
           "tags": [
             "modal",
             "double_infinitive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“情态动词完成时双不定式”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie hat die Prüfung nicht wiederholen müssen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-033",
@@ -970,20 +1303,30 @@
           ],
           "commonMistake": "Sie 命令式忘记倒装。",
           "exercise": {
-            "question": "例句“Beachten Sie bitte die Hinweise.”是否符合“命令式”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Beachten Sie bitte die Hinweise.”。哪一项对“命令式”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“命令式”没有语法关系。",
+              "du 常去掉词尾，ihr 与现在时同形，Sie 使用动词 + Sie；例句中的相关形式使用正确。",
+              "例句应按“Sie 命令式忘记倒装”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "du 常去掉词尾，ihr 与现在时同形，Sie 使用动词 + Sie。 易错点：Sie 命令式忘记倒装。"
+            "answer": 1,
+            "explanation": "du 常去掉词尾，ihr 与现在时同形，Sie 使用动词 + Sie。 Lies! Lest! Lesen Sie!。 易错点：Sie 命令式忘记倒装。"
           },
           "tags": [
             "imperative"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“命令式”规则另写一个完整德语句子。",
+            "modelAnswer": "Beachten Sie bitte die Hinweise.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-034",
@@ -999,20 +1342,31 @@
           ],
           "commonMistake": "所有反身代词都用 sich。",
           "exercise": {
-            "question": "例句“Sie interessiert sich für deutsche Literatur.”是否符合“反身代词”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Ich kann ___ diesen Namen nicht merken.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "mein",
+              "sich",
+              "mich",
+              "mir"
             ],
-            "answer": 0,
-            "explanation": "反身代词随人称变化；第三人称为 sich，并可能是第三格或第四格。 易错点：所有反身代词都用 sich。"
+            "answer": 3,
+            "explanation": "sich etwas merken 中反身代词为第三格。"
           },
           "tags": [
             "reflexive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“反身代词”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie interessiert sich für deutsche Literatur.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-035",
@@ -1028,20 +1382,30 @@
           ],
           "commonMistake": "受中文影响使用第四格。",
           "exercise": {
-            "question": "例句“Dem Text fehlt eine klare Struktur.”是否符合“动词支配第三格”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Dem Text fehlt eine klare Struktur.”。哪一项对“动词支配第三格”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“受中文影响使用第四格”处理，当前写法不成立。",
+              "该例句只涉及词义，与“动词支配第三格”没有语法关系。",
+              "helfen, danken, gefallen, gehören, fehlen, folgen, zustimmen 等支配第三格；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "helfen, danken, gefallen, gehören, fehlen, folgen, zustimmen 等支配第三格。 易错点：受中文影响使用第四格。"
+            "answer": 2,
+            "explanation": "helfen, danken, gefallen, gehören, fehlen, folgen, zustimmen 等支配第三格。 Ich helfe meinem Freund。 易错点：受中文影响使用第四格。"
           },
           "tags": [
             "dative_verb"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“动词支配第三格”规则另写一个完整德语句子。",
+            "modelAnswer": "Dem Text fehlt eine klare Struktur.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-036",
@@ -1057,21 +1421,32 @@
           ],
           "commonMistake": "代词顺序完全照搬名词顺序。",
           "exercise": {
-            "question": "例句“Die Lehrerin erklärt es ihnen noch einmal.”是否符合“双宾语顺序”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Die Betreuerin hat ___ zu einem Gespräch eingeladen.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "mich",
+              "ich",
+              "mein",
+              "mir"
             ],
             "answer": 0,
-            "explanation": "两个名词宾语通常第三格在第四格前；代词通常置前；两个代词时第四格常在第三格前。 易错点：代词顺序完全照搬名词顺序。"
+            "explanation": "einladen 支配第四格。"
           },
           "tags": [
             "word_order",
             "pronoun"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“双宾语顺序”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Lehrerin erklärt es ihnen noch einmal.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-037",
@@ -1087,20 +1462,30 @@
           ],
           "commonMistake": "只记中文意思，不记介词和格。",
           "exercise": {
-            "question": "例句“Der Erfolg hängt von vielen Faktoren ab.”是否符合“动词介词支配”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Der Erfolg hängt von vielen Faktoren ab.”。哪一项对“动词介词支配”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "动词与介词、格应作为整体记忆；例句中的相关形式使用正确。",
+              "例句应按“只记中文意思，不记介词和格”处理，当前写法不成立。",
+              "该例句只涉及词义，与“动词介词支配”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "动词与介词、格应作为整体记忆。 易错点：只记中文意思，不记介词和格。"
+            "explanation": "动词与介词、格应作为整体记忆。 warten auf + A, teilnehmen an + D, abhängen von + D。 易错点：只记中文意思，不记介词和格。"
           },
           "tags": [
             "rection"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“动词介词支配”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Erfolg hängt von vielen Faktoren ab.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-038",
@@ -1116,20 +1501,31 @@
           ],
           "commonMistake": "情态动词后误加 zu。",
           "exercise": {
-            "question": "例句“Sie versucht, jeden Tag dreißig Minuten zu lesen.”是否符合“zu 不定式”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Wir bitten Sie, das Formular vollständig ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "ausfüllen zu",
+              "zu ausfüllen",
+              "ausgefüllt",
+              "auszufüllen"
             ],
-            "answer": 0,
-            "explanation": "同一主语或可推知主语时常用 zu 不定式；可分动词 zu 插入中间。 易错点：情态动词后误加 zu。"
+            "answer": 3,
+            "explanation": "可分动词的不定式 zu 插入前缀与词干之间。"
           },
           "tags": [
             "infinitive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“zu 不定式”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie versucht, jeden Tag dreißig Minuten zu lesen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-039",
@@ -1145,21 +1541,32 @@
           ],
           "commonMistake": "主语不一致仍使用 um zu。",
           "exercise": {
-            "question": "例句“Sie ging, ohne sich zu verabschieden.”是否符合“um…zu / ohne…zu / statt…zu”所述规则？",
+            "type": "application_mcq",
+            "question": "Nach dem Unterricht: Er ging früher nach Hause, um sich ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "ausruhen zu",
+              "auszuruhen",
+              "zu ausruhen",
+              "ausgeruht"
             ],
-            "answer": 0,
-            "explanation": "主句与不定式结构主语一致时，用于目的、缺失方式或替代行为。 易错点：主语不一致仍使用 um zu。"
+            "answer": 1,
+            "explanation": "可分动词 sich ausruhen → sich auszuruhen。"
           },
           "tags": [
             "infinitive",
             "transformation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“um…zu / ohne…zu / statt…zu”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie ging, ohne sich zu verabschieden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-040",
@@ -1175,20 +1582,30 @@
           ],
           "commonMistake": "误用 zu 或完成时结构错误。",
           "exercise": {
-            "question": "例句“Er lässt den Text von einer Freundin korrigieren.”是否符合“lassen + Infinitiv”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Er lässt den Text von einer Freundin korrigieren.”。哪一项对“lassen + Infinitiv”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "lassen 可表示让、允许或使某事被完成；例句中的相关形式使用正确。",
+              "例句应按“误用 zu 或完成时结构错误”处理，当前写法不成立。",
+              "该例句只涉及词义，与“lassen + Infinitiv”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "lassen 可表示让、允许或使某事被完成。 易错点：误用 zu 或完成时结构错误。"
+            "explanation": "lassen 可表示让、允许或使某事被完成。 Ich lasse das Fahrrad reparieren。 易错点：误用 zu 或完成时结构错误。"
           },
           "tags": [
             "causative"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“lassen + Infinitiv”规则另写一个完整德语句子。",
+            "modelAnswer": "Er lässt den Text von einer Freundin korrigieren.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-041",
@@ -1204,20 +1621,31 @@
           ],
           "commonMistake": "把现在分词理解为现在时。",
           "exercise": {
-            "question": "例句“Die wartenden Fahrgäste wurden informiert.”是否符合“现在分词”所述规则？",
+            "type": "application_mcq",
+            "question": "Vor der Prüfung: Wir ___ den ganzen Abend diskutiert.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "hat",
+              "haben",
+              "sind",
+              "werden"
             ],
-            "answer": 0,
-            "explanation": "Partizip I = Infinitiv + d，表示主动、同时进行。 易错点：把现在分词理解为现在时。"
+            "answer": 1,
+            "explanation": "无位置变化的及物/不及物活动动词通常用 haben。"
           },
           "tags": [
             "participle"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“现在分词”规则另写一个完整德语句子。",
+            "modelAnswer": "Die wartenden Fahrgäste wurden informiert.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-042",
@@ -1233,21 +1661,32 @@
           ],
           "commonMistake": "忘记形容词词尾。",
           "exercise": {
-            "question": "例句“Die gestern veröffentlichte Meldung wurde korrigiert.”是否符合“过去分词作定语”所述规则？",
+            "type": "application_mcq",
+            "question": "Vor der Prüfung: Er ___ gestern sehr früh aufgestanden.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "ist",
+              "hat",
+              "war",
+              "wird"
             ],
             "answer": 0,
-            "explanation": "Partizip II 作定语常表达完成或被动意义，并按形容词变化。 易错点：忘记形容词词尾。"
+            "explanation": "aufstehen 表状态变化，完成时用 sein。"
           },
           "tags": [
             "participle",
             "adjective_ending"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“过去分词作定语”规则另写一个完整德语句子。",
+            "modelAnswer": "Die gestern veröffentlichte Meldung wurde korrigiert.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },
@@ -1270,20 +1709,30 @@
           ],
           "commonMistake": "状语前置后仍保持主语在动词前。",
           "exercise": {
-            "question": "例句“Nach dem Unterricht geht sie in die Bibliothek.”是否符合“主句动词第二位”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Nach dem Unterricht geht sie in die Bibliothek.”。哪一项对“主句动词第二位”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "陈述主句中变位动词占句法第二位，第一位可以是一个成分；例句中的相关形式使用正确。",
+              "例句应按“状语前置后仍保持主语在动词前”处理，当前写法不成立。",
+              "该例句只涉及词义，与“主句动词第二位”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "陈述主句中变位动词占句法第二位，第一位可以是一个成分。 易错点：状语前置后仍保持主语在动词前。"
+            "explanation": "陈述主句中变位动词占句法第二位，第一位可以是一个成分。 Heute lerne ich zu Hause。 易错点：状语前置后仍保持主语在动词前。"
           },
           "tags": [
             "V2"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“主句动词第二位”规则另写一个完整德语句子。",
+            "modelAnswer": "Nach dem Unterricht geht sie in die Bibliothek.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-044",
@@ -1299,20 +1748,30 @@
           ],
           "commonMistake": "把所有动词成分放在一起。",
           "exercise": {
-            "question": "例句“Die Prüfung wird nächste Woche stattfinden.”是否符合“句框结构”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Prüfung wird nächste Woche stattfinden.”。哪一项对“句框结构”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把所有动词成分放在一起”处理，当前写法不成立。",
+              "该例句只涉及词义，与“句框结构”没有语法关系。",
+              "变位部分在第二位，非变位部分或可分前缀在句末；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "变位部分在第二位，非变位部分或可分前缀在句末。 易错点：把所有动词成分放在一起。"
+            "answer": 2,
+            "explanation": "变位部分在第二位，非变位部分或可分前缀在句末。 Er hat die Aufgabe gestern abgegeben。 易错点：把所有动词成分放在一起。"
           },
           "tags": [
             "sentence_bracket"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“句框结构”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Prüfung wird nächste Woche stattfinden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-045",
@@ -1328,20 +1787,31 @@
           ],
           "commonMistake": "受主句影响把动词放第二位。",
           "exercise": {
-            "question": "例句“Obwohl der Text lang ist, ist er gut verständlich.”是否符合“从句尾语序”所述规则？",
+            "type": "application_mcq",
+            "question": "Vor der Prüfung: Nachdem wir die Prüfung bestanden hatten, ___ wir gemeinsam.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "feierten",
+              "feiern wir",
+              "gefeiert",
+              "wir feierten"
             ],
             "answer": 0,
-            "explanation": "从属连词引导的从句中变位动词通常置于句末。 易错点：受主句影响把动词放第二位。"
+            "explanation": "前置从句后，主句动词位于第一位。"
           },
           "tags": [
             "subordinate_clause"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“从句尾语序”规则另写一个完整德语句子。",
+            "modelAnswer": "Obwohl der Text lang ist, ist er gut verständlich.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-046",
@@ -1357,20 +1827,30 @@
           ],
           "commonMistake": "从句后写成 ich ging 而不是 ging ich。",
           "exercise": {
-            "question": "例句“Nachdem die Prüfung beendet war, gingen alle nach Hause.”是否符合“从句后的主句倒装”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Nachdem die Prüfung beendet war, gingen alle nach Hause.”。哪一项对“从句后的主句倒装”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "从句整体占据主句第一位，主句变位动词紧随其后；例句中的相关形式使用正确。",
+              "例句应按“从句后写成 ich ging 而不是 ging ich”处理，当前写法不成立。",
+              "该例句只涉及词义，与“从句后的主句倒装”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "从句整体占据主句第一位，主句变位动词紧随其后。 易错点：从句后写成 ich ging 而不是 ging ich。"
+            "explanation": "从句整体占据主句第一位，主句变位动词紧随其后。 Wenn ich Zeit habe, lese ich。 易错点：从句后写成 ich ging 而不是 ging ich。"
           },
           "tags": [
             "inversion"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“从句后的主句倒装”规则另写一个完整德语句子。",
+            "modelAnswer": "Nachdem die Prüfung beendet war, gingen alle nach Hause.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-047",
@@ -1386,20 +1866,30 @@
           ],
           "commonMistake": "把 denn 后动词放到句末。",
           "exercise": {
-            "question": "例句“Sie lernt viel, denn die Prüfung ist schwierig.”是否符合“并列连词语序”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Sie lernt viel, denn die Prüfung ist schwierig.”。哪一项对“并列连词语序”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“把 denn 后动词放到句末”处理，当前写法不成立。",
+              "该例句只涉及词义，与“并列连词语序”没有语法关系。",
+              "und, oder, aber, denn, sondern 不改变主句语序；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "und, oder, aber, denn, sondern 不改变主句语序。 易错点：把 denn 后动词放到句末。"
+            "answer": 2,
+            "explanation": "und, oder, aber, denn, sondern 不改变主句语序。 Ich komme, aber mein Freund bleibt zu Hause。 易错点：把 denn 后动词放到句末。"
           },
           "tags": [
             "coordination"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“并列连词语序”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie lernt viel, denn die Prüfung ist schwierig.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-048",
@@ -1415,21 +1905,32 @@
           ],
           "commonMistake": "连接副词后不倒装。",
           "exercise": {
-            "question": "例句“Der Zug hatte Verspätung; trotzdem kamen wir pünktlich an.”是否符合“连接副词语序”所述规则？",
+            "type": "application_mcq",
+            "question": "Vor der Prüfung: ___ er wenig Zeit hatte, half er uns bei der Vorbereitung.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "Deshalb",
+              "Weil",
+              "Denn",
+              "Obwohl"
             ],
-            "answer": 0,
-            "explanation": "deshalb, trotzdem, außerdem, danach 等可占第一位，随后动词第二位。 易错点：连接副词后不倒装。"
+            "answer": 3,
+            "explanation": "前置让步从句用 obwohl。"
           },
           "tags": [
             "connector",
             "inversion"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“连接副词语序”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Zug hatte Verspätung; trotzdem kamen wir pünktlich an.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-049",
@@ -1445,20 +1946,30 @@
           ],
           "commonMistake": "特殊疑问句仍使用陈述语序。",
           "exercise": {
-            "question": "例句“Warum interessiert sie sich für dieses Thema?”是否符合“疑问句”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Warum interessiert sie sich für dieses Thema?”。哪一项对“疑问句”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "一般疑问句动词第一位；特殊疑问句疑问词第一位、动词第二位；例句中的相关形式使用正确。",
+              "例句应按“特殊疑问句仍使用陈述语序”处理，当前写法不成立。",
+              "该例句只涉及词义，与“疑问句”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "一般疑问句动词第一位；特殊疑问句疑问词第一位、动词第二位。 易错点：特殊疑问句仍使用陈述语序。"
+            "explanation": "一般疑问句动词第一位；特殊疑问句疑问词第一位、动词第二位。 Kommst du? / Wann kommst du?。 易错点：特殊疑问句仍使用陈述语序。"
           },
           "tags": [
             "question"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“疑问句”规则另写一个完整德语句子。",
+            "modelAnswer": "Warum interessiert sie sich für dieses Thema?",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-050",
@@ -1474,20 +1985,31 @@
           ],
           "commonMistake": "间接疑问句使用问号或主句疑问语序混乱。",
           "exercise": {
-            "question": "例句“Können Sie mir sagen, wann der Kurs beginnt?”是否符合“间接疑问句”所述规则？",
+            "type": "application_mcq",
+            "question": "Vor der Prüfung: Wir haben erfahren, ___ das Seminar ausfällt.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "ob",
+              "wann",
+              "wer",
+              "dass"
             ],
-            "answer": 0,
-            "explanation": "ob 或疑问词引导从句，动词置末。 易错点：间接疑问句使用问号或主句疑问语序混乱。"
+            "answer": 3,
+            "explanation": "表示获知的事实用 dass。"
           },
           "tags": [
             "indirect_question"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“间接疑问句”规则另写一个完整德语句子。",
+            "modelAnswer": "Können Sie mir sagen, wann der Kurs beginnt?",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-051",
@@ -1503,20 +2025,31 @@
           ],
           "commonMistake": "只看先行词而不判断从句格。",
           "exercise": {
-            "question": "例句“Das Buch, das ich gestern gekauft habe, ist sehr nützlich.”是否符合“关系从句”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Alltag: Das ist der Dozent, ___ uns im ersten Semester unterrichtet hat.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "dem",
+              "den",
+              "dessen",
+              "der"
             ],
-            "answer": 0,
-            "explanation": "关系代词性数取决于先行词，格取决于其在从句中的功能。 易错点：只看先行词而不判断从句格。"
+            "answer": 3,
+            "explanation": "关系代词在从句中作主语，先行词为阳性单数。"
           },
           "tags": [
             "relative_clause"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“关系从句”规则另写一个完整德语句子。",
+            "modelAnswer": "Das Buch, das ich gestern gekauft habe, ist sehr nützlich.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-052",
@@ -1532,21 +2065,32 @@
           ],
           "commonMistake": "把介词留在从句末。",
           "exercise": {
-            "question": "例句“Das Thema, über das wir sprechen, ist aktuell.”是否符合“关系代词介词结构”所述规则？",
+            "type": "application_mcq",
+            "question": "Bei der Gruppenarbeit: Er bedankt sich bei seiner Betreuerin ___ die schnelle Hilfe.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "über",
+              "von",
+              "für",
+              "mit"
             ],
-            "answer": 0,
-            "explanation": "介词置于关系代词前，格由介词决定。 易错点：把介词留在从句末。"
+            "answer": 2,
+            "explanation": "sich bedanken für + Akkusativ。"
           },
           "tags": [
             "relative_clause",
             "preposition"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“关系代词介词结构”规则另写一个完整德语句子。",
+            "modelAnswer": "Das Thema, über das wir sprechen, ist aktuell.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-053",
@@ -1562,20 +2106,31 @@
           ],
           "commonMistake": "把 dass 从句误当关系从句。",
           "exercise": {
-            "question": "例句“Die Hoffnung, dass sich die Lage verbessert, bleibt bestehen.”是否符合“名词后的同位 dass 从句”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Alltag: Niemand versteht, ___ der Termin verschoben wurde.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "weil",
+              "denn",
+              "obwohl",
+              "warum"
             ],
-            "answer": 0,
-            "explanation": "表示内容的名词可接 dass 从句，如 Tatsache, Hoffnung, Meinung, Möglichkeit。 易错点：把 dass 从句误当关系从句。"
+            "answer": 3,
+            "explanation": "间接疑问“为什么”用 warum。"
           },
           "tags": [
             "dass_clause"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“名词后的同位 dass 从句”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Hoffnung, dass sich die Lage verbessert, bleibt bestehen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-054",
@@ -1591,20 +2146,31 @@
           ],
           "commonMistake": "nicht 固定放在动词后。",
           "exercise": {
-            "question": "例句“Er hat die Aufgabe noch nicht abgegeben.”是否符合“否定词位置”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Alltag: Sie kennt hier ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "niemand",
+              "kein",
+              "niemanden",
+              "nichts"
             ],
-            "answer": 0,
-            "explanation": "nicht 通常否定其后的成分；全句否定常靠近句末框架前。 易错点：nicht 固定放在动词后。"
+            "answer": 2,
+            "explanation": "kennen 支配第四格，niemand 的第四格为 niemanden。"
           },
           "tags": [
             "negation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“否定词位置”规则另写一个完整德语句子。",
+            "modelAnswer": "Er hat die Aufgabe noch nicht abgegeben.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-055",
@@ -1620,20 +2186,30 @@
           ],
           "commonMistake": "把 TeKaMoLo 当作不可改变的绝对规则。",
           "exercise": {
-            "question": "例句“Sie arbeitet morgens konzentriert in der Bibliothek.”是否符合“时间—原因—方式—地点”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Sie arbeitet morgens konzentriert in der Bibliothek.”。哪一项对“时间—原因—方式—地点”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "中性语序常遵循 TeKaMoLo：时间、原因、方式、地点，但信息结构可调整；例句中的相关形式使用正确。",
+              "例句应按“把 TeKaMoLo 当作不可改变的绝对规则”处理，当前写法不成立。",
+              "该例句只涉及词义，与“时间—原因—方式—地点”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "中性语序常遵循 TeKaMoLo：时间、原因、方式、地点，但信息结构可调整。 易错点：把 TeKaMoLo 当作不可改变的绝对规则。"
+            "explanation": "中性语序常遵循 TeKaMoLo：时间、原因、方式、地点，但信息结构可调整。 Heute fährt er wegen des Regens mit dem Bus zur Uni。 易错点：把 TeKaMoLo 当作不可改变的绝对规则。"
           },
           "tags": [
             "adverbial_order"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“时间—原因—方式—地点”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie arbeitet morgens konzentriert in der Bibliothek.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-056",
@@ -1649,20 +2225,30 @@
           ],
           "commonMistake": "代词放在所有状语之后。",
           "exercise": {
-            "question": "例句“Sie erklärt ihm die Regel noch einmal.”是否符合“代词与名词宾语位置”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Sie erklärt ihm die Regel noch einmal.”。哪一项对“代词与名词宾语位置”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“代词放在所有状语之后”处理，当前写法不成立。",
+              "该例句只涉及词义，与“代词与名词宾语位置”没有语法关系。",
+              "非重读代词通常靠前；已知信息通常早于新信息；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "非重读代词通常靠前；已知信息通常早于新信息。 易错点：代词放在所有状语之后。"
+            "answer": 2,
+            "explanation": "非重读代词通常靠前；已知信息通常早于新信息。 Ich habe es meinem Freund gegeben。 易错点：代词放在所有状语之后。"
           },
           "tags": [
             "pronoun_order"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“代词与名词宾语位置”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie erklärt ihm die Regel noch einmal.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-057",
@@ -1678,20 +2264,30 @@
           ],
           "commonMistake": "随意省略形式 es。",
           "exercise": {
-            "question": "例句“Es fällt mir schwer, lange Sätze schnell zu verstehen.”是否符合“es 的用法”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Es fällt mir schwer, lange Sätze schnell zu verstehen.”。哪一项对“es 的用法”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“es 的用法”没有语法关系。",
+              "es 可作形式主语、形式宾语、天气主语或非人称结构成分；例句中的相关形式使用正确。",
+              "例句应按“随意省略形式 es”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "es 可作形式主语、形式宾语、天气主语或非人称结构成分。 易错点：随意省略形式 es。"
+            "answer": 1,
+            "explanation": "es 可作形式主语、形式宾语、天气主语或非人称结构成分。 Es regnet. / Es ist wichtig, dass ... / Es gibt ...。 易错点：随意省略形式 es。"
           },
           "tags": [
             "es"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“es 的用法”规则另写一个完整德语句子。",
+            "modelAnswer": "Es fällt mir schwer, lange Sätze schnell zu verstehen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-058",
@@ -1707,21 +2303,32 @@
           ],
           "commonMistake": "把 man 直接翻译为“男人”。",
           "exercise": {
-            "question": "例句“In Deutschland trinkt man viel Kaffee.”是否符合“man 与被动态”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Alltag: In diesem Raum darf nicht ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "wird geraucht",
+              "rauchen",
+              "geraucht werden",
+              "geraucht worden"
             ],
-            "answer": 0,
-            "explanation": "man 表泛指人；转换为被动态时宾语成为主语。 易错点：把 man 直接翻译为“男人”。"
+            "answer": 2,
+            "explanation": "无人称被动与情态动词：geraucht werden。"
           },
           "tags": [
             "man",
             "passive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“man 与被动态”规则另写一个完整德语句子。",
+            "modelAnswer": "In Deutschland trinkt man viel Kaffee.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },
@@ -1744,20 +2351,31 @@
           ],
           "commonMistake": "把被动态助动词写成 sein。",
           "exercise": {
-            "question": "例句“Die Ergebnisse werden morgen veröffentlicht.”是否符合“过程被动态”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Alltag: Alle Fragen sollen ausführlich ___ werden.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "beantwortet",
+              "gebeantwortet",
+              "antwortet",
+              "beantworten"
             ],
             "answer": 0,
-            "explanation": "werden + Partizip II，强调动作过程。 易错点：把被动态助动词写成 sein。"
+            "explanation": "beantworten 的分词为 beantwortet。"
           },
           "tags": [
             "passive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“过程被动态”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Ergebnisse werden morgen veröffentlicht.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-060",
@@ -1773,20 +2391,30 @@
           ],
           "commonMistake": "与完成时或过程被动态混淆。",
           "exercise": {
-            "question": "例句“Die Anmeldung ist bereits abgeschlossen.”是否符合“状态被动态”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Anmeldung ist bereits abgeschlossen.”。哪一项对“状态被动态”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“状态被动态”没有语法关系。",
+              "sein + Partizip II，强调动作后的状态；例句中的相关形式使用正确。",
+              "例句应按“与完成时或过程被动态混淆”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "sein + Partizip II，强调动作后的状态。 易错点：与完成时或过程被动态混淆。"
+            "answer": 1,
+            "explanation": "sein + Partizip II，强调动作后的状态。 Die Tür ist geschlossen。 易错点：与完成时或过程被动态混淆。"
           },
           "tags": [
             "state_passive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“状态被动态”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Anmeldung ist bereits abgeschlossen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-061",
@@ -1802,21 +2430,32 @@
           ],
           "commonMistake": "写成 ist geworden。",
           "exercise": {
-            "question": "例句“Der Termin ist kurzfristig geändert worden.”是否符合“被动态时态”所述规则？",
+            "type": "application_mcq",
+            "question": "Bei der Gruppenarbeit: Die Tür ist bereits ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "geschlossen",
+              "geschlossen worden",
+              "schließen",
+              "geschließt"
             ],
             "answer": 0,
-            "explanation": "助动词 werden 按时态变化；完成时为 ist ... worden。 易错点：写成 ist geworden。"
+            "explanation": "sein + Partizip II 表示状态被动。"
           },
           "tags": [
             "passive",
             "tense"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“被动态时态”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Termin ist kurzfristig geändert worden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-062",
@@ -1832,21 +2471,32 @@
           ],
           "commonMistake": "把 werden 变位或遗漏。",
           "exercise": {
-            "question": "例句“Die Formulare müssen online ausgefüllt werden.”是否符合“情态动词被动态”所述规则？",
+            "type": "application_mcq",
+            "question": "Bei der Gruppenarbeit: Ich habe früher jeden Morgen um sechs aufstehen ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "gemusst",
+              "zu müssen",
+              "musste",
+              "müssen"
             ],
-            "answer": 0,
-            "explanation": "情态动词变位 + Partizip II + werden。 易错点：把 werden 变位或遗漏。"
+            "answer": 3,
+            "explanation": "完成时双不定式。"
           },
           "tags": [
             "passive",
             "modal"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“情态动词被动态”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Formulare müssen online ausgefüllt werden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-063",
@@ -1862,20 +2512,31 @@
           ],
           "commonMistake": "von 与 durch 不分。",
           "exercise": {
-            "question": "例句“Die Straße wurde durch den Sturm beschädigt.”是否符合“施事表达”所述规则？",
+            "type": "application_mcq",
+            "question": "Bei der Gruppenarbeit: Die Aufgabe konnte nicht rechtzeitig ___ werden.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "gelösen",
+              "gelöst",
+              "lösen",
+              "gelöst worden"
             ],
-            "answer": 0,
-            "explanation": "被动态施事者通常用 von + D；工具或原因常用 durch + A。 易错点：von 与 durch 不分。"
+            "answer": 1,
+            "explanation": "情态动词过去时被动。"
           },
           "tags": [
             "passive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“施事表达”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Straße wurde durch den Sturm beschädigt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-064",
@@ -1891,20 +2552,30 @@
           ],
           "commonMistake": "认为没有第四格宾语就不能被动。",
           "exercise": {
-            "question": "例句“Im Kurs wird viel diskutiert.”是否符合“无人称被动态”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Im Kurs wird viel diskutiert.”。哪一项对“无人称被动态”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "不及物动作动词可构成无人称被动态；首位不是 es 时，es 消失；例句中的相关形式使用正确。",
+              "例句应按“认为没有第四格宾语就不能被动”处理，当前写法不成立。",
+              "该例句只涉及词义，与“无人称被动态”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "不及物动作动词可构成无人称被动态；首位不是 es 时，es 消失。 易错点：认为没有第四格宾语就不能被动。"
+            "explanation": "不及物动作动词可构成无人称被动态；首位不是 es 时，es 消失。 Es wird getanzt. / Heute wird getanzt。 易错点：认为没有第四格宾语就不能被动。"
           },
           "tags": [
             "impersonal_passive"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“无人称被动态”规则另写一个完整德语句子。",
+            "modelAnswer": "Im Kurs wird viel diskutiert.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-065",
@@ -1920,21 +2591,32 @@
           ],
           "commonMistake": "转换后忘记形容词词尾或时间关系不符。",
           "exercise": {
-            "question": "例句“Die gestern veröffentlichten Daten sind unvollständig.”是否符合“关系从句转分词定语”所述规则？",
+            "type": "application_mcq",
+            "question": "Bei der Gruppenarbeit: Sie hat ihre Schlüssel zu Hause ___.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "gevergessen",
+              "vergisst",
+              "vergesst",
+              "vergessen"
             ],
-            "answer": 0,
-            "explanation": "主动同时关系从句可转 Partizip I；被动或完成关系可转 Partizip II。 易错点：转换后忘记形容词词尾或时间关系不符。"
+            "answer": 3,
+            "explanation": "不可分前缀 ver- 不加 ge-。"
           },
           "tags": [
             "transformation",
             "participle"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“关系从句转分词定语”规则另写一个完整德语句子。",
+            "modelAnswer": "Die gestern veröffentlichten Daten sind unvollständig.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-066",
@@ -1950,21 +2632,31 @@
           ],
           "commonMistake": "介词支配格错误。",
           "exercise": {
-            "question": "例句“Trotz des schlechten Wetters fand die Veranstaltung statt.”是否符合“从句转介词短语”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Trotz des schlechten Wetters fand die Veranstaltung statt.”。哪一项对“从句转介词短语”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“从句转介词短语”没有语法关系。",
+              "因果、时间、让步等从句可转为相应介词短语；例句中的相关形式使用正确。",
+              "例句应按“介词支配格错误”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "因果、时间、让步等从句可转为相应介词短语。 易错点：介词支配格错误。"
+            "answer": 1,
+            "explanation": "因果、时间、让步等从句可转为相应介词短语。 weil es regnete → wegen des Regens。 易错点：介词支配格错误。"
           },
           "tags": [
             "transformation",
             "nominalization"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“从句转介词短语”规则另写一个完整德语句子。",
+            "modelAnswer": "Trotz des schlechten Wetters fand die Veranstaltung statt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-067",
@@ -1980,20 +2672,30 @@
           ],
           "commonMistake": "名词化后仍保留原从句语序。",
           "exercise": {
-            "question": "例句“Nach Abschluss der Prüfung wurden die Bögen eingesammelt.”是否符合“动词结构名词化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Nach Abschluss der Prüfung wurden die Bögen eingesammelt.”。哪一项对“动词结构名词化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "动词或从句可转名词结构，常用于书面语；例句中的相关形式使用正确。",
+              "例句应按“名词化后仍保留原从句语序”处理，当前写法不成立。",
+              "该例句只涉及词义，与“动词结构名词化”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "动词或从句可转名词结构，常用于书面语。 易错点：名词化后仍保留原从句语序。"
+            "explanation": "动词或从句可转名词结构，常用于书面语。 Nachdem er angekommen war → nach seiner Ankunft。 易错点：名词化后仍保留原从句语序。"
           },
           "tags": [
             "nominalization"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“动词结构名词化”规则另写一个完整德语句子。",
+            "modelAnswer": "Nach Abschluss der Prüfung wurden die Bögen eingesammelt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-068",
@@ -2009,20 +2711,30 @@
           ],
           "commonMistake": "逐词翻译名词链导致主干丢失。",
           "exercise": {
-            "question": "例句“Weil die Kosten gestiegen sind, wurde der Plan geändert.”是否符合“名词结构动词化”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Weil die Kosten gestiegen sind, wurde der Plan geändert.”。哪一项对“名词结构动词化”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“逐词翻译名词链导致主干丢失”处理，当前写法不成立。",
+              "该例句只涉及词义，与“名词结构动词化”没有语法关系。",
+              "长名词短语可展开为从句或动词表达，提高可理解性；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "长名词短语可展开为从句或动词表达，提高可理解性。 易错点：逐词翻译名词链导致主干丢失。"
+            "answer": 2,
+            "explanation": "长名词短语可展开为从句或动词表达，提高可理解性。 die Durchführung der Untersuchung → die Untersuchung durchführen。 易错点：逐词翻译名词链导致主干丢失。"
           },
           "tags": [
             "verbalization"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“名词结构动词化”规则另写一个完整德语句子。",
+            "modelAnswer": "Weil die Kosten gestiegen sind, wurde der Plan geändert.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-069",
@@ -2038,20 +2750,30 @@
           ],
           "commonMistake": "所有动词都机械使用 würde + Infinitiv。",
           "exercise": {
-            "question": "例句“Ich würde Ihnen empfehlen, mehr Beispiele zu verwenden.”是否符合“第二虚拟式礼貌表达”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Ich würde Ihnen empfehlen, mehr Beispiele zu verwenden.”。哪一项对“第二虚拟式礼貌表达”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“第二虚拟式礼貌表达”没有语法关系。",
+              "würde/könnte/hätte/wäre 等用于礼貌请求和建议；例句中的相关形式使用正确。",
+              "例句应按“所有动词都机械使用 würde + Infinitiv”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "würde/könnte/hätte/wäre 等用于礼貌请求和建议。 易错点：所有动词都机械使用 würde + Infinitiv。"
+            "answer": 1,
+            "explanation": "würde/könnte/hätte/wäre 等用于礼貌请求和建议。 Könnten Sie das erklären?。 易错点：所有动词都机械使用 würde + Infinitiv。"
           },
           "tags": [
             "konjunktiv_II"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第二虚拟式礼貌表达”规则另写一个完整德语句子。",
+            "modelAnswer": "Ich würde Ihnen empfehlen, mehr Beispiele zu verwenden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-070",
@@ -2067,21 +2789,31 @@
           ],
           "commonMistake": "条件从句与主句时态不协调。",
           "exercise": {
-            "question": "例句“Wenn die App offline funktionieren würde, wäre sie praktischer.”是否符合“第二虚拟式非现实条件”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Wenn die App offline funktionieren würde, wäre sie praktischer.”。哪一项对“第二虚拟式非现实条件”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "wenn + Konjunktiv II 表示与现实不符或可能性较低的假设；例句中的相关形式使用正确。",
+              "例句应按“条件从句与主句时态不协调”处理，当前写法不成立。",
+              "该例句只涉及词义，与“第二虚拟式非现实条件”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "wenn + Konjunktiv II 表示与现实不符或可能性较低的假设。 易错点：条件从句与主句时态不协调。"
+            "explanation": "wenn + Konjunktiv II 表示与现实不符或可能性较低的假设。 Wenn ich mehr Zeit hätte, würde ich öfter lesen。 易错点：条件从句与主句时态不协调。"
           },
           "tags": [
             "konjunktiv_II",
             "conditional"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第二虚拟式非现实条件”规则另写一个完整德语句子。",
+            "modelAnswer": "Wenn die App offline funktionieren würde, wäre sie praktischer.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-071",
@@ -2097,21 +2829,31 @@
           ],
           "commonMistake": "写成普通完成时。",
           "exercise": {
-            "question": "例句“Wenn der Zug pünktlich gewesen wäre, hätten wir den Anschluss erreicht.”是否符合“过去非现实条件”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Wenn der Zug pünktlich gewesen wäre, hätten wir den Anschluss erreicht.”。哪一项对“过去非现实条件”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“写成普通完成时”处理，当前写法不成立。",
+              "该例句只涉及词义，与“过去非现实条件”没有语法关系。",
+              "hätte/wäre + Partizip II；主句常 hätte/wäre 或 würde + Partizip II + haben/sein；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "hätte/wäre + Partizip II；主句常 hätte/wäre 或 würde + Partizip II + haben/sein。 易错点：写成普通完成时。"
+            "answer": 2,
+            "explanation": "hätte/wäre + Partizip II；主句常 hätte/wäre 或 würde + Partizip II + haben/sein。 Wenn ich gelernt hätte, hätte ich bestanden。 易错点：写成普通完成时。"
           },
           "tags": [
             "konjunktiv_II",
             "past"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“过去非现实条件”规则另写一个完整德语句子。",
+            "modelAnswer": "Wenn der Zug pünktlich gewesen wäre, hätten wir den Anschluss erreicht.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-072",
@@ -2127,21 +2869,31 @@
           ],
           "commonMistake": "把间接引语内容当作说话者本人确认的事实。",
           "exercise": {
-            "question": "例句“Die Autorin erklärt, die Ergebnisse seien eindeutig.”是否符合“第一虚拟式间接引语”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Autorin erklärt, die Ergebnisse seien eindeutig.”。哪一项对“第一虚拟式间接引语”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“第一虚拟式间接引语”没有语法关系。",
+              "新闻和正式转述中，Konjunktiv I 表明信息来源于他人；例句中的相关形式使用正确。",
+              "例句应按“把间接引语内容当作说话者本人确认的事实”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "新闻和正式转述中，Konjunktiv I 表明信息来源于他人。 易错点：把间接引语内容当作说话者本人确认的事实。"
+            "answer": 1,
+            "explanation": "新闻和正式转述中，Konjunktiv I 表明信息来源于他人。 Er sagt, er sei krank。 易错点：把间接引语内容当作说话者本人确认的事实。"
           },
           "tags": [
             "konjunktiv_I",
             "reported_speech"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“第一虚拟式间接引语”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Autorin erklärt, die Ergebnisse seien eindeutig.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },
@@ -2164,20 +2916,30 @@
           ],
           "commonMistake": "只按最近名词匹配，不看语义。",
           "exercise": {
-            "question": "例句“Die Stadt führte ein neues System ein. Dadurch wurden die Wartezeiten kürzer.”是否符合“指代关系”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Die Stadt führte ein neues System ein. Dadurch wurden die Wartezeiten kürzer.”。哪一项对“指代关系”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "代词、副词和替代词必须能在上下文中找到明确先行项；例句中的相关形式使用正确。",
+              "例句应按“只按最近名词匹配，不看语义”处理，当前写法不成立。",
+              "该例句只涉及词义，与“指代关系”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "代词、副词和替代词必须能在上下文中找到明确先行项。 易错点：只按最近名词匹配，不看语义。"
+            "explanation": "代词、副词和替代词必须能在上下文中找到明确先行项。 dieser, dabei, dadurch, dessen。 易错点：只按最近名词匹配，不看语义。"
           },
           "tags": [
             "cohesion"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“指代关系”规则另写一个完整德语句子。",
+            "modelAnswer": "Die Stadt führte ein neues System ein. Dadurch wurden die Wartezeiten kürzer.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-074",
@@ -2193,21 +2955,31 @@
           ],
           "commonMistake": "原因和结果连接词方向混用。",
           "exercise": {
-            "question": "例句“Wegen des Regens blieb er zu Hause. Deshalb verpasste er das Treffen.”是否符合“因果连接”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Wegen des Regens blieb er zu Hause. Deshalb verpasste er das Treffen.”。哪一项对“因果连接”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“原因和结果连接词方向混用”处理，当前写法不成立。",
+              "该例句只涉及词义，与“因果连接”没有语法关系。",
+              "原因可用 weil/da/denn/wegen；结果可用 deshalb/daher/sodass/zur Folge haben；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "原因可用 weil/da/denn/wegen；结果可用 deshalb/daher/sodass/zur Folge haben。 易错点：原因和结果连接词方向混用。"
+            "answer": 2,
+            "explanation": "原因可用 weil/da/denn/wegen；结果可用 deshalb/daher/sodass/zur Folge haben。 句法形式不同但语义关系一致。 易错点：原因和结果连接词方向混用。"
           },
           "tags": [
             "cohesion",
             "cause"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“因果连接”规则另写一个完整德语句子。",
+            "modelAnswer": "Wegen des Regens blieb er zu Hause. Deshalb verpasste er das Treffen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-075",
@@ -2223,21 +2995,31 @@
           ],
           "commonMistake": "obwohl 与 trotzdem 机械叠加。",
           "exercise": {
-            "question": "例句“Obwohl die Kosten hoch sind, wird das Projekt fortgesetzt.”是否符合“转折与让步”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Obwohl die Kosten hoch sind, wird das Projekt fortgesetzt.”。哪一项对“转折与让步”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“转折与让步”没有语法关系。",
+              "aber/jedoch/hingegen 表转折；obwohl/trotz 表让步；trotzdem/dennoch 表结果反预期；例句中的相关形式使用正确。",
+              "例句应按“obwohl 与 trotzdem 机械叠加”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "aber/jedoch/hingegen 表转折；obwohl/trotz 表让步；trotzdem/dennoch 表结果反预期。 易错点：obwohl 与 trotzdem 机械叠加。"
+            "answer": 1,
+            "explanation": "aber/jedoch/hingegen 表转折；obwohl/trotz 表让步；trotzdem/dennoch 表结果反预期。 注意各自语序和格支配。 易错点：obwohl 与 trotzdem 机械叠加。"
           },
           "tags": [
             "cohesion",
             "contrast"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“转折与让步”规则另写一个完整德语句子。",
+            "modelAnswer": "Obwohl die Kosten hoch sind, wird das Projekt fortgesetzt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-076",
@@ -2253,21 +3035,31 @@
           ],
           "commonMistake": "连接词堆积但逻辑不清。",
           "exercise": {
-            "question": "例句“Zunächst wird das Problem beschrieben; anschließend werden Lösungen vorgestellt.”是否符合“列举与递进”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Zunächst wird das Problem beschrieben; anschließend werden Lösungen vorgestellt.”。哪一项对“列举与递进”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "zunächst, außerdem, darüber hinaus, schließlich 等组织信息；例句中的相关形式使用正确。",
+              "例句应按“连接词堆积但逻辑不清”处理，当前写法不成立。",
+              "该例句只涉及词义，与“列举与递进”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "zunächst, außerdem, darüber hinaus, schließlich 等组织信息。 易错点：连接词堆积但逻辑不清。"
+            "explanation": "zunächst, außerdem, darüber hinaus, schließlich 等组织信息。 连接副词后保持动词第二位。 易错点：连接词堆积但逻辑不清。"
           },
           "tags": [
             "cohesion",
             "writing"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“列举与递进”规则另写一个完整德语句子。",
+            "modelAnswer": "Zunächst wird das Problem beschrieben; anschließend werden Lösungen vorgestellt.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-077",
@@ -2283,21 +3075,32 @@
           ],
           "commonMistake": "比较基准不一致。",
           "exercise": {
-            "question": "例句“Im Vergleich zum Vorjahr stieg die Zahl um zehn Prozent.”是否符合“比较与对照”所述规则？",
+            "type": "application_mcq",
+            "question": "Im Sprachkurs: Die Miete ist viel ___ geworden.",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "höher",
+              "hoch",
+              "am höchsten",
+              "mehr hoch"
             ],
             "answer": 0,
-            "explanation": "im Vergleich zu, während, wohingegen, einerseits–andererseits 用于比较。 易错点：比较基准不一致。"
+            "explanation": "hoch 的比较级为 höher。"
           },
           "tags": [
             "comparison",
             "data"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“比较与对照”规则另写一个完整德语句子。",
+            "modelAnswer": "Im Vergleich zum Vorjahr stieg die Zahl um zehn Prozent.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-078",
@@ -2313,20 +3116,30 @@
           ],
           "commonMistake": "用 es ist wenn 构成不规范定义。",
           "exercise": {
-            "question": "例句“Unter Lernerfolg versteht man eine nachhaltige Verbesserung der Sprachleistung.”是否符合“定义表达”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Unter Lernerfolg versteht man eine nachhaltige Verbesserung der Sprachleistung.”。哪一项对“定义表达”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“定义表达”没有语法关系。",
+              "X bedeutet…, Unter X versteht man…, X bezeichnet… 用于解释概念；例句中的相关形式使用正确。",
+              "例句应按“用 es ist wenn 构成不规范定义”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "X bedeutet…, Unter X versteht man…, X bezeichnet… 用于解释概念。 易错点：用 es ist wenn 构成不规范定义。"
+            "answer": 1,
+            "explanation": "X bedeutet…, Unter X versteht man…, X bezeichnet… 用于解释概念。 避免循环定义。 易错点：用 es ist wenn 构成不规范定义。"
           },
           "tags": [
             "definition"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“定义表达”规则另写一个完整德语句子。",
+            "modelAnswer": "Unter Lernerfolg versteht man eine nachhaltige Verbesserung der Sprachleistung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-079",
@@ -2342,20 +3155,30 @@
           ],
           "commonMistake": "meiner Meinung nach 后再加 ich。",
           "exercise": {
-            "question": "例句“Meines Erachtens sollte der Wortschatz stärker nach Gebrauchssituationen geordnet werden.”是否符合“观点表达”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Meines Erachtens sollte der Wortschatz stärker nach Gebrauchssituationen geordnet werden.”。哪一项对“观点表达”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "meiner Meinung nach, ich bin der Ansicht, meines Erachtens 等表达立场；例句中的相关形式使用正确。",
+              "例句应按“meiner Meinung nach 后再加 ich”处理，当前写法不成立。",
+              "该例句只涉及词义，与“观点表达”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "meiner Meinung nach, ich bin der Ansicht, meines Erachtens 等表达立场。 易错点：meiner Meinung nach 后再加 ich。"
+            "explanation": "meiner Meinung nach, ich bin der Ansicht, meines Erachtens 等表达立场。 观点后需要理由或例证。 易错点：meiner Meinung nach 后再加 ich。"
           },
           "tags": [
             "opinion"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“观点表达”规则另写一个完整德语句子。",
+            "modelAnswer": "Meines Erachtens sollte der Wortschatz stärker nach Gebrauchssituationen geordnet werden.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-080",
@@ -2371,20 +3194,30 @@
           ],
           "commonMistake": "只列观点，不解释因果。",
           "exercise": {
-            "question": "例句“Ein täglicher Lernplan ist sinnvoll, weil er regelmäßige Wiederholung ermöglicht.”是否符合“论证结构”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Ein täglicher Lernplan ist sinnvoll, weil er regelmäßige Wiederholung ermöglicht.”。哪一项对“论证结构”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“只列观点，不解释因果”处理，当前写法不成立。",
+              "该例句只涉及词义，与“论证结构”没有语法关系。",
+              "观点—理由—例子—小结构成基本论证单元；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "观点—理由—例子—小结构成基本论证单元。 易错点：只列观点，不解释因果。"
+            "answer": 2,
+            "explanation": "观点—理由—例子—小结构成基本论证单元。 常用 begründen, weil, zum Beispiel, daher。 易错点：只列观点，不解释因果。"
           },
           "tags": [
             "argumentation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“论证结构”规则另写一个完整德语句子。",
+            "modelAnswer": "Ein täglicher Lernplan ist sinnvoll, weil er regelmäßige Wiederholung ermöglicht.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-081",
@@ -2400,20 +3233,30 @@
           ],
           "commonMistake": "两边内容重复或没有评价标准。",
           "exercise": {
-            "question": "例句“Ein Vorteil ist die Flexibilität; ein Nachteil besteht in der möglichen Ablenkung.”是否符合“优缺点结构”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Ein Vorteil ist die Flexibilität; ein Nachteil besteht in der möglichen Ablenkung.”。哪一项对“优缺点结构”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“优缺点结构”没有语法关系。",
+              "Vorteil/Nachteil, dafür/dagegen, einerseits/andererseits 用于平衡讨论；例句中的相关形式使用正确。",
+              "例句应按“两边内容重复或没有评价标准”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "Vorteil/Nachteil, dafür/dagegen, einerseits/andererseits 用于平衡讨论。 易错点：两边内容重复或没有评价标准。"
+            "answer": 1,
+            "explanation": "Vorteil/Nachteil, dafür/dagegen, einerseits/andererseits 用于平衡讨论。 最终结论应回应题目。 易错点：两边内容重复或没有评价标准。"
           },
           "tags": [
             "argumentation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“优缺点结构”规则另写一个完整德语句子。",
+            "modelAnswer": "Ein Vorteil ist die Flexibilität; ein Nachteil besteht in der möglichen Ablenkung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-082",
@@ -2429,21 +3272,31 @@
           ],
           "commonMistake": "把细节全部抄入摘要。",
           "exercise": {
-            "question": "例句“Der Autor betont, dass regelmäßige Wiederholung entscheidend sei.”是否符合“摘要转述”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Der Autor betont, dass regelmäßige Wiederholung entscheidend sei.”。哪一项对“摘要转述”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "用 eigenen Worten 概括核心信息，避免逐句复制；例句中的相关形式使用正确。",
+              "例句应按“把细节全部抄入摘要”处理，当前写法不成立。",
+              "该例句只涉及词义，与“摘要转述”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "用 eigenen Worten 概括核心信息，避免逐句复制。 易错点：把细节全部抄入摘要。"
+            "explanation": "用 eigenen Worten 概括核心信息，避免逐句复制。 常用 berichten, erklären, betonen, behaupten, feststellen。 易错点：把细节全部抄入摘要。"
           },
           "tags": [
             "summary",
             "reported_speech"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“摘要转述”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Autor betont, dass regelmäßige Wiederholung entscheidend sei.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-083",
@@ -2459,21 +3312,31 @@
           ],
           "commonMistake": "正式称呼后使用 du 或口语缩写。",
           "exercise": {
-            "question": "例句“Ich möchte mich nach den Anmeldefristen erkundigen.”是否符合“正式邮件结构”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Ich möchte mich nach den Anmeldefristen erkundigen.”。哪一项对“正式邮件结构”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“正式称呼后使用 du 或口语缩写”处理，当前写法不成立。",
+              "该例句只涉及词义，与“正式邮件结构”没有语法关系。",
+              "称呼、写信目的、具体请求、结束语应完整且语域一致；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "称呼、写信目的、具体请求、结束语应完整且语域一致。 易错点：正式称呼后使用 du 或口语缩写。"
+            "answer": 2,
+            "explanation": "称呼、写信目的、具体请求、结束语应完整且语域一致。 Sehr geehrte… / Ich wende mich an Sie, weil… / Mit freundlichen Grüßen。 易错点：正式称呼后使用 du 或口语缩写。"
           },
           "tags": [
             "email",
             "register"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“正式邮件结构”规则另写一个完整德语句子。",
+            "modelAnswer": "Ich möchte mich nach den Anmeldefristen erkundigen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-084",
@@ -2489,20 +3352,30 @@
           ],
           "commonMistake": "语法正确但语用不合适。",
           "exercise": {
-            "question": "例句“Entschuldigen Sie bitte die Verspätung.”是否符合“交际反应”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Entschuldigen Sie bitte die Verspätung.”。哪一项对“交际反应”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“交际反应”没有语法关系。",
+              "请求、建议、同意、拒绝、道歉应符合情境和礼貌程度；例句中的相关形式使用正确。",
+              "例句应按“语法正确但语用不合适”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "请求、建议、同意、拒绝、道歉应符合情境和礼貌程度。 易错点：语法正确但语用不合适。"
+            "answer": 1,
+            "explanation": "请求、建议、同意、拒绝、道歉应符合情境和礼貌程度。 Könnten Sie…? / Ich schlage vor… / Das sehe ich anders。 易错点：语法正确但语用不合适。"
           },
           "tags": [
             "pragmatics"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“交际反应”规则另写一个完整德语句子。",
+            "modelAnswer": "Entschuldigen Sie bitte die Verspätung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-085",
@@ -2518,20 +3391,30 @@
           ],
           "commonMistake": "只根据某个词猜体裁。",
           "exercise": {
-            "question": "例句“Bei dem Text handelt es sich um eine kurze Mitteilung.”是否符合“体裁识别”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Bei dem Text handelt es sich um eine kurze Mitteilung.”。哪一项对“体裁识别”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "通知、广告、新闻、评论、邮件、说明文具有不同目的和语言标志；例句中的相关形式使用正确。",
+              "例句应按“只根据某个词猜体裁”处理，当前写法不成立。",
+              "该例句只涉及词义，与“体裁识别”没有语法关系。"
             ],
             "answer": 0,
-            "explanation": "通知、广告、新闻、评论、邮件、说明文具有不同目的和语言标志。 易错点：只根据某个词猜体裁。"
+            "explanation": "通知、广告、新闻、评论、邮件、说明文具有不同目的和语言标志。 识别作者、对象、目的、结构。 易错点：只根据某个词猜体裁。"
           },
           "tags": [
             "text_type"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“体裁识别”规则另写一个完整德语句子。",
+            "modelAnswer": "Bei dem Text handelt es sich um eine kurze Mitteilung.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-086",
@@ -2547,21 +3430,31 @@
           ],
           "commonMistake": "混淆 um 15 Prozent 与 auf 35 Prozent。",
           "exercise": {
-            "question": "例句“Der Anteil stieg von 20 auf 35 Prozent.”是否符合“图表数据描述”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Der Anteil stieg von 20 auf 35 Prozent.”。哪一项对“图表数据描述”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "例句应按“混淆 um 15 Prozent 与 auf 35 Prozent”处理，当前写法不成立。",
+              "该例句只涉及词义，与“图表数据描述”没有语法关系。",
+              "先说明图表主题，再描述总体趋势、关键数据和比较，最后简要解释；例句中的相关形式使用正确。"
             ],
-            "answer": 0,
-            "explanation": "先说明图表主题，再描述总体趋势、关键数据和比较，最后简要解释。 易错点：混淆 um 15 Prozent 与 auf 35 Prozent。"
+            "answer": 2,
+            "explanation": "先说明图表主题，再描述总体趋势、关键数据和比较，最后简要解释。 steigen/sinken, um/auf/von…auf, im Vergleich zu。 易错点：混淆 um 15 Prozent 与 auf 35 Prozent。"
           },
           "tags": [
             "data",
             "writing"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“图表数据描述”规则另写一个完整德语句子。",
+            "modelAnswer": "Der Anteil stieg von 20 auf 35 Prozent.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         },
         {
           "id": "grammar-087",
@@ -2577,20 +3470,30 @@
           ],
           "commonMistake": "漏掉从句前逗号。",
           "exercise": {
-            "question": "例句“Sie beschloss, an dem Kurs teilzunehmen.”是否符合“标点与从句逗号”所述规则？",
+            "type": "analysis_mcq",
+            "question": "分析例句“Sie beschloss, an dem Kurs teilzunehmen.”。哪一项对“标点与从句逗号”的说明最准确？",
             "options": [
-              "符合",
-              "不符合",
-              "仅凭该专题无法判断"
+              "该例句只涉及词义，与“标点与从句逗号”没有语法关系。",
+              "从句、关系从句和扩展不定式结构通常用逗号分隔；例句中的相关形式使用正确。",
+              "例句应按“漏掉从句前逗号”处理，当前写法不成立。"
             ],
-            "answer": 0,
-            "explanation": "从句、关系从句和扩展不定式结构通常用逗号分隔。 易错点：漏掉从句前逗号。"
+            "answer": 1,
+            "explanation": "从句、关系从句和扩展不定式结构通常用逗号分隔。 Ich hoffe, dass… / Er versucht, … zu…。 易错点：漏掉从句前逗号。"
           },
           "tags": [
             "punctuation"
           ],
           "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
-          "cefr": "A1-B1"
+          "cefr": "A1-B1",
+          "application": {
+            "prompt": "请仿照例句，用“标点与从句逗号”规则另写一个完整德语句子。",
+            "modelAnswer": "Sie beschloss, an dem Kurs teilzunehmen.",
+            "checklist": [
+              "目标结构完整",
+              "词形和语序正确",
+              "首字母与标点正确"
+            ]
+          }
         }
       ]
     },

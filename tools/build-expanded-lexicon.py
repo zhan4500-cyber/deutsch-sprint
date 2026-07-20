@@ -251,9 +251,6 @@ def translate_record(record, en_zh, de_zh, tfs4_core):
     core_entry = tfs4_core.get(normalize_term(record["word"]))
     if core_entry:
         return core_entry["chinese"], "tfs4_core"
-    for key in english_lookup_keys(record.get("english_translation")):
-        if key in en_zh:
-            return en_zh[key], "open_dictionary"
     queries = [record["word"], record["word"].lower(), record["word"].capitalize()]
     for query in queries:
         try:
@@ -266,7 +263,10 @@ def translate_record(record, en_zh, de_zh, tfs4_core):
             if HAS_CJK.search(candidate) and candidate not in values:
                 values.append(candidate)
         if values:
-            return "；".join(values[:3]), "automatic_lexicon"
+            return "；".join(values[:2]), "direct_de_dictionary"
+    for key in english_lookup_keys(record.get("english_translation")):
+        if key in en_zh:
+            return en_zh[key], "english_pivot_dictionary"
     fallback = str(record.get("english_translation") or "释义待补充").strip()
     return f"英文释义：{fallback}", "english_fallback"
 

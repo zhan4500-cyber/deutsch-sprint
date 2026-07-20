@@ -1,4 +1,4 @@
-const kindLabels = { vocab: "词汇", grammar: "语法", practice: "综合练习", skill: "能力课程" };
+const kindLabels = { vocab: "词汇", grammar: "语法", practice: "综合练习", skill: "能力课程", mock: "综合模拟" };
 const formatAccuracy = (record) => record?.completed ? `${accuracyFor(record)}%` : "尚未开始";
 
 const recentDays = () => Array.from({ length: 7 }, (_, index) => {
@@ -22,9 +22,10 @@ const renderProgress = () => {
   const state = getState();
   const accuracy = accuracyFor(state);
   const mastered = Object.values(state.mastery).filter((item) => item.strength >= 3).length;
+  const due = getDueReview(state).length;
   document.querySelector("#progress-summary").textContent = state.completed ? `已完成 ${state.completed} 次练习` : "还没有开始。";
-  document.querySelector("#progress-details").innerHTML = `<li><strong>${state.sessions}</strong>完整学习轮次</li><li><strong>${state.correct}</strong>答对或掌握</li><li><strong>${state.review.length}</strong>待复盘内容</li><li><strong>${mastered}</strong>稳定掌握项目</li><li><strong>${accuracy}%</strong>总体正确率</li>`;
-  document.querySelector("#next-step").textContent = state.review.length ? `先处理 ${Math.min(state.review.length, 5)} 个待复盘内容，再开始新任务。` : "完成一轮今日任务，系统会按阶段记录你的表现。";
+  document.querySelector("#progress-details").innerHTML = `<li><strong>${state.sessions}</strong>完整学习轮次</li><li><strong>${state.correct}</strong>答对或掌握</li><li><strong>${due}</strong>今天到期复习</li><li><strong>${state.review.length}</strong>已安排复习项目</li><li><strong>${mastered}</strong>稳定掌握项目</li><li><strong>${accuracy}%</strong>总体正确率</li>`;
+  document.querySelector("#next-step").textContent = due ? `先处理 ${Math.min(due, 8)} 个到期内容，再开始新任务。` : "今天没有到期内容，可以开始新的学习任务。";
   document.querySelector("#daily-link").href = `study.html?kind=daily&stage=${getPreferredStage()}`;
 
   document.querySelector("#stage-breakdown").innerHTML = [

@@ -3,7 +3,7 @@ const LEGACY_STORE_KEY = "deutsch-sprint-learning-v1";
 const STAGE_KEY = "deutsch-sprint-stage";
 
 const freshState = () => ({
-  version: 2,
+  version: 3,
   completed: 0,
   correct: 0,
   sessions: 0,
@@ -56,6 +56,7 @@ const setPreferredStage = (stage) => {
 
 const dayKey = (timestamp = Date.now()) => new Date(timestamp).toISOString().slice(0, 10);
 const accuracyFor = (record = {}) => record.completed ? Math.round((record.correct / record.completed) * 100) : 0;
+const getDueReview = (state = getState(), timestamp = Date.now()) => state.review.filter((item) => !item.dueAt || item.dueAt <= timestamp);
 
 const addResult = (item, correct) => {
   const state = getState();
@@ -67,6 +68,7 @@ const addResult = (item, correct) => {
   const intervals = [0, 1, 3, 7, 14, 30];
   const dueAt = correct ? now + intervals[strength] * 86400000 : now;
   const normalizedItem = { ...item, stage, kind, dueAt };
+  const useSpacing = item.spaced === true || kind === "vocab" || kind === "grammar";
 
   state.completed += 1;
   if (correct) state.correct += 1;
@@ -82,16 +84,16 @@ const addResult = (item, correct) => {
     correct: previous.correct + (correct ? 1 : 0),
     strength,
     lastAt: now,
-    dueAt
+    dueAt,
+    stage,
+    kind,
+    title: item.title || item.id,
+    href: item.href || ""
   };
 
-  if (correct) {
-    state.review = state.review.filter((entry) => entry.id !== item.id);
-  } else {
-    const existingIndex = state.review.findIndex((entry) => entry.id === item.id);
-    if (existingIndex >= 0) state.review.splice(existingIndex, 1);
-    state.review.unshift(normalizedItem);
-  }
+  const existingIndex = state.review.findIndex((entry) => entry.id === item.id);
+  if (existingIndex >= 0) state.review.splice(existingIndex, 1);
+  if (useSpacing || !correct) state.review.push(normalizedItem);
   state.recent.unshift({ ...normalizedItem, correct, at: now });
   state.recent = state.recent.slice(0, 60);
   saveState(state);

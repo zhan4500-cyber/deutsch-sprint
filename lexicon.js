@@ -19,11 +19,17 @@ const stageLabel = (stage) => stage === "foundation" ? "大一大二" : "大三�
 
 const renderItem = (item) => {
   const status = item.curated ? '<span class="quality-badge curated">已人工整理</span>' : '<span class="quality-badge">完整卡 · 待复核</span>';
+  const displayTerm = [item.article, item.term.replace(/^(der|die|das)\s+/i, "")].filter(Boolean).join(" ");
+  const forms = [
+    item.plural ? `<span><b>复数</b> ${escapeHtml(item.plural)}</span>` : "",
+    item.genitive ? `<span><b>第二格</b> ${escapeHtml(item.genitive)}</span>` : "",
+    item.verbForms ? `<span><b>动词结构</b> ${escapeHtml(item.verbForms)}</span>` : ""
+  ].filter(Boolean).join("");
   return `<article class="lexicon-row">
     <div class="lexicon-rank"><span>${escapeHtml(stageLabel(item.stage))}</span><strong>${item.stageRank}</strong></div>
-    <div class="lexicon-word"><div>${status}<span class="cefr-badge">${escapeHtml(item.cefr)}</span></div><h2 lang="de">${escapeHtml(item.term)}</h2><p>${escapeHtml(item.pos)}${item.gender ? ` · ${escapeHtml(item.gender)}` : ""}</p></div>
+    <div class="lexicon-word"><div>${status}<span class="cefr-badge">${escapeHtml(item.cefr)}</span></div><h2 lang="de">${escapeHtml(displayTerm)}</h2><p>${escapeHtml(item.pos)}${item.article ? ` · ${escapeHtml(item.article)}` : ""}</p></div>
     <div class="lexicon-meaning"><strong>${escapeHtml(item.meaning)}</strong>${item.englishGloss ? `<small>${escapeHtml(item.englishGloss)}</small>` : ""}</div>
-    <details class="lexicon-example"><summary>查看用法与例句</summary><p class="usage-pattern"><b>例句用法</b><span lang="de">${escapeHtml(item.usagePattern)}</span></p><p lang="de">${escapeHtml(item.example)}</p><small><b>中译</b>${escapeHtml(item.exampleTranslation)}</small></details>
+    <details class="lexicon-example"><summary>查看词形、用法与例句</summary>${forms ? `<p class="word-forms">${forms}</p>` : ""}<p class="usage-pattern"><b>用法与搭配</b><span lang="de">${escapeHtml(item.usagePattern)}</span></p><p lang="de">${escapeHtml(item.example)}</p><small><b>中译</b>${escapeHtml(item.exampleTranslation)}</small><a class="lexicon-study-link" href="study.html?kind=vocab&amp;stage=${item.stage}&amp;word=${encodeURIComponent(item.id)}">加入主动回忆</a></details>
   </article>`;
 };
 
