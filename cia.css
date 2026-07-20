@@ -16,6 +16,11 @@
 .cia-logic>strong,.cia-valency>strong { color:var(--red-800);font-size:.8rem; }
 .cia-logic p,.cia-valency p { margin:.35rem 0;line-height:1.75; }
 .cia-logic small,.cia-source-note { color:var(--muted);line-height:1.55; }
+.cia-memory { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin-top:1rem; }
+.cia-memory>div { min-width:0;padding:.7rem 0;border-top:1px solid var(--line); }
+.cia-memory strong { color:var(--red-800);font-size:.76rem; }
+.cia-memory p { margin:.3rem 0 0;line-height:1.6; }
+.cia-memory .cia-life-hook,.cia-memory .cia-recall { grid-column:1/-1; }
 .cia-conjugation { margin-top:1rem; }
 .cia-conjugation h4 { display:flex;gap:.45rem;align-items:baseline; }
 .cia-conjugation h4 span,.cia-valency strong span { color:var(--muted);font-size:.72rem;font-weight:700; }
@@ -31,4 +36,32 @@
 .cia-example footer { margin-top:.35rem;color:var(--muted);line-height:1.55; }
 .lexicon-example .cia-card { margin-top:0;border-top:0; }
 .lexicon-example .cia-section:first-child { border-top:0; }
-@media(max-width:700px){.cia-head{align-items:flex-start;flex-direction:column}.cia-fields,.cia-form-grid{grid-template-columns:1fr}.cia-section{grid-template-columns:2.25rem minmax(0,1fr)}}
+.cia-card-compact { display:grid;grid-template-columns:minmax(9rem,.65fr) minmax(17rem,1.35fr) minmax(14rem,1fr);grid-template-areas:"head head head" "core interlink application";gap:0 1rem;margin-top:.45rem; }
+.cia-card-compact .cia-head { grid-area:head;padding:.45rem 0 .6rem; }
+.cia-card-compact .cia-head h3 { margin:.15rem 0;font-size:1.25rem; }
+.cia-card-compact .cia-pronunciation { font-size:.78rem; }
+.cia-card-compact .cia-speak { padding:.4rem .55rem;font-size:.78rem; }
+.cia-card-compact .cia-core { grid-area:core; }
+.cia-card-compact .cia-interlink { grid-area:interlink; }
+.cia-card-compact .cia-application { grid-area:application; }
+.cia-card-compact .cia-section { display:block;min-width:0;padding:.65rem 0;border-top:1px solid var(--line);font-size:.78rem; }
+.cia-card-compact .cia-letter { float:left;width:1.55rem;height:1.55rem;margin:0 .5rem .35rem 0;font-size:.82rem; }
+.cia-card-compact .cia-section h4 { margin:.15rem 0;font-size:.92rem; }
+.cia-card-compact .cia-english { font-size:.76rem; }
+.cia-card-compact .cia-fields { grid-template-columns:1fr;gap:0;margin:.45rem 0 0; }
+.cia-card-compact .cia-field { padding:.32rem 0; }
+.cia-card-compact .cia-field dd { margin:.12rem 0 0;line-height:1.35; }
+.cia-card-compact .cia-logic { margin-top:.35rem;padding:.4rem 0 0; }
+.cia-card-compact .cia-logic p,.cia-card-compact .cia-valency p { margin:.15rem 0;line-height:1.38; }
+.cia-card-compact .cia-logic small { display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:1; }
+.cia-card-compact .cia-memory { grid-template-columns:1fr 1fr;gap:0 .55rem;margin-top:.3rem; }
+.cia-card-compact .cia-memory>div { padding:.35rem 0; }
+.cia-card-compact .cia-memory p { display:-webkit-box;overflow:hidden;margin:.12rem 0 0;line-height:1.35;-webkit-box-orient:vertical;-webkit-line-clamp:2; }
+.cia-card-compact .cia-memory .cia-life-hook,.cia-card-compact .cia-memory .cia-recall { grid-column:auto; }
+.cia-card-compact .cia-conjugation { margin-top:.35rem; }
+.cia-card-compact .cia-form-grid { grid-template-columns:repeat(2,minmax(0,1fr));gap:.25rem;margin-top:.35rem; }
+.cia-card-compact .cia-form-grid>div { padding:.35rem;font-size:.7rem; }
+.cia-card-compact .cia-valency { margin-top:.4rem;padding-top:.4rem; }
+.cia-card-compact .cia-example { margin:.4rem 0 0;padding:.4rem 0 0; }
+.cia-card-compact .cia-example p,.cia-card-compact .cia-example footer { display:-webkit-box;overflow:hidden;font-size:.74rem;line-height:1.35;-webkit-box-orient:vertical;-webkit-line-clamp:2; }
+@media(max-width:700px){.cia-head{align-items:flex-start;flex-direction:column}.cia-fields,.cia-form-grid{grid-template-columns:1fr}.cia-section{grid-template-columns:2.25rem minmax(0,1fr)}.cia-memory{grid-template-columns:1fr}.cia-memory .cia-life-hook,.cia-memory .cia-recall{grid-column:auto}.cia-card-compact{display:block}.cia-card-compact .cia-section{display:grid}.cia-card-compact .cia-letter{float:none}.cia-card-compact .cia-memory{grid-template-columns:1fr}.cia-card-compact .cia-memory p,.cia-card-compact .cia-example p,.cia-card-compact .cia-example footer{display:block;overflow:visible}}

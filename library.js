@@ -4,61 +4,103 @@ const searchInput = document.querySelector("#library-search");
 const countNumber = document.querySelector("#library-count-number");
 const countLabel = document.querySelector("#library-count-label");
 let libraryData = null;
-let vocabIndex = new Map();
 let activeStage = "all";
+let visiblePacks = new Map();
+
+const escapeHtml = (value = "") => String(value).replace(/[&<>"']/g, (character) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+}[character]));
 
 const searchMatches = (values, query) =>
   values.join(" ").toLocaleLowerCase().includes(query.toLocaleLowerCase());
 
-const vocabKey = (stage, term) => `${stage}:${String(term).replace(/^(der|die|das)\s+/i, "").toLocaleLowerCase("de-DE")}`;
-
-const renderEntry = (entry, stage) => {
-  const indexed = vocabIndex.get(vocabKey(stage, entry.term));
+const renderEntry = (entry) => {
   const details = [
-    indexed?.cia ? `<p><strong>C-I-A 词头</strong><span lang="de">${indexed.cia.title}</span><small>${indexed.cia.ipa || "IPA 待人工核对"}</small></p>` : "",
-    entry.collocation ? `<p><strong>常用搭配</strong><span lang="de">${entry.collocation}</span></p>` : "",
-    entry.example ? `<p><strong>原创例句</strong><span lang="de">${entry.example}</span>${entry.translation ? `<small>${entry.translation}</small>` : ""}</p>` : "",
-    indexed ? `<a class="entry-cia-link" href="study.html?kind=vocab&amp;stage=${stage}&amp;word=${encodeURIComponent(indexed.id)}">进入 C-I-A 主动回忆</a>` : ""
+    entry.cia ? `<p><strong>C-I-A 词头</strong><span lang="de">${escapeHtml(entry.cia.title)}</span><small>${escapeHtml(entry.cia.ipa || "IPA 待人工核对")}</small></p>` : "",
+    entry.usagePattern ? `<p><strong>常用搭配</strong><span lang="de">${escapeHtml(entry.usagePattern)}</span></p>` : "",
+    entry.example ? `<p><strong>${entry.exampleSource === "original_curated" ? "原创例句" : "学习例句"}</strong><span lang="de">${escapeHtml(entry.example)}</span>${entry.exampleTranslation ? `<small>${escapeHtml(entry.exampleTranslation)}</small>` : ""}</p>` : "",
+    `<a class="entry-cia-link" href="study.html?kind=vocab&amp;stage=${entry.stage}&amp;word=${encodeURIComponent(entry.id)}">进入 C-I-A 主动回忆</a>`
   ].filter(Boolean).join("");
   return `
   <details class="word-entry">
     <summary>
-      <span><strong lang="de">${entry.term}</strong><small>${entry.pos}</small></span>
-      <span class="entry-meaning">${entry.meaning}</span>
+      <span><strong lang="de">${escapeHtml(entry.article ? `${entry.article} ${entry.term.replace(/^(der|die|das)\s+/i, "")}` : entry.term)}</strong><small>${escapeHtml(entry.pos)} · ${escapeHtml(entry.cefr)}</small></span>
+      <span class="entry-meaning">${escapeHtml(entry.meaning)}</span>
     </summary>
     <div class="entry-body">${details}</div>
   </details>`;
 };
 
+const BOOKS = {
+  1: { title: "第一册", subtitle: "入门、校园与基础日常", stage: "foundation" },
+  2: { title: "第二册", subtitle: "日常表达与基础能力扩展", stage: "foundation" },
+  3: { title: "第三册", subtitle: "叙述、讨论与书面表达", stage: "advanced" },
+  4: { title: "第四册", subtitle: "学术、社会与高阶语篇", stage: "advanced" },
+  5: { title: "能力补充", subtitle: "高频词、跨主题搭配与迁移表达", stage: "mixed" }
+};
+
+const lessonOrder = (lesson) => lesson === "SUP" ? 999 : (lesson.startsWith("V") ? Number(lesson.slice(1)) : 20 + Number(lesson.slice(1)));
+const lessonLabel = (lesson) => lesson === "SUP" ? "跨册补充" : lesson.startsWith("V") ? `预备教程 ${Number(lesson.slice(1))}` : `第 ${Number(lesson.slice(1))} 课`;
+
+const renderPackEntries = (packId) => {
+  const pack = visiblePacks.get(packId);
+  return pack ? pack.entries.map(renderEntry).join("") : "";
+};
+
+const bindPackExpansion = () => {
+  results.querySelectorAll("details.word-pack").forEach((details) => details.addEventListener("toggle", () => {
+    if (!details.open) return;
+    const list = details.querySelector(".entry-list");
+    if (list.dataset.loaded === "true") return;
+    list.innerHTML = renderPackEntries(details.dataset.pack);
+    list.dataset.loaded = "true";
+  }));
+};
+
 const renderVocab = () => {
   const query = searchInput.value.trim();
-  let visibleWords = 0;
-  const sections = libraryData.stages
-    .filter((stage) => activeStage === "all" || stage.id === activeStage)
-    .map((stage) => {
-      const themes = stage.themes.map((theme) => {
-        const entries = theme.entries.filter((entry) => searchMatches([
-          theme.label, theme.usageFocus, entry.term, entry.pos, entry.meaning,
-          entry.collocation, entry.example, entry.translation
-        ], query));
-        return { ...theme, entries };
-      }).filter((theme) => theme.entries.length);
-      visibleWords += themes.reduce((sum, theme) => sum + theme.entries.length, 0);
-      if (!themes.length) return "";
-      return `<section class="result-section">
-        <div class="result-heading"><h2>${stage.label}</h2><p>${stage.positioning}</p></div>
-        <div class="theme-grid">${themes.map((theme) => `
-          <article class="theme-card">
-            <span class="card-label">主题词包 · ${theme.entries.length} 词</span>
-            <h3>${theme.label}</h3><p>${theme.usageFocus}</p>
-            <div class="entry-list">${theme.entries.map((entry) => renderEntry(entry, stage.id)).join("")}</div>
-            <a class="card-link" href="study.html?kind=vocab&amp;slug=${theme.id}">练习这一主题</a>
-          </article>`).join("")}</div>
-      </section>`;
+  const stageItems = libraryData.items.filter((entry) => activeStage === "all" || entry.stage === activeStage);
+  const matchedItems = stageItems.filter((entry) => !query || searchMatches([
+    entry.term, entry.pos, entry.meaning, entry.englishGloss, entry.usagePattern,
+    entry.example, entry.exampleTranslation, entry.cia?.title
+  ], query));
+  const books = new Map();
+  matchedItems.forEach((entry) => {
+    const sources = entry.bookSources?.length ? entry.bookSources : [{ book: 5, lesson: "SUP" }];
+    sources.forEach((source) => {
+      const book = Number(source.book) || 5;
+      if (!books.has(book)) books.set(book, new Map());
+      const lesson = source.lesson || "SUP";
+      if (!books.get(book).has(lesson)) books.get(book).set(lesson, []);
+      books.get(book).get(lesson).push(entry);
+    });
+  });
+  visiblePacks = new Map();
+  const sections = [...books.entries()].sort(([a], [b]) => a - b).map(([bookNumber, lessons]) => {
+    const book = BOOKS[bookNumber] || BOOKS[5];
+    const packs = [...lessons.entries()].sort(([a], [b]) => lessonOrder(a) - lessonOrder(b));
+    const uniqueCount = new Set(packs.flatMap(([, entries]) => entries.map((entry) => entry.id))).size;
+    const packHtml = packs.map(([lesson, entries]) => {
+      const packId = `B${bookNumber}-${lesson}`;
+      const sorted = entries.slice().sort((a, b) => a.stageRank - b.stageRank);
+      visiblePacks.set(packId, { entries: sorted });
+      const packStage = sorted[0]?.stage || book.stage;
+      const eager = Boolean(query);
+      return `<details class="theme-card word-pack" data-pack="${packId}"${eager ? " open" : ""}>
+        <summary><span><span class="card-label">${escapeHtml(packId)} · ${sorted.length} 词</span><strong>${lessonLabel(lesson)}</strong></span><span class="pack-chevron" aria-hidden="true"></span></summary>
+        <div class="pack-actions"><span>按教材课次整理，例句为本站原创或开放来源。</span><a class="card-link" href="study.html?kind=vocab&amp;stage=${packStage}&amp;pack=${packId}">练习这一课</a></div>
+        <div class="entry-list" data-loaded="${eager}">${eager ? sorted.map(renderEntry).join("") : ""}</div>
+      </details>`;
     }).join("");
+    return `<details class="result-section book-section"${query ? " open" : ""}>
+      <summary class="result-heading"><span><span class="card-label">TEXTBOOK ${String(bookNumber).padStart(2, "0")}</span><h2>${book.title}</h2></span><span class="book-meta"><strong>${uniqueCount}</strong> 词 · ${packs.length} 个词包<small>${book.subtitle}</small></span></summary>
+      <div class="theme-grid">${packHtml}</div>
+    </details>`;
+  }).join("");
   results.innerHTML = sections || '<div class="empty-state">没有找到匹配内容，换一个词试试。</div>';
-  countNumber.textContent = visibleWords;
-  countLabel.textContent = "个学习词条";
+  countNumber.textContent = matchedItems.length.toLocaleString();
+  countLabel.textContent = query ? "个匹配词条" : "张完整词卡";
+  bindPackExpansion();
 };
 
 const grammarStageMatches = (stage) => activeStage === "all" ||
@@ -111,14 +153,13 @@ document.querySelectorAll(".stage-filter").forEach((button) => button.addEventLi
 }));
 searchInput.addEventListener("input", render);
 
-const libraryRequest = fetch(`data/${libraryType}-library.json`).then((response) => {
+const libraryPath = libraryType === "vocab" ? "data/vocab-index.json" : `data/${libraryType}-library.json`;
+const libraryRequest = fetch(libraryPath).then((response) => {
   if (!response.ok) throw new Error("Library data could not be loaded.");
   return response.json();
 });
-const requests = libraryType === "vocab" ? [libraryRequest, fetch("data/vocab-index.json").then((response) => response.json())] : [libraryRequest];
-Promise.all(requests).then(([data, index]) => {
+Promise.all([libraryRequest]).then(([data]) => {
   libraryData = data;
-  if (index) vocabIndex = new Map(index.items.map((entry) => [vocabKey(entry.stage, entry.term), entry]));
   render();
 }).catch(() => {
   results.innerHTML = '<div class="empty-state">资料暂时没有加载成功，请稍后刷新。</div>';

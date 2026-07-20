@@ -3,6 +3,7 @@ const kind = params.get("kind") || "daily";
 const requestedStage = params.get("stage") || getPreferredStage();
 const requestedSlug = params.get("slug");
 const requestedWord = params.get("word");
+const requestedPack = params.get("pack");
 const lessonPanel = document.querySelector("#lesson-panel");
 
 setPreferredStage(requestedStage);
@@ -65,19 +66,28 @@ const renderVocabSession = (theme, { stage, count = 10, daily = false, fixed = f
     }
     const entry = entries[index];
     const wordLabel = [entry.article, entry.term.replace(/^(der|die|das)\s+/i, "")].filter(Boolean).join(" ");
-    lessonPanel.innerHTML = `<div class="session-meter"><span style="width:${Math.round((index / entries.length) * 100)}%"></span></div><span class="tag">词汇 ${index + 1} / ${entries.length} · ${escapeHtml(entry.cefr || "")}</span><h2 class="word" lang="de">${escapeHtml(wordLabel)}</h2><p class="word-note">${escapeHtml(entry.pos)} · 先回想释义、词形和搭配，再查看答案。</p><div class="recall-gate"><button class="primary" id="reveal-word" type="button">显示精讲</button></div>`;
+    const recordAndContinue = (level) => {
+      const correct = level === "easy";
+      if (correct) mastered += 1;
+      record({ id: `vocab-${entry.id}`, lexiconId: entry.id, title: wordLabel, detail: `词汇 · ${theme.label}`, href: `study.html?kind=vocab&stage=${stage}&word=${encodeURIComponent(entry.id)}`, stage, kind: "vocab", spaced: true }, correct);
+      index += 1;
+      showEntry();
+    };
+    const gradeButtons = (compact = false) => `<div class="pregrade-actions${compact ? " compact" : ""}" aria-label="熟悉程度">
+      <button class="answer grade-button grade-hard" data-level="hard" type="button">不认识</button>
+      <button class="answer grade-button grade-medium" data-level="medium" type="button">不熟悉</button>
+      <button class="answer grade-button grade-easy" data-level="easy" type="button">认识</button>
+    </div>`;
+    const bindGradeButtons = () => lessonPanel.querySelectorAll("button[data-level]").forEach((button) => {
+      button.addEventListener("click", () => recordAndContinue(button.dataset.level));
+    });
+
+    lessonPanel.innerHTML = `<div class="vocab-focus"><div class="session-meter"><span style="width:${Math.round((index / entries.length) * 100)}%"></span></div><span class="tag">词汇 ${index + 1} / ${entries.length} · ${escapeHtml(entry.cefr || "")}</span><div class="vocab-front"><h2 class="word" lang="de">${escapeHtml(wordLabel)}</h2><p class="word-note">${escapeHtml(entry.pos)} · 先判断熟悉度，需要时再看完整精讲。</p><div class="recall-gate">${gradeButtons()}<button class="primary reveal-button" id="reveal-word" type="button">显示精讲</button></div></div></div>`;
+    bindGradeButtons();
 
     document.querySelector("#reveal-word").addEventListener("click", () => {
-      lessonPanel.querySelector(".recall-gate").innerHTML = `${renderCiaCard(entry)}<div class="exercise"><strong>对照 C-I-A 词卡后，你记得怎么样？</strong><div class="answers"><button class="answer" data-level="hard" type="button">没想起来</button><button class="answer" data-level="medium" type="button">有些模糊</button><button class="answer" data-level="easy" type="button">准确掌握</button></div><p class="feedback" aria-live="polite"></p></div>`;
-      lessonPanel.querySelectorAll("button[data-level]").forEach((button) => button.addEventListener("click", () => {
-        const correct = button.dataset.level === "easy";
-        if (correct) mastered += 1;
-        record({ id: `vocab-${entry.id}`, lexiconId: entry.id, title: wordLabel, detail: `词汇 · ${theme.label}`, href: `study.html?kind=vocab&stage=${stage}&word=${encodeURIComponent(entry.id)}`, stage, kind: "vocab", spaced: true }, correct);
-        lessonPanel.querySelectorAll("button[data-level]").forEach((item) => { item.disabled = true; });
-        button.classList.add(correct ? "correct" : "wrong");
-        lessonPanel.querySelector(".feedback").innerHTML = `${correct ? "已记为掌握。" : "已加入复盘。"} <button class="secondary inline-next" id="next-word" type="button">${index + 1 === entries.length ? "完成词汇部分" : "下一个词"}</button>`;
-        document.querySelector("#next-word").addEventListener("click", () => { index += 1; showEntry(); });
-      }));
+      lessonPanel.innerHTML = `<div class="vocab-focus vocab-detail"><div class="session-meter"><span style="width:${Math.round((index / entries.length) * 100)}%"></span></div><div class="detail-toolbar"><span class="tag">词汇 ${index + 1} / ${entries.length} · ${escapeHtml(entry.cefr || "")}</span>${gradeButtons(true)}</div>${renderCiaCard(entry, { compact: true })}</div>`;
+      bindGradeButtons();
     });
   };
   showEntry();
@@ -185,9 +195,13 @@ const start = async () => {
       const stage = requestedStage === "advanced" ? "advanced" : "foundation";
       const stageLabel = stage === "advanced" ? "大三大四" : "大一大二";
       const stageEntries = vocab.items.filter((item) => item.stage === stage);
-      const selected = requestedWord ? stageEntries.filter((item) => item.id === requestedWord) : stageEntries.filter((item) => !requestedSlug || item.theme === requestedSlug);
+      const selected = requestedWord
+        ? stageEntries.filter((item) => item.id === requestedWord)
+        : requestedPack
+          ? stageEntries.filter((item) => (item.bookSources || []).some((source) => `B${source.book}-${source.lesson}` === requestedPack))
+          : stageEntries.filter((item) => !requestedSlug || item.theme === requestedSlug);
       const entries = selected.length ? selected : stageEntries;
-      const theme = { id: requestedSlug || stage, label: requestedSlug ? "主题词汇" : `${stageLabel}词汇`, usageFocus: "结合释义、词形、搭配和例句主动回忆。", entries };
+      const theme = { id: requestedPack || requestedSlug || stage, label: requestedPack ? `教材词包 ${requestedPack}` : requestedSlug ? "主题词汇" : `${stageLabel}词汇`, usageFocus: "结合释义、词形、生活场景和开口句主动回忆。", entries };
       renderVocabSession(theme, { stage, count: requestedWord ? 1 : 12, fixed: Boolean(requestedWord) });
       return;
     }

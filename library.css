@@ -293,6 +293,34 @@ button { cursor: pointer; }
 .empty-state { padding: 4rem 1rem; color: var(--muted); text-align: center; }
 .library-footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); }
 
+/* Textbook shelf: closed by default, so five thousand cards never become one long wall. */
+.book-section { border-bottom:1px solid var(--line); }
+.book-section + .book-section { margin-top:0; }
+.book-section > summary { cursor:pointer;list-style:none;padding:1.6rem 0; }
+.book-section > summary::-webkit-details-marker,
+.word-pack > summary::-webkit-details-marker { display:none; }
+.book-section > summary::after { content:"＋";flex:0 0 auto;color:var(--red-800);font-size:1.4rem;font-weight:400; }
+.book-section[open] > summary::after { content:"−"; }
+.book-section[open] > summary { border-bottom:0; }
+.book-meta { display:grid;grid-template-columns:auto auto;align-items:baseline;gap:.25rem;color:var(--muted);text-align:right; }
+.book-meta strong { color:var(--red-900);font-size:1.4rem; }
+.book-meta small { grid-column:1/-1;display:block;max-width:24rem;line-height:1.45; }
+.book-section > .theme-grid { margin:0;padding:0 0 2.5rem; }
+.word-pack { min-height:0;padding:0;overflow:hidden; }
+.word-pack[open] { grid-column:1/-1; }
+.word-pack > summary { display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem;cursor:pointer;list-style:none; }
+.word-pack > summary strong { display:block;margin-top:.3rem;color:var(--ink);font-size:1.25rem; }
+.pack-chevron::before { content:"＋";color:var(--red-800);font-size:1.2rem; }
+.word-pack[open] .pack-chevron::before { content:"−"; }
+.pack-actions { display:none;align-items:center;justify-content:space-between;gap:1rem;padding:0 1.25rem 1rem;color:var(--muted);font-size:.85rem; }
+.word-pack[open] .pack-actions { display:flex; }
+.word-pack .card-link { flex:0 0 auto;margin:0; }
+.word-pack .entry-list { grid-template-columns:repeat(2,minmax(0,1fr));gap:0;margin:0;padding:0 1.25rem 1.25rem;border-top:1px solid var(--line); }
+.word-pack .word-entry { border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent; }
+.word-pack .word-entry:nth-child(odd) { border-right:1px solid var(--line); }
+.word-pack .word-entry summary { min-height:4.5rem; }
+.word-pack .entry-body { background:var(--soft); }
+
 .library-actions { display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.5rem; }
 .primary-link,.text-link { font-weight:900;text-decoration:none; }
 .primary-link { padding:.85rem 1rem;border-radius:.4rem;color:#fff;background:var(--red-800); }
@@ -343,6 +371,12 @@ button { cursor: pointer; }
   .lexicon-meaning,.lexicon-example { grid-column:2; }
   .lexicon-summary { flex-wrap:wrap; }
   .lexicon-summary #page-label { width:100%;margin-left:0; }
+  .book-section > summary { align-items:flex-start; }
+  .book-meta { display:none; }
+  .word-pack[open] { grid-column:auto; }
+  .word-pack .entry-list { grid-template-columns:1fr; }
+  .word-pack .word-entry:nth-child(odd) { border-right:0; }
+  .pack-actions { align-items:flex-start;flex-direction:column; }
 }
 
 @media (prefers-reduced-motion: reduce) {

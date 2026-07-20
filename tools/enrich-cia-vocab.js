@@ -66,7 +66,8 @@ const CONJUGATION_OVERRIDES = {
   antun: { present: { ich: "tue an", du: "tust an", er: "tut an" }, preterite: "tat an", participle: "angetan", irregular: { du: true, er: true, preterite: true, participle: true }, particle: "an" },
   loswerden: { present: { ich: "werde los", du: "wirst los", er: "wird los" }, preterite: "wurde los", participle: "losgeworden", irregular: { du: true, er: true, preterite: true, participle: true }, particle: "los" },
   heranziehen: { present: { ich: "ziehe heran", du: "ziehst heran", er: "zieht heran" }, preterite: "zog heran", participle: "herangezogen", irregular: { du: false, er: false, preterite: true, participle: true }, particle: "heran" },
-  weiterentwickeln: { present: { ich: "entwickle weiter", du: "entwickelst weiter", er: "entwickelt weiter" }, preterite: "entwickelte weiter", participle: "weiterentwickelt", irregular: { du: false, er: false, preterite: false, participle: false }, particle: "weiter" }
+  weiterentwickeln: { present: { ich: "entwickle weiter", du: "entwickelst weiter", er: "entwickelt weiter" }, preterite: "entwickelte weiter", participle: "weiterentwickelt", irregular: { du: false, er: false, preterite: false, participle: false }, particle: "weiter" },
+  fortschreiten: { present: { ich: "schreite fort", du: "schreitest fort", er: "schreitet fort" }, preterite: "schritt fort", participle: "fortgeschritten", irregular: { du: false, er: false, preterite: true, participle: true }, particle: "fort" }
 };
 
 const VALENCY = {
@@ -130,6 +131,32 @@ const MORPHEME_MEANINGS = {
   bereiten: "准备、安排"
 };
 
+const CONFUSION_NOTES = {
+  kennen: "kennen 用于熟悉人、地点或事物；知道事实通常用 wissen。",
+  wissen: "wissen 接事实或从句；熟悉某人、某地通常用 kennen。",
+  lernen: "lernen 是学习知识或技能；在大学攻读某专业常用 studieren。",
+  studieren: "studieren 是大学阶段学习或研究；一般学习行为用 lernen。",
+  bekommen: "bekommen 是“得到”，不是英语 become；“变成”用 werden。",
+  werden: "werden 表示“变成”或构成将来时、被动态；“得到”用 bekommen。",
+  fragen: "fragen 是提问；请求别人做事通常用 bitten。",
+  bitten: "bitten 是请求，常见结构是 jemanden um etwas bitten。",
+  bringen: "bringen 强调把东西带到目的地；holen 强调去取回来。",
+  holen: "holen 是去取并带回来；bringen 是把东西带过去。",
+  liegen: "liegen 是处于平放状态；legen 表示把某物放下。",
+  legen: "legen 是放置动作；liegen 表示已经躺着或放着。",
+  stehen: "stehen 是处于直立状态；stellen 表示把某物立着放。",
+  stellen: "stellen 是放置动作；stehen 表示已经站着或立着。",
+  als: "als 用于过去一次性事件或比较；反复发生的“当……时”常用 wenn。",
+  wenn: "wenn 用于条件或反复发生的时间关系；过去一次性事件常用 als。"
+};
+
+const ENGLISH_BRIDGES = {
+  haus: "house", wasser: "water", hand: "hand", name: "name", winter: "winter",
+  sommer: "summer", finger: "finger", student: "student", universität: "university",
+  problem: "problem", information: "information", musik: "music", kultur: "culture",
+  sport: "sport", hotel: "hotel", radio: "radio", computer: "computer"
+};
+
 const bareTerm = (value) => String(value || "").replace(/^(?:der|die|das)\s+/i, "").trim();
 const key = (value) => bareTerm(value).toLocaleLowerCase("de-DE");
 const isVerb = (entry) => entry.pos.includes("动词") && !NONFINITE_FORMS.has(key(entry.term));
@@ -151,6 +178,62 @@ for (const entry of data.items) {
 }
 
 const shortMeaning = (entry) => String(entry.meaning || "").split(/[；;]/)[0];
+const pickByTerm = (entry, values) => values[[...bareTerm(entry.term)].reduce((sum, char) => sum + char.charCodeAt(0), 0) % values.length];
+const sceneFor = (entry) => {
+  const haystack = `${entry.term} ${entry.meaning} ${entry.englishGloss || ""} ${entry.usagePattern || ""}`;
+  if (/吃|喝|餐|饭|食品|咖啡|restaurant|essen|trinken/i.test(haystack)) return "食堂窗口排到你了：你要点单、付款，顺手评价味道";
+  if (/课|学习|学生|大学|考试|作业|study|learn|univer|prüfung/i.test(haystack)) return "课前两分钟，同学在群里追问教室、作业或考试安排";
+  if (/车|路|旅行|方向|火车|飞机|travel|fahr|reise|bahnhof/i.test(haystack)) return "车快开了，你要向路人确认站台、方向或换乘办法";
+  if (/工作|公司|职业|申请|工资|work|job|firma|beruf/i.test(haystack)) return "实习面试里，对方让你把经历、要求或下一步说清楚";
+  if (/观点|认为|论证|原因|结果|意见|argument|meinung|grund/i.test(haystack)) return "讨论课上有人不同意你，你得接住话并给出一个理由";
+  if (/朋友|家庭|高兴|生气|担心|感觉|friend|famil|gefühl/i.test(haystack)) return "朋友发来语音问你怎么了，你要自然讲出刚才的事和感受";
+  if (/买|价格|钱|商店|支付|buy|price|geld|kauf/i.test(haystack)) return "结账时价格不对，你要当场询问、解释或提出退换";
+  if (/病|健康|医生|药|身体|health|arzt|krank|medizin/i.test(haystack)) return "诊所前台问你哪里不舒服、多久了，你要用完整句回答";
+  if (/家|房间|住|厨房|门|窗|home|room|wohn|zimmer/i.test(haystack)) return "室友站在门口问家里怎么安排，你要马上描述位置或动作";
+  if (/说|告诉|问|回答|信息|电话|邮件|speak|tell|answer|mail/i.test(haystack)) return "电话那头没听懂，你要换一种说法把关键信息再讲一遍";
+  if (/时间|早|晚|今天|明天|周|月|time|today|morgen|woche/i.test(haystack)) return "朋友临时改约，你要确认几点、哪天以及先后顺序";
+  if (isVerb(entry)) return pickByTerm(entry, [
+    "室友问你接下来要做什么，你需要用一个动作句直接回答",
+    "朋友没听清刚才发生了什么，你要用一句口语把动作讲明白",
+    "办事窗口轮到你了，你要把自己的请求或处理过程说完整"
+  ]);
+  if (isNoun(entry)) return pickByTerm(entry, [
+    "你把照片递给同学，需要指出其中这个人、地点或事物",
+    "聊天时对方问你缺什么，你要带着冠词自然说出这个名词",
+    "你在前台说明情况，这个名词正是句子里不可少的关键词"
+  ]);
+  return pickByTerm(entry, [
+    "朋友让你评价刚才那件事，你需要用这个词把态度说准确",
+    "你正在复述一天的经过，这个词负责把时间、程度或逻辑接起来",
+    "对方只听懂一半，你要用这个词补上最关键的语气或关系"
+  ]);
+};
+
+const englishBridgeFor = (entry) => {
+  const term = key(entry.term).replace(/^sich\s+/, "");
+  const known = ENGLISH_BRIDGES[term];
+  if (known) return `${bareTerm(entry.term)} ↔ ${known}：词形和核心概念相近，可作为第一条检索线索。`;
+  const english = String(entry.englishGloss || "").toLocaleLowerCase().replace(/^to\s+|^(?:a|an|the)\s+/, "").split(/[;,/ (]/)[0];
+  if (english.length >= 5 && term.length >= 5 && (english === term || english.slice(0, 5) === term.slice(0, 5))) {
+    return `${bareTerm(entry.term)} ↔ ${english}：这是可靠的英德同形/近形桥，不要照搬英语发音。`;
+  }
+  return "";
+};
+
+const memoryFor = (entry, valency) => {
+  const termKey = key(entry.term).replace(/^sich\s+/, "");
+  const scene = sceneFor(entry);
+  const contrast = CONFUSION_NOTES[termKey] || (isVerb(entry)
+    ? `不要只背“${shortMeaning(entry)}”；把 ${valency || "例句中的固定结构"} 连成一个口语块。`
+    : isNoun(entry) ? `把冠词和复数当成词的一部分，开口时不要只说裸词 ${bareTerm(entry.term)}。` : "先从场景回想意思，再从意思反向说出德语。");
+  return {
+    scene: `${scene}。别先翻译整句：抓住“${shortMeaning(entry)}”这个意图，让 ${bareTerm(entry.term)} 先跳出来。`,
+    spokenCue: entry.example || entry.usagePattern || bareTerm(entry.term),
+    contrast,
+    englishBridge: englishBridgeFor(entry),
+    recallPrompt: `遮住答案，先口头回答：在“${scene}”时，你会怎样用 ${bareTerm(entry.term)} 开口？再把人物或时间换成自己的。`
+  };
+};
 const meaningOf = (form) => {
   const formKey = key(form);
   if (MORPHEME_MEANINGS[formKey]) return MORPHEME_MEANINGS[formKey];
@@ -186,6 +269,7 @@ const regularFallback = (term, prefix = "") => {
 
 const conjugationFor = (entry, prefix) => {
   const sourceTerm = bareTerm(entry.term).replace(/^sich\s+/i, "");
+  if (/\s/.test(sourceTerm) || /\b(?:etw|jdn|jdm)\./i.test(sourceTerm)) return null;
   if (CONJUGATION_OVERRIDES[sourceTerm]) return { ...CONJUGATION_OVERRIDES[sourceTerm], source: "manual_override" };
   const lookup = findVerbLookup(sourceTerm);
   try {
@@ -372,6 +456,13 @@ for (const entry of data.items) {
   const title = conjugation
     ? `${reflexive && !/^sich\b/i.test(entry.term) ? `sich ${entry.term}` : entry.term}, ${conjugation.preterite}, ${conjugation.participle}`
     : isNoun(entry) ? `${nounTitle}, ${entry.plural || "—"}` : entry.term;
+  const valency = isVerb(entry) ? valencyFor(entry) : "";
+  const memory = memoryFor(entry, valency);
+  if (morphology.type === "simple") {
+    morphology.logic = `这个词不适合硬拆。把它钉在生活画面里：${memory.scene} 然后直接复述下面的开口句，建立“场景 → 德语”的检索路线。`;
+  } else {
+    morphology.logic = `${morphology.logic} 记忆时先还原词的结构，再落回这个生活画面：${memory.scene}`;
+  }
 
   entry.cia = {
     title,
@@ -379,9 +470,10 @@ for (const entry of data.items) {
     pronunciationStatus: ipa ? "open_ipa_verified" : "ipa_pending_review",
     core: { zh: entry.meaning, en: entry.englishGloss || "" },
     morphology,
+    memory,
     application: {
       conjugation,
-      valency: isVerb(entry) ? valencyFor(entry) : "",
+      valency,
       nounForms: isNoun(entry) ? { article: entry.article || "", plural: entry.plural || "—", genitive: entry.genitive || "—" } : null,
       example: entry.example,
       translation: entry.exampleTranslation
