@@ -4,6 +4,13 @@ const requestedStage = params.get("stage") || getPreferredStage();
 const requestedSlug = params.get("slug");
 const requestedWord = params.get("word");
 const requestedPack = params.get("pack");
+const packMatch = requestedPack?.match(/^(foundation|advanced)-([a-z]+)-(\d+)$/);
+const packLabels = {
+  communication: "沟通与信息", campus: "校园与学习", daily: "日常核心", travel: "出行与方位",
+  food: "饮食与点单", consumer: "消费与服务", people: "人际与情感", work: "工作与职业",
+  society: "社会与文化", argument: "观点与论证", structure: "句子工具", nouns: "名词与词形",
+  verbs: "动词与配价", descriptive: "描述与修饰", chunks: "固定搭配"
+};
 const lessonPanel = document.querySelector("#lesson-panel");
 
 setPreferredStage(requestedStage);
@@ -197,11 +204,11 @@ const start = async () => {
       const stageEntries = vocab.items.filter((item) => item.stage === stage);
       const selected = requestedWord
         ? stageEntries.filter((item) => item.id === requestedWord)
-        : requestedPack
-          ? stageEntries.filter((item) => (item.bookSources || []).some((source) => `B${source.book}-${source.lesson}` === requestedPack))
+        : packMatch && packMatch[1] === stage
+          ? stageEntries.filter((item) => item.learningDomain === packMatch[2]).sort((a, b) => a.stageRank - b.stageRank).slice((Number(packMatch[3]) - 1) * 60, Number(packMatch[3]) * 60)
           : stageEntries.filter((item) => !requestedSlug || item.theme === requestedSlug);
       const entries = selected.length ? selected : stageEntries;
-      const theme = { id: requestedPack || requestedSlug || stage, label: requestedPack ? `教材词包 ${requestedPack}` : requestedSlug ? "主题词汇" : `${stageLabel}词汇`, usageFocus: "结合释义、词形、生活场景和开口句主动回忆。", entries };
+      const theme = { id: requestedPack || requestedSlug || stage, label: packMatch ? packLabels[packMatch[2]] || "能力词包" : requestedSlug ? "主题词汇" : `${stageLabel}词汇`, usageFocus: "结合释义、词形、生活场景和开口句主动回忆。", entries };
       renderVocabSession(theme, { stage, count: requestedWord ? 1 : 12, fixed: Boolean(requestedWord) });
       return;
     }

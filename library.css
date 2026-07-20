@@ -293,19 +293,19 @@ button { cursor: pointer; }
 .empty-state { padding: 4rem 1rem; color: var(--muted); text-align: center; }
 .library-footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); }
 
-/* Textbook shelf: closed by default, so five thousand cards never become one long wall. */
-.book-section { border-bottom:1px solid var(--line); }
-.book-section + .book-section { margin-top:0; }
-.book-section > summary { cursor:pointer;list-style:none;padding:1.6rem 0; }
-.book-section > summary::-webkit-details-marker,
+/* Learning stages stay closed by default, so five thousand cards never become one long wall. */
+.stage-section { border-bottom:1px solid var(--line); }
+.stage-section + .stage-section { margin-top:0; }
+.stage-section > summary { cursor:pointer;list-style:none;padding:1.6rem 0; }
+.stage-section > summary::-webkit-details-marker,
 .word-pack > summary::-webkit-details-marker { display:none; }
-.book-section > summary::after { content:"＋";flex:0 0 auto;color:var(--red-800);font-size:1.4rem;font-weight:400; }
-.book-section[open] > summary::after { content:"−"; }
-.book-section[open] > summary { border-bottom:0; }
-.book-meta { display:grid;grid-template-columns:auto auto;align-items:baseline;gap:.25rem;color:var(--muted);text-align:right; }
-.book-meta strong { color:var(--red-900);font-size:1.4rem; }
-.book-meta small { grid-column:1/-1;display:block;max-width:24rem;line-height:1.45; }
-.book-section > .theme-grid { margin:0;padding:0 0 2.5rem; }
+.stage-section > summary::after { content:"＋";flex:0 0 auto;color:var(--red-800);font-size:1.4rem;font-weight:400; }
+.stage-section[open] > summary::after { content:"−"; }
+.stage-section[open] > summary { border-bottom:0; }
+.stage-meta { display:grid;grid-template-columns:auto auto;align-items:baseline;gap:.25rem;color:var(--muted);text-align:right; }
+.stage-meta strong { color:var(--red-900);font-size:1.4rem; }
+.stage-meta small { grid-column:1/-1;display:block;max-width:24rem;line-height:1.45; }
+.stage-section > .theme-grid { margin:0;padding:0 0 2.5rem; }
 .word-pack { min-height:0;padding:0;overflow:hidden; }
 .word-pack[open] { grid-column:1/-1; }
 .word-pack > summary { display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.25rem;cursor:pointer;list-style:none; }
@@ -371,8 +371,8 @@ button { cursor: pointer; }
   .lexicon-meaning,.lexicon-example { grid-column:2; }
   .lexicon-summary { flex-wrap:wrap; }
   .lexicon-summary #page-label { width:100%;margin-left:0; }
-  .book-section > summary { align-items:flex-start; }
-  .book-meta { display:none; }
+  .stage-section > summary { align-items:flex-start; }
+  .stage-meta { display:none; }
   .word-pack[open] { grid-column:auto; }
   .word-pack .entry-list { grid-template-columns:1fr; }
   .word-pack .word-entry:nth-child(odd) { border-right:0; }

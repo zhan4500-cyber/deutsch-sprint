@@ -31,16 +31,28 @@ const renderEntry = (entry) => {
   </details>`;
 };
 
-const BOOKS = {
-  1: { title: "第一册", subtitle: "入门、校园与基础日常", stage: "foundation" },
-  2: { title: "第二册", subtitle: "日常表达与基础能力扩展", stage: "foundation" },
-  3: { title: "第三册", subtitle: "叙述、讨论与书面表达", stage: "advanced" },
-  4: { title: "第四册", subtitle: "学术、社会与高阶语篇", stage: "advanced" },
-  5: { title: "能力补充", subtitle: "高频词、跨主题搭配与迁移表达", stage: "mixed" }
+const STAGES = {
+  foundation: { title: "大一大二", subtitle: "从日常开口到校园学习，建立稳定的基础表达" },
+  advanced: { title: "大三大四", subtitle: "从复杂叙述到观点论证，提升书面与专业表达" }
 };
-
-const lessonOrder = (lesson) => lesson === "SUP" ? 999 : (lesson.startsWith("V") ? Number(lesson.slice(1)) : 20 + Number(lesson.slice(1)));
-const lessonLabel = (lesson) => lesson === "SUP" ? "跨册补充" : lesson.startsWith("V") ? `预备教程 ${Number(lesson.slice(1))}` : `第 ${Number(lesson.slice(1))} 课`;
+const DOMAINS = {
+  communication: { label: "沟通与信息", description: "问答、说明、电话、邮件和信息传递" },
+  campus: { label: "校园与学习", description: "课堂、课程、作业、考试与大学生活" },
+  nouns: { label: "名词与词形", description: "连同冠词、复数和常用搭配一起掌握" },
+  verbs: { label: "动词与配价", description: "结合变位、格支配和固定结构主动回忆" },
+  descriptive: { label: "描述与修饰", description: "形容词、副词、程度和状态表达" },
+  chunks: { label: "固定搭配", description: "把多词表达作为完整口语块记忆" },
+  daily: { label: "日常核心", description: "高频动作、状态、时间与生活表达" },
+  travel: { label: "出行与方位", description: "交通、路线、地点和旅行场景" },
+  food: { label: "饮食与点单", description: "食物、餐厅、口味和点单交流" },
+  consumer: { label: "消费与服务", description: "购物、价格、付款与公共服务" },
+  people: { label: "人际与情感", description: "朋友、家庭、关系和感受表达" },
+  work: { label: "工作与职业", description: "申请、职场、任务与职业发展" },
+  society: { label: "社会与文化", description: "社会、经济、文化、环境和公共议题" },
+  argument: { label: "观点与论证", description: "原因、结果、比较、立场和逻辑组织" },
+  structure: { label: "句子工具", description: "介词、代词、连接词和结构性高频词" }
+};
+const PACK_SIZE = 60;
 
 const renderPackEntries = (packId) => {
   const pack = visiblePacks.get(packId);
@@ -64,36 +76,37 @@ const renderVocab = () => {
     entry.term, entry.pos, entry.meaning, entry.englishGloss, entry.usagePattern,
     entry.example, entry.exampleTranslation, entry.cia?.title
   ], query));
-  const books = new Map();
+  const stages = new Map();
   matchedItems.forEach((entry) => {
-    const sources = entry.bookSources?.length ? entry.bookSources : [{ book: 5, lesson: "SUP" }];
-    sources.forEach((source) => {
-      const book = Number(source.book) || 5;
-      if (!books.has(book)) books.set(book, new Map());
-      const lesson = source.lesson || "SUP";
-      if (!books.get(book).has(lesson)) books.get(book).set(lesson, []);
-      books.get(book).get(lesson).push(entry);
-    });
+    const stage = entry.stage === "advanced" ? "advanced" : "foundation";
+    const domain = entry.learningDomain || "daily";
+    if (!stages.has(stage)) stages.set(stage, new Map());
+    if (!stages.get(stage).has(domain)) stages.get(stage).set(domain, []);
+    stages.get(stage).get(domain).push(entry);
   });
   visiblePacks = new Map();
-  const sections = [...books.entries()].sort(([a], [b]) => a - b).map(([bookNumber, lessons]) => {
-    const book = BOOKS[bookNumber] || BOOKS[5];
-    const packs = [...lessons.entries()].sort(([a], [b]) => lessonOrder(a) - lessonOrder(b));
-    const uniqueCount = new Set(packs.flatMap(([, entries]) => entries.map((entry) => entry.id))).size;
-    const packHtml = packs.map(([lesson, entries]) => {
-      const packId = `B${bookNumber}-${lesson}`;
-      const sorted = entries.slice().sort((a, b) => a.stageRank - b.stageRank);
-      visiblePacks.set(packId, { entries: sorted });
-      const packStage = sorted[0]?.stage || book.stage;
-      const eager = Boolean(query);
-      return `<details class="theme-card word-pack" data-pack="${packId}"${eager ? " open" : ""}>
-        <summary><span><span class="card-label">${escapeHtml(packId)} · ${sorted.length} 词</span><strong>${lessonLabel(lesson)}</strong></span><span class="pack-chevron" aria-hidden="true"></span></summary>
-        <div class="pack-actions"><span>按教材课次整理，例句为本站原创或开放来源。</span><a class="card-link" href="study.html?kind=vocab&amp;stage=${packStage}&amp;pack=${packId}">练习这一课</a></div>
-        <div class="entry-list" data-loaded="${eager}">${eager ? sorted.map(renderEntry).join("") : ""}</div>
-      </details>`;
+  const sections = ["foundation", "advanced"].filter((stage) => stages.has(stage)).map((stageId) => {
+    const stage = STAGES[stageId];
+    const domains = stages.get(stageId);
+    let packCount = 0;
+    const packHtml = Object.keys(DOMAINS).filter((domain) => domains.has(domain)).map((domain) => {
+      const domainInfo = DOMAINS[domain];
+      const sorted = domains.get(domain).slice().sort((a, b) => a.stageRank - b.stageRank);
+      const chunks = Array.from({ length: Math.ceil(sorted.length / PACK_SIZE) }, (_, index) => sorted.slice(index * PACK_SIZE, (index + 1) * PACK_SIZE));
+      return chunks.map((entries, index) => {
+        packCount += 1;
+        const packId = `${stageId}-${domain}-${index + 1}`;
+        visiblePacks.set(packId, { entries });
+        const eager = Boolean(query);
+        return `<details class="theme-card word-pack" data-pack="${packId}"${eager ? " open" : ""}>
+          <summary><span><span class="card-label">${stage.title} · ${String(index + 1).padStart(2, "0")} · ${entries.length} 词</span><strong>${domainInfo.label}</strong></span><span class="pack-chevron" aria-hidden="true"></span></summary>
+          <div class="pack-actions"><span>${domainInfo.description}</span><a class="card-link" href="study.html?kind=vocab&amp;stage=${stageId}&amp;pack=${packId}">练习这一包</a></div>
+          <div class="entry-list" data-loaded="${eager}">${eager ? entries.map(renderEntry).join("") : ""}</div>
+        </details>`;
+      }).join("");
     }).join("");
-    return `<details class="result-section book-section"${query ? " open" : ""}>
-      <summary class="result-heading"><span><span class="card-label">TEXTBOOK ${String(bookNumber).padStart(2, "0")}</span><h2>${book.title}</h2></span><span class="book-meta"><strong>${uniqueCount}</strong> 词 · ${packs.length} 个词包<small>${book.subtitle}</small></span></summary>
+    return `<details class="result-section stage-section"${query || activeStage === stageId ? " open" : ""}>
+      <summary class="result-heading"><span><span class="card-label">LEARNING STAGE</span><h2>${stage.title}</h2></span><span class="stage-meta"><strong>${matchedItems.filter((entry) => entry.stage === stageId).length}</strong> 词 · ${packCount} 个能力词包<small>${stage.subtitle}</small></span></summary>
       <div class="theme-grid">${packHtml}</div>
     </details>`;
   }).join("");

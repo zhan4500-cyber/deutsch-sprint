@@ -22,14 +22,16 @@ assert(vocabIndex.items.length === 5000, `Expected 5000 indexed vocabulary items
 assert(vocabIndex.items.filter((entry) => entry.stage === "foundation").length >= 2400, "Foundation index must contain at least 2400 items");
 assert(vocabIndex.items.filter((entry) => entry.stage === "advanced").length >= 2400, "Advanced index must contain at least 2400 items");
 assert(vocabIndex.items.every((entry) => entry.richCard), "Every indexed vocabulary item must be a complete card");
-assert(vocabIndex.items.filter((entry) => entry.curated).length >= 170, "Too few curated vocabulary cards survived the textbook-first rebuild");
-assert(vocabIndex.items.filter((entry) => entry.textbookAligned).length >= 4800, "Vocabulary index is not sufficiently aligned with the four textbook indexes");
-for (const book of [1, 2, 3, 4]) assert(vocabIndex.items.filter((entry) => entry.bookSources?.some((source) => source.book === book)).length >= 1000, `Textbook ${book} coverage is too small`);
+assert(vocabIndex.items.filter((entry) => entry.curated).length >= 170, "Too few curated vocabulary cards survived the lexicon rebuild");
+const learningDomains = new Set(["communication", "campus", "nouns", "verbs", "descriptive", "chunks", "daily", "travel", "food", "consumer", "people", "work", "society", "argument", "structure"]);
+assert(vocabIndex.items.every((entry) => learningDomains.has(entry.learningDomain)), "Vocabulary index contains an invalid learning domain");
+const publicIndexKeys = new Set(["version", "count", "stageCounts", "domainCounts", "translationStatusCounts", "exampleSourceCounts", "qualityNote", "license", "licenses", "items", "formCoverage", "ciaCoverage"]);
+assert(Object.keys(vocabIndex).every((key) => publicIndexKeys.has(key)), "Vocabulary index exposes unexpected build metadata");
 assert(new Set(vocabIndex.items.map((entry) => entry.id)).size === vocabIndex.items.length, "Vocabulary index has duplicate IDs");
 assert(!vocabIndex.items.some((entry) => entry.meaning.startsWith("英文释义：")), "Vocabulary index still contains English-only fallback meanings");
 assert(!vocabIndex.items.some((entry) => entry.translationStatus === "open_dictionary"), "Vocabulary index still contains unsanitized English-pivot meanings");
 assert(!vocabIndex.items.some((entry) => /(^|；)\s*(?:vt|vi|n|a|adv|adj)\./i.test(entry.meaning)), "Vocabulary index still contains dictionary part-of-speech noise");
-assert(vocabIndex.items.filter((entry) => entry.translationStatus === "meaning_pending_review").length <= 250, "Too many textbook glosses still need review");
+assert(vocabIndex.items.filter((entry) => entry.translationStatus === "meaning_pending_review").length <= 250, "Too many vocabulary glosses still need review");
 assert(vocabIndex.formCoverage?.pluralForms >= 2250, "Vocabulary index does not contain enough verified noun plural forms");
 assert(vocabIndex.ciaCoverage?.ipa >= 4300, "C-I-A vocabulary does not contain enough IPA matches");
 assert(vocabIndex.ciaCoverage?.conjugationDictionary >= 880, "C-I-A vocabulary does not contain enough dictionary conjugations");
@@ -39,7 +41,6 @@ for (const entry of vocabIndex.items) {
   assert(entry.cia?.title && entry.cia?.core?.zh && entry.cia?.morphology?.logic && entry.cia?.application?.example, `Indexed vocabulary ${entry.id} has an incomplete C-I-A card`);
   assert(entry.cia?.memory?.scene && entry.cia?.memory?.spokenCue && entry.cia?.memory?.contrast && entry.cia?.memory?.recallPrompt, `Indexed vocabulary ${entry.id} has an incomplete scene-memory card`);
   assert(["compound", "prefix", "suffix", "simple"].includes(entry.cia?.morphology?.type), `Indexed vocabulary ${entry.id} has an invalid morphology type`);
-  if (entry.textbookAligned) assert(entry.bookSources?.length, `Textbook vocabulary ${entry.id} has no book/lesson source`);
   if (entry.cia?.application?.conjugation) {
     const conjugation = entry.cia?.application?.conjugation;
     assert(conjugation?.present?.ich && conjugation?.present?.du && conjugation?.present?.er && conjugation?.preterite && conjugation?.participle, `Indexed verb ${entry.id} has incomplete conjugation`);
