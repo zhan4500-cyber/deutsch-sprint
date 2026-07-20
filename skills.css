@@ -53,6 +53,22 @@
   line-height: 1.6;
 }
 
+.module-start {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.6rem;
+  margin-top: 1rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  background: var(--red-700);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.module-start:hover { background: var(--red-900); }
+
 .assessment-cycle {
   display: grid;
   grid-template-columns: minmax(12rem, 0.7fr) minmax(0, 2fr);

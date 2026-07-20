@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "copyrightNote": "仅收录已进入公版的德语作品短句。中文释义为本站原创，个别历史拼写按现行正字法现代化；短句用于语言观察，不替代作品原文。",
+  "items": [
+    {
+      "id": "goethe-faust-streben",
+      "author": "Johann Wolfgang von Goethe",
+      "work": "Faust I",
+      "quote": "Es irrt der Mensch, so lang er strebt.",
+      "translation": "人只要仍在追求，就难免犯错。",
+      "focus": "so lang 引导时间关系；streben 表示持续追求。"
+    },
+    {
+      "id": "goethe-faust-mensch",
+      "author": "Johann Wolfgang von Goethe",
+      "work": "Faust I",
+      "quote": "Hier bin ich Mensch, hier darf ich's sein!",
+      "translation": "在这里，我是一个真正的人；在这里，我可以如此生活。",
+      "focus": "前置地点成分触发动词第二位；ich's 是 ich es 的缩合。"
+    },
+    {
+      "id": "goethe-faust-theorie",
+      "author": "Johann Wolfgang von Goethe",
+      "work": "Faust I",
+      "quote": "Grau, teurer Freund, ist alle Theorie, und grün des Lebens goldner Baum.",
+      "translation": "亲爱的朋友，一切理论都是灰色的，而生命的金树常青。",
+      "focus": "表语前置；des Lebens 是第二格定语。"
+    },
+    {
+      "id": "kant-aufklaerung",
+      "author": "Immanuel Kant",
+      "work": "Beantwortung der Frage: Was ist Aufklärung?",
+      "quote": "Habe Mut, dich deines eigenen Verstandes zu bedienen!",
+      "translation": "要有勇气运用你自己的理性。",
+      "focus": "sich einer Sache bedienen 支配第二格。"
+    },
+    {
+      "id": "schiller-spiel",
+      "author": "Friedrich Schiller",
+      "work": "Über die ästhetische Erziehung des Menschen",
+      "quote": "Der Mensch ist nur da ganz Mensch, wo er spielt.",
+      "translation": "只有在游戏时，人才是完整的人。",
+      "focus": "wo 引导表示情境的从句。"
+    },
+    {
+      "id": "lessing-muessen",
+      "author": "Gotthold Ephraim Lessing",
+      "work": "Nathan der Weise",
+      "quote": "Kein Mensch muss müssen.",
+      "translation": "没有人必须被迫做什么。",
+      "focus": "情态动词 müssen 在另一个情态动词后使用不定式。"
+    },
+    {
+      "id": "heine-nachtgedanken",
+      "author": "Heinrich Heine",
+      "work": "Nachtgedanken",
+      "quote": "Denk ich an Deutschland in der Nacht, dann bin ich um den Schlaf gebracht.",
+      "translation": "当我在夜里想到德国，我便难以入眠。",
+      "focus": "省略 wenn 的条件结构使用动词第一位。"
+    },
+    {
+      "id": "rilke-leben",
+      "author": "Rainer Maria Rilke",
+      "work": "Archaischer Torso Apollos",
+      "quote": "Du musst dein Leben ändern.",
+      "translation": "你必须改变你的生活。",
+      "focus": "情态动词后使用不带 zu 的不定式。"
+    }
+  ]
+}

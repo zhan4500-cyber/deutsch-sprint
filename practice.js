@@ -157,7 +157,9 @@ const reviewItem = (item) => ({
   id: `question-${item.id}`,
   title: item.prompt.length > 72 ? `${item.prompt.slice(0, 72)}...` : item.prompt,
   detail: `练习 · ${currentModule().label} · ${item.subtopic}`,
-  href: `practice.html?stage=${selectedStage}&module=${item.module}&review=${item.id}`
+  href: `practice.html?stage=${selectedStage}&module=${item.module}&review=${item.id}`,
+  stage: selectedStage,
+  kind: "practice"
 });
 
 const lockQuestion = () => {
@@ -261,6 +263,7 @@ const loadStage = async (stage, updateUrl = true) => {
   if (!response.ok) throw new Error("题库目录加载失败");
   manifest = await response.json();
   selectedStage = stage;
+  setPreferredStage(stage);
   if (!manifest.modules.some((item) => item.id === selectedModule)) selectedModule = manifest.modules[0].id;
   stageOptions.querySelectorAll("button").forEach((button) => button.classList.toggle("selected", button.dataset.stage === stage));
   stageEyebrow.textContent = stageCopy[stage].eyebrow;

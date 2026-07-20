@@ -26,6 +26,7 @@ const renderModule = (module) => `
     <ul class="skill-unit-list">${module.units.map((unit) => `<li>${unit}</li>`).join("")}</ul>
     ${module.original_task_types ? `<div class="task-block"><strong>训练任务</strong>${module.original_task_types.map((task) => `<span>${task}</span>`).join("")}</div>` : ""}
     ${module.update_policy ? `<p class="source-policy">${module.update_policy}</p>` : ""}
+    <a class="module-start" href="skill.html?id=${encodeURIComponent(module.id)}">进入训练</a>
   </article>`;
 
 const renderCycle = () => {

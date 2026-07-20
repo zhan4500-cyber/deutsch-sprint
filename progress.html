@@ -1,3 +1,24 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>进度 | Deutsch Sprint</title><link rel="stylesheet" href="learner.css" /></head><body>
-<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a><nav class="topnav"><a href="vocab.html">词库</a><a href="grammar.html">语法库</a><a href="skills.html">能力</a><a href="practice.html">练习</a><a href="review.html">复盘</a><a class="active" href="progress.html">进度</a></nav></header>
-<main class="page"><p class="eyebrow">LEARNING RECORD</p><h1>你的学习进度。</h1><p class="lead">只统计你在本站真实完成的学习和练习。数据保存在这台设备上。</p><div class="study-grid"><section class="panel"><p class="eyebrow">完成情况</p><h2 id="progress-summary">还没有开始。</h2><div class="details" id="progress-details"></div></section><aside class="panel"><p class="eyebrow">下一步</p><h2>保持节奏就好。</h2><p class="muted" id="next-step"></p><div class="actions"><a class="primary" href="study.html?kind=daily">开始学习</a><button class="secondary" id="reset-progress" type="button">清空本机记录</button></div></aside></div></main><script src="learner.js"></script><script src="progress.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>进度 | Deutsch Sprint</title>
+  <link rel="stylesheet" href="learner.css" />
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">D</span>Deutsch Sprint</a><nav class="topnav"><a href="vocab.html">词库</a><a href="grammar.html">语法库</a><a href="skills.html">能力</a><a href="practice.html">练习</a><a href="review.html">复盘</a><a class="active" href="progress.html">进度</a></nav></header>
+  <main class="page">
+    <p class="eyebrow">LEARNING RECORD</p><h1>你的学习进度。</h1><p class="lead">记录练习次数、阶段表现与最近七天活动。数据只保存在当前浏览器，可随时导出备份。</p>
+    <div class="study-grid">
+      <section class="panel"><p class="eyebrow">完成情况</p><h2 id="progress-summary">还没有开始。</h2><ul class="details" id="progress-details"></ul></section>
+      <aside class="panel"><p class="eyebrow">下一步</p><h2>保持节奏就好。</h2><p class="muted" id="next-step"></p><div class="actions"><a class="primary" id="daily-link" href="study.html?kind=daily">开始学习</a><a class="secondary" href="review.html">复盘薄弱项</a></div></aside>
+    </div>
+    <section class="panel progress-panel"><div><p class="eyebrow">阶段表现</p><h2>分开看基础与高阶。</h2></div><div class="progress-split" id="stage-breakdown"></div></section>
+    <section class="panel progress-panel"><div><p class="eyebrow">训练类型</p><h2>你把时间花在了哪里。</h2></div><div class="progress-split" id="kind-breakdown"></div></section>
+    <section class="panel progress-panel"><div><p class="eyebrow">最近七天</p><h2 id="streak-title">从今天开始。</h2></div><div class="activity-grid" id="activity-grid"></div></section>
+    <section class="data-tools"><p>更换浏览器或设备前，可以导出一份学习记录。</p><div class="actions"><button class="secondary" id="export-progress" type="button">导出记录</button><label class="secondary file-button">导入记录<input id="import-progress" type="file" accept="application/json" /></label><button class="secondary" id="reset-progress" type="button">清空本机记录</button></div><p class="muted" id="data-feedback" aria-live="polite"></p></section>
+  </main>
+  <script src="learner.js"></script><script src="progress.js"></script>
+</body>
+</html>

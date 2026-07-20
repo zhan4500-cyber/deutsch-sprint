@@ -24,7 +24,9 @@
               "tags": [
                 "irregular",
                 "auxiliary"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "haben",
@@ -38,7 +40,9 @@
               "tags": [
                 "irregular",
                 "auxiliary"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "werden",
@@ -52,7 +56,9 @@
               "tags": [
                 "irregular",
                 "passive"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "können",
@@ -65,7 +71,9 @@
               "usageNote": "双不定式结构中完成时形式特殊。",
               "tags": [
                 "modal"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "müssen",
@@ -78,7 +86,9 @@
               "usageNote": "否定 nicht müssen 表示“不必”。",
               "tags": [
                 "modal"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "sollen",
@@ -91,7 +101,9 @@
               "usageNote": "也可表示转述的信息。",
               "tags": [
                 "modal"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "dürfen",
@@ -104,7 +116,9 @@
               "usageNote": "nicht dürfen 表示“不允许”。",
               "tags": [
                 "modal"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "mögen",
@@ -118,7 +132,9 @@
               "tags": [
                 "modal",
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "machen",
@@ -131,7 +147,9 @@
               "usageNote": "高频轻动词，重点记搭配。",
               "tags": [
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "tun",
@@ -144,7 +162,9 @@
               "usageNote": "口语高频，不等同于所有 machen 用法。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             }
           ]
         },
@@ -165,7 +185,9 @@
               "tags": [
                 "irregular",
                 "movement"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "kommen",
@@ -179,7 +201,9 @@
               "tags": [
                 "irregular",
                 "movement"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "fahren",
@@ -193,7 +217,9 @@
               "tags": [
                 "irregular",
                 "movement"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "bleiben",
@@ -206,7 +232,9 @@
               "usageNote": "完成时用 sein。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "liegen",
@@ -220,7 +248,9 @@
               "tags": [
                 "irregular",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "stehen",
@@ -234,7 +264,9 @@
               "tags": [
                 "irregular",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "stellen",
@@ -247,7 +279,9 @@
               "usageNote": "与 stehen 构成位置/方向对立。",
               "tags": [
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "setzen",
@@ -261,7 +295,9 @@
               "tags": [
                 "collocation",
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "legen",
@@ -274,7 +310,9 @@
               "usageNote": "与 liegen 区分。",
               "tags": [
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "geben",
@@ -288,7 +326,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "nehmen",
@@ -302,7 +342,9 @@
               "tags": [
                 "irregular",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "bringen",
@@ -315,7 +357,9 @@
               "usageNote": "混合变化动词。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "tragen",
@@ -329,7 +373,9 @@
               "tags": [
                 "irregular",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "finden",
@@ -343,7 +389,9 @@
               "tags": [
                 "irregular",
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             }
           ]
         },
@@ -363,7 +411,9 @@
               "usageNote": "与 kennen 区分：wissen 接事实。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "kennen",
@@ -376,7 +426,9 @@
               "usageNote": "kennen 接人或事物。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "denken",
@@ -390,7 +442,9 @@
               "tags": [
                 "irregular",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "glauben",
@@ -404,7 +458,9 @@
               "tags": [
                 "dative",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "meinen",
@@ -417,7 +473,9 @@
               "usageNote": "常用于澄清含义。",
               "tags": [
                 "communication"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "verstehen",
@@ -431,7 +489,9 @@
               "tags": [
                 "irregular",
                 "definition"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "erklären",
@@ -444,7 +504,9 @@
               "usageNote": "双宾语结构。",
               "tags": [
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "beschreiben",
@@ -458,7 +520,9 @@
               "tags": [
                 "irregular",
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "nennen",
@@ -472,7 +536,9 @@
               "tags": [
                 "irregular",
                 "exam_instruction"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "bedeuten",
@@ -485,7 +551,9 @@
               "usageNote": "用于解释因果或定义。",
               "tags": [
                 "definition"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "erinnern",
@@ -499,7 +567,9 @@
               "tags": [
                 "reflexive",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "vergessen",
@@ -512,7 +582,9 @@
               "usageNote": "可接 zu 不定式。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "brauchen",
@@ -525,7 +597,9 @@
               "usageNote": "否定形式可接 zu 不定式，表示“不必”。",
               "tags": [
                 "grammar"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "benutzen",
@@ -538,7 +612,9 @@
               "usageNote": "与 verwenden 近义。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "verwenden",
@@ -551,7 +627,9 @@
               "usageNote": "被动态常见。",
               "tags": [
                 "usage"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -572,7 +650,9 @@
               "tags": [
                 "irregular",
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "beginnen",
@@ -585,7 +665,9 @@
               "usageNote": "不可分动词。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "aufhören",
@@ -598,7 +680,9 @@
               "usageNote": "可分动词。",
               "tags": [
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "dauern",
@@ -611,7 +695,9 @@
               "usageNote": "主语通常为事件。",
               "tags": [
                 "time"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "stattfinden",
@@ -624,7 +710,9 @@
               "usageNote": "不可与 werden 搭配成“举行”。",
               "tags": [
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "planen",
@@ -637,7 +725,9 @@
               "usageNote": "可接 zu 不定式。",
               "tags": [
                 "planning"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "vorbereiten",
@@ -651,7 +741,9 @@
               "tags": [
                 "reflexive",
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "entscheiden",
@@ -665,7 +757,9 @@
               "tags": [
                 "irregular",
                 "reflexive"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "versuchen",
@@ -678,7 +772,9 @@
               "usageNote": "zu 不定式常用。",
               "tags": [
                 "infinitive"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "schaffen",
@@ -691,7 +787,9 @@
               "usageNote": "注意与 schaffen = 创造的发音差异不明显但语义不同。",
               "tags": [
                 "infinitive"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "erreichen",
@@ -704,7 +802,9 @@
               "usageNote": "不用 zu 介词。",
               "tags": [
                 "goal"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "gelingen",
@@ -718,7 +818,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "scheitern",
@@ -731,7 +833,9 @@
               "usageNote": "支配 an + 第三格。",
               "tags": [
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "lösen",
@@ -744,7 +848,9 @@
               "usageNote": "与 Lösung 同族。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "verbessern",
@@ -757,7 +863,9 @@
               "usageNote": "可作反身不及物。",
               "tags": [
                 "reflexive"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "entwickeln",
@@ -770,7 +878,9 @@
               "usageNote": "可作反身动词。",
               "tags": [
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             }
           ]
         },
@@ -791,7 +901,9 @@
               "tags": [
                 "irregular",
                 "data"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "erhöhen",
@@ -804,7 +916,9 @@
               "usageNote": "及物，对应 steigen。",
               "tags": [
                 "data"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "sinken",
@@ -818,7 +932,9 @@
               "tags": [
                 "irregular",
                 "data"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "verringern",
@@ -831,7 +947,9 @@
               "usageNote": "及物，对应 sinken/abnehmen。",
               "tags": [
                 "data"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "entstehen",
@@ -845,7 +963,9 @@
               "tags": [
                 "irregular",
                 "cause"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "verlieren",
@@ -858,7 +978,9 @@
               "usageNote": "强变化动词。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "gewinnen",
@@ -872,7 +994,9 @@
               "tags": [
                 "irregular",
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "teilnehmen",
@@ -887,7 +1011,9 @@
                 "irregular",
                 "separable",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "helfen",
@@ -901,7 +1027,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "bitten",
@@ -915,7 +1043,9 @@
               "tags": [
                 "irregular",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "danken",
@@ -928,7 +1058,9 @@
               "usageNote": "人用第三格。",
               "tags": [
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "zustimmen",
@@ -942,7 +1074,9 @@
               "tags": [
                 "separable",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "ablehnen",
@@ -955,7 +1089,9 @@
               "usageNote": "可分动词。",
               "tags": [
                 "separable"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "empfehlen",
@@ -969,7 +1105,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "erlauben",
@@ -982,7 +1120,9 @@
               "usageNote": "人用第三格。",
               "tags": [
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "verbieten",
@@ -996,7 +1136,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -1017,7 +1159,9 @@
               "tags": [
                 "reflexive",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "sich interessieren",
@@ -1031,7 +1175,9 @@
               "tags": [
                 "reflexive",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "gefallen",
@@ -1045,7 +1191,9 @@
               "tags": [
                 "irregular",
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "fehlen",
@@ -1058,7 +1206,9 @@
               "usageNote": "体验者用第三格。",
               "tags": [
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "gehören",
@@ -1071,7 +1221,9 @@
               "usageNote": "所属人用第三格。",
               "tags": [
                 "dative"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "abhängen",
@@ -1086,7 +1238,9 @@
                 "irregular",
                 "separable",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "bestehen",
@@ -1100,7 +1254,9 @@
               "tags": [
                 "irregular",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "führen",
@@ -1114,7 +1270,9 @@
               "tags": [
                 "rection",
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "verursachen",
@@ -1127,7 +1285,9 @@
               "usageNote": "及物因果动词。",
               "tags": [
                 "cause"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "beeinflussen",
@@ -1140,7 +1300,9 @@
               "usageNote": "不用 auf 介词。",
               "tags": [
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "betreffen",
@@ -1153,7 +1315,9 @@
               "usageNote": "强变化动词。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "handeln",
@@ -1167,7 +1331,9 @@
               "tags": [
                 "rection",
                 "reading"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "vergleichen",
@@ -1181,7 +1347,9 @@
               "tags": [
                 "irregular",
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "unterscheiden",
@@ -1195,7 +1363,9 @@
               "tags": [
                 "irregular",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "begründen",
@@ -1209,7 +1379,9 @@
               "tags": [
                 "exam_instruction",
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "behaupten",
@@ -1223,7 +1395,9 @@
               "tags": [
                 "reading",
                 "reporting"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "betonen",
@@ -1237,7 +1411,9 @@
               "tags": [
                 "reading",
                 "reporting"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "darstellen",
@@ -1251,7 +1427,9 @@
               "tags": [
                 "separable",
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "zusammenfassen",
@@ -1265,7 +1443,9 @@
               "tags": [
                 "separable",
                 "exam_instruction"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "berücksichtigen",
@@ -1278,7 +1458,9 @@
               "usageNote": "不用介词。",
               "tags": [
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "beachten",
@@ -1291,7 +1473,9 @@
               "usageNote": "考试指令高频。",
               "tags": [
                 "exam_instruction"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "vermeiden",
@@ -1304,7 +1488,9 @@
               "usageNote": "强变化动词。",
               "tags": [
                 "irregular"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             }
           ]
         },
@@ -1325,7 +1511,9 @@
               "tags": [
                 "abstract",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Voraussetzung",
@@ -1339,7 +1527,9 @@
               "tags": [
                 "abstract",
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "der Zusammenhang",
@@ -1353,7 +1543,9 @@
               "tags": [
                 "abstract",
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Auswirkung",
@@ -1367,7 +1559,9 @@
               "tags": [
                 "abstract",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "der Einfluss",
@@ -1381,7 +1575,9 @@
               "tags": [
                 "abstract",
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Maßnahme",
@@ -1395,7 +1591,9 @@
               "tags": [
                 "politics",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Entscheidung",
@@ -1408,7 +1606,9 @@
               "usageNote": "与 entscheiden 对应。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Möglichkeit",
@@ -1421,7 +1621,9 @@
               "usageNote": "可接 zu 不定式。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -1441,7 +1643,9 @@
               "usageNote": "与 fähig 对应。",
               "tags": [
                 "education"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Erfahrung",
@@ -1454,7 +1658,9 @@
               "usageNote": "可数经历与不可数经验需结合语境。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Kenntnis",
@@ -1467,7 +1673,9 @@
               "usageNote": "常用复数 Kenntnisse。",
               "tags": [
                 "education"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Leistung",
@@ -1480,7 +1688,9 @@
               "usageNote": "语境决定是成绩、贡献还是技术功率。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "der Fortschritt",
@@ -1494,7 +1704,9 @@
               "tags": [
                 "education",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "der Fehler",
@@ -1507,7 +1719,9 @@
               "usageNote": "与 falsch、fehlen 区分。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Aufgabe",
@@ -1520,7 +1734,9 @@
               "usageNote": "既可指职责也可指试题。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Lösung",
@@ -1533,7 +1749,9 @@
               "usageNote": "多义词。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Bedeutung",
@@ -1546,7 +1764,9 @@
               "usageNote": "词汇题与论述写作都高频。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "der Begriff",
@@ -1559,7 +1779,9 @@
               "usageNote": "定义类文本高频。",
               "tags": [
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -1579,7 +1801,9 @@
               "usageNote": "meiner Meinung nach 不加冠词。",
               "tags": [
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Ansicht",
@@ -1592,7 +1816,9 @@
               "usageNote": "der Ansicht sein 后接第二格形式。",
               "tags": [
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "das Argument",
@@ -1605,7 +1831,9 @@
               "usageNote": "写作主体段核心词。",
               "tags": [
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "der Vorteil",
@@ -1618,7 +1846,9 @@
               "usageNote": "bestehen darin, dass 是高频句型。",
               "tags": [
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "der Nachteil",
@@ -1631,7 +1861,9 @@
               "usageNote": "与 Vorteil 成对。",
               "tags": [
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Ursache",
@@ -1644,7 +1876,9 @@
               "usageNote": "与 Grund、Anlass 区分。",
               "tags": [
                 "cause"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Folge",
@@ -1658,7 +1892,9 @@
               "tags": [
                 "cause",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Bedingung",
@@ -1671,7 +1907,9 @@
               "usageNote": "与 Voraussetzung 部分重合。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Verantwortung",
@@ -1685,7 +1923,9 @@
               "tags": [
                 "society",
                 "collocation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Unterstützung",
@@ -1698,7 +1938,9 @@
               "usageNote": "通常不可数。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Teilnahme",
@@ -1711,7 +1953,9 @@
               "usageNote": "与 teilnehmen an + D 对应。",
               "tags": [
                 "rection"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Bewerbung",
@@ -1724,7 +1968,9 @@
               "usageNote": "工作与学习申请高频。",
               "tags": [
                 "work"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "der Antrag",
@@ -1737,7 +1983,9 @@
               "usageNote": "stellen 搭配。",
               "tags": [
                 "administration"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Prüfung",
@@ -1750,7 +1998,9 @@
               "usageNote": "ablegen/bestehen/durchfallen 搭配。",
               "tags": [
                 "exam"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "das Ergebnis",
@@ -1763,7 +2013,9 @@
               "usageNote": "数据描述高频。",
               "tags": [
                 "academic"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Entwicklung",
@@ -1776,7 +2028,9 @@
               "usageNote": "图表作文高频。",
               "tags": [
                 "data"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "der Unterschied",
@@ -1789,7 +2043,9 @@
               "usageNote": "zwischen 后通常复数第三格。",
               "tags": [
                 "comparison"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "der Vergleich",
@@ -1802,7 +2058,9 @@
               "usageNote": "数据描述高频。",
               "tags": [
                 "comparison"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -1822,7 +2080,9 @@
               "usageNote": "可指人际关系或抽象联系。",
               "tags": [
                 "abstract"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Öffentlichkeit",
@@ -1835,7 +2095,9 @@
               "usageNote": "不可数集合名词。",
               "tags": [
                 "society"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "die Gesellschaft",
@@ -1848,7 +2110,9 @@
               "usageNote": "语境决定“社会”或“公司”。",
               "tags": [
                 "society"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "die Umwelt",
@@ -1861,7 +2125,9 @@
               "usageNote": "环境主题高频。",
               "tags": [
                 "environment"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "die Gesundheit",
@@ -1874,7 +2140,9 @@
               "usageNote": "通常不可数。",
               "tags": [
                 "health"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             }
           ]
         },
@@ -1895,7 +2163,9 @@
               "tags": [
                 "connector",
                 "word_order"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "während",
@@ -1909,7 +2179,9 @@
               "tags": [
                 "connector",
                 "comparison"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "indem",
@@ -1923,7 +2195,9 @@
               "tags": [
                 "connector",
                 "method"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "sodass",
@@ -1937,7 +2211,9 @@
               "tags": [
                 "connector",
                 "result"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "damit",
@@ -1951,7 +2227,9 @@
               "tags": [
                 "connector",
                 "purpose"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "denn",
@@ -1965,7 +2243,9 @@
               "tags": [
                 "connector",
                 "word_order"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "deshalb",
@@ -1979,7 +2259,9 @@
               "tags": [
                 "connector",
                 "word_order"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "dennoch",
@@ -1993,7 +2275,9 @@
               "tags": [
                 "connector",
                 "contrast"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "einerseits … andererseits",
@@ -2007,7 +2291,9 @@
               "tags": [
                 "connector",
                 "writing"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             },
             {
               "term": "sowohl … als auch",
@@ -2021,7 +2307,9 @@
               "tags": [
                 "connector",
                 "coordination"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 2
             },
             {
               "term": "weder … noch",
@@ -2035,7 +2323,9 @@
               "tags": [
                 "connector",
                 "negation"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 3
             },
             {
               "term": "nicht nur … sondern auch",
@@ -2049,7 +2339,9 @@
               "tags": [
                 "connector",
                 "coordination"
-              ]
+              ],
+              "cefr": "A1-B1",
+              "difficulty": 1
             }
           ]
         }
@@ -2070,120 +2362,156 @@
               "pos": "名词",
               "meaning": "观点；见解",
               "collocation": "eine Auffassung vertreten",
-              "example": "",
-              "translation": "",
+              "example": "In ihrer Stellungnahme vertritt die Autorin die Auffassung, dass Hochschulen mehr Beratungsangebote benötigen.",
+              "translation": "作者在声明中认为，高校需要提供更多咨询服务。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Behauptung",
               "pos": "名词",
               "meaning": "断言；主张",
               "collocation": "eine Behauptung aufstellen",
-              "example": "",
-              "translation": "",
+              "example": "Die Behauptung, digitale Lehre sei grundsätzlich unpersönlich, greift zu kurz.",
+              "translation": "认为数字教学必然缺乏人情味的主张过于片面。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Begründung",
               "pos": "名词",
               "meaning": "理由；论证",
               "collocation": "eine überzeugende Begründung liefern",
-              "example": "",
-              "translation": "",
+              "example": "Für die Reform lieferte die Kommission eine überzeugende Begründung.",
+              "translation": "委员会为这项改革给出了令人信服的理由。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Einwand",
               "pos": "名词",
               "meaning": "异议；反对理由",
               "collocation": "einen Einwand erheben",
-              "example": "",
-              "translation": "",
+              "example": "Mehrere Fachverbände erhoben Einwand gegen die geplante Verkürzung der Frist.",
+              "translation": "多个专业协会对缩短期限的计划提出异议。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Schlussfolgerung",
               "pos": "名词",
               "meaning": "结论；推论",
               "collocation": "eine Schlussfolgerung ziehen",
-              "example": "",
-              "translation": "",
+              "example": "Aus den vorliegenden Daten lässt sich noch keine eindeutige Schlussfolgerung ziehen.",
+              "translation": "根据现有数据还无法得出明确结论。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "nachvollziehbar",
               "pos": "形容词",
               "meaning": "可理解的；合乎逻辑的",
               "collocation": "eine nachvollziehbare Erklärung",
-              "example": "",
-              "translation": "",
+              "example": "Die Entscheidung ist nachvollziehbar, weil alle Kriterien offengelegt wurden.",
+              "translation": "由于所有标准都已公开，这一决定是可以理解的。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "stichhaltig",
               "pos": "形容词",
               "meaning": "有说服力的；站得住脚的",
               "collocation": "ein stichhaltiges Argument",
-              "example": "",
-              "translation": "",
+              "example": "Für diese These fehlen bislang stichhaltige Argumente.",
+              "translation": "目前还缺少支持这一论点的有力论据。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "widerlegen",
               "pos": "动词",
               "meaning": "驳斥；证明为错",
               "collocation": "eine These widerlegen",
-              "example": "",
-              "translation": "",
+              "example": "Neue Messungen konnten die ursprüngliche These eindeutig widerlegen.",
+              "translation": "新的测量结果能够明确驳斥最初的论点。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "einräumen",
               "pos": "动词",
               "meaning": "承认；让步",
               "collocation": "Fehler einräumen",
-              "example": "",
-              "translation": "",
+              "example": "Die Projektleitung räumte Fehler bei der Datenerhebung ein.",
+              "translation": "项目负责人承认数据采集过程中存在错误。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "hervorheben",
               "pos": "动词",
               "meaning": "突出；强调",
               "collocation": "die Bedeutung hervorheben",
-              "example": "",
-              "translation": "",
+              "example": "Der Bericht hebt die Bedeutung langfristiger Finanzierung hervor.",
+              "translation": "报告强调长期资金保障的重要性。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "inwiefern",
               "pos": "副词",
               "meaning": "在何种程度上",
-              "collocation": "prüfen inwiefern etwas gilt",
-              "example": "",
-              "translation": "",
+              "collocation": "prüfen, inwiefern etwas gilt",
+              "example": "Die Studie prüft, inwiefern kleinere Hochschulen von der Regelung profitieren.",
+              "translation": "该研究考察规模较小的高校能在何种程度上从这一规定中受益。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "unter der Voraussetzung",
               "pos": "固定表达",
               "meaning": "在……前提下",
-              "collocation": "unter der Voraussetzung dass",
-              "example": "",
-              "translation": "",
+              "collocation": "unter der Voraussetzung, dass",
+              "example": "Wir stimmen dem Vorschlag unter der Voraussetzung zu, dass die Kosten transparent bleiben.",
+              "translation": "我们同意该建议，前提是费用保持透明。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2197,120 +2525,156 @@
               "pos": "副词",
               "meaning": "因此；结果是",
               "collocation": "infolgedessen stieg die Zahl",
-              "example": "",
-              "translation": "",
+              "example": "Die Nachfrage stieg deutlich; infolgedessen wurden zusätzliche Kurse angeboten.",
+              "translation": "需求明显上升，因此增开了课程。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "demgegenüber",
               "pos": "副词",
               "meaning": "与此相对",
               "collocation": "demgegenüber steht",
-              "example": "",
-              "translation": "",
+              "example": "Die Großstädte wachsen weiter; demgegenüber verlieren manche ländlichen Regionen Einwohner.",
+              "translation": "大城市继续增长，与此相对，一些农村地区正在失去人口。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "gleichwohl",
               "pos": "副词",
               "meaning": "尽管如此",
               "collocation": "gleichwohl bleibt die Frage offen",
-              "example": "",
-              "translation": "",
+              "example": "Die Stichprobe ist klein; gleichwohl liefert die Untersuchung wichtige Hinweise.",
+              "translation": "样本虽然较小，但该研究仍提供了重要线索。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "demnach",
               "pos": "副词",
               "meaning": "据此；因此",
               "collocation": "demnach ist davon auszugehen",
-              "example": "",
-              "translation": "",
+              "example": "Alle Kriterien wurden erfüllt; demnach kann der Antrag bewilligt werden.",
+              "translation": "所有标准均已满足，据此可以批准申请。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "zumal",
               "pos": "连词",
               "meaning": "尤其因为",
               "collocation": "zumal die Kosten steigen",
-              "example": "",
-              "translation": "",
+              "example": "Eine Verschiebung wäre riskant, zumal bereits mehrere Verträge geschlossen wurden.",
+              "translation": "推迟会有风险，尤其是已经签订了多份合同。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "sofern",
               "pos": "连词",
               "meaning": "只要；如果",
               "collocation": "sofern keine Einwände bestehen",
-              "example": "",
-              "translation": "",
+              "example": "Die Daten dürfen verwendet werden, sofern alle Betroffenen eingewilligt haben.",
+              "translation": "只要所有相关人员均已同意，这些数据就可以使用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "wohingegen",
               "pos": "连词",
               "meaning": "而；相反",
               "collocation": "wohingegen andere ablehnen",
-              "example": "",
-              "translation": "",
+              "example": "Die erste Gruppe befürwortet die Reform, wohingegen die zweite weitere Prüfungen verlangt.",
+              "translation": "第一组赞成改革，而第二组要求进一步审查。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "wenngleich",
               "pos": "连词",
               "meaning": "虽然；尽管",
               "collocation": "wenngleich nur teilweise",
-              "example": "",
-              "translation": "",
+              "example": "Die Maßnahme war erfolgreich, wenngleich ihre Wirkung regional unterschiedlich ausfiel.",
+              "translation": "该措施取得了成效，尽管其影响因地区而异。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "geschweige denn",
               "pos": "固定表达",
               "meaning": "更不用说",
               "collocation": "kaum lesen geschweige denn schreiben",
-              "example": "",
-              "translation": "",
+              "example": "Ohne Wörterbuch konnte er den Text kaum lesen, geschweige denn präzise übersetzen.",
+              "translation": "没有词典，他几乎无法阅读该文本，更不用说准确翻译了。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "nicht zuletzt",
               "pos": "固定表达",
               "meaning": "尤其；也很重要的是",
               "collocation": "nicht zuletzt wegen der Kosten",
-              "example": "",
-              "translation": "",
+              "example": "Das Projekt überzeugt nicht zuletzt wegen seiner klaren Erfolgskriterien.",
+              "translation": "该项目很有说服力，尤其是因为它制定了明确的成功标准。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "im Gegensatz dazu",
               "pos": "固定表达",
               "meaning": "与此相反",
               "collocation": "im Gegensatz dazu zeigt sich",
-              "example": "",
-              "translation": "",
+              "example": "Die erste Studie untersucht Kosten; im Gegensatz dazu konzentriert sich die zweite auf soziale Folgen.",
+              "translation": "第一项研究考察成本，与此相反，第二项研究关注社会影响。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "unterdessen",
               "pos": "副词",
               "meaning": "与此同时",
               "collocation": "unterdessen hat sich die Lage verändert",
-              "example": "",
-              "translation": "",
+              "example": "Die Verhandlungen dauern an; unterdessen bereiten die Fachgruppen einen Kompromiss vor.",
+              "translation": "谈判仍在继续；与此同时，专业小组正在准备折中方案。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2324,120 +2688,156 @@
               "pos": "名词",
               "meaning": "人口结构变化",
               "collocation": "Folgen des demografischen Wandels",
-              "example": "",
-              "translation": "",
+              "example": "Der demografische Wandel verändert den Bedarf an Pflege und öffentlichem Nahverkehr.",
+              "translation": "人口结构变化正在改变养老护理和公共交通方面的需求。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Alterung",
               "pos": "名词",
               "meaning": "老龄化",
               "collocation": "die Alterung der Gesellschaft",
-              "example": "",
-              "translation": "",
+              "example": "Die Alterung der Gesellschaft stellt Kommunen vor neue Aufgaben.",
+              "translation": "社会老龄化给地方政府带来了新的任务。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Geburtenrate",
               "pos": "名词",
               "meaning": "出生率",
               "collocation": "eine sinkende Geburtenrate",
-              "example": "",
-              "translation": "",
+              "example": "Eine dauerhaft niedrige Geburtenrate wirkt sich langfristig auf den Arbeitsmarkt aus.",
+              "translation": "长期低出生率会对劳动力市场产生长远影响。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Fachkräftemangel",
               "pos": "名词",
               "meaning": "专业人才短缺",
               "collocation": "dem Fachkräftemangel entgegenwirken",
-              "example": "",
-              "translation": "",
+              "example": "Gezielte Weiterbildung kann dazu beitragen, dem Fachkräftemangel entgegenzuwirken.",
+              "translation": "有针对性的继续教育有助于缓解专业人才短缺。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Chancengleichheit",
               "pos": "名词",
               "meaning": "机会平等",
               "collocation": "Chancengleichheit fördern",
-              "example": "",
-              "translation": "",
+              "example": "Kostenlose Lernmaterialien können die Chancengleichheit im Studium fördern.",
+              "translation": "免费的学习资料可以促进大学学习中的机会平等。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die soziale Ungleichheit",
               "pos": "名词",
               "meaning": "社会不平等",
               "collocation": "soziale Ungleichheit verringern",
-              "example": "",
-              "translation": "",
+              "example": "Hohe Wohnkosten verschärfen die soziale Ungleichheit in wachsenden Städten.",
+              "translation": "高昂的住房成本加剧了成长型城市中的社会不平等。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Teilhabe",
               "pos": "名词",
               "meaning": "参与；共享",
               "collocation": "gesellschaftliche Teilhabe ermöglichen",
-              "example": "",
-              "translation": "",
+              "example": "Barrierefreie Angebote ermöglichen Menschen mit Behinderungen gesellschaftliche Teilhabe.",
+              "translation": "无障碍服务使残障人士能够参与社会生活。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Vereinbarkeit",
               "pos": "名词",
               "meaning": "兼顾；相容",
               "collocation": "Vereinbarkeit von Familie und Beruf",
-              "example": "",
-              "translation": "",
+              "example": "Flexible Arbeitszeiten verbessern die Vereinbarkeit von Familie und Beruf.",
+              "translation": "灵活的工作时间有助于兼顾家庭与职业。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Lebensunterhalt",
               "pos": "名词",
               "meaning": "生活费用；生计",
               "collocation": "den Lebensunterhalt bestreiten",
-              "example": "",
-              "translation": "",
+              "example": "Viele Studierende müssen ihren Lebensunterhalt durch Nebenjobs bestreiten.",
+              "translation": "许多大学生必须通过兼职维持生活。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "bedürftig",
               "pos": "形容词",
               "meaning": "需要救助的",
               "collocation": "bedürftige Haushalte unterstützen",
-              "example": "",
-              "translation": "",
+              "example": "Die Stadt unterstützt bedürftige Haushalte mit einem Heizkostenzuschuss.",
+              "translation": "该市通过取暖补贴帮助有需要的家庭。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "benachteiligen",
               "pos": "动词",
               "meaning": "使处于不利地位",
               "collocation": "niemanden benachteiligen",
-              "example": "",
-              "translation": "",
+              "example": "Ein undurchsichtiges Auswahlverfahren kann bestimmte Gruppen benachteiligen.",
+              "translation": "不透明的选拔程序可能使某些群体处于不利地位。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "auf etwas angewiesen sein",
               "pos": "固定表达",
               "meaning": "依赖；需要",
               "collocation": "auf Unterstützung angewiesen sein",
-              "example": "",
-              "translation": "",
+              "example": "Kleine Gemeinden sind häufig auf die Zusammenarbeit mit Nachbarorten angewiesen.",
+              "translation": "小型市镇往往需要依赖与邻近地区的合作。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2451,120 +2851,156 @@
               "pos": "名词",
               "meaning": "移民流入",
               "collocation": "Zuwanderung steuern",
-              "example": "",
-              "translation": "",
+              "example": "Die Debatte über Zuwanderung sollte zwischen kurzfristigem Bedarf und langfristiger Integration unterscheiden.",
+              "translation": "关于移民流入的讨论应区分短期需求与长期融入。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Integration",
               "pos": "名词",
               "meaning": "融入；整合",
               "collocation": "Integration erleichtern",
-              "example": "",
-              "translation": "",
+              "example": "Sprachkurse und ein früher Zugang zum Arbeitsmarkt können die Integration erleichtern.",
+              "translation": "语言课程和尽早进入劳动力市场可以促进融入。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Herkunft",
               "pos": "名词",
               "meaning": "来源；出身",
               "collocation": "unabhängig von der Herkunft",
-              "example": "",
-              "translation": "",
+              "example": "Die Förderung wird unabhängig von Herkunft und Staatsangehörigkeit vergeben.",
+              "translation": "该资助不论出身和国籍均可申请。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Aufenthaltserlaubnis",
               "pos": "名词",
               "meaning": "居留许可",
               "collocation": "eine Aufenthaltserlaubnis beantragen",
-              "example": "",
-              "translation": "",
+              "example": "Internationale Studierende müssen ihre Aufenthaltserlaubnis rechtzeitig verlängern.",
+              "translation": "国际学生必须及时延长居留许可。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Einbürgerung",
               "pos": "名词",
               "meaning": "入籍",
               "collocation": "Voraussetzungen für die Einbürgerung",
-              "example": "",
-              "translation": "",
+              "example": "Für die Einbürgerung gelten unter anderem sprachliche und rechtliche Voraussetzungen.",
+              "translation": "入籍需要满足语言和法律等方面的条件。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Mehrsprachigkeit",
               "pos": "名词",
               "meaning": "多语能力",
               "collocation": "Mehrsprachigkeit als Ressource",
-              "example": "",
-              "translation": "",
+              "example": "Viele Schulen betrachten Mehrsprachigkeit zunehmend als wertvolle Ressource.",
+              "translation": "越来越多的学校把多语能力视为宝贵资源。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Zugehörigkeit",
               "pos": "名词",
               "meaning": "归属感；隶属",
               "collocation": "ein Gefühl der Zugehörigkeit",
-              "example": "",
-              "translation": "",
+              "example": "Gemeinsame Projekte können ein Gefühl der Zugehörigkeit entstehen lassen.",
+              "translation": "共同项目能够培养归属感。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Ausgrenzung",
               "pos": "名词",
               "meaning": "排斥；边缘化",
               "collocation": "soziale Ausgrenzung verhindern",
-              "example": "",
-              "translation": "",
+              "example": "Eine aktive Nachbarschaftspolitik kann sozialer Ausgrenzung entgegenwirken.",
+              "translation": "积极的社区政策可以防止社会排斥。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "sich einleben",
               "pos": "动词",
               "meaning": "适应新环境",
               "collocation": "sich in einer neuen Umgebung einleben",
-              "example": "",
-              "translation": "",
+              "example": "Nach einigen Monaten hatte sie sich in der neuen Umgebung gut eingelebt.",
+              "translation": "几个月后，她已经很好地适应了新环境。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "vermitteln",
               "pos": "动词",
               "meaning": "调解；传递",
               "collocation": "zwischen Kulturen vermitteln",
-              "example": "",
-              "translation": "",
+              "example": "Kulturvereine vermitteln häufig zwischen neu Zugewanderten und örtlichen Einrichtungen.",
+              "translation": "文化协会经常在新移民与当地机构之间发挥沟通作用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "vielfältig",
               "pos": "形容词",
               "meaning": "多样的",
               "collocation": "eine vielfältige Gesellschaft",
-              "example": "",
-              "translation": "",
+              "example": "Eine vielfältige Gesellschaft braucht gemeinsame Regeln und Raum für Unterschiede.",
+              "translation": "多元社会既需要共同规则，也需要为差异留出空间。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "vorurteilsfrei",
               "pos": "形容词",
               "meaning": "无偏见的",
               "collocation": "vorurteilsfrei miteinander umgehen",
-              "example": "",
-              "translation": "",
+              "example": "Im Seminar lernen die Teilnehmenden, vorurteilsfrei miteinander umzugehen.",
+              "translation": "参加者在研讨课中学习以无偏见的态度相处。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2578,120 +3014,156 @@
               "pos": "名词",
               "meaning": "教育公平",
               "collocation": "mehr Bildungsgerechtigkeit schaffen",
-              "example": "",
-              "translation": "",
+              "example": "Mehr Bildungsgerechtigkeit entsteht nicht allein durch einen kostenlosen Hochschulzugang.",
+              "translation": "教育公平并不会仅靠免费接受高等教育而自动实现。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Hochschulzulassung",
               "pos": "名词",
               "meaning": "大学入学资格",
               "collocation": "Voraussetzungen der Hochschulzulassung",
-              "example": "",
-              "translation": "",
+              "example": "Die Voraussetzungen der Hochschulzulassung unterscheiden sich je nach Studiengang.",
+              "translation": "大学入学要求因专业而异。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Studiengang",
               "pos": "名词",
               "meaning": "专业；学位项目",
               "collocation": "einen Studiengang wählen",
-              "example": "",
-              "translation": "",
+              "example": "Vor der Bewerbung sollten Interessierte prüfen, welcher Studiengang zu ihren Zielen passt.",
+              "translation": "申请前，有意向者应确认哪个专业符合自己的目标。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Studienleistung",
               "pos": "名词",
               "meaning": "学业成果",
               "collocation": "Studienleistungen anerkennen",
-              "example": "",
-              "translation": "",
+              "example": "Im Ausland erbrachte Studienleistungen können nach einer fachlichen Prüfung anerkannt werden.",
+              "translation": "在国外取得的学业成果经专业审核后可以获得认可。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Erkenntnis",
               "pos": "名词",
               "meaning": "认识；研究发现",
               "collocation": "zu neuen Erkenntnissen gelangen",
-              "example": "",
-              "translation": "",
+              "example": "Die Untersuchung gelangt zu neuen Erkenntnissen über das Lernverhalten Erwachsener.",
+              "translation": "该研究对成年人的学习行为得出了新的认识。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Untersuchung",
               "pos": "名词",
               "meaning": "研究；调查",
               "collocation": "eine Untersuchung durchführen",
-              "example": "",
-              "translation": "",
+              "example": "Ein unabhängiges Team führt derzeit eine Untersuchung zur Studienzufriedenheit durch.",
+              "translation": "一个独立团队正在开展关于学习满意度的调查。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Stichprobe",
               "pos": "名词",
               "meaning": "样本",
               "collocation": "eine repräsentative Stichprobe",
-              "example": "",
-              "translation": "",
+              "example": "Für verlässliche Aussagen benötigt die Studie eine repräsentative Stichprobe.",
+              "translation": "为了得出可靠结论，该研究需要具有代表性的样本。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Auswertung",
               "pos": "名词",
               "meaning": "分析；评估",
               "collocation": "Daten auswerten",
-              "example": "",
-              "translation": "",
+              "example": "Die Auswertung der Interviews wird voraussichtlich mehrere Wochen dauern.",
+              "translation": "对访谈内容的分析预计将持续数周。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "belegen",
               "pos": "动词",
               "meaning": "证明；提供证据",
               "collocation": "eine These empirisch belegen",
-              "example": "",
-              "translation": "",
+              "example": "Die Forschenden konnten ihre These mit mehreren Datensätzen empirisch belegen.",
+              "translation": "研究人员能够利用多组数据对其论点进行实证证明。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "erheben",
               "pos": "动词",
               "meaning": "收集；调查",
               "collocation": "Daten erheben",
-              "example": "",
-              "translation": "",
+              "example": "Vor der Veröffentlichung wurden zusätzliche Daten erhoben.",
+              "translation": "发表前又收集了补充数据。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "aussagekräftig",
               "pos": "形容词",
               "meaning": "有说明力的",
               "collocation": "aussagekräftige Ergebnisse",
-              "example": "",
-              "translation": "",
+              "example": "Wegen der geringen Fallzahl sind die Ergebnisse nur begrenzt aussagekräftig.",
+              "translation": "由于案例数量较少，研究结果的说明力有限。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "wissenschaftlich fundiert",
               "pos": "固定表达",
               "meaning": "有科学依据的",
               "collocation": "wissenschaftlich fundierte Aussagen",
-              "example": "",
-              "translation": "",
+              "example": "Politische Empfehlungen sollten auf wissenschaftlich fundierten Aussagen beruhen.",
+              "translation": "政策建议应建立在有科学依据的陈述之上。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2705,120 +3177,156 @@
               "pos": "名词",
               "meaning": "经济景气",
               "collocation": "die Konjunktur beleben",
-              "example": "",
-              "translation": "",
+              "example": "Sinkende Energiepreise könnten die Konjunktur im kommenden Jahr beleben.",
+              "translation": "能源价格下降可能会在明年提振经济景气。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Wettbewerb",
               "pos": "名词",
               "meaning": "竞争",
               "collocation": "im Wettbewerb stehen",
-              "example": "",
-              "translation": "",
+              "example": "Kleine Unternehmen stehen zunehmend im internationalen Wettbewerb.",
+              "translation": "小型企业越来越多地参与国际竞争。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Wertschöpfung",
               "pos": "名词",
               "meaning": "价值创造",
               "collocation": "regionale Wertschöpfung erhöhen",
-              "example": "",
-              "translation": "",
+              "example": "Regionale Lieferketten können die lokale Wertschöpfung erhöhen.",
+              "translation": "区域供应链能够提高当地的价值创造。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Beschäftigung",
               "pos": "名词",
               "meaning": "就业；雇佣",
               "collocation": "Beschäftigung sichern",
-              "example": "",
-              "translation": "",
+              "example": "Die Investition soll langfristig qualifizierte Beschäftigung sichern.",
+              "translation": "这项投资旨在长期保障高质量就业。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Arbeitsbedingungen",
               "pos": "名词",
               "meaning": "工作条件",
               "collocation": "Arbeitsbedingungen verbessern",
-              "example": "",
-              "translation": "",
+              "example": "Gute Arbeitsbedingungen sind ein wichtiger Faktor bei der Gewinnung von Fachkräften.",
+              "translation": "良好的工作条件是吸引专业人才的重要因素。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Vergütung",
               "pos": "名词",
               "meaning": "报酬",
               "collocation": "eine angemessene Vergütung",
-              "example": "",
-              "translation": "",
+              "example": "Für die zusätzliche Verantwortung wurde eine angemessene Vergütung vereinbart.",
+              "translation": "针对额外责任，双方商定了合理报酬。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Qualifikation",
               "pos": "名词",
               "meaning": "资格；能力",
               "collocation": "berufliche Qualifikationen erwerben",
-              "example": "",
-              "translation": "",
+              "example": "Beschäftigte können berufliche Qualifikationen auch in modularen Kursen erwerben.",
+              "translation": "员工也可以通过模块化课程取得职业资格。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Umsatz",
               "pos": "名词",
               "meaning": "营业额",
               "collocation": "den Umsatz steigern",
-              "example": "",
-              "translation": "",
+              "example": "Das Unternehmen konnte seinen Umsatz trotz schwacher Nachfrage leicht steigern.",
+              "translation": "尽管需求疲软，该企业仍略微提高了营业额。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "investieren",
               "pos": "动词",
               "meaning": "投资",
               "collocation": "in neue Technologien investieren",
-              "example": "",
-              "translation": "",
+              "example": "Viele Betriebe investieren in energiesparende Produktionsverfahren.",
+              "translation": "许多企业正在投资节能生产工艺。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "erwirtschaften",
               "pos": "动词",
               "meaning": "创造收益",
               "collocation": "Gewinne erwirtschaften",
-              "example": "",
-              "translation": "",
+              "example": "Mit dem neuen Geschäftsmodell konnte die Genossenschaft erstmals Gewinne erwirtschaften.",
+              "translation": "借助新的商业模式，该合作社首次实现盈利。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "rentabel",
               "pos": "形容词",
               "meaning": "有盈利能力的",
               "collocation": "wirtschaftlich rentabel sein",
-              "example": "",
-              "translation": "",
+              "example": "Die Anlage ist nur rentabel, wenn sie über viele Jahre zuverlässig betrieben wird.",
+              "translation": "这套设施只有在多年可靠运行的情况下才有盈利能力。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "in Kraft treten",
               "pos": "固定表达",
               "meaning": "生效",
               "collocation": "eine Regelung tritt in Kraft",
-              "example": "",
-              "translation": "",
+              "example": "Die neue Regelung tritt nach einer sechsmonatigen Übergangsfrist in Kraft.",
+              "translation": "新规定将在六个月过渡期后生效。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2832,120 +3340,156 @@
               "pos": "名词",
               "meaning": "立法",
               "collocation": "an der Gesetzgebung mitwirken",
-              "example": "",
-              "translation": "",
+              "example": "Die Länder wirken über den Bundesrat an der Gesetzgebung des Bundes mit.",
+              "translation": "各州通过联邦参议院参与联邦立法。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Zuständigkeit",
               "pos": "名词",
               "meaning": "职权；管辖",
               "collocation": "in die Zuständigkeit fallen",
-              "example": "",
-              "translation": "",
+              "example": "Die Finanzierung der Schulen fällt überwiegend in die Zuständigkeit der Länder.",
+              "translation": "学校经费主要属于各州的职权范围。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Verfassung",
               "pos": "名词",
               "meaning": "宪法",
               "collocation": "in der Verfassung verankert sein",
-              "example": "",
-              "translation": "",
+              "example": "Die Pressefreiheit ist im Grundgesetz verankert.",
+              "translation": "新闻自由被写入德国基本法。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Mehrheit",
               "pos": "名词",
               "meaning": "多数",
               "collocation": "eine Mehrheit erzielen",
-              "example": "",
-              "translation": "",
+              "example": "Der Entwurf erhielt im Parlament keine ausreichende Mehrheit.",
+              "translation": "该草案未在议会中获得足够多数。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Opposition",
               "pos": "名词",
               "meaning": "反对党",
               "collocation": "der Opposition angehören",
-              "example": "",
-              "translation": "",
+              "example": "Die Opposition verlangte eine unabhängige Untersuchung der Vorwürfe.",
+              "translation": "反对党要求对相关指控开展独立调查。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Entwurf",
               "pos": "名词",
               "meaning": "草案；设计",
               "collocation": "ein Gesetzesentwurf",
-              "example": "",
-              "translation": "",
+              "example": "Der überarbeitete Entwurf enthält strengere Regeln für Lobbykontakte.",
+              "translation": "修订后的草案包含更严格的游说接触规定。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Abstimmung",
               "pos": "名词",
               "meaning": "表决；投票",
               "collocation": "zur Abstimmung stellen",
-              "example": "",
-              "translation": "",
+              "example": "Der Antrag wird am Freitag im Bundestag zur Abstimmung gestellt.",
+              "translation": "该动议将于周五提交德国联邦议院表决。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verabschieden",
               "pos": "动词",
               "meaning": "通过；决议",
               "collocation": "ein Gesetz verabschieden",
-              "example": "",
-              "translation": "",
+              "example": "Nach langer Debatte verabschiedete das Parlament das Gesetz mit knapper Mehrheit.",
+              "translation": "经过长时间辩论，议会以微弱多数通过了该法律。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "umsetzen",
               "pos": "动词",
               "meaning": "落实；实施",
               "collocation": "politische Maßnahmen umsetzen",
-              "example": "",
-              "translation": "",
+              "example": "Die Kommunen benötigen zusätzliche Mittel, um die beschlossenen Maßnahmen umzusetzen.",
+              "translation": "地方政府需要额外资金来落实已通过的措施。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "befürworten",
               "pos": "动词",
               "meaning": "支持；赞成",
               "collocation": "einen Vorschlag befürworten",
-              "example": "",
-              "translation": "",
+              "example": "Mehrere Verbände befürworten den Vorschlag grundsätzlich, verlangen aber Änderungen im Detail.",
+              "translation": "多个协会原则上支持该建议，但要求修改细节。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "ablehnen",
               "pos": "动词",
               "meaning": "拒绝；反对",
               "collocation": "einen Antrag ablehnen",
-              "example": "",
-              "translation": "",
+              "example": "Der Ausschuss lehnte den Antrag wegen ungeklärter Finanzierung ab.",
+              "translation": "委员会因资金问题尚未解决而否决了该动议。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "Rechenschaft ablegen",
               "pos": "固定表达",
               "meaning": "作出说明；承担问责",
               "collocation": "öffentlich Rechenschaft ablegen",
-              "example": "",
-              "translation": "",
+              "example": "Öffentliche Einrichtungen müssen über die Verwendung der Mittel Rechenschaft ablegen.",
+              "translation": "公共机构必须说明资金的使用情况并接受问责。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -2959,120 +3503,156 @@
               "pos": "名词",
               "meaning": "权利；请求权",
               "collocation": "Anspruch auf Unterstützung haben",
-              "example": "",
-              "translation": "",
+              "example": "Studierende haben unter bestimmten Voraussetzungen Anspruch auf finanzielle Unterstützung.",
+              "translation": "学生在满足特定条件时有权获得经济援助。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Verpflichtung",
               "pos": "名词",
               "meaning": "义务",
               "collocation": "eine Verpflichtung eingehen",
-              "example": "",
-              "translation": "",
+              "example": "Mit der Unterschrift geht der Anbieter eine verbindliche Verpflichtung ein.",
+              "translation": "服务提供方通过签字承担具有约束力的义务。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Verstoß",
               "pos": "名词",
               "meaning": "违反",
               "collocation": "ein Verstoß gegen das Gesetz",
-              "example": "",
-              "translation": "",
+              "example": "Ein Verstoß gegen den Datenschutz kann erhebliche Folgen haben.",
+              "translation": "违反数据保护规定可能造成严重后果。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Vorschrift",
               "pos": "名词",
               "meaning": "规定；法规",
               "collocation": "geltende Vorschriften beachten",
-              "example": "",
-              "translation": "",
+              "example": "Alle Beschäftigten müssen die geltenden Sicherheitsvorschriften beachten.",
+              "translation": "所有员工都必须遵守现行安全规定。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Haftung",
               "pos": "名词",
               "meaning": "责任；赔偿责任",
               "collocation": "für Schäden haften",
-              "example": "",
-              "translation": "",
+              "example": "Für Schäden, die durch grobe Fahrlässigkeit entstehen, haftet der Betreiber.",
+              "translation": "对于因重大过失造成的损失，运营方承担赔偿责任。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Genehmigung",
               "pos": "名词",
               "meaning": "批准；许可",
               "collocation": "eine Genehmigung erteilen",
-              "example": "",
-              "translation": "",
+              "example": "Die Behörde erteilte die Genehmigung erst nach einer Umweltprüfung.",
+              "translation": "主管部门在环境审查后才颁发许可。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "rechtmäßig",
               "pos": "形容词",
               "meaning": "合法的",
               "collocation": "rechtmäßig handeln",
-              "example": "",
-              "translation": "",
+              "example": "Die Daten dürfen nur für einen rechtmäßigen Zweck verarbeitet werden.",
+              "translation": "这些数据只能出于合法目的进行处理。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verbindlich",
               "pos": "形容词",
               "meaning": "有约束力的",
               "collocation": "eine verbindliche Regelung",
-              "example": "",
-              "translation": "",
+              "example": "Mündliche Zusagen sind in diesem Verfahren nicht verbindlich.",
+              "translation": "口头承诺在这一程序中不具有约束力。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "gewährleisten",
               "pos": "动词",
               "meaning": "保障；确保",
               "collocation": "Sicherheit gewährleisten",
-              "example": "",
-              "translation": "",
+              "example": "Klare Zuständigkeiten sollen die Sicherheit aller Beteiligten gewährleisten.",
+              "translation": "明确的职责分工旨在保障所有参与者的安全。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "widerrufen",
               "pos": "动词",
               "meaning": "撤销",
               "collocation": "eine Einwilligung widerrufen",
-              "example": "",
-              "translation": "",
+              "example": "Nutzende können ihre Einwilligung jederzeit widerrufen.",
+              "translation": "用户可以随时撤销其同意。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "in Anspruch nehmen",
               "pos": "固定表达",
               "meaning": "使用；请求",
               "collocation": "eine Leistung in Anspruch nehmen",
-              "example": "",
-              "translation": "",
+              "example": "Die Beratung kann auch anonym in Anspruch genommen werden.",
+              "translation": "咨询服务也可以匿名使用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "zur Verantwortung ziehen",
               "pos": "固定表达",
               "meaning": "追究责任",
               "collocation": "jemanden zur Verantwortung ziehen",
-              "example": "",
-              "translation": "",
+              "example": "Bei vorsätzlicher Täuschung können Verantwortliche persönlich zur Verantwortung gezogen werden.",
+              "translation": "如存在故意欺骗，相关责任人可能被追究个人责任。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3086,120 +3666,156 @@
               "pos": "名词",
               "meaning": "气候变化",
               "collocation": "Folgen des Klimawandels",
-              "example": "",
-              "translation": "",
+              "example": "Die Folgen des Klimawandels sind bereits in vielen Regionen sichtbar.",
+              "translation": "气候变化的后果已经在许多地区显现。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Erderwärmung",
               "pos": "名词",
               "meaning": "全球变暖",
               "collocation": "die Erderwärmung begrenzen",
-              "example": "",
-              "translation": "",
+              "example": "Ohne zusätzliche Maßnahmen lässt sich die Erderwärmung kaum wirksam begrenzen.",
+              "translation": "如果不采取额外措施，就很难有效限制全球变暖。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Emission",
               "pos": "名词",
               "meaning": "排放",
               "collocation": "Emissionen senken",
-              "example": "",
-              "translation": "",
+              "example": "Der Verkehrssektor muss seine Emissionen in den kommenden Jahren deutlich senken.",
+              "translation": "交通部门必须在未来几年大幅减少排放。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Ressource",
               "pos": "名词",
               "meaning": "资源",
               "collocation": "Ressourcen schonen",
-              "example": "",
-              "translation": "",
+              "example": "Reparierbare Produkte helfen dabei, natürliche Ressourcen zu schonen.",
+              "translation": "可维修产品有助于节约自然资源。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Artenvielfalt",
               "pos": "名词",
               "meaning": "生物多样性",
               "collocation": "Artenvielfalt erhalten",
-              "example": "",
-              "translation": "",
+              "example": "Intensive Landwirtschaft kann die Artenvielfalt erheblich beeinträchtigen.",
+              "translation": "集约化农业可能严重损害生物多样性。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Energiewende",
               "pos": "名词",
               "meaning": "能源转型",
               "collocation": "die Energiewende beschleunigen",
-              "example": "",
-              "translation": "",
+              "example": "Der Ausbau der Netze ist notwendig, um die Energiewende zu beschleunigen.",
+              "translation": "扩建电网是加快能源转型所必需的。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Nachhaltigkeit",
               "pos": "名词",
               "meaning": "可持续性",
               "collocation": "ökologische Nachhaltigkeit",
-              "example": "",
-              "translation": "",
+              "example": "Ökologische Nachhaltigkeit muss bereits bei der Planung berücksichtigt werden.",
+              "translation": "生态可持续性必须从规划阶段就予以考虑。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "erneuerbar",
               "pos": "形容词",
               "meaning": "可再生的",
               "collocation": "erneuerbare Energien",
-              "example": "",
-              "translation": "",
+              "example": "Der Anteil erneuerbarer Energien am Stromverbrauch ist weiter gestiegen.",
+              "translation": "可再生能源在电力消费中的占比继续上升。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "umweltverträglich",
               "pos": "形容词",
               "meaning": "环境友好的",
               "collocation": "umweltverträgliche Produktion",
-              "example": "",
-              "translation": "",
+              "example": "Die Stadt setzt auf eine möglichst umweltverträgliche Beschaffung.",
+              "translation": "该市注重尽可能环保的采购方式。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verbrauchen",
               "pos": "动词",
               "meaning": "消耗",
               "collocation": "weniger Energie verbrauchen",
-              "example": "",
-              "translation": "",
+              "example": "Gut gedämmte Gebäude verbrauchen deutlich weniger Energie.",
+              "translation": "保温良好的建筑消耗的能源明显更少。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "vermeiden",
               "pos": "动词",
               "meaning": "避免",
               "collocation": "Abfälle vermeiden",
-              "example": "",
-              "translation": "",
+              "example": "Mehrwegverpackungen können große Mengen an Abfall vermeiden.",
+              "translation": "可重复使用的包装能够避免产生大量废物。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "Maßnahmen ergreifen",
               "pos": "固定表达",
               "meaning": "采取措施",
               "collocation": "wirksame Maßnahmen ergreifen",
-              "example": "",
-              "translation": "",
+              "example": "Die Regierung muss wirksame Maßnahmen gegen den hohen Flächenverbrauch ergreifen.",
+              "translation": "政府必须采取有效措施应对过高的土地占用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3213,120 +3829,156 @@
               "pos": "名词",
               "meaning": "数字化",
               "collocation": "die Digitalisierung vorantreiben",
-              "example": "",
-              "translation": "",
+              "example": "Viele Verwaltungen wollen die Digitalisierung ihrer Dienstleistungen vorantreiben.",
+              "translation": "许多行政机构希望推动服务数字化。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die künstliche Intelligenz",
               "pos": "名词",
               "meaning": "人工智能",
               "collocation": "Einsatz künstlicher Intelligenz",
-              "example": "",
-              "translation": "",
+              "example": "Beim Einsatz künstlicher Intelligenz müssen Entscheidungen überprüfbar bleiben.",
+              "translation": "使用人工智能时，决策必须保持可核查性。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Datenschutz",
               "pos": "名词",
               "meaning": "数据保护",
               "collocation": "Datenschutz gewährleisten",
-              "example": "",
-              "translation": "",
+              "example": "Ein klarer Datenschutz stärkt das Vertrauen der Nutzenden.",
+              "translation": "明确的数据保护措施能够增强用户信任。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Datensicherheit",
               "pos": "名词",
               "meaning": "数据安全",
               "collocation": "Datensicherheit erhöhen",
-              "example": "",
-              "translation": "",
+              "example": "Regelmäßige Sicherheitsprüfungen sollen die Datensicherheit erhöhen.",
+              "translation": "定期安全检查旨在提高数据安全性。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Fortschritt",
               "pos": "名词",
               "meaning": "进步；进展",
               "collocation": "technischer Fortschritt",
-              "example": "",
-              "translation": "",
+              "example": "Technischer Fortschritt führt nicht automatisch zu sozialem Fortschritt.",
+              "translation": "技术进步并不会自动带来社会进步。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Anwendung",
               "pos": "名词",
               "meaning": "应用",
               "collocation": "praktische Anwendung finden",
-              "example": "",
-              "translation": "",
+              "example": "Die neue Methode findet bereits in mehreren Laboren praktische Anwendung.",
+              "translation": "这种新方法已经在多个实验室得到实际应用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Zugang",
               "pos": "名词",
               "meaning": "获取渠道；使用权",
               "collocation": "Zugang zu Informationen",
-              "example": "",
-              "translation": "",
+              "example": "Nicht alle Haushalte verfügen über einen zuverlässigen Zugang zum schnellen Internet.",
+              "translation": "并非所有家庭都能可靠接入高速互联网。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "automatisieren",
               "pos": "动词",
               "meaning": "自动化",
               "collocation": "Arbeitsabläufe automatisieren",
-              "example": "",
-              "translation": "",
+              "example": "Standardisierte Abläufe lassen sich leichter automatisieren als kreative Entscheidungen.",
+              "translation": "标准化流程比创造性决策更容易实现自动化。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "entwickeln",
               "pos": "动词",
               "meaning": "开发；发展",
               "collocation": "eine neue Methode entwickeln",
-              "example": "",
-              "translation": "",
+              "example": "Ein interdisziplinäres Team entwickelt derzeit eine datensparsame Anwendung.",
+              "translation": "一个跨学科团队正在开发一款尽量少收集数据的应用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "einsetzen",
               "pos": "动词",
               "meaning": "投入使用；运用",
               "collocation": "Technik gezielt einsetzen",
-              "example": "",
-              "translation": "",
+              "example": "Digitale Technik sollte gezielt eingesetzt werden, wenn sie einen klaren Nutzen bietet.",
+              "translation": "数字技术应在能够带来明确益处时有针对性地使用。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "bahnbrechend",
               "pos": "形容词",
               "meaning": "突破性的",
               "collocation": "eine bahnbrechende Entdeckung",
-              "example": "",
-              "translation": "",
+              "example": "Die Entdeckung gilt als bahnbrechend, muss aber noch unabhängig bestätigt werden.",
+              "translation": "这一发现被认为具有突破性，但仍需独立验证。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "mit etwas einhergehen",
               "pos": "固定表达",
               "meaning": "伴随……发生",
               "collocation": "mit Risiken einhergehen",
-              "example": "",
-              "translation": "",
+              "example": "Die Einführung des Systems kann mit neuen Datenschutzrisiken einhergehen.",
+              "translation": "该系统的引入可能伴随新的数据保护风险。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3340,120 +3992,156 @@
               "pos": "名词",
               "meaning": "新闻报道",
               "collocation": "eine ausgewogene Berichterstattung",
-              "example": "",
-              "translation": "",
+              "example": "Eine ausgewogene Berichterstattung trennt Nachricht, Analyse und Kommentar.",
+              "translation": "平衡的新闻报道会区分消息、分析和评论。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Öffentlichkeit",
               "pos": "名词",
               "meaning": "公众；公共领域",
               "collocation": "die Öffentlichkeit informieren",
-              "example": "",
-              "translation": "",
+              "example": "Die Behörde informierte die Öffentlichkeit erst mehrere Tage nach dem Vorfall.",
+              "translation": "主管部门在事件发生数日后才通知公众。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Glaubwürdigkeit",
               "pos": "名词",
               "meaning": "可信度",
               "collocation": "an Glaubwürdigkeit verlieren",
-              "example": "",
-              "translation": "",
+              "example": "Widersprüchliche Angaben können die Glaubwürdigkeit einer Quelle beschädigen.",
+              "translation": "相互矛盾的信息可能损害信息源的可信度。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Reichweite",
               "pos": "名词",
               "meaning": "覆盖范围；传播量",
               "collocation": "eine hohe Reichweite erzielen",
-              "example": "",
-              "translation": "",
+              "example": "Kurze Videos erzielen häufig eine hohe Reichweite, vermitteln aber wenig Kontext.",
+              "translation": "短视频往往传播范围很广，却提供很少背景信息。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Quelle",
               "pos": "名词",
               "meaning": "来源；资料",
               "collocation": "eine Quelle überprüfen",
-              "example": "",
-              "translation": "",
+              "example": "Vor dem Zitieren sollte man die ursprüngliche Quelle überprüfen.",
+              "translation": "引用之前应核查原始来源。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Desinformation",
               "pos": "名词",
               "meaning": "虚假信息",
               "collocation": "Desinformation erkennen",
-              "example": "",
-              "translation": "",
+              "example": "Medienkompetenz hilft dabei, gezielte Desinformation zu erkennen.",
+              "translation": "媒体素养有助于识别蓄意虚假信息。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "veröffentlichen",
               "pos": "动词",
               "meaning": "发布；出版",
               "collocation": "einen Bericht veröffentlichen",
-              "example": "",
-              "translation": "",
+              "example": "Das Forschungsteam veröffentlichte seine Ergebnisse zusammen mit den Rohdaten.",
+              "translation": "研究团队在发表结果时同时公布了原始数据。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verbreiten",
               "pos": "动词",
               "meaning": "传播；散布",
               "collocation": "Informationen verbreiten",
-              "example": "",
-              "translation": "",
+              "example": "Soziale Netzwerke können unbestätigte Informationen innerhalb weniger Minuten verbreiten.",
+              "translation": "社交网络可以在几分钟内传播未经证实的信息。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "darstellen",
               "pos": "动词",
               "meaning": "呈现；描述",
               "collocation": "einen Sachverhalt darstellen",
-              "example": "",
-              "translation": "",
+              "example": "Der Artikel stellt den Sachverhalt differenziert und ohne unnötige Zuspitzung dar.",
+              "translation": "该文章以有层次且不过度渲染的方式呈现事实。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verzerren",
               "pos": "动词",
               "meaning": "歪曲",
               "collocation": "die Wahrnehmung verzerren",
-              "example": "",
-              "translation": "",
+              "example": "Ein ungewöhnlicher Bildausschnitt kann die Wahrnehmung eines Ereignisses verzerren.",
+              "translation": "不寻常的画面裁切可能歪曲人们对事件的认知。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "umstritten",
               "pos": "形容词",
               "meaning": "有争议的",
               "collocation": "eine umstrittene Aussage",
-              "example": "",
-              "translation": "",
+              "example": "Die Aussage bleibt umstritten, weil belastbare Belege fehlen.",
+              "translation": "由于缺少可靠证据，这一说法仍有争议。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "Stellung nehmen",
               "pos": "固定表达",
               "meaning": "表态",
               "collocation": "zu einem Vorwurf Stellung nehmen",
-              "example": "",
-              "translation": "",
+              "example": "Die Ministerin nahm ausführlich zu den Vorwürfen Stellung.",
+              "translation": "部长就相关指控作出了详细回应。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3467,120 +4155,156 @@
               "pos": "名词",
               "meaning": "供给；医疗保障",
               "collocation": "medizinische Versorgung sicherstellen",
-              "example": "",
-              "translation": "",
+              "example": "Auch in ländlichen Regionen muss eine verlässliche medizinische Versorgung sichergestellt werden.",
+              "translation": "即使在农村地区，也必须保障可靠的医疗服务。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Prävention",
               "pos": "名词",
               "meaning": "预防",
               "collocation": "Prävention stärken",
-              "example": "",
-              "translation": "",
+              "example": "Aufklärung und frühe Untersuchungen spielen in der Prävention eine wichtige Rolle.",
+              "translation": "健康宣传和早期检查在预防中发挥重要作用。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Belastung",
               "pos": "名词",
               "meaning": "负担；压力",
               "collocation": "psychische Belastungen",
-              "example": "",
-              "translation": "",
+              "example": "Dauerhafte psychische Belastungen können die Leistungsfähigkeit erheblich verringern.",
+              "translation": "长期心理压力可能显著降低工作和学习能力。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "das Wohlbefinden",
               "pos": "名词",
               "meaning": "健康感；幸福感",
               "collocation": "das Wohlbefinden steigern",
-              "example": "",
-              "translation": "",
+              "example": "Regelmäßige Bewegung kann das körperliche und seelische Wohlbefinden steigern.",
+              "translation": "规律运动能够提升身心健康感。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Erkrankung",
               "pos": "名词",
               "meaning": "疾病",
               "collocation": "chronische Erkrankungen",
-              "example": "",
-              "translation": "",
+              "example": "Chronische Erkrankungen erfordern häufig eine langfristige Begleitung.",
+              "translation": "慢性疾病往往需要长期随访。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Lebenserwartung",
               "pos": "名词",
               "meaning": "预期寿命",
               "collocation": "eine steigende Lebenserwartung",
-              "example": "",
-              "translation": "",
+              "example": "Die steigende Lebenserwartung erhöht den Bedarf an altersgerechten Angeboten.",
+              "translation": "预期寿命上升增加了对适老服务的需求。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "behandeln",
               "pos": "动词",
               "meaning": "治疗；处理",
               "collocation": "eine Krankheit behandeln",
-              "example": "",
-              "translation": "",
+              "example": "Die Erkrankung lässt sich gut behandeln, wenn sie früh erkannt wird.",
+              "translation": "如果及早发现，这种疾病可以得到良好治疗。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "vorbeugen",
               "pos": "动词",
               "meaning": "预防",
               "collocation": "einer Erkrankung vorbeugen",
-              "example": "",
-              "translation": "",
+              "example": "Mit Impfungen kann schweren Krankheitsverläufen wirksam vorgebeugt werden.",
+              "translation": "接种疫苗能够有效预防重症病程。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "bewältigen",
               "pos": "动词",
               "meaning": "应对；克服",
               "collocation": "Stress bewältigen",
-              "example": "",
-              "translation": "",
+              "example": "Klare Arbeitsabläufe helfen dem Personal, hohe Belastungen besser zu bewältigen.",
+              "translation": "清晰的工作流程有助于工作人员更好地应对高负荷。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "beeinträchtigen",
               "pos": "动词",
               "meaning": "损害；妨碍",
               "collocation": "die Gesundheit beeinträchtigen",
-              "example": "",
-              "translation": "",
+              "example": "Ständiger Schlafmangel kann die Gesundheit langfristig beeinträchtigen.",
+              "translation": "长期睡眠不足可能损害健康。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "flächendeckend",
               "pos": "形容词",
               "meaning": "全面覆盖的",
               "collocation": "flächendeckende Versorgung",
-              "example": "",
-              "translation": "",
+              "example": "Eine flächendeckende Versorgung ist ohne ausreichend Fachpersonal kaum möglich.",
+              "translation": "如果没有足够的专业人员，就很难实现全面覆盖的医疗服务。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "zur Verfügung stehen",
               "pos": "固定表达",
               "meaning": "可供使用",
               "collocation": "ausreichend Personal steht zur Verfügung",
-              "example": "",
-              "translation": "",
+              "example": "Für die Beratung steht rund um die Uhr geschultes Personal zur Verfügung.",
+              "translation": "全天都有受过培训的人员提供咨询服务。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3594,120 +4318,156 @@
               "pos": "名词",
               "meaning": "文化遗产",
               "collocation": "kulturelles Erbe bewahren",
-              "example": "",
-              "translation": "",
+              "example": "Archive und Museen tragen dazu bei, das kulturelle Erbe zu bewahren.",
+              "translation": "档案馆和博物馆有助于保护文化遗产。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Erinnerungskultur",
               "pos": "名词",
               "meaning": "纪念文化；历史记忆文化",
               "collocation": "deutsche Erinnerungskultur",
-              "example": "",
-              "translation": "",
+              "example": "Die deutsche Erinnerungskultur wird in jeder Generation neu diskutiert.",
+              "translation": "德国的历史记忆文化在每一代人中都会被重新讨论。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Aufklärung",
               "pos": "名词",
               "meaning": "启蒙运动",
               "collocation": "Ideen der Aufklärung",
-              "example": "",
-              "translation": "",
+              "example": "Kants Essay über die Aufklärung fordert zum selbstständigen Gebrauch der Vernunft auf.",
+              "translation": "康德关于启蒙的文章倡导独立运用理性。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Epoche",
               "pos": "名词",
               "meaning": "时代；文学时期",
               "collocation": "einer Epoche zuordnen",
-              "example": "",
-              "translation": "",
+              "example": "An Sprache und Form lässt sich ein Werk häufig einer literarischen Epoche zuordnen.",
+              "translation": "通过语言和形式往往可以把作品归入某个文学时期。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Erzählperspektive",
               "pos": "名词",
               "meaning": "叙述视角",
               "collocation": "die Erzählperspektive wechseln",
-              "example": "",
-              "translation": "",
+              "example": "Der Roman wechselt mehrfach die Erzählperspektive und erzeugt dadurch Unsicherheit.",
+              "translation": "这部小说多次转换叙述视角，从而制造不确定感。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "das Motiv",
               "pos": "名词",
               "meaning": "主题动机；意象",
               "collocation": "ein wiederkehrendes Motiv",
-              "example": "",
-              "translation": "",
+              "example": "Die Reise erscheint im Gedicht als wiederkehrendes Motiv.",
+              "translation": "旅行在这首诗中作为反复出现的意象。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Darstellung",
               "pos": "名词",
               "meaning": "描写；呈现",
               "collocation": "die Darstellung einer Figur",
-              "example": "",
-              "translation": "",
+              "example": "Die Darstellung der Hauptfigur bleibt bewusst widersprüchlich.",
+              "translation": "对主人公的描写有意保持矛盾性。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "interpretieren",
               "pos": "动词",
               "meaning": "解释；阐释",
               "collocation": "einen Text interpretieren",
-              "example": "",
-              "translation": "",
+              "example": "Eine überzeugende Interpretation muss ihre Aussagen am Text belegen.",
+              "translation": "有说服力的阐释必须以文本为依据。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "verkörpern",
               "pos": "动词",
               "meaning": "体现；象征",
               "collocation": "bestimmte Werte verkörpern",
-              "example": "",
-              "translation": "",
+              "example": "Die Figur verkörpert sowohl den Wunsch nach Freiheit als auch die Angst vor Veränderung.",
+              "translation": "这一人物既体现了对自由的渴望，也体现了对变化的恐惧。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "sich auseinandersetzen mit",
               "pos": "固定表达",
               "meaning": "深入探讨",
               "collocation": "mit einem Thema auseinandersetzen",
-              "example": "",
-              "translation": "",
+              "example": "Der Roman setzt sich kritisch mit gesellschaftlicher Ausgrenzung auseinander.",
+              "translation": "这部小说深入而批判地探讨社会排斥。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "zeitgenössisch",
               "pos": "形容词",
               "meaning": "当代的",
               "collocation": "zeitgenössische Literatur",
-              "example": "",
-              "translation": "",
+              "example": "Zeitgenössische Literatur greift häufig Fragen digitaler Identität auf.",
+              "translation": "当代文学经常涉及数字身份问题。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "prägend",
               "pos": "形容词",
               "meaning": "有深远影响的",
               "collocation": "eine prägende Erfahrung",
-              "example": "",
-              "translation": "",
+              "example": "Die Begegnung mit einer anderen Sprache wurde für die Autorin zu einer prägenden Erfahrung.",
+              "translation": "与另一种语言的相遇成为对这位作者影响深远的经历。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3721,120 +4481,156 @@
               "pos": "名词",
               "meaning": "误解",
               "collocation": "Missverständnisse vermeiden",
-              "example": "",
-              "translation": "",
+              "example": "Viele Missverständnisse lassen sich durch eine kurze Rückfrage vermeiden.",
+              "translation": "许多误解可以通过简短确认来避免。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Wahrnehmung",
               "pos": "名词",
               "meaning": "感知；认知",
               "collocation": "unterschiedliche Wahrnehmungen",
-              "example": "",
-              "translation": "",
+              "example": "Dieselbe Gesprächspause kann in verschiedenen Kulturen unterschiedlich wahrgenommen werden.",
+              "translation": "同一段谈话停顿在不同文化中可能被以不同方式感知。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Wertvorstellung",
               "pos": "名词",
               "meaning": "价值观",
               "collocation": "gesellschaftliche Wertvorstellungen",
-              "example": "",
-              "translation": "",
+              "example": "Gesellschaftliche Wertvorstellungen verändern sich und sind innerhalb eines Landes nicht einheitlich.",
+              "translation": "社会价值观会发生变化，在一个国家内部也并不统一。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Umgangsform",
               "pos": "名词",
               "meaning": "交往方式；礼仪",
               "collocation": "übliche Umgangsformen",
-              "example": "",
-              "translation": "",
+              "example": "Vor einer Geschäftsreise sollte man sich über übliche Umgangsformen informieren.",
+              "translation": "商务出行前应了解常见交往礼仪。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Fremdwahrnehmung",
               "pos": "名词",
               "meaning": "他者认知",
               "collocation": "Selbst- und Fremdwahrnehmung",
-              "example": "",
-              "translation": "",
+              "example": "Der Austausch zeigte, wie stark Selbst- und Fremdwahrnehmung voneinander abweichen können.",
+              "translation": "这次交流显示了自我认知与他者认知可能存在多大差异。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Anpassung",
               "pos": "名词",
               "meaning": "适应；调整",
               "collocation": "kulturelle Anpassung",
-              "example": "",
-              "translation": "",
+              "example": "Kulturelle Anpassung bedeutet nicht, die eigene Identität vollständig aufzugeben.",
+              "translation": "文化适应并不意味着完全放弃自身身份。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "berücksichtigen",
               "pos": "动词",
               "meaning": "考虑；顾及",
               "collocation": "kulturelle Unterschiede berücksichtigen",
-              "example": "",
-              "translation": "",
+              "example": "Bei der Planung sollten unterschiedliche religiöse und kulturelle Bedürfnisse berücksichtigt werden.",
+              "translation": "规划时应考虑不同的宗教和文化需求。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "missverstehen",
               "pos": "动词",
               "meaning": "误解",
               "collocation": "eine Äußerung missverstehen",
-              "example": "",
-              "translation": "",
+              "example": "Eine ironische Äußerung kann ohne gemeinsamen Kontext leicht missverstanden werden.",
+              "translation": "如果缺少共同语境，带有讽刺意味的表达很容易被误解。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "sensibilisieren",
               "pos": "动词",
               "meaning": "提高意识；使敏感",
               "collocation": "für Unterschiede sensibilisieren",
-              "example": "",
-              "translation": "",
+              "example": "Das Training soll Beschäftigte für unterschiedliche Kommunikationsstile sensibilisieren.",
+              "translation": "该培训旨在提高员工对不同沟通风格的敏感度。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "angemessen",
               "pos": "形容词",
               "meaning": "恰当的",
               "collocation": "der Situation angemessen reagieren",
-              "example": "",
-              "translation": "",
+              "example": "In Konflikten ist es wichtig, der Situation angemessen und nicht vorschnell zu reagieren.",
+              "translation": "发生冲突时，重要的是作出符合情境而非草率的反应。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "mehrdeutig",
               "pos": "形容词",
               "meaning": "多义的；含糊的",
               "collocation": "eine mehrdeutige Formulierung",
-              "example": "",
-              "translation": "",
+              "example": "Die Formulierung ist mehrdeutig und sollte im Vertrag präzisiert werden.",
+              "translation": "这一表述含义不明确，应在合同中加以澄清。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "Rücksicht nehmen auf",
               "pos": "固定表达",
               "meaning": "顾及；体谅",
               "collocation": "auf andere Rücksicht nehmen",
-              "example": "",
-              "translation": "",
+              "example": "Wer im Team arbeitet, muss auf unterschiedliche Arbeitsweisen Rücksicht nehmen.",
+              "translation": "团队合作时必须顾及不同的工作方式。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             }
           ]
         },
@@ -3848,120 +4644,156 @@
               "pos": "名词",
               "meaning": "对应表达",
               "collocation": "eine passende Entsprechung finden",
-              "example": "",
-              "translation": "",
+              "example": "Für den Fachbegriff gibt es im Deutschen keine vollständig passende Entsprechung.",
+              "translation": "这一专业术语在德语中没有完全对应的表达。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Mehrdeutigkeit",
               "pos": "名词",
               "meaning": "歧义；多义性",
               "collocation": "lexikalische Mehrdeutigkeit",
-              "example": "",
-              "translation": "",
+              "example": "Die lexikalische Mehrdeutigkeit lässt sich erst durch den Kontext auflösen.",
+              "translation": "词汇歧义只有结合语境才能消除。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "der Bedeutungsumfang",
               "pos": "名词",
               "meaning": "词义范围",
               "collocation": "unterschiedlicher Bedeutungsumfang",
-              "example": "",
-              "translation": "",
+              "example": "Die beiden Wörter haben einen unterschiedlichen Bedeutungsumfang und sind nicht immer austauschbar.",
+              "translation": "这两个词的意义范围不同，并非总能互换。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Wortwahl",
               "pos": "名词",
               "meaning": "选词",
               "collocation": "eine präzise Wortwahl",
-              "example": "",
-              "translation": "",
+              "example": "Eine präzise Wortwahl ist besonders bei rechtlichen Texten entscheidend.",
+              "translation": "准确选词对于法律文本尤为关键。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Satzstruktur",
               "pos": "名词",
               "meaning": "句子结构",
               "collocation": "eine komplexe Satzstruktur",
-              "example": "",
-              "translation": "",
+              "example": "Bei der Übersetzung wurde die komplexe Satzstruktur in zwei Hauptsätze aufgelöst.",
+              "translation": "翻译时，复杂句子结构被拆成了两个主句。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "die Textsorte",
               "pos": "名词",
               "meaning": "文本类型",
               "collocation": "Merkmale einer Textsorte",
-              "example": "",
-              "translation": "",
+              "example": "Übersetzende müssen die Konventionen der jeweiligen Textsorte berücksichtigen.",
+              "translation": "译者必须考虑相应文本类型的惯例。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "sinngemäß",
               "pos": "Adjektiv/Adverb",
               "meaning": "按意义的；意译地",
               "collocation": "sinngemäß übersetzen",
-              "example": "",
-              "translation": "",
+              "example": "Die Metapher sollte sinngemäß und nicht Wort für Wort übersetzt werden.",
+              "translation": "这个比喻应按意义翻译，而不是逐字翻译。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "wortwörtlich",
               "pos": "Adjektiv/Adverb",
               "meaning": "逐字的；直译地",
               "collocation": "etwas wortwörtlich verstehen",
-              "example": "",
-              "translation": "",
+              "example": "Wer die Aussage wortwörtlich versteht, übersieht ihren ironischen Ton.",
+              "translation": "如果逐字理解这一表达，就会忽略其讽刺语气。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "wiedergeben",
               "pos": "动词",
               "meaning": "转述；表达",
               "collocation": "einen Inhalt präzise wiedergeben",
-              "example": "",
-              "translation": "",
+              "example": "Eine gute Übersetzung gibt nicht nur den Inhalt, sondern auch das Register präzise wieder.",
+              "translation": "好的翻译不仅准确传达内容，也准确再现语体。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             },
             {
               "term": "umschreiben",
               "pos": "动词",
               "meaning": "换一种说法；改写",
               "collocation": "einen Begriff umschreiben",
-              "example": "",
-              "translation": "",
+              "example": "Wenn ein Fachwort fehlt, kann man den Begriff zunächst verständlich umschreiben.",
+              "translation": "如果缺少专业术语，可以先用易懂的方式解释该概念。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 5,
+              "sourceType": "original_context_example"
             },
             {
               "term": "zusammenfassen",
               "pos": "动词",
               "meaning": "概括；总结",
               "collocation": "einen Text zusammenfassen",
-              "example": "",
-              "translation": "",
+              "example": "Am Ende des Kapitels fasst die Autorin die wichtigsten Ergebnisse zusammen.",
+              "translation": "作者在章节末尾概括了最重要的结果。",
               "priority": "P0",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 3,
+              "sourceType": "original_context_example"
             },
             {
               "term": "auf den Punkt bringen",
               "pos": "固定表达",
               "meaning": "简明扼要表达",
               "collocation": "eine Aussage auf den Punkt bringen",
-              "example": "",
-              "translation": "",
+              "example": "Der letzte Satz bringt die zentrale Aussage des gesamten Textes auf den Punkt.",
+              "translation": "最后一句简明扼要地表达了全文的核心观点。",
               "priority": "P1",
-              "reviewStatus": "词形、释义和搭配已进入候选库；原创例句待人工复核后补充。"
+              "reviewStatus": "词形、释义、搭配与教学例句已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+              "cefr": "B2-C1",
+              "difficulty": 4,
+              "sourceType": "original_context_example"
             }
           ]
         }

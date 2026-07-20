@@ -151,16 +151,16 @@ vocabCores.forEach((core, coreIndex) => contexts50.forEach((context, variant) =>
 }));
 
 const topicVariants = [
-  { theme: "digitale Lehre", actor: "Hochschulen", measure: "hybride Lehrangebote", goal: "mehr zeitliche Flexibilität" },
-  { theme: "städtische Mobilität", actor: "Kommunen", measure: "ein dichteres Radwegenetz", goal: "weniger Verkehrslärm" },
-  { theme: "wissenschaftliche Kommunikation", actor: "Forschungseinrichtungen", measure: "offene Datenportale", goal: "größere Nachvollziehbarkeit" },
-  { theme: "betriebliche Weiterbildung", actor: "Unternehmen", measure: "regelmäßige Lernzeiten", goal: "langfristige Beschäftigungsfähigkeit" },
-  { theme: "nachhaltige Ernährung", actor: "öffentliche Kantinen", measure: "regionale Speisepläne", goal: "eine bessere Klimabilanz" },
-  { theme: "kulturelle Teilhabe", actor: "Museen", measure: "mehrsprachige Vermittlung", goal: "niedrigere Zugangshürden" },
-  { theme: "Datenschutz im Alltag", actor: "Plattformbetreiber", measure: "verständliche Einwilligungen", goal: "mehr Kontrolle für Nutzende" },
-  { theme: "bezahlbares Wohnen", actor: "Städte", measure: "langfristige Bodenpolitik", goal: "stabilere Mieten" },
-  { theme: "psychische Gesundheit", actor: "Universitäten", measure: "niedrigschwellige Beratung", goal: "frühzeitige Unterstützung" },
-  { theme: "Energieeffizienz", actor: "Gebäudeeigentümer", measure: "gezielte Sanierungen", goal: "einen geringeren Verbrauch" }
+  { theme: "digitale Lehre", themeDative: "digitaler Lehre", actor: "Hochschulen", measure: "ein hybrides Lehrangebot", goal: "mehr zeitliche Flexibilität", goalDative: "mehr zeitlicher Flexibilität" },
+  { theme: "städtische Mobilität", themeDative: "städtischer Mobilität", actor: "Kommunen", measure: "ein dichteres Radwegenetz", goal: "weniger Verkehrslärm", goalDative: "weniger Verkehrslärm" },
+  { theme: "wissenschaftliche Kommunikation", themeDative: "wissenschaftlicher Kommunikation", actor: "Forschungseinrichtungen", measure: "ein offenes Datenportal", goal: "größere Nachvollziehbarkeit", goalDative: "größerer Nachvollziehbarkeit" },
+  { theme: "betriebliche Weiterbildung", themeDative: "betrieblicher Weiterbildung", actor: "Unternehmen", measure: "ein festes Lernzeitmodell", goal: "langfristige Beschäftigungsfähigkeit", goalDative: "langfristiger Beschäftigungsfähigkeit" },
+  { theme: "nachhaltige Ernährung", themeDative: "nachhaltiger Ernährung", actor: "öffentliche Kantinen", measure: "ein regionaler Speiseplan", goal: "eine bessere Klimabilanz", goalDative: "einer besseren Klimabilanz" },
+  { theme: "kulturelle Teilhabe", themeDative: "kultureller Teilhabe", actor: "Museen", measure: "eine mehrsprachige Vermittlung", goal: "ein leichterer Zugang", goalDative: "einem leichteren Zugang" },
+  { theme: "Datenschutz im Alltag", themeDative: "Datenschutz im Alltag", actor: "Plattformbetreiber", measure: "eine verständliche Einwilligung", goal: "mehr Kontrolle für Nutzende", goalDative: "mehr Kontrolle für Nutzende" },
+  { theme: "bezahlbares Wohnen", themeDative: "bezahlbarem Wohnen", actor: "Städte", measure: "eine langfristige Bodenpolitik", goal: "ein stabileres Mietniveau", goalDative: "einem stabileren Mietniveau" },
+  { theme: "psychische Gesundheit", themeDative: "psychischer Gesundheit", actor: "Universitäten", measure: "eine niedrigschwellige Beratung", goal: "frühzeitige Unterstützung", goalDative: "frühzeitiger Unterstützung" },
+  { theme: "Energieeffizienz", themeDative: "Energieeffizienz", actor: "Gebäudeeigentümer", measure: "eine gezielte Sanierung", goal: "ein geringerer Verbrauch", goalDative: "einem geringeren Verbrauch" }
 ];
 
 const clozeFrames = [
@@ -177,7 +177,7 @@ const clozeFrames = [
   },
   {
     title: "Was Kennzahlen leisten können",
-    text: "Bei {theme} spielen Kennzahlen eine wachsende Rolle. Sie versprechen Übersicht, [[1]] komplexe Entwicklungen auf wenige Werte reduziert werden. Gerade darin liegt jedoch auch ein Risiko: Was leicht messbar ist, muss nicht zwangsläufig das sein, [[2]] für die Betroffenen besonders wichtig ist. {actor} sollten Kennzahlen deshalb nicht isoliert verwenden, [[3]] sie durch qualitative Beobachtungen ergänzen. Eine Zahl gewinnt erst Bedeutung, [[4]] klar ist, wie sie erhoben wurde und welche Annahmen dahinterstehen. Vergleiche sind außerdem nur sinnvoll, [[5]] dieselben Kriterien angewandt werden. Werden Daten ohne Kontext veröffentlicht, können sie Fehlinterpretationen eher fördern [[6]] verhindern. Transparenz bedeutet daher nicht, möglichst viele Tabellen bereitzustellen, [[7]] Auswahl und Grenzen verständlich zu erklären. {measure} kann hierzu beitragen, sofern die Informationen regelmäßig aktualisiert werden. Auf diese Weise entsteht kein vollkommenes Bild, wohl [[8]] eine belastbarere Grundlage für Entscheidungen. Ziel sollte sein, Kennzahlen so einzusetzen, [[9]] sie Diskussionen strukturieren, ohne Urteilskraft zu ersetzen. Nur unter dieser Voraussetzung lässt sich {goal} [[10]].",
+    text: "Bei {themeDative} spielen Kennzahlen eine wachsende Rolle. Sie versprechen Übersicht, [[1]] komplexe Entwicklungen auf wenige Werte reduziert werden. Gerade darin liegt jedoch auch ein Risiko: Was leicht messbar ist, muss nicht zwangsläufig das sein, [[2]] für die Betroffenen besonders wichtig ist. {actor} sollten Kennzahlen deshalb nicht isoliert verwenden, [[3]] sie durch qualitative Beobachtungen ergänzen. Eine Zahl gewinnt erst Bedeutung, [[4]] klar ist, wie sie erhoben wurde und welche Annahmen dahinterstehen. Vergleiche sind außerdem nur sinnvoll, [[5]] dieselben Kriterien angewandt werden. Werden Daten ohne Kontext veröffentlicht, können sie Fehlinterpretationen eher fördern [[6]] verhindern. Transparenz bedeutet daher nicht, möglichst viele Tabellen bereitzustellen, [[7]] Auswahl und Grenzen verständlich zu erklären. {measure} kann hierzu beitragen, sofern die Informationen regelmäßig aktualisiert werden. Auf diese Weise entsteht kein vollkommenes Bild, wohl [[8]] eine belastbarere Grundlage für Entscheidungen. Ziel sollte sein, Kennzahlen so einzusetzen, [[9]] sie Diskussionen strukturieren, ohne Urteilskraft zu ersetzen. Nur unter dieser Voraussetzung lässt sich {goal} [[10]].",
     blanks: [
       ["indem", ["obwohl", "sobald", "falls"], "Indem beschreibt das Mittel der Reduktion."], ["was", ["das", "dessen", "wie"], "Nach das steht ein freier Relativsatz mit was."],
       ["sondern", ["oder", "denn", "jedoch"], "Nicht isoliert, sondern ergänzt formuliert eine Korrektur."], ["wenn", ["ob", "als", "während"], "Wenn nennt die Bedingung für interpretierbare Zahlen."],
@@ -188,7 +188,7 @@ const clozeFrames = [
   },
   {
     title: "Beteiligung ist mehr als Zustimmung",
-    text: "Wenn {actor} über {theme} entscheiden, wird häufig mehr Beteiligung gefordert. Der Begriff bleibt allerdings unscharf, [[1]] nicht geklärt wird, worüber tatsächlich mitentschieden werden kann. Eine Befragung schafft noch keine Mitwirkung, [[2]] ihre Ergebnisse folgenlos bleiben. Glaubwürdig wird das Verfahren erst, wenn Verantwortliche offenlegen, welche Vorschläge übernommen werden und [[3]] andere nicht umgesetzt werden können. Dazu gehört auch, Zielkonflikte sichtbar zu machen, [[4]] einfache Lösungen zu versprechen. {measure} bietet eine Chance, unterschiedliche Erfahrungen einzubeziehen. Es sollte jedoch vermieden werden, immer nur diejenigen zu hören, [[5]] ohnehin über Zeit und Ressourcen verfügen. Je vielfältiger die Gruppe zusammengesetzt ist, [[6]] breiter ist die Wissensbasis. Gleichzeitig braucht Beteiligung klare Fristen, damit Entscheidungen nicht unbegrenzt [[7]]. Werden Erwartungen früh geklärt, lässt sich Enttäuschung zwar nicht völlig ausschließen, [[8]] deutlich verringern. Beteiligung ist somit kein Ersatz für Verantwortung, [[9]] eine Form, Entscheidungen besser zu begründen. Sie kann zu {goal} beitragen, vorausgesetzt, dass Rückmeldungen nachvollziehbar [[10]].",
+    text: "Wenn {actor} über {theme} entscheiden, wird häufig mehr Beteiligung gefordert. Der Begriff bleibt allerdings unscharf, [[1]] nicht geklärt wird, worüber tatsächlich mitentschieden werden kann. Eine Befragung schafft noch keine Mitwirkung, [[2]] ihre Ergebnisse folgenlos bleiben. Glaubwürdig wird das Verfahren erst, wenn Verantwortliche offenlegen, welche Vorschläge übernommen werden und [[3]] andere nicht umgesetzt werden können. Dazu gehört auch, Zielkonflikte sichtbar zu machen, [[4]] einfache Lösungen zu versprechen. {measure} bietet eine Chance, unterschiedliche Erfahrungen einzubeziehen. Es sollte jedoch vermieden werden, immer nur diejenigen zu hören, [[5]] ohnehin über Zeit und Ressourcen verfügen. Je vielfältiger die Gruppe zusammengesetzt ist, [[6]] breiter ist die Wissensbasis. Gleichzeitig braucht Beteiligung klare Fristen, damit Entscheidungen nicht unbegrenzt [[7]]. Werden Erwartungen früh geklärt, lässt sich Enttäuschung zwar nicht völlig ausschließen, [[8]] deutlich verringern. Beteiligung ist somit kein Ersatz für Verantwortung, [[9]] eine Form, Entscheidungen besser zu begründen. Sie kann zu {goalDative} beitragen, vorausgesetzt, dass Rückmeldungen nachvollziehbar [[10]].",
     blanks: [
       ["solange", ["obwohl", "indem", "sobald"], "Solange beschreibt einen andauernden unzureichenden Zustand."], ["wenn", ["als", "damit", "ob"], "Wenn nennt die Bedingung, unter der die Befragung wirkungslos bleibt."],
       ["warum", ["wann", "ob", "wo"], "Warum fragt nach der Begründung nicht umgesetzter Vorschläge."], ["anstatt", ["ohne", "um", "seit"], "Anstatt zu stellt die bessere Alternative gegenüber."],
@@ -221,11 +221,68 @@ const clozeFrames = [
   }
 ];
 
-// Reuse the five discourse constructions with a second rhetorical title to create 100 passages.
-const expandedClozeFrames = [...clozeFrames, ...clozeFrames.map((frame) => ({ ...frame, title: `${frame.title} – Perspektivwechsel` }))];
+const alternateClozeFrames = [
+  {
+    title: "Pilotprojekte richtig auswerten",
+    text: "Pilotprojekte zu {themeDative} sind hilfreich, [[1]] sie liefern noch keinen Beweis für eine allgemeine Wirkung. Zunächst muss geklärt werden, [[2]] {measure} unter unterschiedlichen Bedingungen funktioniert. Geeignete Kriterien sollten feststehen, [[3]] der Versuch beginnt. Nur so lassen sich spätere Ergebnisse vergleichen. Ebenso wichtig ist eine ausreichend lange Laufzeit, [[4]] kurzfristige Schwankungen nicht mit dauerhaften Veränderungen verwechselt werden. Die Auswertung darf nicht nur Erfolge nennen, [[5]] muss auch unerwartete Nebenwirkungen dokumentieren. Ein Ergebnis ist besonders belastbar, [[6]] mehrere Datenquellen in dieselbe Richtung weisen. Darüber hinaus sollte erklärt werden, [[7]] aus dem Versuch gelernt wurde. Je transparenter Auswahl und Methode sind, [[8]] leichter können Außenstehende die Schlussfolgerungen prüfen. Pilotprojekte sollten erweitert werden, [[9]] offene Fragen zu verschweigen. Erst danach kann entschieden werden, ob {goal} auch in größerem Maßstab erreicht [[10]].",
+    blanks: [
+      ["aber", ["denn", "oder", "sondern"], "Aber begrenzt die Aussagekraft von Pilotprojekten."], ["ob", ["dass", "weil", "damit"], "Ob leitet eine indirekte Entscheidungsfrage ein."],
+      ["bevor", ["nachdem", "obwohl", "sodass"], "Die Kriterien müssen vor Beginn feststehen."], ["damit", ["während", "falls", "zumal"], "Damit bezeichnet den Zweck der längeren Laufzeit."],
+      ["sondern", ["aber", "noch", "oder"], "Nicht nur wird mit sondern fortgesetzt."], ["wenn", ["als", "ob", "seit"], "Wenn nennt eine Bedingung für Belastbarkeit."],
+      ["was", ["dass", "wie viel", "dessen"], "Was fragt nach dem Inhalt des Gelernten."], ["desto", ["als", "dennoch", "soweit"], "Je verlangt desto oder umso."],
+      ["ohne", ["um", "statt", "seit"], "Ohne ... zu bezeichnet eine vermiedene Begleithandlung."], ["werden kann", ["kann werden", "worden ist", "zu werden"], "Im ob-Satz steht das Modalverb am Ende."]
+    ]
+  },
+  {
+    title: "Zielkonflikte offen benennen",
+    text: "Bei {themeDative} treffen unterschiedliche Interessen aufeinander. Ein Zielkonflikt verschwindet nicht, [[1]] man ihn sprachlich vereinfacht. Wer nur Vorteile verspricht, riskiert, [[2]] spätere Belastungen als Täuschung wahrgenommen werden. Verantwortliche sollten deshalb erklären, welche Gruppen profitieren und [[3]] zusätzliche Kosten tragen müssen. Das bedeutet nicht, jede Entscheidung so lange aufzuschieben, [[4]] alle Beteiligten vollständig zufrieden sind. Es bedeutet vielmehr, Kriterien zu nennen, [[5]] denen Prioritäten gesetzt werden. {measure} kann sinnvoll sein, vorausgesetzt, [[6]] seine Wirkungen regelmäßig überprüft werden. Zeigen sich Nachteile, müssen Anpassungen möglich sein, [[7]] das ursprüngliche Ziel sofort aufzugeben. Je früher Konflikte sichtbar werden, [[8]] sachlicher lässt sich über Alternativen sprechen. Transparenz schafft zwar keinen Konsens, [[9]] sie verbessert die Grundlage der Entscheidung. Auf diese Weise kann {goal} verfolgt werden, [[10]] berechtigte Einwände zu ignorieren.",
+    blanks: [
+      ["indem", ["obwohl", "sobald", "falls"], "Indem bezeichnet hier das unzureichende Mittel der Vereinfachung."], ["dass", ["ob", "damit", "während"], "Dass leitet den Inhalt nach riskieren ein."],
+      ["wer", ["was", "wann", "wo"], "Wer fragt nach den betroffenen Gruppen."], ["bis", ["seit", "während", "obwohl"], "Bis markiert die zeitliche Grenze des Aufschubs."],
+      ["nach", ["mit", "aus", "gegen"], "Prioritäten werden nach Kriterien gesetzt."], ["dass", ["ob", "als", "wenn auch"], "Vorausgesetzt, dass leitet eine Bedingung ein."],
+      ["ohne", ["um", "statt", "seit"], "Ohne ... zu bezeichnet das nicht aufgegebene Ziel."], ["desto", ["als", "sodass", "dennoch"], "Je wird mit desto fortgeführt."],
+      ["aber", ["sondern", "denn", "oder"], "Zwar wird durch aber ergänzt."], ["ohne", ["damit", "anstatt dass", "seit"], "Ohne ... zu beschreibt die zu vermeidende Begleithandlung."]
+    ]
+  },
+  {
+    title: "Verantwortung braucht Zuständigkeit",
+    text: "Reformen zu {themeDative} scheitern häufig nicht an fehlenden Ideen, [[1]] an unklaren Zuständigkeiten. Wenn mehrere Stellen beteiligt sind, muss erkennbar bleiben, [[2]] eine Entscheidung trifft und wer ihre Umsetzung kontrolliert. {actor} sollten Aufgaben deshalb schriftlich festhalten, [[3]] Verantwortliche später nicht aufeinander verweisen. {measure} entfaltet nur dann Wirkung, [[4]] ausreichend Personal und Zeit vorgesehen sind. Außerdem braucht es eine Stelle, an [[5]] sich Betroffene mit Rückfragen wenden können. Zuständigkeit bedeutet jedoch nicht, [[6]] Entscheidungen ohne Austausch getroffen werden. Fachwissen sollte dort einbezogen werden, [[7]] es für die jeweilige Frage notwendig ist. Je klarer die Rollen verteilt sind, [[8]] schneller lassen sich Probleme bearbeiten. Fehler müssen dokumentiert werden, [[9]] sie sich nicht wiederholen. So steigt die Chance, [[10]] {goal} dauerhaft erreicht wird.",
+    blanks: [
+      ["sondern", ["aber", "denn", "oder"], "Nicht an ..., sondern an ... korrigiert die Ursache."], ["wer", ["was", "wo", "wann"], "Wer fragt nach der handelnden Person oder Stelle."],
+      ["damit", ["obwohl", "während", "sobald"], "Damit nennt den Zweck der schriftlichen Festlegung."], ["wenn", ["als", "ob", "seit"], "Wenn formuliert eine notwendige Bedingung."],
+      ["die", ["der", "deren", "was"], "An die bezieht sich auf die feminine Stelle."], ["dass", ["ob", "weil", "damit"], "Dass ergänzt die verneinte Gleichsetzung."],
+      ["wo", ["wessen", "wann", "ob"], "Wo bezeichnet hier den sachlichen Bereich der Einbeziehung."], ["desto", ["als", "jedoch", "soweit"], "Je verlangt desto."],
+      ["damit", ["obwohl", "indem", "falls"], "Damit bezeichnet den Zweck der Dokumentation."], ["dass", ["ob", "wie", "während"], "Dass leitet den Inhalt nach Chance ein."]
+    ]
+  },
+  {
+    title: "Vom Einzelfall zur tragfähigen Regel",
+    text: "Ein erfolgreiches Beispiel zu {themeDative} wirkt überzeugend. Daraus folgt jedoch nicht, [[1]] dieselbe Lösung überall funktioniert. Regionen unterscheiden sich hinsichtlich ihrer Ressourcen, ihrer Infrastruktur und der Gruppen, [[2]] sie erreichen müssen. Bevor {measure} übertragen wird, sollte daher geprüft werden, welche Bedingungen im ursprünglichen Fall entscheidend [[3]]. Manche Elemente lassen sich direkt übernehmen, [[4]] andere angepasst werden müssen. Eine Übertragung ist besonders riskant, [[5]] nur sichtbare Ergebnisse, nicht aber ihre Ursachen betrachtet werden. Deshalb empfiehlt es sich, zunächst mehrere Varianten zu testen, [[6]] sofort eine einheitliche Regel einzuführen. Je größer die Unterschiede zwischen den Standorten sind, [[7]] vorsichtiger sollte der Vergleich ausfallen. Eine Regel kann trotzdem sinnvoll sein, [[8]] sie genügend Raum für begründete Abweichungen lässt. Ihr Erfolg zeigt sich nicht daran, dass jeder Ort identisch handelt, [[9]] daran, dass gemeinsame Ziele überprüfbar bleiben. Unter diesen Bedingungen lässt sich {goal} fördern, [[10]] lokale Erfahrung zu entwerten.",
+    blanks: [
+      ["dass", ["ob", "damit", "weil"], "Dass leitet den Inhalt der verneinten Folgerung ein."], ["die", ["denen", "deren", "was"], "Die ist Akkusativobjekt zu erreichen und bezieht sich auf Gruppen."],
+      ["waren", ["wurden", "seien", "hätten"], "Im indirekten Fragesatz steht das Prädikat am Ende."], ["während", ["damit", "sodass", "zumal"], "Während kontrastiert Übernahme und Anpassung."],
+      ["wenn", ["als", "ob", "seit"], "Wenn nennt die riskante Bedingung."], ["anstatt", ["ohne", "um", "seit"], "Anstatt ... zu stellt die Alternative gegenüber."],
+      ["desto", ["als", "dennoch", "soweit"], "Je wird durch desto ergänzt."], ["sofern", ["obwohl", "zumal", "sodass"], "Sofern bezeichnet eine Voraussetzung."],
+      ["sondern", ["aber", "oder", "denn"], "Nicht daran, sondern daran formuliert eine Korrektur."], ["ohne", ["um", "seit", "während"], "Ohne ... zu bezeichnet eine vermiedene Folge."]
+    ]
+  },
+  {
+    title: "Aus Rückmeldungen lernen",
+    text: "Rückmeldungen zu {themeDative} sind mehr als eine abschließende Bewertung. Sie zeigen, [[1]] eine Maßnahme im Alltag tatsächlich erlebt wird. {actor} sollten deshalb nicht erst reagieren, [[2]] Beschwerden öffentlich werden. Regelmäßige Rückfragen helfen, Schwierigkeiten früh zu erkennen und Lösungen gemeinsam [[3]]. Dabei ist wichtig, nicht nur besonders laute Stimmen zu hören, [[4]] unterschiedliche Gruppen gezielt einzubeziehen. {measure} sollte anhand klarer Fragen bewertet werden, [[5]] allgemeine Zufriedenheit allein wenig über konkrete Probleme aussagt. Kritik ist besonders nützlich, wenn sie Beispiele nennt und erklärt, [[6]] eine Änderung nötig ist. Je schneller eine begründete Antwort erfolgt, [[7]] eher bleiben Beteiligte zum weiteren Austausch bereit. Nicht jeder Vorschlag kann umgesetzt werden; Verantwortliche sollten jedoch erläutern, [[8]] sie ihn übernehmen oder ablehnen. Auf diese Weise werden Rückmeldungen nicht gesammelt, [[9]] folgenlos zu bleiben. Sie tragen vielmehr dazu bei, [[10]] {goal} schrittweise erreicht wird.",
+    blanks: [
+      ["wie", ["dass", "ob", "wann"], "Wie fragt nach der Art des Erlebens."], ["wenn", ["als", "obwohl", "seit"], "Wenn bezeichnet den Zeitpunkt beziehungsweise die Bedingung der Reaktion."],
+      ["zu entwickeln", ["entwickelt", "entwickeln zu", "entwickelnd"], "Helfen kann mit zu-Infinitiv verbunden werden."], ["sondern", ["aber", "oder", "denn"], "Nicht nur wird mit sondern fortgesetzt."],
+      ["weil", ["obwohl", "damit", "sobald"], "Weil nennt den Grund für klare Fragen."], ["warum", ["wo", "wann", "dessen"], "Warum fragt nach der Begründung einer Änderung."],
+      ["desto", ["als", "dennoch", "soweit"], "Je verlangt desto oder umso."], ["warum", ["ob", "wann", "dessen"], "Warum leitet die Begründung für Übernahme oder Ablehnung ein."],
+      ["um", ["ohne", "statt", "seit"], "Nicht gesammelt, um folgenlos zu bleiben markiert den verneinten Zweck."], ["dass", ["ob", "wie", "während"], "Dazu beitragen, dass leitet einen Inhaltssatz ein."]
+    ]
+  }
+];
+
+const expandedClozeFrames = [...clozeFrames, ...alternateClozeFrames];
 expandedClozeFrames.forEach((frame, frameIndex) => topicVariants.forEach((topic, variantIndex) => {
   const passageId = `DS-A-P-CLOZE-${String(frameIndex * topicVariants.length + variantIndex + 1).padStart(3, "0")}`;
-  const text = frame.text.replaceAll("{theme}", topic.theme).replaceAll("{actor}", topic.actor).replaceAll("{measure}", topic.measure).replaceAll("{goal}", topic.goal);
+  const text = Object.entries(topic).reduce((result, [key, value]) => result.replaceAll(`{${key}}`, value), frame.text);
   passages.push({ id: passageId, module: "advanced_cloze", title: `${frame.title}: ${topic.theme}`, text, blankCount: 10 });
   frame.blanks.forEach(([answer, distractors, explanation], blankIndex) => add({
     module: "advanced_cloze",
@@ -504,6 +561,12 @@ for (const item of allItems) {
   if (item.type === "mcq" && (item.options.length !== 4 || !item.options.includes(item.answer))) throw new Error(`Invalid MCQ: ${item.id}`);
 }
 const passageIds = new Set(passages.map((entry) => entry.id));
+const passageTexts = new Set(passages.map((entry) => entry.text));
+if (passageTexts.size !== passages.length) throw new Error("Duplicate passage text detected");
+for (const passage of passages) {
+  if (/\{[a-zA-Z]+\}/.test(passage.text)) throw new Error(`Unresolved placeholder: ${passage.id}`);
+  if (/Bei (digitale|städtische|wissenschaftliche|betriebliche|nachhaltige|kulturelle|bezahlbare|psychische)\b/.test(passage.text)) throw new Error(`Uninflected dative phrase: ${passage.id}`);
+}
 for (const item of allItems.filter((entry) => entry.passageId)) {
   if (!passageIds.has(item.passageId)) throw new Error(`Missing passage: ${item.id}`);
 }

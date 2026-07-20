@@ -291,14 +291,52 @@ button { cursor: pointer; }
 .empty-state { padding: 4rem 1rem; color: var(--muted); text-align: center; }
 .library-footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); }
 
+.library-actions { display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.5rem; }
+.primary-link,.text-link { font-weight:900;text-decoration:none; }
+.primary-link { padding:.85rem 1rem;border-radius:.4rem;color:#fff;background:var(--red-800); }
+.text-link { color:var(--red-800); }
+.lexicon-note { display:grid;grid-template-columns:minmax(12rem,.45fr) minmax(0,1fr);gap:2rem;padding:2rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line); }
+.lexicon-note strong { color:var(--red-900);font-size:1.35rem; }
+.lexicon-note p { margin:0;color:var(--muted);line-height:1.75; }
+.lexicon-toolbar { grid-template-columns:auto minmax(15rem,1fr) auto;margin-top:4rem; }
+.select-box { display:flex;align-items:center;gap:.6rem;padding:0 1rem;border:1px solid var(--line);border-radius:.45rem;background:var(--soft);font-weight:800; }
+.select-box select { min-height:3.5rem;border:0;outline:0;color:var(--ink);background:transparent; }
+.lexicon-summary { display:flex;align-items:baseline;gap:.35rem;margin:2.5rem 0 1rem;color:var(--muted); }
+.lexicon-summary strong { color:var(--red-900);font-size:1.8rem; }
+.lexicon-summary #page-label { margin-left:auto; }
+.lexicon-list { border-top:1px solid var(--line); }
+.lexicon-row { display:grid;grid-template-columns:5.5rem minmax(12rem,.75fr) minmax(16rem,1.1fr) minmax(14rem,1fr);gap:1.25rem;align-items:center;padding:1.25rem 0;border-bottom:1px solid var(--line); }
+.lexicon-rank { display:grid;color:var(--muted);font-size:.72rem; }
+.lexicon-rank strong { color:var(--ink);font-size:1.1rem; }
+.lexicon-word h2 { margin:.4rem 0 .2rem;color:var(--red-900);font-size:1.3rem;letter-spacing:0; }
+.lexicon-word p,.lexicon-meaning small { display:block;margin:0;color:var(--muted);font-size:.82rem;line-height:1.45; }
+.lexicon-meaning strong { display:block;line-height:1.55; }
+.quality-badge,.cefr-badge { display:inline-flex;margin-right:.35rem;padding:.2rem .4rem;border:1px solid var(--line);border-radius:.25rem;color:var(--muted);font-size:.68rem;font-weight:900; }
+.quality-badge.curated { border-color:var(--red-700);color:var(--red-800);background:var(--red-050); }
+.lexicon-example { padding:.75rem;border-left:3px solid var(--red-700);background:var(--red-050); }
+.lexicon-example summary { color:var(--red-800);cursor:pointer;font-weight:900; }
+.lexicon-example p { margin:.65rem 0 0;line-height:1.55; }
+.lexicon-example small { display:block;margin-top:.35rem;color:var(--muted);line-height:1.5; }
+.lexicon-example small b { margin-right:.45rem;color:var(--red-800); }
+.pagination { display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:2.5rem; }
+.pagination button { min-width:6rem;padding:.7rem 1rem;border:1px solid var(--line);border-radius:.35rem;color:var(--red-900);background:#fff;font-weight:900; }
+.pagination button:disabled { cursor:not-allowed;opacity:.4; }
+
 @media (max-width: 760px) {
   .library-nav { align-items: flex-start; flex-direction: column; }
   .library-nav-links { width: 100%; overflow-x: auto; }
+  .library-nav-links a { flex:0 0 auto;white-space:nowrap; }
   .library-hero, .library-toolbar { grid-template-columns: 1fr; }
   .library-count { border-left: 0; border-top: 3px solid var(--red-700); }
   .stage-switcher { display: grid; grid-template-columns: repeat(3, 1fr); }
   .theme-grid, .grammar-grid { grid-template-columns: 1fr; }
   .result-heading { align-items: flex-start; flex-direction: column; }
+  .lexicon-note,.lexicon-toolbar { grid-template-columns:1fr; }
+  .select-box { justify-content:space-between; }
+  .lexicon-row { grid-template-columns:4rem minmax(0,1fr);align-items:start; }
+  .lexicon-meaning,.lexicon-example { grid-column:2; }
+  .lexicon-summary { flex-wrap:wrap; }
+  .lexicon-summary #page-label { width:100%;margin-left:0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -33,7 +33,8 @@
           "tags": [
             "orthography"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-002",
@@ -61,7 +62,8 @@
           "tags": [
             "orthography"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-003",
@@ -89,7 +91,8 @@
           "tags": [
             "word_formation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-004",
@@ -117,7 +120,8 @@
           "tags": [
             "word_formation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-005",
@@ -146,7 +150,8 @@
             "verb",
             "separable"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-006",
@@ -174,7 +179,8 @@
           "tags": [
             "word_formation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-007",
@@ -202,7 +208,8 @@
           "tags": [
             "word_formation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-008",
@@ -230,7 +237,8 @@
           "tags": [
             "word_formation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -265,7 +273,8 @@
           "tags": [
             "case"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-010",
@@ -294,7 +303,8 @@
             "article",
             "case"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-011",
@@ -323,7 +333,8 @@
             "article",
             "adjective_ending"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-012",
@@ -352,7 +363,8 @@
             "negation",
             "article"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-013",
@@ -380,7 +392,8 @@
           "tags": [
             "plural"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-014",
@@ -408,7 +421,8 @@
           "tags": [
             "n_deklination"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-015",
@@ -436,7 +450,8 @@
           "tags": [
             "genitive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-016",
@@ -465,7 +480,8 @@
             "preposition",
             "dative"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-017",
@@ -494,7 +510,8 @@
             "preposition",
             "accusative"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-018",
@@ -522,7 +539,8 @@
           "tags": [
             "wechselpreposition"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-019",
@@ -550,7 +568,8 @@
           "tags": [
             "adjective_ending"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-020",
@@ -578,7 +597,8 @@
           "tags": [
             "adjective_ending"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-021",
@@ -606,7 +626,8 @@
           "tags": [
             "adjective_ending"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-022",
@@ -634,7 +655,8 @@
           "tags": [
             "nominalized_adjective"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-023",
@@ -662,7 +684,8 @@
           "tags": [
             "comparison"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-024",
@@ -690,7 +713,8 @@
           "tags": [
             "comparison"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -725,7 +749,8 @@
           "tags": [
             "conjugation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-026",
@@ -753,7 +778,8 @@
           "tags": [
             "irregular"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-027",
@@ -781,7 +807,8 @@
           "tags": [
             "preterite"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-028",
@@ -809,7 +836,8 @@
           "tags": [
             "perfect"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-029",
@@ -837,7 +865,8 @@
           "tags": [
             "participle"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-030",
@@ -865,7 +894,8 @@
           "tags": [
             "separable"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-031",
@@ -893,7 +923,8 @@
           "tags": [
             "modal"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-032",
@@ -922,7 +953,8 @@
             "modal",
             "double_infinitive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-033",
@@ -950,7 +982,8 @@
           "tags": [
             "imperative"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-034",
@@ -978,7 +1011,8 @@
           "tags": [
             "reflexive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-035",
@@ -1006,7 +1040,8 @@
           "tags": [
             "dative_verb"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-036",
@@ -1035,7 +1070,8 @@
             "word_order",
             "pronoun"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-037",
@@ -1063,7 +1099,8 @@
           "tags": [
             "rection"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-038",
@@ -1091,7 +1128,8 @@
           "tags": [
             "infinitive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-039",
@@ -1120,7 +1158,8 @@
             "infinitive",
             "transformation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-040",
@@ -1148,7 +1187,8 @@
           "tags": [
             "causative"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-041",
@@ -1176,7 +1216,8 @@
           "tags": [
             "participle"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-042",
@@ -1205,7 +1246,8 @@
             "participle",
             "adjective_ending"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -1240,7 +1282,8 @@
           "tags": [
             "V2"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-044",
@@ -1268,7 +1311,8 @@
           "tags": [
             "sentence_bracket"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-045",
@@ -1296,7 +1340,8 @@
           "tags": [
             "subordinate_clause"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-046",
@@ -1324,7 +1369,8 @@
           "tags": [
             "inversion"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-047",
@@ -1352,7 +1398,8 @@
           "tags": [
             "coordination"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-048",
@@ -1381,7 +1428,8 @@
             "connector",
             "inversion"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-049",
@@ -1409,7 +1457,8 @@
           "tags": [
             "question"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-050",
@@ -1437,7 +1486,8 @@
           "tags": [
             "indirect_question"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-051",
@@ -1465,7 +1515,8 @@
           "tags": [
             "relative_clause"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-052",
@@ -1494,7 +1545,8 @@
             "relative_clause",
             "preposition"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-053",
@@ -1522,7 +1574,8 @@
           "tags": [
             "dass_clause"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-054",
@@ -1550,7 +1603,8 @@
           "tags": [
             "negation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-055",
@@ -1578,7 +1632,8 @@
           "tags": [
             "adverbial_order"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-056",
@@ -1606,7 +1661,8 @@
           "tags": [
             "pronoun_order"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-057",
@@ -1634,7 +1690,8 @@
           "tags": [
             "es"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-058",
@@ -1663,7 +1720,8 @@
             "man",
             "passive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -1698,7 +1756,8 @@
           "tags": [
             "passive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-060",
@@ -1726,7 +1785,8 @@
           "tags": [
             "state_passive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-061",
@@ -1755,7 +1815,8 @@
             "passive",
             "tense"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-062",
@@ -1784,7 +1845,8 @@
             "passive",
             "modal"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-063",
@@ -1812,7 +1874,8 @@
           "tags": [
             "passive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-064",
@@ -1840,7 +1903,8 @@
           "tags": [
             "impersonal_passive"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-065",
@@ -1869,7 +1933,8 @@
             "transformation",
             "participle"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-066",
@@ -1898,7 +1963,8 @@
             "transformation",
             "nominalization"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-067",
@@ -1926,7 +1992,8 @@
           "tags": [
             "nominalization"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-068",
@@ -1954,7 +2021,8 @@
           "tags": [
             "verbalization"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-069",
@@ -1982,7 +2050,8 @@
           "tags": [
             "konjunktiv_II"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-070",
@@ -2011,7 +2080,8 @@
             "konjunktiv_II",
             "conditional"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-071",
@@ -2040,7 +2110,8 @@
             "konjunktiv_II",
             "past"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-072",
@@ -2069,7 +2140,8 @@
             "konjunktiv_I",
             "reported_speech"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -2104,7 +2176,8 @@
           "tags": [
             "cohesion"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-074",
@@ -2133,7 +2206,8 @@
             "cohesion",
             "cause"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-075",
@@ -2162,7 +2236,8 @@
             "cohesion",
             "contrast"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-076",
@@ -2191,7 +2266,8 @@
             "cohesion",
             "writing"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-077",
@@ -2220,7 +2296,8 @@
             "comparison",
             "data"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-078",
@@ -2248,7 +2325,8 @@
           "tags": [
             "definition"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-079",
@@ -2276,7 +2354,8 @@
           "tags": [
             "opinion"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-080",
@@ -2304,7 +2383,8 @@
           "tags": [
             "argumentation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-081",
@@ -2332,7 +2412,8 @@
           "tags": [
             "argumentation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-082",
@@ -2361,7 +2442,8 @@
             "summary",
             "reported_speech"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-083",
@@ -2390,7 +2472,8 @@
             "email",
             "register"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-084",
@@ -2418,7 +2501,8 @@
           "tags": [
             "pragmatics"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-085",
@@ -2446,7 +2530,8 @@
           "tags": [
             "text_type"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-086",
@@ -2475,7 +2560,8 @@
             "data",
             "writing"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         },
         {
           "id": "grammar-087",
@@ -2503,7 +2589,8 @@
           "tags": [
             "punctuation"
           ],
-          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。"
+          "reviewStatus": "结构检查通过，发布前仍需德语教师抽样复核。",
+          "cefr": "A1-B1"
         }
       ]
     },
@@ -2516,7 +2603,9 @@
           "id": "advanced-passive-process-state",
           "title": "过程被动态与状态被动态",
           "rule": "重点掌握：werden + Partizip II、sein + Partizip II、施事者 von/durch、无主语被动。",
-          "examples": [],
+          "examples": [
+            "Die Tür wird geschlossen; danach ist sie geschlossen.｜门正在被关上；随后门处于关闭状态。"
+          ],
           "unitShape": [
             "werden + Partizip II",
             "sein + Partizip II",
@@ -2525,23 +2614,26 @@
           ],
           "commonMistake": "混淆过程和结果状态；把 werden 一律判断为将来时",
           "exercise": {
-            "question": "下面哪组内容属于“过程被动态与状态被动态”的学习重点？",
+            "question": "哪一组正确区分了过程被动态和状态被动态？",
             "options": [
-              "werden + Partizip II、sein + Partizip II、施事者 von/durch、无主语被动",
-              "混淆过程和结果状态、把 werden 一律判断为将来时",
-              "只记中文术语，不分析句子结构"
+              "Die Tür wird geschlossen. / Die Tür ist geschlossen.",
+              "Die Tür ist schließen. / Die Tür wird geschlossen sein.",
+              "Die Tür hat geschlossen. / Die Tür wurde schließen."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 werden + Partizip II、sein + Partizip II、施事者 von/durch、无主语被动；练习时注意：混淆过程和结果状态；把 werden 一律判断为将来时。"
+            "explanation": "werden + Partizip II 描述过程，sein + Partizip II 描述动作完成后的状态。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-passive-alternatives",
           "title": "被动态替代表达",
           "rule": "重点掌握：sich lassen + Infinitiv、sein + zu + Infinitiv、-bar/-lich 形容词、bekommen-Passiv。",
-          "examples": [],
+          "examples": [
+            "Das Problem lässt sich ohne zusätzliche Daten nicht lösen.｜没有补充数据，这个问题无法解决。"
+          ],
           "unitShape": [
             "sich lassen + Infinitiv",
             "sein + zu + Infinitiv",
@@ -2550,17 +2642,18 @@
           ],
           "commonMistake": "替换后语义强度变化；忽略 bekommen-Passiv 的受益者视角",
           "exercise": {
-            "question": "下面哪组内容属于“被动态替代表达”的学习重点？",
+            "question": "哪一句可以自然改写为“Das Problem kann gelöst werden”？",
             "options": [
-              "sich lassen + Infinitiv、sein + zu + Infinitiv、-bar/-lich 形容词、bekommen-Passiv",
-              "替换后语义强度变化、忽略 bekommen-Passiv 的受益者视角",
-              "只记中文术语，不分析句子结构"
+              "Das Problem lässt sich lösen.",
+              "Das Problem hat zu lösen.",
+              "Das Problem wird sich gelöst."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 sich lassen + Infinitiv、sein + zu + Infinitiv、-bar/-lich 形容词、bekommen-Passiv；练习时注意：替换后语义强度变化；忽略 bekommen-Passiv 的受益者视角。"
+            "explanation": "sich lassen + Infinitiv 可以表达被动意义的可能性。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2573,7 +2666,9 @@
           "id": "advanced-konjunktiv-two",
           "title": "第二虚拟式与非现实条件",
           "rule": "重点掌握：hätte/wäre/würde、非现实条件句、愿望、礼貌表达。",
-          "examples": [],
+          "examples": [
+            "Wenn mehr Zeit zur Verfügung stünde, könnten wir die Daten genauer prüfen.｜如果有更多时间，我们就能更仔细地检查数据。"
+          ],
           "unitShape": [
             "hätte/wäre/würde",
             "非现实条件句",
@@ -2582,23 +2677,26 @@
           ],
           "commonMistake": "wenn 从句和主句形式不对应；过度使用 würde",
           "exercise": {
-            "question": "下面哪组内容属于“第二虚拟式与非现实条件”的学习重点？",
+            "question": "请选择符合非现实条件的句子。",
             "options": [
-              "hätte/wäre/würde、非现实条件句、愿望、礼貌表达",
-              "wenn 从句和主句形式不对应、过度使用 würde",
-              "只记中文术语，不分析句子结构"
+              "Wenn mehr Zeit zur Verfügung stünde, könnten wir genauer prüfen.",
+              "Wenn mehr Zeit steht, können wir genauer geprüft.",
+              "Wenn mehr Zeit gestanden hätte, wir prüfen genauer."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 hätte/wäre/würde、非现实条件句、愿望、礼貌表达；练习时注意：wenn 从句和主句形式不对应；过度使用 würde。"
+            "explanation": "非现实现在条件使用第二虚拟式：stünde 与 könnten 相互呼应。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-konjunktiv-one",
           "title": "第一虚拟式与间接引语",
           "rule": "重点掌握：新闻转述、sei/habe/werde、形式重合时改用第二虚拟式、消息来源距离。",
-          "examples": [],
+          "examples": [
+            "Die Sprecherin erklärte, die Ergebnisse seien noch vorläufig.｜发言人表示，结果仍是初步的。"
+          ],
           "unitShape": [
             "新闻转述",
             "sei/habe/werde",
@@ -2607,17 +2705,18 @@
           ],
           "commonMistake": "把间接引语当作事实陈述；人称和时间指示不调整",
           "exercise": {
-            "question": "下面哪组内容属于“第一虚拟式与间接引语”的学习重点？",
+            "question": "哪一句正确使用第一虚拟式转述他人说法？",
             "options": [
-              "新闻转述、sei/habe/werde、形式重合时改用第二虚拟式、消息来源距离",
-              "把间接引语当作事实陈述、人称和时间指示不调整",
-              "只记中文术语，不分析句子结构"
+              "Die Sprecherin erklärte, die Ergebnisse seien vorläufig.",
+              "Die Sprecherin erklärte, die Ergebnisse sind vorläufig gewesen.",
+              "Die Sprecherin erklärte, seien die Ergebnisse vorläufig."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 新闻转述、sei/habe/werde、形式重合时改用第二虚拟式、消息来源距离；练习时注意：把间接引语当作事实陈述；人称和时间指示不调整。"
+            "explanation": "间接引语中 seien 是 sein 的第一虚拟式复数形式。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2630,7 +2729,9 @@
           "id": "advanced-modal-subjective",
           "title": "情态动词的主观用法",
           "rule": "重点掌握：muss 推断、dürfte 推测、soll/will 转述、过去推断。",
-          "examples": [],
+          "examples": [
+            "Die Verhandlungen sollen bereits abgeschlossen sein.｜据说谈判已经结束。"
+          ],
           "unitShape": [
             "muss 推断",
             "dürfte 推测",
@@ -2639,17 +2740,18 @@
           ],
           "commonMistake": "只按客观义翻译；忽略说话人的确信程度",
           "exercise": {
-            "question": "下面哪组内容属于“情态动词的主观用法”的学习重点？",
+            "question": "“Die Verhandlungen sollen abgeschlossen sein.”表达什么？",
             "options": [
-              "muss 推断、dürfte 推测、soll/will 转述、过去推断",
-              "只按客观义翻译、忽略说话人的确信程度",
-              "只记中文术语，不分析句子结构"
+              "据称谈判已经结束",
+              "谈判有义务结束",
+              "谈判被允许结束"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 muss 推断、dürfte 推测、soll/will 转述、过去推断；练习时注意：只按客观义翻译；忽略说话人的确信程度。"
+            "explanation": "sollen + Infinitiv II 在主观用法中表示来自他人的、尚未证实的信息。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2662,7 +2764,9 @@
           "id": "advanced-modal-particles",
           "title": "情态小品词与语气",
           "rule": "重点掌握：doch、ja、wohl、eben/halt、mal。",
-          "examples": [],
+          "examples": [
+            "Das ist ja eine überraschende Entwicklung.｜这确实是一个令人意外的发展。"
+          ],
           "unitShape": [
             "doch",
             "ja",
@@ -2672,17 +2776,18 @@
           ],
           "commonMistake": "逐词直译；忽略语境和语气差异",
           "exercise": {
-            "question": "下面哪组内容属于“情态小品词与语气”的学习重点？",
+            "question": "“Wie heißt du denn?”中的 denn 主要起什么作用？",
             "options": [
-              "doch、ja、wohl、eben/halt、mal",
-              "逐词直译、忽略语境和语气差异",
-              "只记中文术语，不分析句子结构"
+              "使提问更自然，并体现说话者的兴趣或语境联系",
+              "表示时间先后",
+              "把疑问句变成被动态"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 doch、ja、wohl、eben/halt、mal；练习时注意：逐词直译；忽略语境和语气差异。"
+            "explanation": "情态小品词 denn 不改变命题内容，而是调整语气和互动关系。"
           },
           "priority": "P2",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2695,7 +2800,9 @@
           "id": "advanced-relative-advanced",
           "title": "复杂关系从句",
           "rule": "重点掌握：介词 + 关系代词、dessen/deren、wo(r)+介词、关系副词。",
-          "examples": [],
+          "examples": [
+            "Die Studie, deren Ergebnisse veröffentlicht wurden, stößt auf großes Interesse.｜那项结果已经公布的研究引起了广泛关注。"
+          ],
           "unitShape": [
             "介词 + 关系代词",
             "dessen/deren",
@@ -2704,23 +2811,26 @@
           ],
           "commonMistake": "只按先行词判断格；介词位置错误",
           "exercise": {
-            "question": "下面哪组内容属于“复杂关系从句”的学习重点？",
+            "question": "请选择正确的关系代词：Die Studie, ___ Ergebnisse veröffentlicht wurden, wird diskutiert.",
             "options": [
-              "介词 + 关系代词、dessen/deren、wo(r)+介词、关系副词",
-              "只按先行词判断格、介词位置错误",
-              "只记中文术语，不分析句子结构"
+              "deren",
+              "dessen",
+              "denen"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 介词 + 关系代词、dessen/deren、wo(r)+介词、关系副词；练习时注意：只按先行词判断格；介词位置错误。"
+            "explanation": "先行词 Studie 为阴性，关系从句表达所属关系，因此使用 deren。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-infinitive-clauses",
           "title": "不定式结构与从句压缩",
           "rule": "重点掌握：um ... zu、ohne ... zu、anstatt ... zu、haben/sein + zu。",
-          "examples": [],
+          "examples": [
+            "Statt die Unsicherheit zu verschweigen, sollte man ihre Ursachen erklären.｜与其掩盖不确定性，不如解释其原因。"
+          ],
           "unitShape": [
             "um ... zu",
             "ohne ... zu",
@@ -2729,23 +2839,26 @@
           ],
           "commonMistake": "主语不一致仍使用 zu 结构；zu 在可分动词中的位置错误",
           "exercise": {
-            "question": "下面哪组内容属于“不定式结构与从句压缩”的学习重点？",
+            "question": "哪一句正确使用了不定式结构压缩目的从句？",
             "options": [
-              "um ... zu、ohne ... zu、anstatt ... zu、haben/sein + zu",
-              "主语不一致仍使用 zu 结构、zu 在可分动词中的位置错误",
-              "只记中文术语，不分析句子结构"
+              "Die Hochschule erweitert das Angebot, um mehr Studierende zu erreichen.",
+              "Die Hochschule erweitert das Angebot, damit mehr Studierende zu erreichen.",
+              "Die Hochschule erweitert das Angebot, um erreicht mehr Studierende."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 um ... zu、ohne ... zu、anstatt ... zu、haben/sein + zu；练习时注意：主语不一致仍使用 zu 结构；zu 在可分动词中的位置错误。"
+            "explanation": "主句和目的结构的逻辑主语一致时可以使用 um ... zu。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-result-consequence",
           "title": "结果、程度与后果表达",
           "rule": "重点掌握：so ... dass、als dass、zu ... als dass、folglich/somit。",
-          "examples": [],
+          "examples": [
+            "Die Daten sind zu lückenhaft, als dass man daraus sichere Schlüsse ziehen könnte.｜数据缺漏过多，无法据此得出可靠结论。"
+          ],
           "unitShape": [
             "so ... dass",
             "als dass",
@@ -2754,23 +2867,26 @@
           ],
           "commonMistake": "程度关系不清；连接词语序错误",
           "exercise": {
-            "question": "下面哪组内容属于“结果、程度与后果表达”的学习重点？",
+            "question": "请选择正确表达“数据太少，无法得出可靠结论”的句子。",
             "options": [
-              "so ... dass、als dass、zu ... als dass、folglich/somit",
-              "程度关系不清、连接词语序错误",
-              "只记中文术语，不分析句子结构"
+              "Die Daten sind zu knapp, als dass man zuverlässige Schlüsse ziehen könnte.",
+              "Die Daten sind so knapp, um zuverlässige Schlüsse zu ziehen.",
+              "Die Daten sind zu knapp, dass man zuverlässige Schlüsse zieht."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 so ... dass、als dass、zu ... als dass、folglich/somit；练习时注意：程度关系不清；连接词语序错误。"
+            "explanation": "zu ... als dass + Konjunktiv II 表示程度过高，以致预期结果无法实现。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-concession",
           "title": "让步与反预期表达",
           "rule": "重点掌握：obwohl/obgleich、zwar ... aber、trotzdem/dennoch、selbst wenn。",
-          "examples": [],
+          "examples": [
+            "Obwohl der Einwand berechtigt ist, bleibt die Grundidee überzeugend.｜尽管这一异议有道理，基本思路仍有说服力。"
+          ],
           "unitShape": [
             "obwohl/obgleich",
             "zwar ... aber",
@@ -2779,23 +2895,26 @@
           ],
           "commonMistake": "把让步写成简单转折；zwar 与 aber 对应缺失",
           "exercise": {
-            "question": "下面哪组内容属于“让步与反预期表达”的学习重点？",
+            "question": "哪一句正确表达让步关系？",
             "options": [
-              "obwohl/obgleich、zwar ... aber、trotzdem/dennoch、selbst wenn",
-              "把让步写成简单转折、zwar 与 aber 对应缺失",
-              "只记中文术语，不分析句子结构"
+              "Obwohl der Einwand berechtigt ist, bleibt die These überzeugend.",
+              "Obwohl der Einwand berechtigt ist, aber bleibt die These überzeugend.",
+              "Wegen der Einwand berechtigt ist, bleibt die These überzeugend."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 obwohl/obgleich、zwar ... aber、trotzdem/dennoch、selbst wenn；练习时注意：把让步写成简单转折；zwar 与 aber 对应缺失。"
+            "explanation": "obwohl 已经标记让步关系，主句不再额外使用 aber。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-condition",
           "title": "真实、潜在与非现实条件",
           "rule": "重点掌握：wenn/falls/sofern、bei + 名词、Konjunktiv II、条件倒装。",
-          "examples": [],
+          "examples": [
+            "Sofern alle Beteiligten zustimmen, kann das Projekt im Herbst beginnen.｜只要所有参与者同意，项目就能在秋季启动。"
+          ],
           "unitShape": [
             "wenn/falls/sofern",
             "bei + 名词",
@@ -2804,23 +2923,26 @@
           ],
           "commonMistake": "时态和语气不一致；sofern 与 wenn 语域不分",
           "exercise": {
-            "question": "下面哪组内容属于“真实、潜在与非现实条件”的学习重点？",
+            "question": "请选择正确的条件表达。",
             "options": [
-              "wenn/falls/sofern、bei + 名词、Konjunktiv II、条件倒装",
-              "时态和语气不一致、sofern 与 wenn 语域不分",
-              "只记中文术语，不分析句子结构"
+              "Sofern alle Beteiligten zustimmen, kann das Projekt beginnen.",
+              "Sofern stimmen alle Beteiligten zu, das Projekt kann beginnen.",
+              "Sofern alle Beteiligten zuzustimmen, beginnt das Projekt."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 wenn/falls/sofern、bei + 名词、Konjunktiv II、条件倒装；练习时注意：时态和语气不一致；sofern 与 wenn 语域不分。"
+            "explanation": "sofern 引导尾语序条件从句。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-temporal-relations",
           "title": "复杂时间关系",
           "rule": "重点掌握：nachdem、bevor/ehe、sobald、während、seitdem。",
-          "examples": [],
+          "examples": [
+            "Nachdem die Daten ausgewertet worden waren, wurde der Bericht veröffentlicht.｜数据分析完毕后，报告得以发表。"
+          ],
           "unitShape": [
             "nachdem",
             "bevor/ehe",
@@ -2830,17 +2952,18 @@
           ],
           "commonMistake": "先后关系的时态不匹配；während 的时间义和对比义混淆",
           "exercise": {
-            "question": "下面哪组内容属于“复杂时间关系”的学习重点？",
+            "question": "哪一句正确表达“数据分析之后，报告才发表”？",
             "options": [
-              "nachdem、bevor/ehe、sobald、während、seitdem",
-              "先后关系的时态不匹配、während 的时间义和对比义混淆",
-              "只记中文术语，不分析句子结构"
+              "Nachdem die Daten ausgewertet worden waren, wurde der Bericht veröffentlicht.",
+              "Nachdem die Daten wurden ausgewertet, der Bericht wurde veröffentlicht.",
+              "Nachdem die Daten ausgewertet hatten, veröffentlichte der Bericht."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 nachdem、bevor/ehe、sobald、während、seitdem；练习时注意：先后关系的时态不匹配；während 的时间义和对比义混淆。"
+            "explanation": "先发生的动作可用过去完成时被动态；前置从句后主句发生倒装。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2853,7 +2976,9 @@
           "id": "advanced-participial-attributes",
           "title": "第一、第二分词作扩展定语",
           "rule": "重点掌握：Partizip I 主动进行、Partizip II 被动完成、扩展定语边界、还原关系从句。",
-          "examples": [],
+          "examples": [
+            "Die gestern veröffentlichte Studie berücksichtigt regionale Unterschiede.｜昨天发表的研究考虑了地区差异。"
+          ],
           "unitShape": [
             "Partizip I 主动进行",
             "Partizip II 被动完成",
@@ -2862,17 +2987,18 @@
           ],
           "commonMistake": "找错核心名词；混淆主动与被动关系",
           "exercise": {
-            "question": "下面哪组内容属于“第一、第二分词作扩展定语”的学习重点？",
+            "question": "请选择正确的扩展分词定语。",
             "options": [
-              "Partizip I 主动进行、Partizip II 被动完成、扩展定语边界、还原关系从句",
-              "找错核心名词、混淆主动与被动关系",
-              "只记中文术语，不分析句子结构"
+              "die gestern veröffentlichte Studie",
+              "die gestern veröffentlichende Studie",
+              "die gestern wurde veröffentlichte Studie"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 Partizip I 主动进行、Partizip II 被动完成、扩展定语边界、还原关系从句；练习时注意：找错核心名词；混淆主动与被动关系。"
+            "explanation": "研究是被发表的，因此使用第二分词 veröffentlichte。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2885,7 +3011,9 @@
           "id": "advanced-nominalization",
           "title": "名词化与动词化转换",
           "rule": "重点掌握：动词转名词、名词短语内部层级、介词选择、德汉文体转换。",
-          "examples": [],
+          "examples": [
+            "Die Kommission prüft den Antrag. → Die Prüfung des Antrags dauert zwei Wochen.｜委员会审核申请。→ 对申请的审核持续两周。"
+          ],
           "unitShape": [
             "动词转名词",
             "名词短语内部层级",
@@ -2894,23 +3022,26 @@
           ],
           "commonMistake": "德译汉逐词堆叠名词；汉译德缺少德语名词化结构",
           "exercise": {
-            "question": "下面哪组内容属于“名词化与动词化转换”的学习重点？",
+            "question": "“Die Kommission prüft den Antrag.”最自然的名词化是什么？",
             "options": [
-              "动词转名词、名词短语内部层级、介词选择、德汉文体转换",
-              "德译汉逐词堆叠名词、汉译德缺少德语名词化结构",
-              "只记中文术语，不分析句子结构"
+              "die Prüfung des Antrags durch die Kommission",
+              "das Prüfen den Antrag von der Kommission",
+              "die geprüfte des Antrags Kommission"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 动词转名词、名词短语内部层级、介词选择、德汉文体转换；练习时注意：德译汉逐词堆叠名词；汉译德缺少德语名词化结构。"
+            "explanation": "动作名词 Prüfung 后可用第二格表示对象，并用 durch 引出执行者。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-register-style",
           "title": "正式、学术与新闻语体",
           "rule": "重点掌握：客观化表达、信息压缩、消息来源、语域替换。",
-          "examples": [],
+          "examples": [
+            "Die Ergebnisse deuten darauf hin, dass weitere Untersuchungen erforderlich sind.｜结果表明仍需进一步研究。"
+          ],
           "unitShape": [
             "客观化表达",
             "信息压缩",
@@ -2919,17 +3050,18 @@
           ],
           "commonMistake": "写作中过度口语化；堆砌名词化导致难读",
           "exercise": {
-            "question": "下面哪组内容属于“正式、学术与新闻语体”的学习重点？",
+            "question": "哪一句最符合谨慎的学术语体？",
             "options": [
-              "客观化表达、信息压缩、消息来源、语域替换",
-              "写作中过度口语化、堆砌名词化导致难读",
-              "只记中文术语，不分析句子结构"
+              "Die Ergebnisse deuten darauf hin, dass weitere Untersuchungen erforderlich sind.",
+              "Die Ergebnisse beweisen total, dass alles stimmt.",
+              "Man sieht halt, dass noch mehr gemacht werden muss."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 客观化表达、信息压缩、消息来源、语域替换；练习时注意：写作中过度口语化；堆砌名词化导致难读。"
+            "explanation": "deuten darauf hin 和 erforderlich 保持审慎、正式且可验证的语气。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2942,7 +3074,9 @@
           "id": "advanced-functional-verbs",
           "title": "功能动词结构",
           "rule": "重点掌握：in Betracht ziehen、zur Verfügung stehen、Maßnahmen ergreifen、Einfluss nehmen。",
-          "examples": [],
+          "examples": [
+            "Die neue Regelung tritt am ersten Januar in Kraft.｜新规定于一月一日生效。"
+          ],
           "unitShape": [
             "in Betracht ziehen",
             "zur Verfügung stehen",
@@ -2951,17 +3085,18 @@
           ],
           "commonMistake": "冠词和介词错误；与普通动词替换时语体不匹配",
           "exercise": {
-            "question": "下面哪组内容属于“功能动词结构”的学习重点？",
+            "question": "请选择正确的功能动词结构。",
             "options": [
-              "in Betracht ziehen、zur Verfügung stehen、Maßnahmen ergreifen、Einfluss nehmen",
-              "冠词和介词错误、与普通动词替换时语体不匹配",
-              "只记中文术语，不分析句子结构"
+              "Die neue Regelung tritt im Januar in Kraft.",
+              "Die neue Regelung macht im Januar Kraft.",
+              "Die neue Regelung wird im Januar in Kraft treten lassen."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 in Betracht ziehen、zur Verfügung stehen、Maßnahmen ergreifen、Einfluss nehmen；练习时注意：冠词和介词错误；与普通动词替换时语体不匹配。"
+            "explanation": "in Kraft treten 是表示“生效”的固定功能动词结构。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -2974,7 +3109,9 @@
           "id": "advanced-verb-government",
           "title": "动词、形容词与名词的介词支配",
           "rule": "重点掌握：动词 + 介词、形容词 + 介词、名词 + 介词、代副词。",
-          "examples": [],
+          "examples": [
+            "Die Entscheidung hängt von der Qualität der Daten ab.｜这一决定取决于数据质量。"
+          ],
           "unitShape": [
             "动词 + 介词",
             "形容词 + 介词",
@@ -2983,17 +3120,18 @@
           ],
           "commonMistake": "按中文选介词；忽略支配格",
           "exercise": {
-            "question": "下面哪组内容属于“动词、形容词与名词的介词支配”的学习重点？",
+            "question": "请选择正确的介词支配：Der Erfolg hängt ___ mehreren Faktoren ab.",
             "options": [
-              "动词 + 介词、形容词 + 介词、名词 + 介词、代副词",
-              "按中文选介词、忽略支配格",
-              "只记中文术语，不分析句子结构"
+              "von",
+              "auf",
+              "für"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 动词 + 介词、形容词 + 介词、名词 + 介词、代副词；练习时注意：按中文选介词；忽略支配格。"
+            "explanation": "abhängen von 支配第三格。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3006,7 +3144,9 @@
           "id": "advanced-prepositions-register",
           "title": "书面语介词与第二格",
           "rule": "重点掌握：angesichts、hinsichtlich、infolge、zugunsten、mangels。",
-          "examples": [],
+          "examples": [
+            "Aufgrund der hohen Nachfrage wurde das Angebot erweitert.｜由于需求旺盛，服务范围得到了扩大。"
+          ],
           "unitShape": [
             "angesichts",
             "hinsichtlich",
@@ -3016,17 +3156,18 @@
           ],
           "commonMistake": "格错误；与口语表达混用",
           "exercise": {
-            "question": "下面哪组内容属于“书面语介词与第二格”的学习重点？",
+            "question": "请选择符合书面语介词支配的句子。",
             "options": [
-              "angesichts、hinsichtlich、infolge、zugunsten、mangels",
-              "格错误、与口语表达混用",
-              "只记中文术语，不分析句子结构"
+              "Aufgrund der hohen Nachfrage wurde das Angebot erweitert.",
+              "Aufgrund die hohe Nachfrage wurde das Angebot erweitert.",
+              "Aufgrund von die hohe Nachfrage wurde das Angebot erweitert."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 angesichts、hinsichtlich、infolge、zugunsten、mangels；练习时注意：格错误；与口语表达混用。"
+            "explanation": "aufgrund 在正式书面语中通常支配第二格。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3039,7 +3180,9 @@
           "id": "advanced-connectors",
           "title": "逻辑连接词的语义与语序",
           "rule": "重点掌握：因果、让步、对比、递进、条件、结论。",
-          "examples": [],
+          "examples": [
+            "Die Kosten sind gestiegen; dennoch wird das Projekt fortgesetzt.｜成本有所上升；尽管如此，项目仍将继续。"
+          ],
           "unitShape": [
             "因果",
             "让步",
@@ -3050,23 +3193,26 @@
           ],
           "commonMistake": "只会使用 weil/aber；连接副词后忘记反语序",
           "exercise": {
-            "question": "下面哪组内容属于“逻辑连接词的语义与语序”的学习重点？",
+            "question": "请选择连接词与语序均正确的句子。",
             "options": [
-              "因果、让步、对比、递进、条件、结论",
-              "只会使用 weil/aber、连接副词后忘记反语序",
-              "只记中文术语，不分析句子结构"
+              "Die Kosten sind gestiegen; dennoch wird das Projekt fortgesetzt.",
+              "Die Kosten sind gestiegen; dennoch das Projekt wird fortgesetzt.",
+              "Die Kosten sind gestiegen; obwohl wird das Projekt fortgesetzt."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 因果、让步、对比、递进、条件、结论；练习时注意：只会使用 weil/aber；连接副词后忘记反语序。"
+            "explanation": "dennoch 是连接副词，占据第一位时有限动词紧随其后。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-correlative-connectors",
           "title": "成对连接结构",
           "rule": "重点掌握：einerseits ... andererseits、nicht nur ... sondern auch、je ... desto、weder ... noch。",
-          "examples": [],
+          "examples": [
+            "Sowohl die Methode als auch die Ergebnisse werden kritisch geprüft.｜研究方法和结果都会受到严格检验。"
+          ],
           "unitShape": [
             "einerseits ... andererseits",
             "nicht nur ... sondern auch",
@@ -3075,17 +3221,18 @@
           ],
           "commonMistake": "平行结构不一致；je-desto 语序错误",
           "exercise": {
-            "question": "下面哪组内容属于“成对连接结构”的学习重点？",
+            "question": "请选择结构平行的成对连接句。",
             "options": [
-              "einerseits ... andererseits、nicht nur ... sondern auch、je ... desto、weder ... noch",
-              "平行结构不一致、je-desto 语序错误",
-              "只记中文术语，不分析句子结构"
+              "Sowohl die Methode als auch die Ergebnisse werden geprüft.",
+              "Sowohl die Methode aber auch die Ergebnisse werden geprüft.",
+              "Die Methode sowohl als auch werden die Ergebnisse geprüft."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 einerseits ... andererseits、nicht nur ... sondern auch、je ... desto、weder ... noch；练习时注意：平行结构不一致；je-desto 语序错误。"
+            "explanation": "sowohl ... als auch ... 连接语法地位相同的两个成分。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3098,7 +3245,9 @@
           "id": "advanced-reported-speech",
           "title": "转述、引用和消息来源",
           "rule": "重点掌握：直接转间接引语、laut/nach/zufolge、angeblich、转述动词。",
-          "examples": [],
+          "examples": [
+            "Nach Angaben der Behörde sei die Versorgung gesichert.｜据主管部门称，供应已有保障。"
+          ],
           "unitShape": [
             "直接转间接引语",
             "laut/nach/zufolge",
@@ -3107,17 +3256,18 @@
           ],
           "commonMistake": "来源立场不清；zufolge 的位置和格错误",
           "exercise": {
-            "question": "下面哪组内容属于“转述、引用和消息来源”的学习重点？",
+            "question": "哪一句正确标记了消息来源和间接引语？",
             "options": [
-              "直接转间接引语、laut/nach/zufolge、angeblich、转述动词",
-              "来源立场不清、zufolge 的位置和格错误",
-              "只记中文术语，不分析句子结构"
+              "Nach Angaben der Behörde sei die Versorgung gesichert.",
+              "Nach Angaben der Behörde ist die Versorgung sei gesichert.",
+              "Nach Angaben der Behörde wäre die Versorgung sichern."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 直接转间接引语、laut/nach/zufolge、angeblich、转述动词；练习时注意：来源立场不清；zufolge 的位置和格错误。"
+            "explanation": "nach Angaben 标明来源，sei 用第一虚拟式保持转述距离。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3130,7 +3280,9 @@
           "id": "advanced-word-order-fields",
           "title": "德语句子拓扑场与长句定位",
           "rule": "重点掌握：前场、左括号、中场、右括号、后场。",
-          "examples": [],
+          "examples": [
+            "Im kommenden Semester | wird | die Universität neue Beratungsangebote | einführen.｜下学期，大学将推出新的咨询服务。"
+          ],
           "unitShape": [
             "前场",
             "左括号",
@@ -3140,23 +3292,26 @@
           ],
           "commonMistake": "只按单词顺序分析；找不到句框导致误判主干",
           "exercise": {
-            "question": "下面哪组内容属于“德语句子拓扑场与长句定位”的学习重点？",
+            "question": "句子“Im kommenden Semester wird die Universität neue Kurse anbieten.”中的左括号是什么？",
             "options": [
-              "前场、左括号、中场、右括号、后场",
-              "只按单词顺序分析、找不到句框导致误判主干",
-              "只记中文术语，不分析句子结构"
+              "wird",
+              "Im kommenden Semester",
+              "anbieten"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 前场、左括号、中场、右括号、后场；练习时注意：只按单词顺序分析；找不到句框导致误判主干。"
+            "explanation": "前场是 Im kommenden Semester，有限动词 wird 构成左括号，不定式 anbieten 构成右括号。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         },
         {
           "id": "advanced-middle-field-order",
           "title": "中场成分排序",
           "rule": "重点掌握：代词顺序、已知与新信息、TeKaMoLo、焦点位置。",
-          "examples": [],
+          "examples": [
+            "Die Universität hat den Studierenden gestern aus organisatorischen Gründen die Änderung mitgeteilt.｜大学昨天出于组织原因向学生通知了这一变动。"
+          ],
           "unitShape": [
             "代词顺序",
             "已知与新信息",
@@ -3165,17 +3320,18 @@
           ],
           "commonMistake": "机械套用 TeKaMoLo；忽略代词和信息结构",
           "exercise": {
-            "question": "下面哪组内容属于“中场成分排序”的学习重点？",
+            "question": "哪一句的中场排序最自然？",
             "options": [
-              "代词顺序、已知与新信息、TeKaMoLo、焦点位置",
-              "机械套用 TeKaMoLo、忽略代词和信息结构",
-              "只记中文术语，不分析句子结构"
+              "Die Universität hat den Studierenden gestern aus organisatorischen Gründen die Änderung mitgeteilt.",
+              "Die Universität hat die Änderung aus organisatorischen Gründen gestern den Studierenden mitgeteilt.",
+              "Die Universität den Studierenden hat gestern die Änderung mitgeteilt."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 代词顺序、已知与新信息、TeKaMoLo、焦点位置；练习时注意：机械套用 TeKaMoLo；忽略代词和信息结构。"
+            "explanation": "代词或较短的与格成分通常较早出现；时间通常位于原因和方式之前。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3188,7 +3344,9 @@
           "id": "advanced-noun-phrase-chains",
           "title": "长名词短语和第二格链",
           "rule": "重点掌握：核心名词、左定语、右置补足语、介词链。",
-          "examples": [],
+          "examples": [
+            "Die Ergebnisse der langfristigen Untersuchung der regionalen Arbeitsmärkte liegen vor.｜关于地区劳动力市场的长期研究结果已经公布。"
+          ],
           "unitShape": [
             "核心名词",
             "左定语",
@@ -3197,17 +3355,18 @@
           ],
           "commonMistake": "从左到右逐词翻译；第二格归属判断错误",
           "exercise": {
-            "question": "下面哪组内容属于“长名词短语和第二格链”的学习重点？",
+            "question": "“地区劳动力市场长期研究的结果”最符合正式书面语的表达是哪一项？",
             "options": [
-              "核心名词、左定语、右置补足语、介词链",
-              "从左到右逐词翻译、第二格归属判断错误",
-              "只记中文术语，不分析句子结构"
+              "die Ergebnisse der langfristigen Untersuchung der regionalen Arbeitsmärkte",
+              "die Ergebnisse von langfristig untersuchen die regionalen Arbeitsmärkte",
+              "die regionalen Arbeitsmärkte ihre langfristige Untersuchung Ergebnisse"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 核心名词、左定语、右置补足语、介词链；练习时注意：从左到右逐词翻译；第二格归属判断错误。"
+            "explanation": "多个第二格结构可以形成长名词短语，但分析时应从核心名词 Ergebnisse 开始。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3220,7 +3379,9 @@
           "id": "advanced-substitute-forms",
           "title": "代词、副词与替代形式的指代",
           "rule": "重点掌握：dabei/dadurch/damit、dessen/deren、dies/jenes、省略和回指。",
-          "examples": [],
+          "examples": [
+            "Die Nachfrage ist gestiegen. Darauf hat die Hochschule mit zusätzlichen Kursen reagiert.｜需求上升了。对此，高校增加了课程。"
+          ],
           "unitShape": [
             "dabei/dadurch/damit",
             "dessen/deren",
@@ -3229,17 +3390,18 @@
           ],
           "commonMistake": "找错指代对象；忽略整句回指",
           "exercise": {
-            "question": "下面哪组内容属于“代词、副词与替代形式的指代”的学习重点？",
+            "question": "请选择正确的指代表达：Die Nachfrage ist gestiegen. ___ reagiert die Hochschule mit zusätzlichen Kursen.",
             "options": [
-              "dabei/dadurch/damit、dessen/deren、dies/jenes、省略和回指",
-              "找错指代对象、忽略整句回指",
-              "只记中文术语，不分析句子结构"
+              "Darauf",
+              "Daran",
+              "Dafürhin"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 dabei/dadurch/damit、dessen/deren、dies/jenes、省略和回指；练习时注意：找错指代对象；忽略整句回指。"
+            "explanation": "reagieren auf 对应代副词 darauf。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3252,7 +3414,9 @@
           "id": "advanced-tense-text",
           "title": "篇章中的时态与叙述视角",
           "rule": "重点掌握：Präteritum、Perfekt、Plusquamperfekt、Futur II、历史现在时。",
-          "examples": [],
+          "examples": [
+            "Als die Reform begann, hatten mehrere Hochschulen bereits Pilotprojekte durchgeführt.｜改革开始时，多所高校已经开展过试点项目。"
+          ],
           "unitShape": [
             "Präteritum",
             "Perfekt",
@@ -3262,17 +3426,18 @@
           ],
           "commonMistake": "逐句选时态不顾篇章；Futur II 的推测义遗漏",
           "exercise": {
-            "question": "下面哪组内容属于“篇章中的时态与叙述视角”的学习重点？",
+            "question": "哪一句正确表达“改革开始前，试点已经完成”？",
             "options": [
-              "Präteritum、Perfekt、Plusquamperfekt、Futur II、历史现在时",
-              "逐句选时态不顾篇章、Futur II 的推测义遗漏",
-              "只记中文术语，不分析句子结构"
+              "Als die Reform begann, waren die Pilotprojekte bereits abgeschlossen worden.",
+              "Als die Reform begann, wurden die Pilotprojekte bereits abschließen.",
+              "Als die Reform begonnen hatte, sind die Pilotprojekte bereits abschloss."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 Präteritum、Perfekt、Plusquamperfekt、Futur II、历史现在时；练习时注意：逐句选时态不顾篇章；Futur II 的推测义遗漏。"
+            "explanation": "过去叙述中的先行动作可用过去完成时被动态 waren ... worden。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3285,7 +3450,9 @@
           "id": "advanced-word-formation",
           "title": "派生、复合与词性转换",
           "rule": "重点掌握：前缀语义、名词后缀、形容词后缀、复合词切分。",
-          "examples": [],
+          "examples": [
+            "nachhaltig → die Nachhaltigkeit; entscheiden → die Entscheidung｜可持续的 → 可持续性；决定 → 决定（名词）"
+          ],
           "unitShape": [
             "前缀语义",
             "名词后缀",
@@ -3294,17 +3461,18 @@
           ],
           "commonMistake": "只看词根不看前缀；复合词核心词识别错误",
           "exercise": {
-            "question": "下面哪组内容属于“派生、复合与词性转换”的学习重点？",
+            "question": "哪一组派生关系正确？",
             "options": [
-              "前缀语义、名词后缀、形容词后缀、复合词切分",
-              "只看词根不看前缀、复合词核心词识别错误",
-              "只记中文术语，不分析句子结构"
+              "nachhaltig → Nachhaltigkeit",
+              "entscheiden → Entscheidkeit",
+              "möglich → Mögliching"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 前缀语义、名词后缀、形容词后缀、复合词切分；练习时注意：只看词根不看前缀；复合词核心词识别错误。"
+            "explanation": "后缀 -keit 可以把部分形容词转化为阴性抽象名词。"
           },
           "priority": "P0",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3317,7 +3485,9 @@
           "id": "advanced-valency-transform",
           "title": "配价变化与句型转换",
           "rule": "重点掌握：主动被动、名词化、从句压缩、主语转换。",
-          "examples": [],
+          "examples": [
+            "Die Maßnahme erleichtert den Studierenden den Zugang. → Der Zugang wird den Studierenden erleichtert.｜该措施方便学生获得服务。→ 学生获得服务变得更加容易。"
+          ],
           "unitShape": [
             "主动被动",
             "名词化",
@@ -3326,17 +3496,18 @@
           ],
           "commonMistake": "改写后论元缺失；保持形式却改变原意",
           "exercise": {
-            "question": "下面哪组内容属于“配价变化与句型转换”的学习重点？",
+            "question": "“Die Maßnahme erleichtert den Studierenden den Zugang.”的正确被动转换是什么？",
             "options": [
-              "主动被动、名词化、从句压缩、主语转换",
-              "改写后论元缺失、保持形式却改变原意",
-              "只记中文术语，不分析句子结构"
+              "Der Zugang wird den Studierenden durch die Maßnahme erleichtert.",
+              "Den Studierenden werden der Zugang durch die Maßnahme erleichtert.",
+              "Die Studierenden werden den Zugang durch die Maßnahme erleichtern."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 主动被动、名词化、从句压缩、主语转换；练习时注意：改写后论元缺失；保持形式却改变原意。"
+            "explanation": "原句第四格宾语 der Zugang 在被动态中成为主语，与 wird 保持一致；第三格宾语保留。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3349,7 +3520,9 @@
           "id": "advanced-negation-scope",
           "title": "否定范围与限制表达",
           "rule": "重点掌握：nicht 的位置、kein、nur/kaum/keineswegs、部分否定。",
-          "examples": [],
+          "examples": [
+            "Nicht alle Befragten lehnen den Vorschlag ab.｜并非所有受访者都反对这一建议。"
+          ],
           "unitShape": [
             "nicht 的位置",
             "kein",
@@ -3358,17 +3531,18 @@
           ],
           "commonMistake": "否定范围不清；nicht 与 sondern 的对应错误",
           "exercise": {
-            "question": "下面哪组内容属于“否定范围与限制表达”的学习重点？",
+            "question": "“Nicht alle Befragten lehnen den Vorschlag ab.”表示什么？",
             "options": [
-              "nicht 的位置、kein、nur/kaum/keineswegs、部分否定",
-              "否定范围不清、nicht 与 sondern 的对应错误",
-              "只记中文术语，不分析句子结构"
+              "有些受访者不反对该建议",
+              "所有受访者都反对该建议",
+              "没有受访者反对该建议"
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 nicht 的位置、kein、nur/kaum/keineswegs、部分否定；练习时注意：否定范围不清；nicht 与 sondern 的对应错误。"
+            "explanation": "nicht 位于 all 之前，否定的是全称范围，而不是整个谓语。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     },
@@ -3381,7 +3555,9 @@
           "id": "advanced-punctuation",
           "title": "逗号、引号和复合句标点",
           "rule": "重点掌握：从句逗号、不定式组逗号、列举、直接引语。",
-          "examples": [],
+          "examples": [
+            "Die Autorin betont, dass Transparenz notwendig ist, warnt aber vor vorschnellen Schlüssen.｜作者强调透明度的重要性，但也警告不要仓促下结论。"
+          ],
           "unitShape": [
             "从句逗号",
             "不定式组逗号",
@@ -3390,17 +3566,18 @@
           ],
           "commonMistake": "从句边界无逗号；照搬中文标点",
           "exercise": {
-            "question": "下面哪组内容属于“逗号、引号和复合句标点”的学习重点？",
+            "question": "请选择逗号使用正确的句子。",
             "options": [
-              "从句逗号、不定式组逗号、列举、直接引语",
-              "从句边界无逗号、照搬中文标点",
-              "只记中文术语，不分析句子结构"
+              "Die Autorin betont, dass Transparenz notwendig ist, warnt aber vor vorschnellen Schlüssen.",
+              "Die Autorin betont dass Transparenz notwendig ist warnt, aber vor vorschnellen Schlüssen.",
+              "Die Autorin, betont, dass Transparenz notwendig ist warnt aber vor vorschnellen Schlüssen."
             ],
             "answer": 0,
-            "explanation": "本专题重点包括 从句逗号、不定式组逗号、列举、直接引语；练习时注意：从句边界无逗号；照搬中文标点。"
+            "explanation": "dass 从句两侧需要逗号；主句中 aber 连接谓语时不必额外切断主语和动词。"
           },
           "priority": "P1",
-          "reviewStatus": "能力框架已建立；德语例句和进阶题目将按专题继续补充。"
+          "reviewStatus": "规则、例句、易错点与自测已完成结构复核；正式课程使用前仍建议德语教师抽样审校。",
+          "cefr": "B2-C1"
         }
       ]
     }
