@@ -1,4 +1,20 @@
-const manifestPath = "data/questions/manifest.json";
+const manifestPaths = {
+  foundation: "data/questions/manifest.json",
+  advanced: "data/questions-advanced/manifest.json"
+};
+const stageDefaults = { foundation: "grammar_mcq", advanced: "advanced_grammar" };
+const stageCopy = {
+  foundation: {
+    eyebrow: "大一大二阶段",
+    description: "巩固核心语法、常用搭配、填空、改写、改错与基础篇章能力。",
+    quality: "题干、选项、语篇、答案与解析为原创模板内容，不含历年试题原文。基础题库已完成数量、字段和答案归属检查；尚未逐题完成德语教师审核。"
+  },
+  advanced: {
+    eyebrow: "大三大四阶段",
+    description: "训练复杂句法、学术词汇、篇章阅读、德语区文化、双向翻译与论证写作。",
+    quality: "高阶题库依据公开能力框架原创生成，不复制真题、教材例句或付费资料。已完成数量、字段、选项答案、语篇关联和重复 ID 检查；尚未逐题完成德语教师审核，也不作为官方模拟题。"
+  }
+};
 const params = new URLSearchParams(location.search);
 const setupPanel = document.querySelector("#setup-panel");
 const practiceRun = document.querySelector("#practice-run");
@@ -6,9 +22,14 @@ const questionStage = document.querySelector("#question-stage");
 const moduleOptions = document.querySelector("#module-options");
 const startButton = document.querySelector("#start-practice");
 const selectionSummary = document.querySelector("#selection-summary");
+const stageOptions = document.querySelector("#stage-options");
+const stageEyebrow = document.querySelector("#stage-eyebrow");
+const stageDescription = document.querySelector("#stage-description");
+const qualityCopy = document.querySelector("#quality-copy");
 
 let manifest;
-let selectedModule = params.get("module") || "grammar_mcq";
+let selectedStage = Object.hasOwn(manifestPaths, params.get("stage")) ? params.get("stage") : "foundation";
+let selectedModule = params.get("module") || stageDefaults[selectedStage];
 let selectedDifficulty = "all";
 let selectedCount = 10;
 let session = [];
@@ -51,6 +72,8 @@ const renderModules = () => {
     </button>`).join("");
   moduleOptions.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => {
     selectedModule = button.dataset.module;
+    params.set("module", selectedModule);
+    history.replaceState(null, "", `${location.pathname}?${params}`);
     moduleOptions.querySelectorAll("button").forEach((item) => item.classList.toggle("selected", item === button));
     updateSummary();
   }));
@@ -134,7 +157,7 @@ const reviewItem = (item) => ({
   id: `question-${item.id}`,
   title: item.prompt.length > 72 ? `${item.prompt.slice(0, 72)}...` : item.prompt,
   detail: `练习 · ${currentModule().label} · ${item.subtopic}`,
-  href: `practice.html?module=${item.module}&review=${item.id}`
+  href: `practice.html?stage=${selectedStage}&module=${item.module}&review=${item.id}`
 });
 
 const lockQuestion = () => {
@@ -206,7 +229,7 @@ const startPractice = async () => {
     }
     if (!session.length) throw new Error("没有找到符合条件的题目");
     if (session.some((item) => item.passageId)) {
-      const passageData = await fetch("data/questions/passages.json").then((response) => response.json());
+      const passageData = await fetch(manifest.passagesPath || "data/questions/passages.json").then((response) => response.json());
       passageMap = new Map(passageData.passages.map((item) => [item.id, item]));
     }
     sessionIndex = 0;
@@ -231,19 +254,39 @@ const exitPractice = () => {
   window.scrollTo({ top: setupPanel.offsetTop - 24, behavior: "smooth" });
 };
 
+const loadStage = async (stage, updateUrl = true) => {
+  startButton.disabled = true;
+  selectionSummary.textContent = "正在读取题库目录...";
+  const response = await fetch(manifestPaths[stage]);
+  if (!response.ok) throw new Error("题库目录加载失败");
+  manifest = await response.json();
+  selectedStage = stage;
+  if (!manifest.modules.some((item) => item.id === selectedModule)) selectedModule = manifest.modules[0].id;
+  stageOptions.querySelectorAll("button").forEach((button) => button.classList.toggle("selected", button.dataset.stage === stage));
+  stageEyebrow.textContent = stageCopy[stage].eyebrow;
+  stageDescription.textContent = stageCopy[stage].description;
+  qualityCopy.textContent = stageCopy[stage].quality;
+  document.querySelector("#bank-total").textContent = manifest.total.toLocaleString("zh-CN");
+  renderModules();
+  updateSummary();
+  startButton.disabled = false;
+  if (updateUrl) {
+    params.set("stage", stage);
+    params.set("module", selectedModule);
+    params.delete("review");
+    history.replaceState(null, "", `${location.pathname}?${params}`);
+  }
+};
+
 const initialize = async () => {
   try {
-    manifest = await fetch(manifestPath).then((response) => {
-      if (!response.ok) throw new Error("题库目录加载失败");
-      return response.json();
-    });
-    if (!manifest.modules.some((item) => item.id === selectedModule)) selectedModule = manifest.modules[0].id;
-    document.querySelector("#bank-total").textContent = manifest.total.toLocaleString("zh-CN");
-    renderModules();
     bindSegment("#difficulty-options", (value) => { selectedDifficulty = value; });
     bindSegment("#count-options", (value) => { selectedCount = Number(value); });
-    updateSummary();
-    startButton.disabled = false;
+    stageOptions.querySelectorAll("button").forEach((button) => button.addEventListener("click", async () => {
+      if (button.dataset.stage === selectedStage) return;
+      try { await loadStage(button.dataset.stage); } catch (error) { selectionSummary.textContent = error.message; }
+    }));
+    await loadStage(selectedStage, false);
     if (params.get("review")) startPractice();
   } catch (error) {
     selectionSummary.textContent = error.message;

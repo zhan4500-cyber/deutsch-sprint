@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>综合练习 | Deutsch Sprint</title>
-    <meta name="description" content="面向大学德语基础阶段的语法、词汇、填空、改写、改错与完形练习。" />
+    <meta name="description" content="面向大学不同阶段的德语语法、词汇、阅读、翻译、写作与篇章练习。" />
     <link rel="stylesheet" href="learner.css" />
     <link rel="stylesheet" href="practice.css" />
   </head>
@@ -24,14 +24,22 @@
           <h1>练习中心</h1>
           <p class="lead">从题型和难度开始，组成一轮安静、清晰的针对性训练。</p>
         </div>
-        <div class="bank-total"><strong id="bank-total">8,000</strong><span>道原创练习</span></div>
+        <div class="bank-total"><strong id="bank-total">8,000</strong><span>道当前阶段练习</span></div>
       </section>
 
       <section class="setup-panel" id="setup-panel">
         <div class="setup-copy">
-          <p class="eyebrow">大一大二阶段</p>
-          <h2>选择今天要练的内容。</h2>
-          <p>题目已完成程序结构校验，目前作为日常训练内容使用。</p>
+          <p class="eyebrow" id="stage-eyebrow">学习阶段</p>
+          <h2>先选阶段，再开始练习。</h2>
+          <p id="stage-description">正在读取对应阶段的练习目录。</p>
+        </div>
+
+        <div class="setup-control">
+          <span class="control-label">学习阶段</span>
+          <div class="segmented stage-segmented" id="stage-options" aria-label="选择学习阶段">
+            <button class="selected" type="button" data-stage="foundation">大一大二</button>
+            <button type="button" data-stage="advanced">大三大四</button>
+          </div>
         </div>
 
         <div class="setup-control">
@@ -76,7 +84,7 @@
 
       <section class="quality-note">
         <strong>内容说明</strong>
-        <p>题干、选项、语篇、答案与解析为原创模板内容，不含历年试题原文。题库已完成数量、字段、答案归属和重复项检查；尚未逐题完成德语教师审核，因此不标注为官方模拟题。</p>
+        <p id="quality-copy">题干、选项、语篇、答案与解析为原创模板内容，不含历年试题原文。题库已完成数量、字段、答案归属和重复项检查；尚未逐题完成德语教师审核，因此不标注为官方模拟题。</p>
       </section>
     </main>
 

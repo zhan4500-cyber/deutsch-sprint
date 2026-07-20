@@ -23,6 +23,7 @@
 .segmented button { min-height: 2.8rem; border: 0; border-right: 1px solid var(--line); color: var(--muted); background: #fff; font-weight: 800; }
 .segmented button:last-child { border-right: 0; }
 .segmented button.selected { color: #fff; background: var(--red-700); }
+.stage-segmented { width: min(100%, 30rem); grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .start-row { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .start-row p { margin: 0; color: var(--muted); }
 .start-button { min-width: 9rem; border: 0; }
@@ -45,6 +46,7 @@
 .passage { margin-bottom: 1.5rem; padding: 1.2rem; border-left: 4px solid var(--red-700); background: var(--red-050); }
 .passage h2 { margin: 0 0 0.8rem; color: var(--red-900); font-size: 1rem; }
 .passage p { margin: 0; line-height: 1.9; }
+.passage:not(:has(.passage-blank)) p { white-space: pre-line; }
 .passage-blank { display: inline-flex; min-width: 2rem; justify-content: center; margin: 0 0.1rem; padding: 0 0.25rem; border-bottom: 1px solid var(--red-700); color: var(--red-800); font-weight: 900; }
 .passage-blank.current { color: #fff; background: var(--red-700); }
 .choice-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1.5rem; }

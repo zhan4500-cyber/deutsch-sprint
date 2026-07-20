@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "stage": "advanced",
+  "label": "大三大四高阶综合练习题库",
+  "total": 8000,
+  "contentStatus": "原创模板题，已完成结构与答案归属校验，尚未逐题完成教师审核",
+  "passagesPath": "data/questions-advanced/passages.json",
+  "modules": [
+    {
+      "id": "advanced_grammar",
+      "label": "高阶语法",
+      "description": "间接引语、复杂句法与正式语体",
+      "count": 1500,
+      "path": "data/questions-advanced/advanced_grammar.json"
+    },
+    {
+      "id": "advanced_vocab",
+      "label": "高阶词汇搭配",
+      "description": "学术、社会、科技与公共议题表达",
+      "count": 1500,
+      "path": "data/questions-advanced/advanced_vocab.json"
+    },
+    {
+      "id": "advanced_cloze",
+      "label": "篇章完形",
+      "description": "连接、指代、语序与篇章重构",
+      "count": 1000,
+      "path": "data/questions-advanced/advanced_cloze.json"
+    },
+    {
+      "id": "advanced_reading",
+      "label": "长文阅读",
+      "description": "主旨、细节、推断与论证功能",
+      "count": 1200,
+      "path": "data/questions-advanced/advanced_reading.json"
+    },
+    {
+      "id": "advanced_culture",
+      "label": "德语区文化",
+      "description": "政治制度、地理、文学与历史常识",
+      "count": 800,
+      "path": "data/questions-advanced/advanced_culture.json"
+    },
+    {
+      "id": "advanced_translation",
+      "label": "双向翻译",
+      "description": "学术与公共语体中的意义重组",
+      "count": 1000,
+      "path": "data/questions-advanced/advanced_translation.json"
+    },
+    {
+      "id": "advanced_writing",
+      "label": "写作与改错",
+      "description": "论证微写作、语域控制与句法修正",
+      "count": 1000,
+      "path": "data/questions-advanced/advanced_writing.json"
+    }
+  ]
+}
