@@ -107,11 +107,11 @@ Promise.all([fetch("data/skill-lessons.json").then((r) => r.json()), fetch("data
   const listening = skills.modules.filter((m) => m.id.startsWith("listening-")).flatMap((m) => m.lessons).slice(0, 2);
   const readingExtras = {
     "repair-reading": [
-      { id: "extra-1", type: "mcq", prompt: "面向消费者的标识应展示什么？", options: ["可维修性和预计费用", "企业利润和广告预算", "设备颜色和重量", "维修人员的姓名"], answer: 0 },
-      { id: "extra-2", type: "mcq", prompt: "独立维修店需要获得什么条件？", options: ["可靠的备件与说明书渠道", "新设备销售许可", "统一的门店装修", "更高的能源消耗"], answer: 0 }
+      { id: "extra-1", type: "mcq", prompt: "面向消费者的标识应展示什么？", options: ["企业利润和广告预算", "设备颜色和重量", "可维修性和预计费用", "维修人员的姓名"], answer: 2 },
+      { id: "extra-2", type: "mcq", prompt: "独立维修店需要获得什么条件？", options: ["新设备销售许可", "可靠的备件与说明书渠道", "统一的门店装修", "更高的能源消耗"], answer: 1 }
     ],
     "sentence-fields": [
-      { id: "extra-1", type: "mcq", prompt: "zwar ... jedoch 在句中表达什么关系？", options: ["让步与转折", "时间先后", "目的与结果", "条件与假设"], answer: 0 },
+      { id: "extra-1", type: "mcq", prompt: "zwar ... jedoch 在句中表达什么关系？", options: ["时间先后", "目的与结果", "条件与假设", "让步与转折"], answer: 3 },
       { id: "extra-2", type: "mcq", prompt: "die bislang nur in einzelnen Städten erprobte Regelung 指什么？", options: ["此前只在部分城市试行的规定", "已经全国实施的规定", "委员会内部的会议规则", "被立即取消的规定"], answer: 0 }
     ]
   };

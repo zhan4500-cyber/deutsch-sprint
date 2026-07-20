@@ -52,6 +52,23 @@ FALLBACK_OVERRIDES = {
     "Demonstrant": "示威者；抗议者",
     "Gb": "吉字节",
     "Kfz": "机动车辆",
+    "bisherig": "迄今的；以往的",
+    "derzeitig": "当前的；现时的",
+    "kommunistisch": "共产主义的",
+    "industriell": "工业的；产业的",
+    "Source": "来源；源",
+    "Tool": "工具",
+    "Ranking": "排名；等级",
+    "Dominanz": "支配；主导地位",
+}
+DIRECT_OVERRIDES = {
+    "ferner": "此外；而且",
+    "Miss": "小姐；选美冠军",
+    "Behinderung": "残障；妨碍",
+    "auswirken": "产生影响；起作用",
+    "Kokain": "可卡因",
+    "Gelehrte": "学者",
+    "religiös": "宗教的；虔诚的",
 }
 
 
@@ -66,7 +83,7 @@ def sanitize_fallback(item):
         value = part.strip()
         if value and HAS_CJK.search(value) and value not in parts:
             parts.append(value)
-        if len(parts) == 2:
+        if len(parts) == 1:
             break
     return "；".join(parts) or f"德语词汇“{item.get('term', '')}”（释义待复核）"
 
@@ -78,7 +95,7 @@ def clean_candidates(values):
         if not HAS_CJK.search(text) or text in cleaned:
             continue
         cleaned.append(text)
-        if len(cleaned) == 3:
+        if len(cleaned) == 1:
             break
     return cleaned
 
@@ -89,7 +106,14 @@ def main():
     updated = 0
 
     for item in data["items"]:
-        if item.get("translationStatus") != "open_dictionary":
+        if item.get("term") in DIRECT_OVERRIDES:
+            item["meaning"] = DIRECT_OVERRIDES[item["term"]]
+            item["translationStatus"] = "manual_override"
+            continue
+        if item.get("translationStatus") == "english_pivot_reviewed":
+            item["meaning"] = sanitize_fallback(item)
+            continue
+        if item.get("translationStatus") not in {"open_dictionary", "direct_de_dictionary"}:
             continue
         lookup = item.get("lemma") or item.get("term", "")
         try:

@@ -47,6 +47,9 @@ assert(!foundationGrammar.some((topic) => topic.exercise.question.includes("æ˜¯å
 assert(foundationGrammar.every((topic) => topic.application?.prompt && topic.application?.modelAnswer), "Foundation grammar is missing transfer exercises");
 const answerPositions = foundationGrammar.reduce((counts, topic) => { counts[topic.exercise.answer] = (counts[topic.exercise.answer] || 0) + 1; return counts; }, {});
 assert(Object.keys(answerPositions).length >= 3 && Object.values(answerPositions).every((count) => count >= 9), "Foundation grammar answer positions are not distributed");
+const advancedGrammar = grammarTopics.filter((topic) => topic.id.startsWith("advanced-"));
+const advancedAnswerPositions = advancedGrammar.reduce((counts, topic) => { counts[topic.exercise.answer] = (counts[topic.exercise.answer] || 0) + 1; return counts; }, {});
+assert(Object.keys(advancedAnswerPositions).length === 3 && Object.values(advancedAnswerPositions).every((count) => count >= 9), "Advanced grammar answer positions are not distributed");
 
 const quotes = readJson("data/classic-quotes.json");
 assert(quotes.items.length >= 8, "Classic quote collection is too small");
@@ -74,6 +77,9 @@ for (const module of skills.modules) {
 }
 assert(lessons.modules.find((module) => module.id === "foundation-dictation")?.lessons.length >= 12, "Foundation dictation course is incomplete");
 assert(lessons.modules.find((module) => module.id === "foundation-writing")?.lessons.length >= 8, "Foundation writing course is incomplete");
+const skillMcq = lessons.modules.flatMap((module) => module.lessons.flatMap((lesson) => lesson.questions.filter((question) => question.type === "mcq")));
+const skillAnswerPositions = skillMcq.reduce((counts, question) => { counts[question.answer] = (counts[question.answer] || 0) + 1; return counts; }, {});
+assert(Object.keys(skillAnswerPositions).length === 4 && Math.max(...Object.values(skillAnswerPositions)) - Math.min(...Object.values(skillAnswerPositions)) <= 1, "Skill lesson answer positions are biased");
 
 const bankDirectories = ["data/questions", "data/questions-advanced"];
 let questionTotal = 0;

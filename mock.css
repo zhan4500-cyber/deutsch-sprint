@@ -3,8 +3,9 @@
 .timer span,.timer strong { display:block; }
 .timer span { color:var(--muted);font-size:.8rem;font-weight:800; }
 .timer strong { margin:.3rem 0 .7rem;color:var(--red-900);font-size:2.4rem;font-variant-numeric:tabular-nums; }
-.section-tabs { display:flex;gap:.5rem;overflow:auto;margin:2rem 0 1rem;padding-bottom:.4rem; }
-.section-tabs button { flex:0 0 auto;padding:.65rem .85rem;border:1px solid var(--line);border-radius:.4rem;background:#fff;color:var(--ink);font-weight:800; }
+.section-tabs { display:flex;gap:.5rem;overflow-x:auto;margin:2rem 0 1rem;padding-bottom:.4rem;scrollbar-width:none;scroll-snap-type:x proximity; }
+.section-tabs::-webkit-scrollbar { display:none; }
+.section-tabs button { flex:0 0 auto;padding:.65rem .85rem;border:1px solid var(--line);border-radius:.4rem;background:#fff;color:var(--ink);font-weight:800;scroll-snap-align:start; }
 .section-tabs button.active { border-color:var(--red-700);background:var(--red-700);color:#fff; }
 .mock-work { min-height:28rem; }
 .mock-section-head { display:flex;justify-content:space-between;gap:1rem;align-items:start;padding-bottom:1rem;border-bottom:1px solid var(--line); }

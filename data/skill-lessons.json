@@ -43,12 +43,12 @@
               "type": "mcq",
               "prompt": "图书馆工作日将开放到几点？",
               "options": [
-                "午夜十二点",
                 "晚上十点",
                 "晚上十一点",
+                "午夜十二点",
                 "全天开放"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "原文使用 bis Mitternacht。"
             },
             {
@@ -69,12 +69,12 @@
               "type": "mcq",
               "prompt": "学生代表还提出了什么要求？",
               "options": [
-                "增加安静的小组空间",
                 "取消安全人员",
                 "周末闭馆",
-                "减少座位"
+                "减少座位",
+                "增加安静的小组空间"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "学生代表欢迎试行，同时要求更多 ruhige Gruppenräume。"
             },
             {
@@ -137,12 +137,12 @@
               "type": "mcq",
               "prompt": "哪些指标在试验中发生了变化？",
               "options": [
-                "订单量基本稳定，病假减少",
                 "订单量大幅下降",
+                "订单量基本稳定，病假减少",
                 "病假增加",
                 "工作时间恢复为五天"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "受访者对比了稳定的订单量和下降的病假。"
             },
             {
@@ -150,12 +150,12 @@
               "type": "mcq",
               "prompt": "企业为试验做了什么组织调整？",
               "options": [
-                "缩短会议并明确职责",
                 "降低工资",
                 "取消团队合作",
+                "缩短会议并明确职责",
                 "增加每日工时"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "她强调并非简单删掉一天。"
             },
             {
@@ -229,12 +229,12 @@
               "type": "mcq",
               "prompt": "作者的中心观点是什么？",
               "options": [
-                "维修权需要一套相互配合的措施",
                 "所有旧设备都必须维修",
                 "只需降低新设备价格",
-                "独立维修店应被取消"
+                "独立维修店应被取消",
+                "维修权需要一套相互配合的措施"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "末句用 ein abgestimmtes System 概括全文。"
             },
             {
@@ -242,12 +242,12 @@
               "type": "mcq",
               "prompt": "哪种情况会让维修权失效？",
               "options": [
-                "备件昂贵或缺少技术信息",
                 "设备可以拆卸",
+                "备件昂贵或缺少技术信息",
                 "维修费用透明",
                 "消费者获得明确标识"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "第一段直接列出了两个障碍。"
             },
             {
@@ -255,12 +255,12 @@
               "type": "mcq",
               "prompt": "作者为什么没有主张维修一切旧设备？",
               "options": [
-                "部分老旧设备能耗过高",
                 "旧设备没有备件",
                 "消费者不喜欢维修",
+                "部分老旧设备能耗过高",
                 "法律禁止维修"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "这是文章主动提出的限制条件。"
             },
             {
@@ -332,12 +332,12 @@
               "type": "mcq",
               "prompt": "um zu prüfen 表示什么功能？",
               "options": [
-                "委员会成立的目的",
                 "规则的结果",
                 "作者的让步",
-                "地区差异的原因"
+                "地区差异的原因",
+                "委员会成立的目的"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "um ... zu 标记目的。"
             },
             {
@@ -345,12 +345,12 @@
               "type": "mcq",
               "prompt": "dass 从句中的核心判断是什么？",
               "options": [
-                "立即实施可能制造更多问题",
                 "委员会尚未成立",
+                "立即实施可能制造更多问题",
                 "所有城市都已试行",
                 "地区差异已经消失"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "zwar ... jedoch 连接吸引力与潜在问题。"
             },
             {
@@ -409,12 +409,12 @@
               "type": "mcq",
               "prompt": "nur dann ..., wenn ... 表达什么关系？",
               "options": [
-                "必要条件",
                 "单纯时间先后",
                 "无条件让步",
+                "必要条件",
                 "目的"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "只有满足 wenn 从句中的条件，主句结果才成立。"
             },
             {
@@ -496,12 +496,12 @@
               "type": "mcq",
               "prompt": "“只有在……时才……”最适合哪种结构？",
               "options": [
-                "nur dann, wenn",
                 "obwohl",
                 "sowohl ... als auch",
-                "je ... desto"
+                "je ... desto",
+                "nur dann, wenn"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "nur dann, wenn 明确必要条件。"
             },
             {
@@ -509,12 +509,12 @@
               "type": "mcq",
               "prompt": "“不应只……还应……”最适合哪种结构？",
               "options": [
-                "nicht nur ..., sondern auch",
                 "weder ... noch",
+                "nicht nur ..., sondern auch",
                 "entweder ... oder",
                 "zwar ... aber"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "该结构表达递进补充。"
             },
             {
@@ -584,12 +584,12 @@
               "type": "mcq",
               "prompt": "哪一句最适合作为有条件的中心论点？",
               "options": [
-                "Online-Vorlesungen sind sinnvoll, sofern Austausch und Betreuung gesichert bleiben.",
                 "Online ist modern.",
                 "Alle Vorlesungen müssen sofort digital werden.",
+                "Online-Vorlesungen sind sinnvoll, sofern Austausch und Betreuung gesichert bleiben.",
                 "Dieses Thema hat Vor- und Nachteile."
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "中心论点既表态又给出边界。"
             },
             {
@@ -672,12 +672,12 @@
               "type": "mcq",
               "prompt": "哪一项不是摘要必须保留的信息？",
               "options": [
-                "表格是一个具体例子",
                 "门户本身不足以保证透明",
                 "数据需要解释和更新",
-                "决策仍需可追溯"
+                "决策仍需可追溯",
+                "表格是一个具体例子"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "摘要可以删去用于说明障碍的具体例子。"
             },
             {
@@ -685,12 +685,12 @@
               "type": "mcq",
               "prompt": "作者对数据门户的态度是什么？",
               "options": [
-                "肯定其作用，但反对把它当成充分条件",
                 "完全否定",
+                "肯定其作用，但反对把它当成充分条件",
                 "认为门户能自动解决问题",
                 "没有任何判断"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "末句明确给出有限肯定。"
             },
             {
@@ -759,12 +759,12 @@
               "type": "mcq",
               "prompt": "哪一句请求最得体？",
               "options": [
-                "Ich möchte Sie daher um eine Verlängerung der Abgabefrist bis zum 18. Juni bitten.",
                 "Sie müssen mir mehr Zeit geben.",
                 "Ich schaffe es halt nicht.",
+                "Ich möchte Sie daher um eine Verlängerung der Abgabefrist bis zum 18. Juni bitten.",
                 "Vielleicht irgendwann nächste Woche?"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "正式请求应具体、礼貌并说明日期。"
             },
             {
@@ -848,12 +848,12 @@
               "type": "mcq",
               "prompt": "哪个机构由选民直接选举？",
               "options": [
-                "德国联邦议院",
                 "联邦参议院",
                 "联邦宪法法院",
-                "联邦政府"
+                "联邦政府",
+                "德国联邦议院"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "Bundestag wird vom Volk gewählt。"
             },
             {
@@ -861,12 +861,12 @@
               "type": "mcq",
               "prompt": "联邦参议院由谁参与组成？",
               "options": [
-                "各州政府",
                 "大学校长",
+                "各州政府",
                 "联邦法院法官",
                 "各城市市长"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "它代表各州政府参与联邦立法。"
             },
             {
@@ -874,12 +874,12 @@
               "type": "mcq",
               "prompt": "教育和文化主要由谁负责？",
               "options": [
-                "各州",
                 "欧盟",
                 "联邦宪法法院",
+                "各州",
                 "联邦总统个人"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "因此不同州的教育规定可能不同。"
             },
             {
@@ -952,12 +952,12 @@
               "type": "mcq",
               "prompt": "柏林墙开放发生于何时？",
               "options": [
-                "1989 年 11 月 9 日",
                 "1961 年 8 月",
                 "1990 年 10 月 3 日",
-                "1949 年 5 月"
+                "1949 年 5 月",
+                "1989 年 11 月 9 日"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "原文将其与 1989 年秋季和平抗议相连。"
             },
             {
@@ -965,12 +965,12 @@
               "type": "mcq",
               "prompt": "10 月 3 日纪念什么？",
               "options": [
-                "德国统一",
                 "柏林墙建立",
+                "德国统一",
                 "欧盟成立",
                 "基本法通过"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "这是 Tag der Deutschen Einheit。"
             },
             {
@@ -1030,12 +1030,12 @@
               "type": "mcq",
               "prompt": "plurizentrisch 在这里是什么意思？",
               "options": [
-                "存在多个被认可的标准中心",
                 "只有德国标准正确",
                 "所有地区只说方言",
+                "存在多个被认可的标准中心",
                 "德语没有书面标准"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "德国、奥地利、瑞士均有自己的标准变体。"
             },
             {
@@ -1056,12 +1056,12 @@
               "type": "mcq",
               "prompt": "瑞士德语区的标准德语主要用于什么场景？",
               "options": [
-                "书面和正式场景",
                 "只在家庭使用",
                 "完全不用",
-                "只在国外使用"
+                "只在国外使用",
+                "书面和正式场景"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "日常口语常用方言。"
             },
             {
@@ -1121,12 +1121,12 @@
               "type": "mcq",
               "prompt": "文中没有把房租上涨归因于什么？",
               "options": [
-                "居民不愿搬家",
                 "住房不足",
+                "居民不愿搬家",
                 "建设用地紧张",
                 "建设成本提高"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "原文没有讨论居民搬家意愿。"
             },
             {
@@ -1134,12 +1134,12 @@
               "type": "mcq",
               "prompt": "作者如何评价单一政策？",
               "options": [
-                "通常不足以解决问题",
                 "总能立即见效",
                 "应该全部取消",
+                "通常不足以解决问题",
                 "只需要租金规定"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "第二段首句直接概括。"
             },
             {
@@ -1212,12 +1212,12 @@
               "type": "mcq",
               "prompt": "第一人称叙述者有什么基本限制？",
               "options": [
-                "不一定知道其他人物的思想",
                 "不能描述过去",
                 "必须说真话",
-                "不能表达感受"
+                "不能表达感受",
+                "不一定知道其他人物的思想"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "第一人称只拥有自身感知范围。"
             },
             {
@@ -1225,12 +1225,12 @@
               "type": "mcq",
               "prompt": "全知叙述最典型的能力是什么？",
               "options": [
-                "跨人物、时间和地点进行观察评论",
                 "只复述对话",
+                "跨人物、时间和地点进行观察评论",
                 "完全不作评价",
                 "只能跟随一个人物"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "auktoriale Erzählinstanz 可以 überblicken und kommentieren。"
             },
             {
@@ -1238,12 +1238,12 @@
               "type": "mcq",
               "prompt": "视角矛盾应当如何理解？",
               "options": [
-                "可能是有意的文学构造",
                 "必然是印刷错误",
                 "证明作者不懂语法",
+                "可能是有意的文学构造",
                 "与阅读无关"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "现代文本可能用矛盾制造不可靠性或多重解释。"
             },
             {
