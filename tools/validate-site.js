@@ -28,10 +28,31 @@ assert(!vocabIndex.items.some((entry) => entry.meaning.startsWith("英文释义�
 assert(!vocabIndex.items.some((entry) => entry.translationStatus === "open_dictionary"), "Vocabulary index still contains unsanitized English-pivot meanings");
 assert(!vocabIndex.items.some((entry) => /(^|；)\s*(?:vt|vi|n|a|adv|adj)\./i.test(entry.meaning)), "Vocabulary index still contains dictionary part-of-speech noise");
 assert(vocabIndex.formCoverage?.pluralForms >= 2500, "Vocabulary index does not contain enough verified noun plural forms");
+assert(vocabIndex.ciaCoverage?.ipa >= 4800, "C-I-A vocabulary does not contain enough IPA matches");
+assert(vocabIndex.ciaCoverage?.conjugationDictionary >= 880, "C-I-A vocabulary does not contain enough dictionary conjugations");
 for (const entry of vocabIndex.items) {
   for (const field of ["term", "stage", "cefr", "pos", "meaning", "usagePattern", "example", "exampleTranslation", "reviewStatus"]) assert(entry[field], `Indexed vocabulary ${entry.id} is missing ${field}`);
   assert(entry.exampleTranslationLanguage === "zh", `Indexed vocabulary ${entry.id} does not have a Chinese example translation`);
+  assert(entry.cia?.title && entry.cia?.core?.zh && entry.cia?.morphology?.logic && entry.cia?.application?.example, `Indexed vocabulary ${entry.id} has an incomplete C-I-A card`);
+  assert(["compound", "prefix", "suffix", "simple"].includes(entry.cia?.morphology?.type), `Indexed vocabulary ${entry.id} has an invalid morphology type`);
+  if (entry.cia?.application?.conjugation) {
+    const conjugation = entry.cia?.application?.conjugation;
+    assert(conjugation?.present?.ich && conjugation?.present?.du && conjugation?.present?.er && conjugation?.preterite && conjugation?.participle, `Indexed verb ${entry.id} has incomplete conjugation`);
+    assert(!/\b(?:aus|an|auf|ein|mit|vor|zu) (?:mich|dich|sich)\b/.test(Object.values(conjugation?.present || {}).join(" ")), `Indexed verb ${entry.id} has incorrect reflexive word order`);
+  }
 }
+
+const indexedByTerm = new Map(vocabIndex.items.map((entry) => [entry.term, entry]));
+const fahrenCard = indexedByTerm.get("fahren")?.cia;
+const vorbereitenCard = indexedByTerm.get("vorbereiten")?.cia;
+const gelangenCard = indexedByTerm.get("gelangen")?.cia;
+const befreundenCard = indexedByTerm.get("befreunden")?.cia;
+assert(fahrenCard?.title === "fahren, fuhr, gefahren", "C-I-A sentinel: fahren lost its irregular forms");
+assert(vorbereitenCard?.title === "sich vorbereiten, bereitete sich vor, vorbereitet", "C-I-A sentinel: sich vorbereiten has incorrect separable forms");
+assert(vorbereitenCard?.application?.conjugation?.present?.ich === "bereite mich vor", "C-I-A sentinel: sich vorbereiten has incorrect reflexive word order");
+assert(gelangenCard?.title === "gelangen, gelangte, gelangt", "C-I-A sentinel: gelangen has incorrect regular forms");
+assert(befreundenCard?.title === "befreunden, befreundete, befreundet", "C-I-A sentinel: befreunden has incorrect dental-ending forms");
+assert(!indexedByTerm.get("sinngemäß")?.cia?.application?.conjugation, "C-I-A sentinel: sinngemäß was misclassified as a verb");
 
 const grammar = readJson("data/grammar-library.json");
 const grammarTopics = grammar.structure.flatMap((group) => group.topics);

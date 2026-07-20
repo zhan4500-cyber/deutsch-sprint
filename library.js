@@ -4,15 +4,21 @@ const searchInput = document.querySelector("#library-search");
 const countNumber = document.querySelector("#library-count-number");
 const countLabel = document.querySelector("#library-count-label");
 let libraryData = null;
+let vocabIndex = new Map();
 let activeStage = "all";
 
 const searchMatches = (values, query) =>
   values.join(" ").toLocaleLowerCase().includes(query.toLocaleLowerCase());
 
-const renderEntry = (entry) => {
+const vocabKey = (stage, term) => `${stage}:${String(term).replace(/^(der|die|das)\s+/i, "").toLocaleLowerCase("de-DE")}`;
+
+const renderEntry = (entry, stage) => {
+  const indexed = vocabIndex.get(vocabKey(stage, entry.term));
   const details = [
+    indexed?.cia ? `<p><strong>C-I-A 词头</strong><span lang="de">${indexed.cia.title}</span><small>${indexed.cia.ipa || "IPA 待人工核对"}</small></p>` : "",
     entry.collocation ? `<p><strong>常用搭配</strong><span lang="de">${entry.collocation}</span></p>` : "",
-    entry.example ? `<p><strong>原创例句</strong><span lang="de">${entry.example}</span>${entry.translation ? `<small>${entry.translation}</small>` : ""}</p>` : ""
+    entry.example ? `<p><strong>原创例句</strong><span lang="de">${entry.example}</span>${entry.translation ? `<small>${entry.translation}</small>` : ""}</p>` : "",
+    indexed ? `<a class="entry-cia-link" href="study.html?kind=vocab&amp;stage=${stage}&amp;word=${encodeURIComponent(indexed.id)}">进入 C-I-A 主动回忆</a>` : ""
   ].filter(Boolean).join("");
   return `
   <details class="word-entry">
@@ -45,7 +51,7 @@ const renderVocab = () => {
           <article class="theme-card">
             <span class="card-label">主题词包 · ${theme.entries.length} 词</span>
             <h3>${theme.label}</h3><p>${theme.usageFocus}</p>
-            <div class="entry-list">${theme.entries.map(renderEntry).join("")}</div>
+            <div class="entry-list">${theme.entries.map((entry) => renderEntry(entry, stage.id)).join("")}</div>
             <a class="card-link" href="study.html?kind=vocab&amp;slug=${theme.id}">练习这一主题</a>
           </article>`).join("")}</div>
       </section>`;
@@ -105,9 +111,15 @@ document.querySelectorAll(".stage-filter").forEach((button) => button.addEventLi
 }));
 searchInput.addEventListener("input", render);
 
-fetch(`data/${libraryType}-library.json`).then((response) => {
+const libraryRequest = fetch(`data/${libraryType}-library.json`).then((response) => {
   if (!response.ok) throw new Error("Library data could not be loaded.");
   return response.json();
-}).then((data) => { libraryData = data; render(); }).catch(() => {
+});
+const requests = libraryType === "vocab" ? [libraryRequest, fetch("data/vocab-index.json").then((response) => response.json())] : [libraryRequest];
+Promise.all(requests).then(([data, index]) => {
+  libraryData = data;
+  if (index) vocabIndex = new Map(index.items.map((entry) => [vocabKey(entry.stage, entry.term), entry]));
+  render();
+}).catch(() => {
   results.innerHTML = '<div class="empty-state">资料暂时没有加载成功，请稍后刷新。</div>';
 });

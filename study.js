@@ -40,15 +40,6 @@ const rotateTake = (items, count, seedText) => {
   return Array.from({ length: Math.min(count, items.length) }, (_, index) => items[(offset + index) % items.length]);
 };
 
-const vocabDetails = (entry) => [
-  `<li><strong>释义</strong>${escapeHtml(entry.meaning)}</li>`,
-  entry.article ? `<li><strong>冠词</strong><span lang="de">${escapeHtml(entry.article)}</span></li>` : "",
-  entry.plural ? `<li><strong>复数</strong><span lang="de">${escapeHtml(entry.plural)}</span></li>` : "",
-  entry.verbForms ? `<li><strong>主要形式</strong><span lang="de">${escapeHtml(entry.verbForms)}</span></li>` : "",
-  entry.usagePattern ? `<li><strong>用法与搭配</strong><span lang="de">${escapeHtml(entry.usagePattern)}</span></li>` : "",
-  entry.example ? `<li><strong>例句</strong><span lang="de">${escapeHtml(entry.example)}</span>${entry.exampleTranslation ? `<br><span class="muted">${escapeHtml(entry.exampleTranslation)}</span>` : ""}</li>` : ""
-].filter(Boolean).join("");
-
 const renderVocabSession = (theme, { stage, count = 10, daily = false, fixed = false, onComplete, round = 0 } = {}) => {
   const date = new Date().toISOString().slice(0, 10);
   const entries = fixed ? theme.entries.slice(0, count) : rotateTake(theme.entries, count, `${date}-${theme.id}-${daily ? "daily" : `theme-${round}`}`);
@@ -73,11 +64,11 @@ const renderVocabSession = (theme, { stage, count = 10, daily = false, fixed = f
       return;
     }
     const entry = entries[index];
-    const wordLabel = [entry.article, entry.term].filter(Boolean).join(" ");
+    const wordLabel = [entry.article, entry.term.replace(/^(der|die|das)\s+/i, "")].filter(Boolean).join(" ");
     lessonPanel.innerHTML = `<div class="session-meter"><span style="width:${Math.round((index / entries.length) * 100)}%"></span></div><span class="tag">词汇 ${index + 1} / ${entries.length} · ${escapeHtml(entry.cefr || "")}</span><h2 class="word" lang="de">${escapeHtml(wordLabel)}</h2><p class="word-note">${escapeHtml(entry.pos)} · 先回想释义、词形和搭配，再查看答案。</p><div class="recall-gate"><button class="primary" id="reveal-word" type="button">显示精讲</button></div>`;
 
     document.querySelector("#reveal-word").addEventListener("click", () => {
-      lessonPanel.querySelector(".recall-gate").innerHTML = `<ul class="details">${vocabDetails(entry)}</ul><div class="exercise"><strong>对照答案后，你记得怎么样？</strong><div class="answers"><button class="answer" data-level="hard" type="button">没想起来</button><button class="answer" data-level="medium" type="button">有些模糊</button><button class="answer" data-level="easy" type="button">准确掌握</button></div><p class="feedback" aria-live="polite"></p></div>`;
+      lessonPanel.querySelector(".recall-gate").innerHTML = `${renderCiaCard(entry)}<div class="exercise"><strong>对照 C-I-A 词卡后，你记得怎么样？</strong><div class="answers"><button class="answer" data-level="hard" type="button">没想起来</button><button class="answer" data-level="medium" type="button">有些模糊</button><button class="answer" data-level="easy" type="button">准确掌握</button></div><p class="feedback" aria-live="polite"></p></div>`;
       lessonPanel.querySelectorAll("button[data-level]").forEach((button) => button.addEventListener("click", () => {
         const correct = button.dataset.level === "easy";
         if (correct) mastered += 1;

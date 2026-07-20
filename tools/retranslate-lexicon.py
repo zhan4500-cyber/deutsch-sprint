@@ -69,6 +69,10 @@ DIRECT_OVERRIDES = {
     "Kokain": "可卡因",
     "Gelehrte": "学者",
     "religiös": "宗教的；虔诚的",
+    "achten": "注意；尊重",
+    "minder": "较少的；较差的",
+    "denkbar": "可想象的；可能的",
+    "Spruch": "话语；格言",
 }
 
 
